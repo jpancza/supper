@@ -32,7 +32,7 @@ function stripAccents(s) {
   return s.replace(/[áéíóöőúüűÁÉÍÓÖŐÚÜŰ]/g, (c) => ACCENT_MAP[c] || c);
 }
 
-function parseHungarianEventDate(line, now = new Date()) {
+function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true } = {}) {
   if (!line) return null;
   const yearMatch = line.match(/(\d{4})\./);
   const monthDayMatch = line.match(/([A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)\.?\s*(\d{1,2})\./);
@@ -45,7 +45,12 @@ function parseHungarianEventDate(line, now = new Date()) {
   const day = parseInt(monthDayMatch[2], 10);
 
   let year = yearMatch ? parseInt(yearMatch[1], 10) : now.getFullYear();
-  if (!yearMatch) {
+  if (!yearMatch && assumeUpcoming) {
+    // Only roll a year-less date into next year when we know we're reading
+    // the "upcoming" tab — a date that looks like it's already passed there
+    // must mean it hasn't happened yet, i.e. it's next year's occurrence.
+    // On a fallback/past listing the same date-less line is far more likely
+    // to just be this year's (already-happened) event, so leave it as-is.
     const candidate = new Date(year, monthIndex, day);
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     if (candidate < today) year += 1;
@@ -117,14 +122,24 @@ async function scrapeFacebookOrganizer(page, organizer, source) {
   const pSlugIdMatch = base.match(/\/p\/[^/]+-(\d+)$/);
   const numericId = profileIdMatch?.[1] || pSlugIdMatch?.[1];
 
-  const candidateUrls = numericId
-    ? [`https://www.facebook.com/profile.php?id=${numericId}&sk=upcoming_hosted_events`]
-    : [`${base}/upcoming_hosted_events`, `${base}/events`];
+  const candidates = numericId
+    ? [{ url: `https://www.facebook.com/profile.php?id=${numericId}&sk=upcoming_hosted_events`, assumeUpcoming: true }]
+    : [
+        { url: `${base}/upcoming_hosted_events`, assumeUpcoming: true },
+        // Falling back to the plain "/events" tab only happens when the
+        // organizer has nothing upcoming — Facebook then shows "Korábbiak"
+        // (past events) instead, so dates found here are NOT known-upcoming.
+        { url: `${base}/events`, assumeUpcoming: false },
+      ];
 
   let eventIds = [];
-  for (const url of candidateUrls) {
-    eventIds = await tryEventIdsAt(page, url);
-    if (eventIds.length > 0) break;
+  let assumeUpcoming = true;
+  for (const candidate of candidates) {
+    eventIds = await tryEventIdsAt(page, candidate.url);
+    if (eventIds.length > 0) {
+      assumeUpcoming = candidate.assumeUpcoming;
+      break;
+    }
   }
 
   if (eventIds.length === 0) {
@@ -156,7 +171,7 @@ async function scrapeFacebookOrganizer(page, organizer, source) {
         continue;
       }
 
-      const dateInfo = parseHungarianEventDate(lines[dateLineIdx]);
+      const dateInfo = parseHungarianEventDate(lines[dateLineIdx], { assumeUpcoming });
       if (!dateInfo) continue;
 
       const title = lines[dateLineIdx + 1] || '(cim nelkul)';
