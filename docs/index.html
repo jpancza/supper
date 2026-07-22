@@ -70,6 +70,19 @@
     color: var(--text);
     font-size: 0.95rem;
   }
+  .toggle-past {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: -0.6rem 0 1.4rem;
+    cursor: pointer;
+    width: fit-content;
+  }
+  .toggle-past input {
+    accent-color: var(--accent);
+  }
   .month-group {
     margin-bottom: 1.8rem;
   }
@@ -157,6 +170,10 @@
     </select>
     <input type="search" id="searchBox" placeholder="Keresés (pl. helyszín, cím)...">
   </div>
+  <label class="toggle-past">
+    <input type="checkbox" id="showPast">
+    Lezajlott túrák mutatása is
+  </label>
   <div id="eventList" class="loading">Betöltés…</div>
 </main>
 <footer id="footer"></footer>
@@ -180,8 +197,11 @@ function render(events) {
   const list = document.getElementById('eventList');
   const organizerFilter = document.getElementById('organizerFilter').value;
   const query = document.getElementById('searchBox').value.trim().toLowerCase();
+  const showPast = document.getElementById('showPast').checked;
+  const todayISO = new Date().toISOString().slice(0, 10);
 
   const filtered = events.filter((e) => {
+    if (!showPast && e.dateISO && e.dateISO < todayISO) return false;
     if (organizerFilter && e.organizerId !== organizerFilter) return false;
     if (query) {
       const hay = `${e.title} ${e.location || ''} ${e.organizerName}`.toLowerCase();
@@ -270,6 +290,7 @@ async function init() {
 
   organizerSelect.addEventListener('change', () => render(events));
   document.getElementById('searchBox').addEventListener('input', () => render(events));
+  document.getElementById('showPast').addEventListener('change', () => render(events));
 
   render(events);
 

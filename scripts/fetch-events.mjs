@@ -59,6 +59,30 @@ function parseHungarianEventDate(line, now = new Date()) {
   return { dateISO, timeText };
 }
 
+function isSupRelated(title) {
+  const t = (title || '').toLowerCase();
+  return t.includes('sup') || t.includes('evez');
+}
+
+const NON_LOCATION_LINES = new Set([
+  'Jegyek', 'Jegyek keresése', 'Meghívás', 'Részletek', 'Nyilvános', 'Beszélgetés', 'Névjegy',
+]);
+
+function looksLikeCoordinates(s) {
+  return /^-?\d{1,3}[.,]\d+,\s*-?\d{1,3}[.,]\d+$/.test(s);
+}
+
+function findLocation(allLines, szervezoIdx) {
+  if (szervezoIdx <= 0) return null;
+  for (let i = szervezoIdx - 1; i >= Math.max(0, szervezoIdx - 5); i--) {
+    const candidate = allLines[i];
+    if (!NON_LOCATION_LINES.has(candidate) && !looksLikeCoordinates(candidate)) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
 async function tryEventIdsAt(page, url) {
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
   await page.waitForTimeout(2000);
@@ -87,13 +111,15 @@ async function scrapeFacebookOrganizer(page, organizer, source) {
   const base = source.url.replace(/\/$/, '');
   const events = [];
 
-  const candidateUrls = [`${base}/upcoming_hosted_events`, `${base}/events`];
-  const idMatch = base.match(/\/p\/[^/]+-(\d+)$/);
-  if (idMatch) {
-    candidateUrls.push(
-      `https://www.facebook.com/profile.php?id=${idMatch[1]}&sk=upcoming_hosted_events`
-    );
-  }
+  // "profile.php?id=..." pages take the events tab as a &sk= query param,
+  // not a path suffix — appending "/events" to them would break the URL.
+  const profileIdMatch = base.match(/profile\.php\?id=(\d+)/);
+  const pSlugIdMatch = base.match(/\/p\/[^/]+-(\d+)$/);
+  const numericId = profileIdMatch?.[1] || pSlugIdMatch?.[1];
+
+  const candidateUrls = numericId
+    ? [`https://www.facebook.com/profile.php?id=${numericId}&sk=upcoming_hosted_events`]
+    : [`${base}/upcoming_hosted_events`, `${base}/events`];
 
   let eventIds = [];
   for (const url of candidateUrls) {
@@ -112,17 +138,29 @@ async function scrapeFacebookOrganizer(page, organizer, source) {
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(1500);
       const bodyText = await page.innerText('body');
-      const lines = bodyText.split('\n').map((l) => l.trim()).filter(Boolean);
+      const allLines = bodyText.split('\n').map((l) => l.trim()).filter(Boolean);
+
+      // Everything from "Javasolt események" onward is unrelated suggested
+      // content (other organizers' events) — search only above that boundary,
+      // otherwise an event with no clean date/time on its own page (e.g. a
+      // long-running recurring series like "jún. 6.-szept. 4.") can make the
+      // date search spill into the suggestions and pick up a random event.
+      const szervezoIdx = allLines.findIndex((l) => l === 'Szervezők' || l === 'Szervező');
+      const suggestedIdx = allLines.findIndex((l) => l === 'Javasolt események');
+      const boundary = [szervezoIdx, suggestedIdx].filter((i) => i > 0).sort((a, b) => a - b)[0];
+      const lines = boundary ? allLines.slice(0, boundary) : allLines;
 
       const dateLineIdx = lines.findIndex((l) => l.includes('CEST') || l.includes('CET'));
-      if (dateLineIdx === -1) continue;
+      if (dateLineIdx === -1) {
+        console.warn(`  ! nincs egyertelmu datum (kihagyva): ${url}`);
+        continue;
+      }
 
       const dateInfo = parseHungarianEventDate(lines[dateLineIdx]);
       if (!dateInfo) continue;
 
       const title = lines[dateLineIdx + 1] || '(cim nelkul)';
-      const szervezoIdx = lines.findIndex((l) => l === 'Szervezők' || l === 'Szervező');
-      const location = szervezoIdx > 0 ? lines[szervezoIdx - 1] : (lines[dateLineIdx + 2] || null);
+      const location = findLocation(allLines, szervezoIdx) || lines[dateLineIdx + 2] || null;
 
       events.push({
         id: `fb-${eventId}`,
@@ -194,7 +232,7 @@ async function main() {
     locale: 'hu-HU',
   });
 
-  const scraped = [];
+  let scraped = [];
   for (const organizer of organizers) {
     console.log(`\n${organizer.name}:`);
     for (const source of organizer.sources) {
@@ -208,15 +246,18 @@ async function main() {
 
   await browser.close();
 
+  const beforeKeywordFilter = scraped.length;
+  scraped = scraped.filter((e) => isSupRelated(e.title));
+  const droppedByKeyword = beforeKeywordFilter - scraped.length;
+
   const byUrl = new Map();
   for (const e of [...manualEvents, ...scraped]) {
     byUrl.set(e.url, e);
   }
 
-  const todayISO = new Date().toISOString().slice(0, 10);
-  const merged = [...byUrl.values()]
-    .filter((e) => !e.dateISO || e.dateISO >= todayISO)
-    .sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
+  // Past events are kept (not re-scraped, but not deleted either) so the site
+  // can offer a "show past events" toggle — they're just sorted to the front.
+  const merged = [...byUrl.values()].sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
 
   await mkdir(path.dirname(EVENTS_PATH), { recursive: true });
   await writeFile(
@@ -224,7 +265,9 @@ async function main() {
     JSON.stringify({ lastUpdated: new Date().toISOString(), events: merged }, null, 2)
   );
 
-  console.log(`\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat).`);
+  console.log(
+    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes).`
+  );
 }
 
 main().catch((err) => {

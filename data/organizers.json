@@ -94,7 +94,21 @@
     "id": "suppoznijo",
     "name": "Suppoznijó",
     "sources": [
-      { "type": "facebook", "url": "https://www.facebook.com/www.supoznijo.hu" }
+      { "type": "facebook", "url": "https://www.facebook.com/profile.php?id=61576461913729" }
+    ]
+  },
+  {
+    "id": "sunset-sup",
+    "name": "Sunset Sup",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/Sunsetsup2018" }
+    ]
+  },
+  {
+    "id": "suprise",
+    "name": "SUPrise",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/DUNA420" }
     ]
   },
   {
