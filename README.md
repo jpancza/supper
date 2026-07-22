@@ -4,10 +4,14 @@ Automatikusan összegyűjti a szervezők Facebook-oldalain és RSS-forrásain me
 
 ## Hogyan működik
 
+Két lépésre van szétválasztva, hogy a feldolgozási logika (dátum-parse, szűrés, geokódolás, időjárás) módosítása után ne kelljen újra a lassú Facebook-scrapelést lefuttatni:
+
 - `data/organizers.json` — a követett szervezők listája, mindegyikhez egy vagy több forrás (`facebook` vagy `rss`).
-- `scripts/fetch-events.mjs` — headless böngészővel (Playwright) beolvassa a Facebook-oldalak nyilvános "Események" fülét, ill. az RSS-forrásokat, és frissíti a `docs/events.json`-t.
+- `scripts/scrape.mjs` (**1. lépés — `npm run scrape`**) — headless böngészővel (Playwright) beolvassa a Facebook-oldalak nyilvános "Események" fülét, ill. az RSS-forrásokat, és a nyers, feldolgozatlan találatokat elmenti ide: `data/raw-events.json`. Ez a lassú, Facebook-függő lépés.
+- `scripts/process.mjs` (**2. lépés — `npm run process`**) — a `data/raw-events.json`-t alakítja a végleges `docs/events.json`-ná: magyar dátumok értelmezése, SUP/evezés-szűrés, kézi események beillesztése, geokódolás (OpenStreetMap Nominatim), időjárás (Open-Meteo). Nincs hozzá Facebook-hozzáférés — bátran újrafuttatható, ha csak ezen a logikán változtatunk.
+- `npm run fetch` — a fenti kettő egymás után (ezt hívja a GitHub Action).
 - `docs/index.html` — a weboldal, ami a `docs/events.json`-t jeleníti meg. Ezt szolgálja ki a GitHub Pages.
-- `.github/workflows/update.yml` — naponta egyszer (07:00 CEST) automatikusan lefuttatja a fenti scriptet, és ha talál új eseményt, be is committolja. Ez GitHub szerverén fut, semmilyen külső szolgáltatáshoz vagy AI-hoz nincs kötve.
+- `.github/workflows/update.yml` — naponta egyszer (07:00 CEST) automatikusan lefuttatja a fenti két lépést, és ha talál új eseményt, be is committolja. Ez GitHub szerverén fut, semmilyen külső szolgáltatáshoz vagy AI-hoz nincs kötve.
 
 ## Szervező hozzáadása
 
@@ -42,5 +46,7 @@ Ezután pár percen belül élesedik az oldal a `https://jpancza.github.io/suppe
 ```bash
 npm install
 npx playwright install chromium
-npm run fetch
+npm run fetch          # scrape + process egyben
+# vagy külön, ha csak a feldolgozó logikán változtattál:
+npm run process
 ```

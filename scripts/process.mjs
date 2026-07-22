@@ -1,21 +1,16 @@
-// Fetches upcoming SUP tour events from organizer Facebook pages and RSS feeds,
-// merges with any manually-added events, and writes docs/events.json.
-//
-// Facebook has no public API for reading someone else's page/events, so this
-// drives a real headless browser to the page's public "events" tab (no login)
-// and parses the rendered text. Facebook can change its markup or rate-limit
-// datacenter IPs (like GitHub Actions runners) at any time — if a page starts
-// coming back empty, check scripts/fetch-events.mjs first.
+// Turns data/raw-events.json (written by scripts/scrape.mjs) into
+// docs/events.json: parses Hungarian dates, filters to SUP/evezés-related
+// titles, merges in manually-added events, geocodes locations, and attaches
+// a 7-day weather forecast. No Facebook access needed — safe to re-run any
+// time the parsing/filtering/geocoding logic changes, without re-scraping.
 
-import { chromium } from 'playwright';
-import Parser from 'rss-parser';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const ORGANIZERS_PATH = path.join(ROOT, 'data', 'organizers.json');
+const RAW_EVENTS_PATH = path.join(ROOT, 'data', 'raw-events.json');
 const EVENTS_PATH = path.join(ROOT, 'docs', 'events.json');
 const GEOCODE_CACHE_PATH = path.join(ROOT, 'data', 'geocode-cache.json');
 
@@ -68,172 +63,6 @@ function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true
 function isSupRelated(title) {
   const t = (title || '').toLowerCase();
   return t.includes('sup') || t.includes('evez');
-}
-
-const NON_LOCATION_LINES = new Set([
-  'Jegyek', 'Jegyek keresése', 'Meghívás', 'Részletek', 'Nyilvános', 'Beszélgetés', 'Névjegy',
-]);
-
-function looksLikeCoordinates(s) {
-  return /^-?\d{1,3}[.,]\d+,\s*-?\d{1,3}[.,]\d+$/.test(s);
-}
-
-function looksLikeCategoryTag(s) {
-  // FB shows a one-word event category (e.g. "Sport", "Wellness", "Zene")
-  // right above "Szervező" on some pages — a real venue/address is never a
-  // single bare word, so treat this shape as "not a location" too.
-  return !/[\s,]/.test(s) && !/\d/.test(s);
-}
-
-function findLocation(allLines, szervezoIdx, organizerName) {
-  if (szervezoIdx <= 0) return null;
-  for (let i = szervezoIdx - 1; i >= Math.max(0, szervezoIdx - 5); i--) {
-    const candidate = allLines[i];
-    // The organizer's own name sometimes repeats right above "Szervező"
-    // (a caption on the event tile) — it's not a venue, don't geocode it.
-    if (candidate === organizerName) continue;
-    if (!NON_LOCATION_LINES.has(candidate) && !looksLikeCoordinates(candidate) && !looksLikeCategoryTag(candidate)) {
-      return candidate;
-    }
-  }
-  return null;
-}
-
-async function tryEventIdsAt(page, url) {
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-  await page.waitForTimeout(2000);
-
-  const bodyText = await page.innerText('body');
-  // Facebook falls back to a generic "events near me" discovery page for
-  // profile-style ("/p/Name-id/") pages that don't expose an events tab at
-  // the guessed URL — its event links belong to random unrelated pages, so
-  // treat it as "no events found" rather than trusting the hrefs.
-  if (bodyText.includes('Események felfedezése') || bodyText.includes('Események a közelemben')) {
-    return [];
-  }
-
-  const hrefs = await page.$$eval('a[href*="/events/"]', (as) =>
-    as.map((a) => a.getAttribute('href')).filter(Boolean)
-  );
-  return [...new Set(
-    hrefs
-      .map((h) => h.match(/\/events\/(\d+)/))
-      .filter(Boolean)
-      .map((m) => m[1])
-  )];
-}
-
-async function scrapeFacebookOrganizer(page, organizer, source) {
-  const base = source.url.replace(/\/$/, '');
-  const events = [];
-
-  // "profile.php?id=..." pages take the events tab as a &sk= query param,
-  // not a path suffix — appending "/events" to them would break the URL.
-  const profileIdMatch = base.match(/profile\.php\?id=(\d+)/);
-  const pSlugIdMatch = base.match(/\/p\/[^/]+-(\d+)$/);
-  const numericId = profileIdMatch?.[1] || pSlugIdMatch?.[1];
-
-  const candidates = numericId
-    ? [{ url: `https://www.facebook.com/profile.php?id=${numericId}&sk=upcoming_hosted_events`, assumeUpcoming: true }]
-    : [
-        { url: `${base}/upcoming_hosted_events`, assumeUpcoming: true },
-        // Falling back to the plain "/events" tab only happens when the
-        // organizer has nothing upcoming — Facebook then shows "Korábbiak"
-        // (past events) instead, so dates found here are NOT known-upcoming.
-        { url: `${base}/events`, assumeUpcoming: false },
-      ];
-
-  let eventIds = [];
-  let assumeUpcoming = true;
-  for (const candidate of candidates) {
-    eventIds = await tryEventIdsAt(page, candidate.url);
-    if (eventIds.length > 0) {
-      assumeUpcoming = candidate.assumeUpcoming;
-      break;
-    }
-  }
-
-  if (eventIds.length === 0) {
-    console.warn(`  ! nem talaltam esemenyeket: ${base} (login-fal, ures lista, vagy nem talalt url-mintat?)`);
-    return events;
-  }
-
-  for (const eventId of eventIds.slice(0, 25)) {
-    const url = `https://www.facebook.com/events/${eventId}/`;
-    try {
-      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(1500);
-      const bodyText = await page.innerText('body');
-      const allLines = bodyText.split('\n').map((l) => l.trim()).filter(Boolean);
-
-      // Everything from "Javasolt események" onward is unrelated suggested
-      // content (other organizers' events) — search only above that boundary,
-      // otherwise an event with no clean date/time on its own page (e.g. a
-      // long-running recurring series like "jún. 6.-szept. 4.") can make the
-      // date search spill into the suggestions and pick up a random event.
-      const szervezoIdx = allLines.findIndex((l) => l === 'Szervezők' || l === 'Szervező');
-      const suggestedIdx = allLines.findIndex((l) => l === 'Javasolt események');
-      const boundary = [szervezoIdx, suggestedIdx].filter((i) => i > 0).sort((a, b) => a - b)[0];
-      const lines = boundary ? allLines.slice(0, boundary) : allLines;
-
-      const dateLineIdx = lines.findIndex((l) => l.includes('CEST') || l.includes('CET'));
-      if (dateLineIdx === -1) {
-        console.warn(`  ! nincs egyertelmu datum (kihagyva): ${url}`);
-        continue;
-      }
-
-      const dateInfo = parseHungarianEventDate(lines[dateLineIdx], { assumeUpcoming });
-      if (!dateInfo) continue;
-
-      const title = lines[dateLineIdx + 1] || '(cim nelkul)';
-      const location = findLocation(allLines, szervezoIdx, organizer.name) || lines[dateLineIdx + 2] || null;
-
-      events.push({
-        id: `fb-${eventId}`,
-        title,
-        organizerId: organizer.id,
-        organizerName: organizer.name,
-        dateISO: dateInfo.dateISO,
-        timeText: dateInfo.timeText,
-        rawWhen: lines[dateLineIdx],
-        location,
-        url,
-        source: 'facebook',
-      });
-      console.log(`  + ${dateInfo.dateISO} ${title}`);
-    } catch (err) {
-      console.warn(`  ! hiba az esemenynel (${url}): ${err.message}`);
-    }
-  }
-
-  return events;
-}
-
-async function scrapeRssOrganizer(organizer, source) {
-  const parser = new Parser();
-  const events = [];
-  try {
-    const feed = await parser.parseURL(source.url);
-    for (const item of feed.items.slice(0, 25)) {
-      const pubDate = item.pubDate || item.isoDate;
-      const dateISO = pubDate ? new Date(pubDate).toISOString().slice(0, 10) : null;
-      events.push({
-        id: `rss-${Buffer.from(item.link || item.title).toString('base64').slice(0, 16)}`,
-        title: item.title || '(cim nelkul)',
-        organizerId: organizer.id,
-        organizerName: organizer.name,
-        dateISO,
-        timeText: null,
-        rawWhen: pubDate || null,
-        location: null,
-        url: item.link || source.url,
-        source: 'rss',
-      });
-    }
-  } catch (err) {
-    console.warn(`  ! RSS hiba (${source.url}): ${err.message}`);
-  }
-  return events;
 }
 
 async function loadExisting() {
@@ -304,9 +133,27 @@ async function geocode(location, cache) {
   return coords;
 }
 
+// Known Hungarian SUP/watersport towns — used as a last-resort geocoding
+// query when the scraped "location" is missing or too mangled to geocode
+// (e.g. a description paragraph), but the town name shows up in the title
+// anyway ("Naplementés SUP túra Balatonszemesen").
+const KNOWN_TOWNS = [
+  'Balatonszemes', 'Balatonföldvár', 'Balatonfüred', 'Balatonalmádi', 'Balatonvilágos',
+  'Balatonlelle', 'Balatonboglár', 'Balatonakarattya', 'Alsóörs', 'Csopak', 'Zamárdi',
+  'Siófok', 'Keszthely', 'Fonyód', 'Badacsony', 'Révfülöp', 'Tihany', 'Poroszló',
+  'Tiszafüred', 'Szarvas', 'Visegrád', 'Dunaharaszti', 'Szentendre', 'Vác', 'Göd',
+  'Dunakiliti', 'Esztergom', 'Győr', 'Szolnok', 'Gemenc', 'Szeged', 'Tata', 'Dunaújváros',
+];
+
+function findKnownTown(text) {
+  if (!text) return null;
+  return KNOWN_TOWNS.find((town) => text.includes(town)) || null;
+}
+
 async function geocodeEvents(events) {
   const cache = await loadGeocodeCache();
   let newLookups = 0;
+
   for (const e of events) {
     if (!e.location) continue;
     const isNew = !(e.location in cache);
@@ -317,8 +164,26 @@ async function geocodeEvents(events) {
       e.lon = coords.lon;
     }
   }
+
+  let fallbackResolved = 0;
+  for (const e of events) {
+    if (e.lat != null) continue;
+    const town = findKnownTown(e.title) || findKnownTown(e.location);
+    if (!town) continue;
+    const query = `${town}, Magyarország`;
+    const isNew = !(query in cache);
+    const coords = await geocode(query, cache);
+    if (isNew) newLookups += 1;
+    if (coords) {
+      e.lat = coords.lat;
+      e.lon = coords.lon;
+      if (!e.location) e.location = town;
+      fallbackResolved += 1;
+    }
+  }
+
   await writeFile(GEOCODE_CACHE_PATH, JSON.stringify(cache, null, 2));
-  return newLookups;
+  return { newLookups, fallbackResolved };
 }
 
 // Open-Meteo — free, no API key. One call per unique location covers all 7
@@ -374,31 +239,47 @@ async function addWeather(events) {
   return attached;
 }
 
+function toProcessedEvent(raw) {
+  if (raw.source === 'rss') {
+    const dateISO = raw.rawWhen ? new Date(raw.rawWhen).toISOString().slice(0, 10) : null;
+    return {
+      id: raw.id,
+      title: raw.title,
+      organizerId: raw.organizerId,
+      organizerName: raw.organizerName,
+      dateISO,
+      timeText: null,
+      rawWhen: raw.rawWhen,
+      location: raw.location,
+      url: raw.url,
+      source: 'rss',
+    };
+  }
+
+  const dateInfo = parseHungarianEventDate(raw.rawWhen, { assumeUpcoming: raw.assumeUpcoming });
+  if (!dateInfo) return null;
+
+  return {
+    id: raw.id,
+    title: raw.title,
+    organizerId: raw.organizerId,
+    organizerName: raw.organizerName,
+    dateISO: dateInfo.dateISO,
+    timeText: dateInfo.timeText,
+    rawWhen: raw.rawWhen,
+    location: raw.location,
+    url: raw.url,
+    source: 'facebook',
+  };
+}
+
 async function main() {
-  const organizers = JSON.parse(await readFile(ORGANIZERS_PATH, 'utf-8'));
+  const raw = JSON.parse(await readFile(RAW_EVENTS_PATH, 'utf-8'));
   const existing = await loadExisting();
   const manualEvents = existing.filter((e) => e.source === 'manual');
 
-  const browser = await chromium.launch();
-  const page = await browser.newPage({
-    userAgent:
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-    locale: 'hu-HU',
-  });
-
-  let scraped = [];
-  for (const organizer of organizers) {
-    console.log(`\n${organizer.name}:`);
-    for (const source of organizer.sources) {
-      if (source.type === 'facebook') {
-        scraped.push(...(await scrapeFacebookOrganizer(page, organizer, source)));
-      } else if (source.type === 'rss') {
-        scraped.push(...(await scrapeRssOrganizer(organizer, source)));
-      }
-    }
-  }
-
-  await browser.close();
+  let scraped = raw.events.map(toProcessedEvent).filter(Boolean);
+  const droppedByDate = raw.events.length - scraped.length;
 
   const beforeKeywordFilter = scraped.length;
   scraped = scraped.filter((e) => isSupRelated(e.title));
@@ -413,7 +294,7 @@ async function main() {
   // can offer a "show past events" toggle — they're just sorted to the front.
   const merged = [...byUrl.values()].sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
 
-  const newLookups = await geocodeEvents(merged);
+  const { newLookups, fallbackResolved } = await geocodeEvents(merged);
   const withWeather = await addWeather(merged);
 
   await mkdir(path.dirname(EVENTS_PATH), { recursive: true });
@@ -423,7 +304,9 @@ async function main() {
   );
 
   console.log(
-    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ${newLookups} uj geokodolas, ${withWeather} idojaras-adat).`
+    `Kesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ` +
+    `${droppedByDate} kihagyva datum hianyaban, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ` +
+    `${newLookups} uj geokodolas, ${fallbackResolved} telepules-nev alapjan, ${withWeather} idojaras-adat).`
   );
 }
 

@@ -5,7 +5,9 @@
   "description": "Magyar SUP-túrák gyűjtőoldala",
   "type": "module",
   "scripts": {
-    "fetch": "node scripts/fetch-events.mjs"
+    "scrape": "node scripts/scrape.mjs",
+    "process": "node scripts/process.mjs",
+    "fetch": "npm run scrape && npm run process"
   },
   "dependencies": {
     "playwright": "^1.48.0",

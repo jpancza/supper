@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T19:14:51.632Z",
+  "lastUpdated": "2026-07-22T21:32:29.399Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -23,7 +23,9 @@
       "rawWhen": "2021. június 26., szombat, 8:00–17:00 CEST",
       "location": "A Siófoki Kajak-kenu Pont a szabadidősportot",
       "url": "https://www.facebook.com/events/433071114399367/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9071694,
+      "lon": 18.0541598
     },
     {
       "id": "fb-661620218483353",
@@ -35,7 +37,9 @@
       "rawWhen": "2022. július 16., szombat, 10:00 CEST",
       "location": "A Siófoki Kajak-kenu Pont a szabadidősportot",
       "url": "https://www.facebook.com/events/661620218483353/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9071694,
+      "lon": 18.0541598
     },
     {
       "id": "fb-437744534809816",
@@ -85,7 +89,9 @@
       "rawWhen": "2023. június 24., szombat, 8:00 CEST",
       "location": "A siófoki Nagystrand a Balaton egyik legnagyobb és leglátogatottabb strandja.",
       "url": "https://www.facebook.com/events/278106637910025/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9071694,
+      "lon": 18.0541598
     },
     {
       "id": "fb-2725885124228702",
@@ -123,7 +129,9 @@
       "rawWhen": "2024. július 13., szombat, 11:00 CEST",
       "location": "Eastern Balatonföldvár Beach, Somogyi Béla utca, Balatonföldvár 8623, Magyarország",
       "url": "https://www.facebook.com/events/3322590254703578/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.8491197,
+      "lon": 17.8792403
     },
     {
       "id": "fb-742321281360402",
@@ -149,7 +157,9 @@
       "rawWhen": "2024. július 15., hétfő, 11:00 CEST",
       "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
       "url": "https://www.facebook.com/events/336116472893246/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9796854,
+      "lon": 17.9231412
     },
     {
       "id": "fb-3919192395073035",
@@ -161,7 +171,9 @@
       "rawWhen": "2024. július 16., kedd, 11:00 CEST",
       "location": "A Balaton180 Adománygy… Továbbiak",
       "url": "https://www.facebook.com/events/3919192395073035/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.828315,
+      "lon": 17.6303514
     },
     {
       "id": "fb-643307465187650",
@@ -201,7 +213,9 @@
       "rawWhen": "2025. szeptember 19., péntek, 17:00–19:00 CEST",
       "location": "Bahnhof, Győr 9026, Magyarország",
       "url": "https://www.facebook.com/events/1001501984824327/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6835029,
+      "lon": 17.6342832
     },
     {
       "id": "fb-2065462713931015",
@@ -213,7 +227,9 @@
       "rawWhen": "2025. szeptember 28., vasárnap, 14:00–16:00 CEST",
       "location": "Bahnhof, Győr 9026, Magyarország",
       "url": "https://www.facebook.com/events/2065462713931015/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6835029,
+      "lon": 17.6342832
     },
     {
       "id": "fb-634504949260955",
@@ -257,10 +273,10 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 28,
-        "tempMin": 19.4,
+        "tempMax": 27.5,
+        "tempMin": 19.6,
         "precipProbability": 53,
-        "windSpeed": 23.4,
+        "windSpeed": 22.3,
         "windDirection": 303
       }
     },
@@ -278,11 +294,11 @@
       "lat": 44.8760769,
       "lon": 15.7921569,
       "weather": {
-        "tempMax": 26.4,
+        "tempMax": 26.3,
         "tempMin": 13.1,
-        "precipProbability": 20,
-        "windSpeed": 20,
-        "windDirection": 8
+        "precipProbability": 23,
+        "windSpeed": 22.3,
+        "windDirection": 338
       }
     },
     {
@@ -299,11 +315,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.9,
-        "tempMin": 16.1,
+        "tempMax": 26.1,
+        "tempMin": 15.7,
         "precipProbability": 14,
-        "windSpeed": 21.6,
-        "windDirection": 333
+        "windSpeed": 24.1,
+        "windDirection": 335
       }
     },
     {
@@ -332,11 +348,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 24.4,
-        "tempMin": 15.6,
+        "tempMax": 24.2,
+        "tempMin": 15.9,
         "precipProbability": 0,
-        "windSpeed": 29.4,
-        "windDirection": 338
+        "windSpeed": 28.3,
+        "windDirection": 340
       }
     },
     {
@@ -353,10 +369,10 @@
       "lat": 46.9132712,
       "lon": 17.8882318,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 15.4,
+        "tempMax": 24.4,
+        "tempMin": 15.6,
         "precipProbability": 0,
-        "windSpeed": 25.7,
+        "windSpeed": 26.9,
         "windDirection": 339
       }
     },
@@ -370,7 +386,16 @@
       "rawWhen": "2026. július 24., péntek, 19:30–21:30 CEST",
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.806042,
+      "lon": 17.7789908,
+      "weather": {
+        "tempMax": 24.4,
+        "tempMin": 16.1,
+        "precipProbability": 0,
+        "windSpeed": 25.1,
+        "windDirection": 336
+      }
     },
     {
       "id": "fb-1561163402174745",
@@ -382,7 +407,16 @@
       "rawWhen": "Júl. 24., 19:00 – júl. 25., 21:00 CEST",
       "location": "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak",
       "url": "https://www.facebook.com/events/1561163402174745/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 25.5,
+        "tempMin": 15,
+        "precipProbability": 25,
+        "windSpeed": 22,
+        "windDirection": 332
+      }
     },
     {
       "id": "fb-1742583116928758",
@@ -420,10 +454,10 @@
       "lon": 19.101496,
       "weather": {
         "tempMax": 27.9,
-        "tempMin": 15.3,
+        "tempMin": 15.9,
         "precipProbability": 0,
-        "windSpeed": 13.3,
-        "windDirection": 194
+        "windSpeed": 11.5,
+        "windDirection": 205
       }
     },
     {
@@ -441,10 +475,10 @@
       "lon": 19.101496,
       "weather": {
         "tempMax": 27.9,
-        "tempMin": 15.3,
+        "tempMin": 15.9,
         "precipProbability": 0,
-        "windSpeed": 13.3,
-        "windDirection": 194
+        "windSpeed": 11.5,
+        "windDirection": 205
       }
     },
     {
@@ -462,10 +496,10 @@
       "lon": 19.101496,
       "weather": {
         "tempMax": 27.9,
-        "tempMin": 15.3,
+        "tempMin": 15.9,
         "precipProbability": 0,
-        "windSpeed": 13.3,
-        "windDirection": 194
+        "windSpeed": 11.5,
+        "windDirection": 205
       }
     },
     {
@@ -478,7 +512,16 @@
       "rawWhen": "2026. július 25., szombat, 11:00 CEST",
       "location": "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.",
       "url": "https://www.facebook.com/events/27255056114118086/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6435536,
+      "lon": 20.6560717,
+      "weather": {
+        "tempMax": 26.5,
+        "tempMin": 14.4,
+        "precipProbability": 4,
+        "windSpeed": 11.7,
+        "windDirection": 333
+      }
     },
     {
       "id": "fb-991830680282210",
@@ -495,10 +538,10 @@
       "lon": 19.064441,
       "weather": {
         "tempMax": 27.8,
-        "tempMin": 14,
+        "tempMin": 15.4,
         "precipProbability": 0,
         "windSpeed": 11,
-        "windDirection": 196
+        "windDirection": 202
       }
     },
     {
@@ -511,7 +554,16 @@
       "rawWhen": "2026. július 25., szombat, 17:30–20:30 CEST",
       "location": "Sportcentrum, Visegrád",
       "url": "https://www.facebook.com/events/1693231265014620/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.7845811,
+      "lon": 18.9703373,
+      "weather": {
+        "tempMax": 27.6,
+        "tempMin": 13.5,
+        "precipProbability": 0,
+        "windSpeed": 8.3,
+        "windDirection": 242
+      }
     },
     {
       "id": "fb-2527117181040072",
@@ -568,7 +620,16 @@
       "rawWhen": "2026. július 25., szombat, 19:30–20:30 CEST",
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.806042,
+      "lon": 17.7789908,
+      "weather": {
+        "tempMax": 26.5,
+        "tempMin": 16.3,
+        "precipProbability": 0,
+        "windSpeed": 10.4,
+        "windDirection": 233
+      }
     },
     {
       "id": "fb-1479541634207892",
@@ -585,10 +646,10 @@
       "lon": 18.8582561,
       "weather": {
         "tempMax": 27,
-        "tempMin": 13.3,
+        "tempMin": 12.8,
         "precipProbability": 0,
         "windSpeed": 9.4,
-        "windDirection": 277
+        "windDirection": 273
       }
     },
     {
@@ -606,10 +667,10 @@
       "lon": 18.8582561,
       "weather": {
         "tempMax": 27,
-        "tempMin": 13.3,
+        "tempMin": 12.8,
         "precipProbability": 0,
         "windSpeed": 9.4,
-        "windDirection": 277
+        "windDirection": 273
       }
     },
     {
@@ -622,7 +683,16 @@
       "rawWhen": "2026. július 25., szombat, 9:00–11:00 CEST",
       "location": "Majd faljunk egyet a… Továbbiak",
       "url": "https://www.facebook.com/events/1003476932555397/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 28,
+        "tempMin": 13.1,
+        "precipProbability": 0,
+        "windSpeed": 8.8,
+        "windDirection": 180
+      }
     },
     {
       "id": "fb-1736273180869334",
@@ -706,7 +776,7 @@
       "weather": {
         "tempMax": 24.3,
         "tempMin": 19.5,
-        "precipProbability": 73,
+        "precipProbability": 67,
         "windSpeed": 25.1,
         "windDirection": 212
       }
@@ -733,7 +803,16 @@
       "rawWhen": "2026. július 26., vasárnap, 18:30–19:30 CEST",
       "location": "Ha még nem álltál SUP deszkán ne aggódj! Fokozatosan épül … Továbbiak",
       "url": "https://www.facebook.com/events/1347379290694844/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 31.8,
+        "tempMin": 15.9,
+        "precipProbability": 29,
+        "windSpeed": 20,
+        "windDirection": 175
+      }
     },
     {
       "id": "fb-1019697720984944",
@@ -772,7 +851,7 @@
       "weather": {
         "tempMax": 26.8,
         "tempMin": 17.4,
-        "precipProbability": 62,
+        "precipProbability": 68,
         "windSpeed": 14,
         "windDirection": 302
       }
@@ -793,7 +872,7 @@
       "weather": {
         "tempMax": 26.8,
         "tempMin": 17.4,
-        "precipProbability": 62,
+        "precipProbability": 68,
         "windSpeed": 14,
         "windDirection": 302
       }
@@ -814,7 +893,7 @@
       "weather": {
         "tempMax": 26.8,
         "tempMin": 17.4,
-        "precipProbability": 62,
+        "precipProbability": 68,
         "windSpeed": 14,
         "windDirection": 302
       }
@@ -890,6 +969,18 @@
       "lon": 19.064441
     },
     {
+      "id": "fb-1050075824156673",
+      "title": "Irány a Bodrog - Egy csodaszép kétnapos SUP-túra esti bográcsozással",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "dateISO": "2026-08-01",
+      "timeText": "11:00",
+      "rawWhen": "Aug. 1., 11:00 – aug. 2., 16:00 CEST",
+      "location": "Gondolkoztál már azon, milyen lehet egy olyan folyón evezni, ahol teljesen elfelejtheted a rohanást és a kemény sodrást? A Bodrog pont ilyen! A tiszalöki duzzasztás miatt a víz itt… Továbbiak",
+      "url": "https://www.facebook.com/events/1050075824156673/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1552273686682118",
       "title": "Vadregényes SUP Kaland: A Szigetköz Ékköve (Haladó Túra)",
       "organizerId": "suppoznijo",
@@ -899,7 +990,9 @@
       "rawWhen": "2026. augusztus 1., szombat, 9:30 CEST",
       "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye)",
       "url": "https://www.facebook.com/events/1552273686682118/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.9662482,
+      "lon": 17.2882323
     },
     {
       "id": "fb-996650189924960",
