@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T15:47:45.764Z",
+  "lastUpdated": "2026-07-22T16:20:03.257Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -57,7 +57,7 @@
       "dateISO": "2023-02-23",
       "timeText": "12:00",
       "rawWhen": "2023. febr. 23., 12:00 – 2023. febr. 26., 16:00 CET",
-      "location": "Albertirsai út 10., Budapest",
+      "location": "Albertirsai út 10., Budapest (Magyarország)",
       "url": "https://www.facebook.com/events/901964684478317/",
       "source": "facebook"
     },
@@ -182,6 +182,42 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1001501984824327",
+      "title": "Naplementés SUP túrák Győrben",
+      "organizerId": "sup-arrabona",
+      "organizerName": "SUP Arrabona",
+      "dateISO": "2025-09-19",
+      "timeText": "17:00",
+      "rawWhen": "2025. szeptember 19., péntek, 17:00–19:00 CEST",
+      "location": "Bahnhof, Győr 9026, Magyarország",
+      "url": "https://www.facebook.com/events/1001501984824327/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2065462713931015",
+      "title": "SUP oktatás és könnyed túra Győrben",
+      "organizerId": "sup-arrabona",
+      "organizerName": "SUP Arrabona",
+      "dateISO": "2025-09-28",
+      "timeText": "14:00",
+      "rawWhen": "2025. szeptember 28., vasárnap, 14:00–16:00 CEST",
+      "location": "Bahnhof, Győr 9026, Magyarország",
+      "url": "https://www.facebook.com/events/2065462713931015/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-634504949260955",
+      "title": "Sail'n'SUP Ibiza",
+      "organizerId": "sup-arrabona",
+      "organizerName": "SUP Arrabona",
+      "dateISO": "2025-10-04",
+      "timeText": "09:00",
+      "rawWhen": "2025. okt. 4., 9:00 – 2025. okt. 11., 18:00 CEST",
+      "location": "Carrer Cala de Bou, 50, 07829 Sant Josep de sa Talaia (Illes Balears), Espanya",
+      "url": "https://www.facebook.com/events/634504949260955/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1567004264297759",
       "title": "Hallstatt SUP Adventure 2026",
       "organizerId": "sup-budapest",
@@ -249,7 +285,7 @@
       "dateISO": "2026-07-24",
       "timeText": "18:30",
       "rawWhen": "2026. július 24., péntek, 18:30–20:30 CEST",
-      "location": "Tihany (Veszprém megye)",
+      "location": "Tihany (Veszprém megye, Magyarország)",
       "url": "https://www.facebook.com/events/1027108263449473/",
       "source": "facebook"
     },
@@ -597,7 +633,7 @@
       "dateISO": "2026-07-31",
       "timeText": "19:00",
       "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
-      "location": "Göd (Pest megye)",
+      "location": "Göd (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/4468508466719894/",
       "source": "facebook"
     },
@@ -645,7 +681,7 @@
       "dateISO": "2026-08-01",
       "timeText": "09:30",
       "rawWhen": "2026. augusztus 1., szombat, 9:30 CEST",
-      "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye)",
+      "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye, Magyarország)",
       "url": "https://www.facebook.com/events/1552273686682118/",
       "source": "facebook"
     },
@@ -791,6 +827,18 @@
       "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
       "location": "Malta",
       "url": "https://www.facebook.com/events/892111770603769/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2574129439610280",
+      "title": "Hike & SUP túra az Imotski tavaknál",
+      "organizerId": "sup-arrabona",
+      "organizerName": "SUP Arrabona",
+      "dateISO": "2027-06-11",
+      "timeText": "06:00",
+      "rawWhen": "Jún. 11., 6:00 – jún. 14., 18:00 CEST",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/2574129439610280/",
       "source": "facebook"
     }
   ]
