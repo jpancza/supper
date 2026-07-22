@@ -1,0 +1,53 @@
+{
+  "lastUpdated": "2026-07-22T13:52:11.531Z",
+  "events": [
+    {
+      "id": "fb-1575845237277305",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "dateISO": "2026-07-24",
+      "timeText": "18:00",
+      "rawWhen": "2026. július 24., péntek, 18:00–20:30 CEST",
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1575845237277305/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1742583116928758",
+      "title": "Tihany Sajkodi Öböl sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "dateISO": "2026-07-25",
+      "timeText": "11:00",
+      "rawWhen": "2026. július 25., szombat, 11:00–16:00 CEST",
+      "location": "Sajkodi strand, Tihany 8237, Magyarország",
+      "url": "https://www.facebook.com/events/1742583116928758/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1736273180869334",
+      "title": "Sup túra a Parlament előtt",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "dateISO": "2026-07-26",
+      "timeText": "14:00",
+      "rawWhen": "2026. július 26., vasárnap, 14:00–16:30 CEST",
+      "location": "Kossuth Lajos üdülőpart 21, Budapest 1039, Magyarország",
+      "url": "https://www.facebook.com/events/1736273180869334/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-850932464338253",
+      "title": "Sup túra Winnetou nyomában",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "dateISO": "2026-08-19",
+      "timeText": "06:00",
+      "rawWhen": "Aug. 19., 6:00 – aug. 23., 21:00 CEST",
+      "location": "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska",
+      "url": "https://www.facebook.com/events/850932464338253/",
+      "source": "facebook"
+    }
+  ]
+}

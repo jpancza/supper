@@ -1,0 +1,14 @@
+{
+  "name": "supper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Magyar SUP-túrák gyűjtőoldala",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-events.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "rss-parser": "^3.13.0"
+  }
+}

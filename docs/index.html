@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SUP-túrák | Magyar szervezésű evezős túrák egy helyen</title>
+<meta name="description" content="Magyar szervezésű SUP-túrák gyűjtőoldala — ne maradj le semmiről.">
+<style>
+  :root {
+    --bg: #f6f9fb;
+    --card-bg: #ffffff;
+    --text: #16232c;
+    --muted: #5b6b76;
+    --accent: #0e7c86;
+    --accent-2: #e4633f;
+    --border: #e1e8ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1618;
+      --card-bg: #172225;
+      --text: #e8f0f2;
+      --muted: #9fb0b8;
+      --accent: #3fc4c9;
+      --accent-2: #ff8b63;
+      --border: #263338;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    padding: 2.5rem 1.25rem 1.5rem;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  header h1 {
+    margin: 0 0 0.4rem;
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+    max-width: 60ch;
+  }
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 1.25rem 3rem;
+  }
+  .controls {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin: 1.2rem 0 1.6rem;
+  }
+  select, input[type="search"] {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  .month-group {
+    margin-bottom: 1.8rem;
+  }
+  .month-group h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin: 0 0 0.8rem;
+  }
+  .event-card {
+    display: flex;
+    gap: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.7rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.1s ease, border-color 0.1s ease;
+  }
+  .event-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .event-date {
+    flex: 0 0 3.6rem;
+    text-align: center;
+  }
+  .event-date .day {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .event-date .dow {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+  .event-body { flex: 1; min-width: 0; }
+  .event-body h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+  }
+  .event-meta {
+    font-size: 0.87rem;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem 0.6rem;
+  }
+  .event-meta .organizer {
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+  footer {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem 3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .empty, .loading {
+    color: var(--muted);
+    padding: 2rem 0;
+  }
+  a.src-link {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏄 SUP-túrák</h1>
+  <p>Magyar szervezésű SUP-túrák egy helyen, hogy ne csak utólag tudj róluk. Az oldal automatikusan figyeli a szervezők Facebook-oldalait és honlapjait.</p>
+</header>
+<main>
+  <div class="controls">
+    <select id="organizerFilter">
+      <option value="">Összes szervező</option>
+    </select>
+    <input type="search" id="searchBox" placeholder="Keresés (pl. helyszín, cím)...">
+  </div>
+  <div id="eventList" class="loading">Betöltés…</div>
+</main>
+<footer id="footer"></footer>
+
+<script>
+const HU_DOW = ['V', 'H', 'K', 'Sze', 'Cs', 'P', 'Szo'];
+const HU_MONTH = ['január', 'február', 'március', 'április', 'május', 'június',
+                   'július', 'augusztus', 'szeptember', 'október', 'november', 'december'];
+
+function parseISO(dateISO) {
+  const [y, m, d] = dateISO.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function formatMonthHeading(dateISO) {
+  const d = parseISO(dateISO);
+  return `${d.getFullYear()}. ${HU_MONTH[d.getMonth()]}`;
+}
+
+function render(events) {
+  const list = document.getElementById('eventList');
+  const organizerFilter = document.getElementById('organizerFilter').value;
+  const query = document.getElementById('searchBox').value.trim().toLowerCase();
+
+  const filtered = events.filter((e) => {
+    if (organizerFilter && e.organizerId !== organizerFilter) return false;
+    if (query) {
+      const hay = `${e.title} ${e.location || ''} ${e.organizerName}`.toLowerCase();
+      if (!hay.includes(query)) return false;
+    }
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    list.className = 'empty';
+    list.textContent = 'Nincs a szűrésnek megfelelő túra.';
+    return;
+  }
+
+  list.className = '';
+  list.innerHTML = '';
+
+  let currentMonth = null;
+  let monthEl = null;
+
+  for (const e of filtered) {
+    const monthKey = e.dateISO ? e.dateISO.slice(0, 7) : 'ismeretlen';
+    if (monthKey !== currentMonth) {
+      currentMonth = monthKey;
+      const group = document.createElement('div');
+      group.className = 'month-group';
+      const heading = document.createElement('h2');
+      heading.textContent = e.dateISO ? formatMonthHeading(e.dateISO) : 'Dátum nélkül';
+      group.appendChild(heading);
+      list.appendChild(group);
+      monthEl = group;
+    }
+
+    const card = document.createElement('a');
+    card.className = 'event-card';
+    card.href = e.url;
+    card.target = '_blank';
+    card.rel = 'noopener';
+
+    const dateBox = document.createElement('div');
+    dateBox.className = 'event-date';
+    if (e.dateISO) {
+      const d = parseISO(e.dateISO);
+      dateBox.innerHTML = `<div class="day">${d.getDate()}</div><div class="dow">${HU_DOW[d.getDay()]}</div>`;
+    }
+
+    const body = document.createElement('div');
+    body.className = 'event-body';
+    const h3 = document.createElement('h3');
+    h3.textContent = e.title;
+    const meta = document.createElement('div');
+    meta.className = 'event-meta';
+    meta.innerHTML = `
+      <span class="organizer">${e.organizerName}</span>
+      ${e.timeText ? `<span>${e.timeText}</span>` : ''}
+      ${e.location ? `<span>${e.location}</span>` : ''}
+    `;
+    body.appendChild(h3);
+    body.appendChild(meta);
+
+    card.appendChild(dateBox);
+    card.appendChild(body);
+    monthEl.appendChild(card);
+  }
+}
+
+async function init() {
+  let data;
+  try {
+    const res = await fetch('events.json', { cache: 'no-store' });
+    data = await res.json();
+  } catch (err) {
+    document.getElementById('eventList').textContent = 'Nem sikerült betölteni az eseményeket.';
+    return;
+  }
+
+  const events = data.events || [];
+  const organizerSelect = document.getElementById('organizerFilter');
+  const organizers = [...new Map(events.map((e) => [e.organizerId, e.organizerName])).entries()];
+  for (const [id, name] of organizers) {
+    const opt = document.createElement('option');
+    opt.value = id;
+    opt.textContent = name;
+    organizerSelect.appendChild(opt);
+  }
+
+  organizerSelect.addEventListener('change', () => render(events));
+  document.getElementById('searchBox').addEventListener('input', () => render(events));
+
+  render(events);
+
+  const footer = document.getElementById('footer');
+  if (data.lastUpdated) {
+    const updated = new Date(data.lastUpdated);
+    footer.textContent = `Utolsó frissítés: ${updated.toLocaleString('hu-HU')}`;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
