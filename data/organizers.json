@@ -5,5 +5,110 @@
     "sources": [
       { "type": "facebook", "url": "https://www.facebook.com/suprafel" }
     ]
+  },
+  {
+    "id": "sup-and-go",
+    "name": "SUP and Go",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supandgo.budapest" }
+    ]
+  },
+  {
+    "id": "old-lake-sup",
+    "name": "Old Lake SUP",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/oldlakesup" }
+    ]
+  },
+  {
+    "id": "sup-the-lifestyle",
+    "name": "SUP the Lifestyle",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/SUPtheLifestyle" }
+    ]
+  },
+  {
+    "id": "sup-budapest",
+    "name": "SUP Budapest",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supbudapest" }
+    ]
+  },
+  {
+    "id": "suplife-hu",
+    "name": "SUPlife.hu",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/suplifehu" }
+    ]
+  },
+  {
+    "id": "supzone",
+    "name": "SupZone",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supzoneHU" }
+    ]
+  },
+  {
+    "id": "sup-dunakanyar",
+    "name": "SUP Dunakanyar",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393" }
+    ]
+  },
+  {
+    "id": "tihany-sport",
+    "name": "Tihany Sport és Szabadidő",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/tihanysport" }
+    ]
+  },
+  {
+    "id": "support-fonyod",
+    "name": "SUPport - Fonyód",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supfonyod" }
+    ]
+  },
+  {
+    "id": "balatonsup",
+    "name": "Balatonsup",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/balatonsup" }
+    ]
+  },
+  {
+    "id": "shaka-windsurf-spot",
+    "name": "Shaka Windsurf Spot",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/ShakaWindsurfSpot" }
+    ]
+  },
+  {
+    "id": "kiteline-se",
+    "name": "Kiteline SE",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/kiteline.hu" }
+    ]
+  },
+  {
+    "id": "suppoznijo",
+    "name": "Suppoznijó",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/www.supoznijo.hu" }
+    ]
+  },
+  {
+    "id": "sup-bazis",
+    "name": "SUP BÁZIS",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supbazis" }
+    ]
+  },
+  {
+    "id": "eventus-vizitura",
+    "name": "Eventus vízitúra",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/kenuklub.hu" }
+    ]
   }
 ]

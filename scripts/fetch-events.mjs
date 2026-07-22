@@ -59,26 +59,50 @@ function parseHungarianEventDate(line, now = new Date()) {
   return { dateISO, timeText };
 }
 
-async function scrapeFacebookOrganizer(page, organizer, source) {
-  const base = source.url.replace(/\/$/, '');
-  const eventsUrl = `${base}/events`;
-  const events = [];
-
-  await page.goto(eventsUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+async function tryEventIdsAt(page, url) {
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
   await page.waitForTimeout(2000);
+
+  const bodyText = await page.innerText('body');
+  // Facebook falls back to a generic "events near me" discovery page for
+  // profile-style ("/p/Name-id/") pages that don't expose an events tab at
+  // the guessed URL — its event links belong to random unrelated pages, so
+  // treat it as "no events found" rather than trusting the hrefs.
+  if (bodyText.includes('Események felfedezése') || bodyText.includes('Események a közelemben')) {
+    return [];
+  }
 
   const hrefs = await page.$$eval('a[href*="/events/"]', (as) =>
     as.map((a) => a.getAttribute('href')).filter(Boolean)
   );
-  const eventIds = [...new Set(
+  return [...new Set(
     hrefs
       .map((h) => h.match(/\/events\/(\d+)/))
       .filter(Boolean)
       .map((m) => m[1])
   )];
+}
+
+async function scrapeFacebookOrganizer(page, organizer, source) {
+  const base = source.url.replace(/\/$/, '');
+  const events = [];
+
+  const candidateUrls = [`${base}/upcoming_hosted_events`, `${base}/events`];
+  const idMatch = base.match(/\/p\/[^/]+-(\d+)$/);
+  if (idMatch) {
+    candidateUrls.push(
+      `https://www.facebook.com/profile.php?id=${idMatch[1]}&sk=upcoming_hosted_events`
+    );
+  }
+
+  let eventIds = [];
+  for (const url of candidateUrls) {
+    eventIds = await tryEventIdsAt(page, url);
+    if (eventIds.length > 0) break;
+  }
 
   if (eventIds.length === 0) {
-    console.warn(`  ! nem talaltam esemenyeket: ${eventsUrl} (login-fal vagy ures lista?)`);
+    console.warn(`  ! nem talaltam esemenyeket: ${base} (login-fal, ures lista, vagy nem talalt url-mintat?)`);
     return events;
   }
 
