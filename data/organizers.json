@@ -124,5 +124,12 @@
     "sources": [
       { "type": "facebook", "url": "https://www.facebook.com/kenuklub.hu" }
     ]
+  },
+  {
+    "id": "sup-arrabona",
+    "name": "SUP Arrabona",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/supgonyu" }
+    ]
   }
 ]
