@@ -17,6 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const ORGANIZERS_PATH = path.join(ROOT, 'data', 'organizers.json');
 const EVENTS_PATH = path.join(ROOT, 'docs', 'events.json');
+const GEOCODE_CACHE_PATH = path.join(ROOT, 'data', 'geocode-cache.json');
 
 const MONTHS = {
   jan: 0, feb: 1, mar: 2, apr: 3, maj: 4, jun: 5,
@@ -77,11 +78,21 @@ function looksLikeCoordinates(s) {
   return /^-?\d{1,3}[.,]\d+,\s*-?\d{1,3}[.,]\d+$/.test(s);
 }
 
-function findLocation(allLines, szervezoIdx) {
+function looksLikeCategoryTag(s) {
+  // FB shows a one-word event category (e.g. "Sport", "Wellness", "Zene")
+  // right above "Szervező" on some pages — a real venue/address is never a
+  // single bare word, so treat this shape as "not a location" too.
+  return !/[\s,]/.test(s) && !/\d/.test(s);
+}
+
+function findLocation(allLines, szervezoIdx, organizerName) {
   if (szervezoIdx <= 0) return null;
   for (let i = szervezoIdx - 1; i >= Math.max(0, szervezoIdx - 5); i--) {
     const candidate = allLines[i];
-    if (!NON_LOCATION_LINES.has(candidate) && !looksLikeCoordinates(candidate)) {
+    // The organizer's own name sometimes repeats right above "Szervező"
+    // (a caption on the event tile) — it's not a venue, don't geocode it.
+    if (candidate === organizerName) continue;
+    if (!NON_LOCATION_LINES.has(candidate) && !looksLikeCoordinates(candidate) && !looksLikeCategoryTag(candidate)) {
       return candidate;
     }
   }
@@ -175,7 +186,7 @@ async function scrapeFacebookOrganizer(page, organizer, source) {
       if (!dateInfo) continue;
 
       const title = lines[dateLineIdx + 1] || '(cim nelkul)';
-      const location = findLocation(allLines, szervezoIdx) || lines[dateLineIdx + 2] || null;
+      const location = findLocation(allLines, szervezoIdx, organizer.name) || lines[dateLineIdx + 2] || null;
 
       events.push({
         id: `fb-${eventId}`,
@@ -235,6 +246,81 @@ async function loadExisting() {
   }
 }
 
+async function loadGeocodeCache() {
+  try {
+    return JSON.parse(await readFile(GEOCODE_CACHE_PATH, 'utf-8'));
+  } catch {
+    return {};
+  }
+}
+
+// Nominatim's free-text search is picky about full Hungarian street
+// addresses ("Petőfi Sándor utca 19, Szarvas 5540, Magyarország" finds
+// nothing) but handles the town-level remainder fine. Build a list of
+// progressively shorter fallback queries by dropping the leading (usually
+// street-level) segment, without ever falling back to just the country name.
+function buildGeocodeQueries(location) {
+  const parts = location.split(',').map((s) => s.trim()).filter(Boolean);
+  const queries = [location];
+  for (let i = 1; i < parts.length - 1; i++) {
+    queries.push(parts.slice(i).join(', '));
+  }
+  return [...new Set(queries)];
+}
+
+async function nominatimSearch(query) {
+  const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(query)}`;
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'supper-sup-tura-oldal/1.0 (https://github.com/jpancza/supper)' },
+  });
+  const results = await res.json();
+  await new Promise((r) => setTimeout(r, 1100)); // Nominatim's usage policy caps requests at 1/sec
+  return results[0] ? { lat: parseFloat(results[0].lat), lon: parseFloat(results[0].lon) } : null;
+}
+
+// Free geocoding via OpenStreetMap Nominatim — no API key, but its usage
+// policy caps requests at 1/sec, so results are cached to data/geocode-cache.json
+// and only genuinely new locations trigger a network call on later runs.
+async function geocode(location, cache) {
+  if (!location || location in cache) return cache[location] ?? null;
+  let coords = null;
+  try {
+    for (const query of buildGeocodeQueries(location)) {
+      coords = await nominatimSearch(query);
+      if (coords) break;
+    }
+    // A misidentified "location" string (a category tag, an organizer name,
+    // ...) can still match *something* on Nominatim, just on another
+    // continent — sanity-bound to Europe/Mediterranean and drop the rest
+    // rather than plot a SUP tour in South Carolina.
+    if (coords && (coords.lat < 33 || coords.lat > 72 || coords.lon < -12 || coords.lon > 45)) {
+      console.warn(`  ! geokodolas eldobva, tul messze (${location}): ${coords.lat}, ${coords.lon}`);
+      coords = null;
+    }
+  } catch (err) {
+    console.warn(`  ! geokodolas sikertelen (${location}): ${err.message}`);
+  }
+  cache[location] = coords;
+  return coords;
+}
+
+async function geocodeEvents(events) {
+  const cache = await loadGeocodeCache();
+  let newLookups = 0;
+  for (const e of events) {
+    if (!e.location) continue;
+    const isNew = !(e.location in cache);
+    const coords = await geocode(e.location, cache);
+    if (isNew) newLookups += 1;
+    if (coords) {
+      e.lat = coords.lat;
+      e.lon = coords.lon;
+    }
+  }
+  await writeFile(GEOCODE_CACHE_PATH, JSON.stringify(cache, null, 2));
+  return newLookups;
+}
+
 async function main() {
   const organizers = JSON.parse(await readFile(ORGANIZERS_PATH, 'utf-8'));
   const existing = await loadExisting();
@@ -274,6 +360,8 @@ async function main() {
   // can offer a "show past events" toggle — they're just sorted to the front.
   const merged = [...byUrl.values()].sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
 
+  const newLookups = await geocodeEvents(merged);
+
   await mkdir(path.dirname(EVENTS_PATH), { recursive: true });
   await writeFile(
     EVENTS_PATH,
@@ -281,7 +369,7 @@ async function main() {
   );
 
   console.log(
-    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes).`
+    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ${newLookups} uj geokodolas).`
   );
 }
 

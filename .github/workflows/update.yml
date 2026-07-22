@@ -32,8 +32,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- docs/events.json; then
-            git add docs/events.json
+          if ! git diff --quiet -- docs/events.json data/geocode-cache.json; then
+            git add docs/events.json data/geocode-cache.json
             git commit -m "Automatikus esemény-frissítés"
             git push
           else

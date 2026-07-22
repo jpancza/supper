@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T16:32:56.305Z",
+  "lastUpdated": "2026-07-22T17:58:25.798Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -9,7 +9,7 @@
       "dateISO": "2020-07-25",
       "timeText": "09:00",
       "rawWhen": "2020. július 25., szombat, 9:00–18:30 CEST",
-      "location": "Továbbiak",
+      "location": "HULLADÉKVÁLOGATÁS: Dinnyéshát Kikötőben",
       "url": "https://www.facebook.com/events/196206901787809/",
       "source": "facebook"
     },
@@ -45,7 +45,7 @@
       "dateISO": "2022-08-26",
       "timeText": "10:00",
       "rawWhen": "2022. aug. 26., 10:00 – 2022. aug. 28., 20:00 CEST",
-      "location": "Sport",
+      "location": "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak",
       "url": "https://www.facebook.com/events/437744534809816/",
       "source": "facebook"
     },
@@ -59,7 +59,9 @@
       "rawWhen": "2023. febr. 23., 12:00 – 2023. febr. 26., 16:00 CET",
       "location": "Albertirsai út 10., Budapest",
       "url": "https://www.facebook.com/events/901964684478317/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.4937038,
+      "lon": 19.1266448
     },
     {
       "id": "fb-2040818256309021",
@@ -107,7 +109,9 @@
       "rawWhen": "2024. július 12., péntek, 10:30 CEST",
       "location": "Keszthely Városi Strand",
       "url": "https://www.facebook.com/events/799483498977715/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.761086,
+      "lon": 17.250035
     },
     {
       "id": "fb-3322590254703578",
@@ -131,7 +135,9 @@
       "rawWhen": "2024. július 14., vasárnap, 9:00 CEST",
       "location": "Petőfi sétány 9, Siófok 8600, Magyarország",
       "url": "https://www.facebook.com/events/742321281360402/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9123466,
+      "lon": 18.0574017
     },
     {
       "id": "fb-336116472893246",
@@ -153,7 +159,7 @@
       "dateISO": "2024-07-16",
       "timeText": "11:00",
       "rawWhen": "2024. július 16., kedd, 11:00 CEST",
-      "location": "Sport",
+      "location": "A Balaton180 Adománygy… Továbbiak",
       "url": "https://www.facebook.com/events/3919192395073035/",
       "source": "facebook"
     },
@@ -167,7 +173,9 @@
       "rawWhen": "2025. július 6., vasárnap, 10:00 CEST",
       "location": "Petőfi sétány 3, Siófok 8600, Magyarország",
       "url": "https://www.facebook.com/events/643307465187650/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9122982,
+      "lon": 18.0539112
     },
     {
       "id": "fb-1333720191182460",
@@ -179,7 +187,9 @@
       "rawWhen": "2025. augusztus 2., szombat, 20:00–2:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/1333720191182460/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-1001501984824327",
@@ -215,7 +225,9 @@
       "rawWhen": "2025. okt. 4., 9:00 – 2025. okt. 11., 18:00 CEST",
       "location": "Carrer Cala de Bou, 50, 07829 Sant Josep de sa Talaia (Illes Balears), Espanya",
       "url": "https://www.facebook.com/events/634504949260955/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 38.9594644,
+      "lon": 1.2706805
     },
     {
       "id": "fb-2574129439610280",
@@ -227,7 +239,9 @@
       "rawWhen": "Jún. 11., 6:00 – jún. 14., 18:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/2574129439610280/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-1567004264297759",
@@ -239,7 +253,9 @@
       "rawWhen": "Júl. 23., 7:00 – júl. 26., 16:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/1567004264297759/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-945465721148056",
@@ -249,9 +265,11 @@
       "dateISO": "2026-07-23",
       "timeText": "13:00",
       "rawWhen": "Júl. 23., 13:00 – júl. 26., 16:00 CEST",
-      "location": "Bihać",
+      "location": "Izačić, Federation Of Bosnia And Herzegovina, Bosnia And Herzegovina",
       "url": "https://www.facebook.com/events/945465721148056/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 44.8760769,
+      "lon": 15.7921569
     },
     {
       "id": "fb-1575845237277305",
@@ -263,7 +281,9 @@
       "rawWhen": "2026. július 24., péntek, 18:00–20:30 CEST",
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1575845237277305/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184
     },
     {
       "id": "fb-1276106657931027",
@@ -287,7 +307,9 @@
       "rawWhen": "2026. július 24., péntek, 19:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1972104563443329/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597
     },
     {
       "id": "fb-1027108263449473",
@@ -299,7 +321,9 @@
       "rawWhen": "2026. július 24., péntek, 18:30–20:30 CEST",
       "location": "Tihany (Veszprém megye)",
       "url": "https://www.facebook.com/events/1027108263449473/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9132712,
+      "lon": 17.8882318
     },
     {
       "id": "fb-1413297043775425",
@@ -321,7 +345,7 @@
       "dateISO": "2026-07-24",
       "timeText": "19:00",
       "rawWhen": "Júl. 24., 19:00 – júl. 25., 21:00 CEST",
-      "location": "Felsőgöd",
+      "location": "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak",
       "url": "https://www.facebook.com/events/1561163402174745/",
       "source": "facebook"
     },
@@ -335,7 +359,9 @@
       "rawWhen": "2026. július 25., szombat, 11:00–16:00 CEST",
       "location": "Sajkodi strand, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1742583116928758/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9086302,
+      "lon": 17.849548
     },
     {
       "id": "fb-1524756832765541",
@@ -347,7 +373,9 @@
       "rawWhen": "2026. július 25., szombat, 9:00–10:30 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1524756832765541/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
     },
     {
       "id": "fb-1594880075397084",
@@ -359,7 +387,9 @@
       "rawWhen": "2026. július 25., szombat, 9:00–11:00 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1594880075397084/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
     },
     {
       "id": "fb-2612204832548888",
@@ -371,7 +401,9 @@
       "rawWhen": "2026. július 25., szombat, 11:00–14:00 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/2612204832548888/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
     },
     {
       "id": "fb-27255056114118086",
@@ -395,7 +427,9 @@
       "rawWhen": "Júl. 25., 18:00 – júl. 26., 18:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/991830680282210/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-1693231265014620",
@@ -419,7 +453,9 @@
       "rawWhen": "2026. július 25., szombat, 10:00 CEST",
       "location": "Sajkodi strand, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2527117181040072/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9086302,
+      "lon": 17.849548
     },
     {
       "id": "fb-1000920522710711",
@@ -467,7 +503,9 @@
       "rawWhen": "2026. július 25., szombat, 10:30–18:00 CEST",
       "location": "Szobi Rév",
       "url": "https://www.facebook.com/events/1479541634207892/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.810003,
+      "lon": 18.8582561
     },
     {
       "id": "fb-1503819684404585",
@@ -479,7 +517,9 @@
       "rawWhen": "2026. július 25., szombat, 10:30–18:00 CEST",
       "location": "Szobi Rév",
       "url": "https://www.facebook.com/events/1503819684404585/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.810003,
+      "lon": 18.8582561
     },
     {
       "id": "fb-1003476932555397",
@@ -489,7 +529,7 @@
       "dateISO": "2026-07-25",
       "timeText": "09:00",
       "rawWhen": "2026. július 25., szombat, 9:00–11:00 CEST",
-      "location": "Felsőgöd",
+      "location": "Majd faljunk egyet a… Továbbiak",
       "url": "https://www.facebook.com/events/1003476932555397/",
       "source": "facebook"
     },
@@ -503,7 +543,9 @@
       "rawWhen": "2026. július 26., vasárnap, 14:00–16:30 CEST",
       "location": "Kossuth Lajos üdülőpart 21, Budapest 1039, Magyarország",
       "url": "https://www.facebook.com/events/1736273180869334/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5796397,
+      "lon": 19.0662119
     },
     {
       "id": "fb-1818940552813880",
@@ -515,7 +557,9 @@
       "rawWhen": "2026. július 26., vasárnap, 10:00–18:00 CEST",
       "location": "Petőfi Sándor utca 19, Szarvas 5540, Magyarország",
       "url": "https://www.facebook.com/events/1818940552813880/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.8621434,
+      "lon": 20.5521466
     },
     {
       "id": "fb-1501114621187012",
@@ -537,7 +581,7 @@
       "dateISO": "2026-07-26",
       "timeText": "10:00",
       "rawWhen": "2026. július 26., vasárnap, 10:00–13:00 CEST",
-      "location": "Sport",
+      "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
       "url": "https://www.facebook.com/events/996559680027070/",
       "source": "facebook"
     },
@@ -551,7 +595,9 @@
       "rawWhen": "2026. július 26., vasárnap, 18:00 CEST",
       "location": "Sajkodi strand, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1070830029238426/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.9086302,
+      "lon": 17.849548
     },
     {
       "id": "fb-827173613694403",
@@ -573,7 +619,7 @@
       "dateISO": "2026-07-26",
       "timeText": "18:30",
       "rawWhen": "2026. július 26., vasárnap, 18:30–19:30 CEST",
-      "location": "Sunset Sup",
+      "location": "Ha még nem álltál SUP deszkán ne aggódj! Fokozatosan épül … Továbbiak",
       "url": "https://www.facebook.com/events/1347379290694844/",
       "source": "facebook"
     },
@@ -587,7 +633,9 @@
       "rawWhen": "2026. július 27., hétfő, 17:00–18:00 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1019697720984944/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566
     },
     {
       "id": "fb-1392672286092436",
@@ -599,7 +647,9 @@
       "rawWhen": "2026. július 27., hétfő, 7:30–9:30 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1392672286092436/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597
     },
     {
       "id": "fb-996957989827091",
@@ -611,7 +661,9 @@
       "rawWhen": "2026. július 27., hétfő, 19:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/996957989827091/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597
     },
     {
       "id": "fb-2194160984714461",
@@ -623,7 +675,9 @@
       "rawWhen": "2026. július 27., hétfő, 19:00–21:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2194160984714461/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597
     },
     {
       "id": "fb-1543927677475366",
@@ -635,7 +689,9 @@
       "rawWhen": "2026. július 29., szerda, 21:00–22:30 CEST",
       "location": "Hullám utca 7, Balatonszemes 8636, Magyarország",
       "url": "https://www.facebook.com/events/1543927677475366/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.8014474,
+      "lon": 17.7420482
     },
     {
       "id": "fb-4468508466719894",
@@ -647,7 +703,9 @@
       "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
       "location": "Göd (Pest megye)",
       "url": "https://www.facebook.com/events/4468508466719894/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568
     },
     {
       "id": "fb-1031254566277272",
@@ -659,7 +717,9 @@
       "rawWhen": "2026. augusztus 1., szombat, 9:00–10:30 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1031254566277272/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
     },
     {
       "id": "fb-1189960853308065",
@@ -671,7 +731,9 @@
       "rawWhen": "2026. augusztus 1., szombat, 11:00–14:00 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1189960853308065/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
     },
     {
       "id": "fb-1785569039478302",
@@ -683,7 +745,9 @@
       "rawWhen": "2026. augusztus 1., szombat, 21:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/1785569039478302/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-1552273686682118",
@@ -707,7 +771,9 @@
       "rawWhen": "2026. augusztus 1., szombat, 5:00–7:00 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/996650189924960/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295
     },
     {
       "id": "fb-2165347574404391",
@@ -719,7 +785,9 @@
       "rawWhen": "2026. augusztus 2., vasárnap, 11:30 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/2165347574404391/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566
     },
     {
       "id": "fb-1766857558005598",
@@ -731,7 +799,9 @@
       "rawWhen": "2026. augusztus 4., kedd, 18:30–21:30 CEST",
       "location": "Regős utca 25, Göd 2132, Magyarország",
       "url": "https://www.facebook.com/events/1766857558005598/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.7066543,
+      "lon": 19.1325325
     },
     {
       "id": "fb-1651923759432654",
@@ -755,7 +825,9 @@
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/769807296136263/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.634656,
+      "lon": 20.6413876
     },
     {
       "id": "fb-1408262600700579",
@@ -767,7 +839,9 @@
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/1408262600700579/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.634656,
+      "lon": 20.6413876
     },
     {
       "id": "fb-780797511242415",
@@ -779,7 +853,9 @@
       "rawWhen": "Aug. 18., 7:00 – aug. 22., 8:00 CEST",
       "location": "Makarska (Split-Dalmácia megye, Horvátország)",
       "url": "https://www.facebook.com/events/780797511242415/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 43.2939756,
+      "lon": 17.020242
     },
     {
       "id": "fb-850932464338253",
@@ -801,9 +877,11 @@
       "dateISO": "2026-08-28",
       "timeText": "13:00",
       "rawWhen": "Aug. 28., 13:00 – aug. 30., 17:00 CEST",
-      "location": "Szálka",
+      "location": "Szálka, Tolna, Hungary",
       "url": "https://www.facebook.com/events/1001816658985569/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 46.2773672,
+      "lon": 18.6372014
     },
     {
       "id": "fb-1576141673471436",
@@ -815,7 +893,9 @@
       "rawWhen": "Szept. 5., 11:00 – szept. 6., 18:00 CEST",
       "location": "Tiszafüred - Tisza-tó",
       "url": "https://www.facebook.com/events/1576141673471436/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.6190622,
+      "lon": 20.7560703
     },
     {
       "id": "fb-1300441262050641",
@@ -837,7 +917,7 @@
       "dateISO": "2026-10-07",
       "timeText": "11:00",
       "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
-      "location": "Malta",
+      "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
       "url": "https://www.facebook.com/events/892111770603769/",
       "source": "facebook"
     }
