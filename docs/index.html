@@ -165,6 +165,20 @@
     color: var(--accent-2);
     font-weight: 600;
   }
+  .weather-badge {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem 0.7rem;
+    font-size: 0.85rem;
+    margin-top: 0.35rem;
+    padding-top: 0.35rem;
+    border-top: 1px dashed var(--border);
+    color: var(--text);
+  }
+  .weather-badge .rain-high {
+    color: var(--accent-2);
+    font-weight: 600;
+  }
   footer {
     max-width: 780px;
     margin: 0 auto;
@@ -228,6 +242,23 @@ function parseISO(dateISO) {
 function formatMonthHeading(dateISO) {
   const d = parseISO(dateISO);
   return `${d.getFullYear()}. ${HU_MONTH[d.getMonth()]}`;
+}
+
+const COMPASS_HU = ['É', 'ÉK', 'K', 'DK', 'D', 'DNy', 'Ny', 'ÉNy'];
+function windDirectionHu(deg) {
+  return COMPASS_HU[Math.round(deg / 45) % 8];
+}
+
+function weatherBadgeHtml(weather) {
+  if (!weather) return '';
+  const rainClass = weather.precipProbability >= 50 ? ' rain-high' : '';
+  return `
+    <div class="weather-badge">
+      <span>🌡️ ${Math.round(weather.tempMin)}–${Math.round(weather.tempMax)}°C</span>
+      <span class="${rainClass.trim()}">🌧️ ${Math.round(weather.precipProbability)}%</span>
+      <span>💨 ${Math.round(weather.windSpeed)} km/h ${windDirectionHu(weather.windDirection)}</span>
+    </div>
+  `;
 }
 
 function escapeHtml(s) {
@@ -364,6 +395,11 @@ function render(events) {
     `;
     body.appendChild(h3);
     body.appendChild(meta);
+    if (e.weather) {
+      const weatherEl = document.createElement('div');
+      weatherEl.innerHTML = weatherBadgeHtml(e.weather);
+      body.appendChild(weatherEl.firstElementChild);
+    }
 
     card.appendChild(dateBox);
     card.appendChild(body);

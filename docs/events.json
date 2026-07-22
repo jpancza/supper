@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T17:58:25.798Z",
+  "lastUpdated": "2026-07-22T19:14:51.632Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -255,7 +255,14 @@
       "url": "https://www.facebook.com/events/1567004264297759/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441
+      "lon": 19.064441,
+      "weather": {
+        "tempMax": 28,
+        "tempMin": 19.4,
+        "precipProbability": 53,
+        "windSpeed": 23.4,
+        "windDirection": 303
+      }
     },
     {
       "id": "fb-945465721148056",
@@ -269,7 +276,14 @@
       "url": "https://www.facebook.com/events/945465721148056/",
       "source": "facebook",
       "lat": 44.8760769,
-      "lon": 15.7921569
+      "lon": 15.7921569,
+      "weather": {
+        "tempMax": 26.4,
+        "tempMin": 13.1,
+        "precipProbability": 20,
+        "windSpeed": 20,
+        "windDirection": 8
+      }
     },
     {
       "id": "fb-1575845237277305",
@@ -283,7 +297,14 @@
       "url": "https://www.facebook.com/events/1575845237277305/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 25.9,
+        "tempMin": 16.1,
+        "precipProbability": 14,
+        "windSpeed": 21.6,
+        "windDirection": 333
+      }
     },
     {
       "id": "fb-1276106657931027",
@@ -309,7 +330,14 @@
       "url": "https://www.facebook.com/events/1972104563443329/",
       "source": "facebook",
       "lat": 46.7481409,
-      "lon": 17.5507597
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 24.4,
+        "tempMin": 15.6,
+        "precipProbability": 0,
+        "windSpeed": 29.4,
+        "windDirection": 338
+      }
     },
     {
       "id": "fb-1027108263449473",
@@ -323,7 +351,14 @@
       "url": "https://www.facebook.com/events/1027108263449473/",
       "source": "facebook",
       "lat": 46.9132712,
-      "lon": 17.8882318
+      "lon": 17.8882318,
+      "weather": {
+        "tempMax": 24.5,
+        "tempMin": 15.4,
+        "precipProbability": 0,
+        "windSpeed": 25.7,
+        "windDirection": 339
+      }
     },
     {
       "id": "fb-1413297043775425",
@@ -361,7 +396,14 @@
       "url": "https://www.facebook.com/events/1742583116928758/",
       "source": "facebook",
       "lat": 46.9086302,
-      "lon": 17.849548
+      "lon": 17.849548,
+      "weather": {
+        "tempMax": 26,
+        "tempMin": 16.4,
+        "precipProbability": 0,
+        "windSpeed": 11.6,
+        "windDirection": 216
+      }
     },
     {
       "id": "fb-1524756832765541",
@@ -375,7 +417,14 @@
       "url": "https://www.facebook.com/events/1524756832765541/",
       "source": "facebook",
       "lat": 47.3818192,
-      "lon": 19.101496
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 27.9,
+        "tempMin": 15.3,
+        "precipProbability": 0,
+        "windSpeed": 13.3,
+        "windDirection": 194
+      }
     },
     {
       "id": "fb-1594880075397084",
@@ -389,7 +438,14 @@
       "url": "https://www.facebook.com/events/1594880075397084/",
       "source": "facebook",
       "lat": 47.3818192,
-      "lon": 19.101496
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 27.9,
+        "tempMin": 15.3,
+        "precipProbability": 0,
+        "windSpeed": 13.3,
+        "windDirection": 194
+      }
     },
     {
       "id": "fb-2612204832548888",
@@ -403,7 +459,14 @@
       "url": "https://www.facebook.com/events/2612204832548888/",
       "source": "facebook",
       "lat": 47.3818192,
-      "lon": 19.101496
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 27.9,
+        "tempMin": 15.3,
+        "precipProbability": 0,
+        "windSpeed": 13.3,
+        "windDirection": 194
+      }
     },
     {
       "id": "fb-27255056114118086",
@@ -429,7 +492,14 @@
       "url": "https://www.facebook.com/events/991830680282210/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441
+      "lon": 19.064441,
+      "weather": {
+        "tempMax": 27.8,
+        "tempMin": 14,
+        "precipProbability": 0,
+        "windSpeed": 11,
+        "windDirection": 196
+      }
     },
     {
       "id": "fb-1693231265014620",
@@ -455,7 +525,14 @@
       "url": "https://www.facebook.com/events/2527117181040072/",
       "source": "facebook",
       "lat": 46.9086302,
-      "lon": 17.849548
+      "lon": 17.849548,
+      "weather": {
+        "tempMax": 26,
+        "tempMin": 16.4,
+        "precipProbability": 0,
+        "windSpeed": 11.6,
+        "windDirection": 216
+      }
     },
     {
       "id": "fb-1000920522710711",
@@ -505,7 +582,14 @@
       "url": "https://www.facebook.com/events/1479541634207892/",
       "source": "facebook",
       "lat": 47.810003,
-      "lon": 18.8582561
+      "lon": 18.8582561,
+      "weather": {
+        "tempMax": 27,
+        "tempMin": 13.3,
+        "precipProbability": 0,
+        "windSpeed": 9.4,
+        "windDirection": 277
+      }
     },
     {
       "id": "fb-1503819684404585",
@@ -519,7 +603,14 @@
       "url": "https://www.facebook.com/events/1503819684404585/",
       "source": "facebook",
       "lat": 47.810003,
-      "lon": 18.8582561
+      "lon": 18.8582561,
+      "weather": {
+        "tempMax": 27,
+        "tempMin": 13.3,
+        "precipProbability": 0,
+        "windSpeed": 9.4,
+        "windDirection": 277
+      }
     },
     {
       "id": "fb-1003476932555397",
@@ -545,7 +636,14 @@
       "url": "https://www.facebook.com/events/1736273180869334/",
       "source": "facebook",
       "lat": 47.5796397,
-      "lon": 19.0662119
+      "lon": 19.0662119,
+      "weather": {
+        "tempMax": 32.2,
+        "tempMin": 17.4,
+        "precipProbability": 37,
+        "windSpeed": 17.5,
+        "windDirection": 180
+      }
     },
     {
       "id": "fb-1818940552813880",
@@ -559,7 +657,14 @@
       "url": "https://www.facebook.com/events/1818940552813880/",
       "source": "facebook",
       "lat": 46.8621434,
-      "lon": 20.5521466
+      "lon": 20.5521466,
+      "weather": {
+        "tempMax": 31.9,
+        "tempMin": 17.1,
+        "precipProbability": 25,
+        "windSpeed": 22.3,
+        "windDirection": 184
+      }
     },
     {
       "id": "fb-1501114621187012",
@@ -597,7 +702,14 @@
       "url": "https://www.facebook.com/events/1070830029238426/",
       "source": "facebook",
       "lat": 46.9086302,
-      "lon": 17.849548
+      "lon": 17.849548,
+      "weather": {
+        "tempMax": 24.3,
+        "tempMin": 19.5,
+        "precipProbability": 73,
+        "windSpeed": 25.1,
+        "windDirection": 212
+      }
     },
     {
       "id": "fb-827173613694403",
@@ -635,7 +747,14 @@
       "url": "https://www.facebook.com/events/1019697720984944/",
       "source": "facebook",
       "lat": 47.5514268,
-      "lon": 19.066566
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 30.6,
+        "tempMin": 20.2,
+        "precipProbability": 25,
+        "windSpeed": 18.5,
+        "windDirection": 298
+      }
     },
     {
       "id": "fb-1392672286092436",
@@ -649,7 +768,14 @@
       "url": "https://www.facebook.com/events/1392672286092436/",
       "source": "facebook",
       "lat": 46.7481409,
-      "lon": 17.5507597
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 26.8,
+        "tempMin": 17.4,
+        "precipProbability": 62,
+        "windSpeed": 14,
+        "windDirection": 302
+      }
     },
     {
       "id": "fb-996957989827091",
@@ -663,7 +789,14 @@
       "url": "https://www.facebook.com/events/996957989827091/",
       "source": "facebook",
       "lat": 46.7481409,
-      "lon": 17.5507597
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 26.8,
+        "tempMin": 17.4,
+        "precipProbability": 62,
+        "windSpeed": 14,
+        "windDirection": 302
+      }
     },
     {
       "id": "fb-2194160984714461",
@@ -677,7 +810,14 @@
       "url": "https://www.facebook.com/events/2194160984714461/",
       "source": "facebook",
       "lat": 46.7481409,
-      "lon": 17.5507597
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 26.8,
+        "tempMin": 17.4,
+        "precipProbability": 62,
+        "windSpeed": 14,
+        "windDirection": 302
+      }
     },
     {
       "id": "fb-1543927677475366",

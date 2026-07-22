@@ -321,6 +321,59 @@ async function geocodeEvents(events) {
   return newLookups;
 }
 
+// Open-Meteo — free, no API key. One call per unique location covers all 7
+// forecast days at once, so events sharing a venue don't multiply requests.
+async function fetchWeatherForLocation(lat, lon) {
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}` +
+    `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,windspeed_10m_max,winddirection_10m_dominant` +
+    `&timezone=Europe%2FBudapest&forecast_days=7`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const data = await res.json();
+  const byDate = {};
+  data.daily.time.forEach((date, i) => {
+    byDate[date] = {
+      tempMax: data.daily.temperature_2m_max[i],
+      tempMin: data.daily.temperature_2m_min[i],
+      precipProbability: data.daily.precipitation_probability_max[i],
+      windSpeed: data.daily.windspeed_10m_max[i],
+      windDirection: data.daily.winddirection_10m_dominant[i],
+    };
+  });
+  return byDate;
+}
+
+async function addWeather(events) {
+  const todayISO = new Date().toISOString().slice(0, 10);
+  const weekAheadISO = new Date(Date.now() + 6 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+
+  const upcoming = events.filter(
+    (e) => e.lat != null && e.lon != null && e.dateISO >= todayISO && e.dateISO <= weekAheadISO
+  );
+
+  const locationKey = (e) => `${e.lat.toFixed(3)},${e.lon.toFixed(3)}`;
+  const uniqueLocations = [...new Map(upcoming.map((e) => [locationKey(e), { lat: e.lat, lon: e.lon }])).values()];
+
+  const forecastsByLocation = {};
+  for (const loc of uniqueLocations) {
+    try {
+      forecastsByLocation[`${loc.lat.toFixed(3)},${loc.lon.toFixed(3)}`] = await fetchWeatherForLocation(loc.lat, loc.lon);
+    } catch (err) {
+      console.warn(`  ! idojaras lekerdezes sikertelen (${loc.lat}, ${loc.lon}): ${err.message}`);
+    }
+  }
+
+  let attached = 0;
+  for (const e of upcoming) {
+    const forecast = forecastsByLocation[locationKey(e)];
+    if (forecast && forecast[e.dateISO]) {
+      e.weather = forecast[e.dateISO];
+      attached += 1;
+    }
+  }
+  return attached;
+}
+
 async function main() {
   const organizers = JSON.parse(await readFile(ORGANIZERS_PATH, 'utf-8'));
   const existing = await loadExisting();
@@ -361,6 +414,7 @@ async function main() {
   const merged = [...byUrl.values()].sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
 
   const newLookups = await geocodeEvents(merged);
+  const withWeather = await addWeather(merged);
 
   await mkdir(path.dirname(EVENTS_PATH), { recursive: true });
   await writeFile(
@@ -369,7 +423,7 @@ async function main() {
   );
 
   console.log(
-    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ${newLookups} uj geokodolas).`
+    `\nKesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ${newLookups} uj geokodolas, ${withWeather} idojaras-adat).`
   );
 }
 
