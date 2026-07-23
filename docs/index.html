@@ -266,7 +266,7 @@
 <main>
   <div class="tabs">
     <button type="button" class="tab-btn active" id="tabTours">Túrák</button>
-    <button type="button" class="tab-btn" id="tabReports">Túrabeszámolók</button>
+    <button type="button" class="tab-btn" id="tabReports" style="display:none">Túrabeszámolók</button>
   </div>
 
   <section id="toursSection">
@@ -537,6 +537,19 @@ function renderReports(reports) {
   }
 }
 
+// A "Túrabeszámolók" fül alapból rejtve van a látogatók elől — a
+// https://.../?reports=1 linkkel kapcsolható be (ez a böngészőben localStorage-ban
+// megjegyződik, úgyhogy elég egyszer megnyitni), ?reports=0 pedig újra elrejti.
+function reportsEnabled() {
+  const params = new URLSearchParams(location.search);
+  if (params.has('reports')) {
+    const on = params.get('reports') !== '0';
+    localStorage.setItem('reportsEnabled', on ? '1' : '0');
+    return on;
+  }
+  return localStorage.getItem('reportsEnabled') === '1';
+}
+
 function initTabs() {
   const tabTours = document.getElementById('tabTours');
   const tabReports = document.getElementById('tabReports');
@@ -573,12 +586,15 @@ async function init() {
     return;
   }
 
-  try {
-    const reportsRes = await fetch('reports.json', { cache: 'no-store' });
-    const reportsData = await reportsRes.json();
-    renderReports(reportsData.reports || []);
-  } catch (err) {
-    document.getElementById('reportList').textContent = 'Nem sikerült betölteni a beszámolókat.';
+  if (reportsEnabled()) {
+    document.getElementById('tabReports').style.display = '';
+    try {
+      const reportsRes = await fetch('reports.json', { cache: 'no-store' });
+      const reportsData = await reportsRes.json();
+      renderReports(reportsData.reports || []);
+    } catch (err) {
+      document.getElementById('reportList').textContent = 'Nem sikerült betölteni a beszámolókat.';
+    }
   }
 
   const events = data.events || [];

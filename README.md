@@ -49,6 +49,14 @@ A "Túrabeszámolók" fül tartalma a `docs/reports.json`-ban van, ezt teljesen 
 
 A `text` mezőben üres sorral válaszd el a bekezdéseket. A képeket másold be a `docs/images/reports/` mappába, és a `images` tömbben a `docs/`-hoz képesti relatív útvonalukat add meg. Legújabb dátum kerül legfelülre.
 
+A fül a látogatók elől alapból rejtve van. Bekapcsolásához nyisd meg egyszer ezt a linket a böngésződben:
+
+```
+https://jpancza.github.io/supper/?reports=1
+```
+
+Ez a böngésződben (localStorage) megjegyzi a kapcsoló állását, utána a sima `https://jpancza.github.io/supper/` cím is mutatja. Elrejtéshez ugyanígy nyisd meg a `?reports=0` végű linket.
+
 ## GitHub Pages bekapcsolása (egyszeri lépés)
 
 A repó Settings → Pages menüjében állítsd be:
