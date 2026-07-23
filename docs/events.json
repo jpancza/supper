@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T08:25:37.815Z",
+  "lastUpdated": "2026-07-23T09:38:24.835Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -65,7 +65,7 @@
       "dateISO": "2023-02-23",
       "timeText": "12:00",
       "rawWhen": "2023. febr. 23., 12:00 – 2023. febr. 26., 16:00 CET",
-      "location": "Albertirsai út 10., Budapest",
+      "location": "Albertirsai út 10., Budapest (Magyarország)",
       "url": "https://www.facebook.com/events/901964684478317/",
       "source": "facebook",
       "lat": 47.4937038,
@@ -281,7 +281,7 @@
       "weather": {
         "tempMax": 14.6,
         "tempMin": 9.7,
-        "precipProbability": 80,
+        "precipProbability": 83,
         "windSpeed": 18.9,
         "windDirection": 288
       }
@@ -302,7 +302,7 @@
       "weather": {
         "tempMax": 26.5,
         "tempMin": 12.4,
-        "precipProbability": 25,
+        "precipProbability": 38,
         "windSpeed": 17.6,
         "windDirection": 40
       }
@@ -321,11 +321,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.4,
-        "tempMin": 14.8,
+        "tempMax": 25.9,
+        "tempMin": 14.3,
         "precipProbability": 8,
-        "windSpeed": 22,
-        "windDirection": 333
+        "windSpeed": 22.3,
+        "windDirection": 328
       }
     },
     {
@@ -369,7 +369,7 @@
       "dateISO": "2026-07-24",
       "timeText": "18:30",
       "rawWhen": "2026. július 24., péntek, 18:30–20:30 CEST",
-      "location": "Tihany (Veszprém megye)",
+      "location": "Tihany (Veszprém megye, Magyarország)",
       "url": "https://www.facebook.com/events/1027108263449473/",
       "source": "facebook",
       "lat": 46.9132712,
@@ -401,27 +401,6 @@
         "precipProbability": 0,
         "windSpeed": 27.4,
         "windDirection": 336
-      }
-    },
-    {
-      "id": "fb-1561163402174745",
-      "title": "Naplementés SUP élményevezés Gödnél kezdőknek is, tanítással! Péntek+ szombat IS",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "dateISO": "2026-07-24",
-      "timeText": "19:00",
-      "rawWhen": "Júl. 24., 19:00 – júl. 25., 21:00 CEST",
-      "location": "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak",
-      "url": "https://www.facebook.com/events/1561163402174745/",
-      "source": "facebook",
-      "lat": 47.6834336,
-      "lon": 19.1341568,
-      "weather": {
-        "tempMax": 24.9,
-        "tempMin": 14.7,
-        "precipProbability": 18,
-        "windSpeed": 20.5,
-        "windDirection": 329
       }
     },
     {
@@ -459,11 +438,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 28.6,
-        "tempMin": 16.1,
+        "tempMax": 29.7,
+        "tempMin": 16.2,
         "precipProbability": 0,
-        "windSpeed": 15.1,
-        "windDirection": 221
+        "windSpeed": 15.8,
+        "windDirection": 261
       }
     },
     {
@@ -480,11 +459,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 28.6,
-        "tempMin": 16.1,
+        "tempMax": 29.7,
+        "tempMin": 16.2,
         "precipProbability": 0,
-        "windSpeed": 15.1,
-        "windDirection": 221
+        "windSpeed": 15.8,
+        "windDirection": 261
       }
     },
     {
@@ -501,11 +480,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 28.6,
-        "tempMin": 16.1,
+        "tempMax": 29.7,
+        "tempMin": 16.2,
         "precipProbability": 0,
-        "windSpeed": 15.1,
-        "windDirection": 221
+        "windSpeed": 15.8,
+        "windDirection": 261
       }
     },
     {
@@ -522,11 +501,11 @@
       "lat": 47.6435536,
       "lon": 20.6560717,
       "weather": {
-        "tempMax": 27.4,
-        "tempMin": 13.6,
+        "tempMax": 28.6,
+        "tempMin": 14,
         "precipProbability": 2,
-        "windSpeed": 9.9,
-        "windDirection": 303
+        "windSpeed": 10.1,
+        "windDirection": 327
       }
     },
     {
@@ -543,11 +522,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 28.9,
+        "tempMax": 30.3,
         "tempMin": 16.6,
         "precipProbability": 0,
-        "windSpeed": 11.9,
-        "windDirection": 219
+        "windSpeed": 11.5,
+        "windDirection": 238
       }
     },
     {
@@ -564,11 +543,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 27.8,
-        "tempMin": 14.9,
+        "tempMax": 28.2,
+        "tempMin": 14.5,
         "precipProbability": 0,
-        "windSpeed": 9,
-        "windDirection": 244
+        "windSpeed": 8.3,
+        "windDirection": 247
       }
     },
     {
@@ -669,11 +648,11 @@
       "lat": 47.810003,
       "lon": 18.8582561,
       "weather": {
-        "tempMax": 27.6,
-        "tempMin": 12.7,
+        "tempMax": 28.7,
+        "tempMin": 12,
         "precipProbability": 0,
-        "windSpeed": 8.6,
-        "windDirection": 274
+        "windSpeed": 8.5,
+        "windDirection": 266
       }
     },
     {
@@ -690,32 +669,53 @@
       "lat": 47.810003,
       "lon": 18.8582561,
       "weather": {
-        "tempMax": 27.6,
-        "tempMin": 12.7,
+        "tempMax": 28.7,
+        "tempMin": 12,
         "precipProbability": 0,
-        "windSpeed": 8.6,
-        "windDirection": 274
+        "windSpeed": 8.5,
+        "windDirection": 266
       }
     },
     {
       "id": "fb-1003476932555397",
-      "title": "Reggeli hullámcsendes SUP evezés Gödnél, kezdőknek is (tanítással)",
+      "title": "Hullámcsendes SUP élményevezés Gödnél, kezdőknek is (tanítással)",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "dateISO": "2026-07-25",
       "timeText": "09:00",
-      "rawWhen": "2026. július 25., szombat, 9:00–11:00 CEST",
-      "location": "Majd faljunk egyet a… Továbbiak",
+      "rawWhen": "2026. július 25., szombat, 9:00–20:30 CEST",
+      "location": "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvezzu… Továbbiak",
       "url": "https://www.facebook.com/events/1003476932555397/",
       "source": "facebook",
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 28,
-        "tempMin": 13.4,
+        "tempMax": 29,
+        "tempMin": 13.5,
         "precipProbability": 0,
-        "windSpeed": 10.8,
-        "windDirection": 196
+        "windSpeed": 10.4,
+        "windDirection": 217
+      }
+    },
+    {
+      "id": "fb-1561163402174745",
+      "title": "Naplementés SUP élményevezés Gödnél kezdőknek is, tanítással! Reggel és este IS",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "dateISO": "2026-07-25",
+      "timeText": "18:30",
+      "rawWhen": "2026. július 25., szombat, 18:30–20:30 CEST",
+      "location": "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak",
+      "url": "https://www.facebook.com/events/1561163402174745/",
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 29,
+        "tempMin": 13.5,
+        "precipProbability": 0,
+        "windSpeed": 10.4,
+        "windDirection": 217
       }
     },
     {
@@ -761,6 +761,18 @@
       }
     },
     {
+      "id": "fb-783747124801407",
+      "title": "Sup túra az RSD legszebb csatornáján / Kezdőknek is tökéletes /",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "dateISO": "2026-07-26",
+      "timeText": "13:00",
+      "rawWhen": "2026. július 26., vasárnap, 13:00 CEST",
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/783747124801407/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1501114621187012",
       "title": "Délutáni chill SUP túra",
       "organizerId": "sup-dunakanyar",
@@ -800,7 +812,7 @@
       "weather": {
         "tempMax": 26.7,
         "tempMin": 19.7,
-        "precipProbability": 66,
+        "precipProbability": 59,
         "windSpeed": 24.5,
         "windDirection": 180
       }
@@ -821,7 +833,7 @@
       "weather": {
         "tempMax": 25.2,
         "tempMin": 15.6,
-        "precipProbability": 75,
+        "precipProbability": 59,
         "windSpeed": 21.4,
         "windDirection": 176
       }
@@ -884,7 +896,7 @@
       "weather": {
         "tempMax": 26.6,
         "tempMin": 17.8,
-        "precipProbability": 85,
+        "precipProbability": 63,
         "windSpeed": 21.2,
         "windDirection": 319
       }
@@ -905,7 +917,7 @@
       "weather": {
         "tempMax": 26.6,
         "tempMin": 17.8,
-        "precipProbability": 85,
+        "precipProbability": 63,
         "windSpeed": 21.2,
         "windDirection": 319
       }
@@ -926,7 +938,7 @@
       "weather": {
         "tempMax": 26.6,
         "tempMin": 17.8,
-        "precipProbability": 85,
+        "precipProbability": 63,
         "windSpeed": 21.2,
         "windDirection": 319
       }
@@ -960,7 +972,7 @@
       "dateISO": "2026-07-31",
       "timeText": "19:00",
       "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
-      "location": "Göd (Pest megye)",
+      "location": "Göd (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/4468508466719894/",
       "source": "facebook",
       "lat": 47.6834336,
@@ -1030,7 +1042,7 @@
       "dateISO": "2026-08-01",
       "timeText": "09:30",
       "rawWhen": "2026. augusztus 1., szombat, 9:30 CEST",
-      "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye)",
+      "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye, Magyarország)",
       "url": "https://www.facebook.com/events/1552273686682118/",
       "source": "facebook",
       "lat": 47.9662482,

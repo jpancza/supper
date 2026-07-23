@@ -155,25 +155,29 @@
     "lat": 47.9662482,
     "lon": 17.2882323
   },
-  "Hallstatt, Ausztria": {
-    "lat": 47.5347939,
-    "lon": 13.5988875
+  "Albertirsai út 10., Budapest (Magyarország)": {
+    "lat": 47.4937038,
+    "lon": 19.1266448
   },
-  "Bled, Szlovénia": {
-    "lat": 46.3684202,
-    "lon": 14.1100595
+  "Tihany (Veszprém megye, Magyarország)": {
+    "lat": 46.9132712,
+    "lon": 17.8882318
   },
-  "Fonyód, Magyarország": {
-    "lat": 46.7467521,
-    "lon": 17.54946
+  "Göd (Pest megye, Magyarország)": {
+    "lat": 47.6834336,
+    "lon": 19.1341568
   },
-  "Balatonfüred, Magyarország": {
-    "lat": 46.9567254,
-    "lon": 17.888892
+  "Dunapart, Dunakiliti (Győr-Moson-Sopron megye, Magyarország)": {
+    "lat": 47.9662482,
+    "lon": 17.2882323
   },
   "HULLADÉKVÁLOGATÁS: Dinnyéshát Kikötőben": null,
   "A Siófoki Kajak-kenu Pont a szabadidősportot": null,
   "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak": null,
+  "Hallstatt, Ausztria": {
+    "lat": 47.5347939,
+    "lon": 13.5988875
+  },
   "A siófoki Nagystrand a Balaton egyik legnagyobb és leglátogatottabb strandja.": null,
   "A Hungexpo Zrt. Magyarország elismerten elsőszámú kiállításszervező cége.": null,
   "Eastern Balatonföldvár Beach, Somogyi Béla utca, Balatonföldvár 8623, Magyarország": {
@@ -191,21 +195,25 @@
   },
   "Kapcsolódj ki velünk a természetben, és tapasztald meg a jóga és a SUP különleges találkozását! A víz nyugalma, a finom egyensúlyi kihívások és a … Továbbiak": null,
   "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak": null,
-  "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak": null,
   "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.": null,
   "Sportcentrum, Visegrád": null,
   "A fonyódi Kutyabarát Fürdőhely NEM(!) hivatalos oldala.": null,
   "Káptalanfüredi Nagystrand": null,
-  "Majd faljunk egyet a… Továbbiak": null,
+  "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvezzu… Továbbiak": null,
+  "Lapátoljunk egyet a varazslatos gödi ártèri erdo mellett, élvez… Továbbiak": null,
+  "DMTK Vizisport szakosztály vizi-telepe": null,
   "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak": null,
   "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak": null,
   "Ha még nem álltál SUP deszkán ne aggódj! Fokozatosan épül … Továbbiak": null,
   "Gondolkoztál már azon, milyen lehet egy olyan folyón evezni, ahol teljesen elfelejtheted a rohanást és a kemény sodrást? A Bodrog pont ilyen! A tiszalöki duzzasztás miatt a víz itt… Továbbiak": null,
-  "Dunapart, Dunakiliti (Győr-Moson-Sopron megye)": null,
   "Különleges és egyedi adottságokkal rendelkező rendezvényhelyszín konferenciák, esküvők, sajtótájékoztatók, céges rendezvények számára!": null,
   "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska": {
     "lat": 44.1999702,
     "lon": 15.6860003
+  },
+  "Bled, Szlovénia": {
+    "lat": 46.3684202,
+    "lon": 14.1100595
   },
   "Málta": {
     "lat": 35.9311442,
@@ -214,6 +222,14 @@
   "Tisza-tó, Magyarország": {
     "lat": 47.4934878,
     "lon": 20.5661623
+  },
+  "Fonyód, Magyarország": {
+    "lat": 46.7467521,
+    "lon": 17.54946
+  },
+  "Balatonfüred, Magyarország": {
+    "lat": 46.9567254,
+    "lon": 17.888892
   },
   "Bodrog, Magyarország": {
     "lat": 48.3009115,
