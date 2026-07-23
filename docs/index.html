@@ -237,6 +237,9 @@
   .report-text p:last-child {
     margin-bottom: 0;
   }
+  .report-text a {
+    color: var(--accent);
+  }
   .report-images {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -339,6 +342,12 @@ function escapeHtml(s) {
   const div = document.createElement('div');
   div.textContent = s || '';
   return div.innerHTML;
+}
+
+// Runs after escapeHtml, so the input has no live tags — safe to turn bare
+// URLs into links without opening up HTML injection.
+function linkify(escapedHtml) {
+  return escapedHtml.replace(/https?:\/\/[^\s<]+/g, (url) => `<a href="${url}" target="_blank" rel="noopener">${url}</a>`);
 }
 
 let map, markersLayer;
@@ -529,7 +538,7 @@ function renderReports(reports) {
     if (r.text) {
       const textEl = document.createElement('div');
       textEl.className = 'report-text';
-      textEl.innerHTML = r.text.split(/\n\s*\n/).map((p) => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('');
+      textEl.innerHTML = r.text.split(/\n\s*\n/).map((p) => `<p>${linkify(escapeHtml(p)).replace(/\n/g, '<br>')}</p>`).join('');
       card.appendChild(textEl);
     }
 
