@@ -246,12 +246,17 @@
     gap: 0.5rem;
     margin: 0.8rem 0;
   }
-  .report-images a {
+  .report-images .report-thumb {
     display: block;
+    width: 100%;
     aspect-ratio: 1;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid var(--border);
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    font: inherit;
   }
   .report-images img {
     width: 100%;
@@ -259,6 +264,47 @@
     object-fit: cover;
     display: block;
   }
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.88);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: min(92vw, 1100px);
+    max-height: 88vh;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  .lightbox-close, .lightbox-nav {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1;
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+  .lightbox-close:hover, .lightbox-nav:hover {
+    background: rgba(255, 255, 255, 0.24);
+  }
+  .lightbox-close {
+    top: 1rem;
+    right: 1rem;
+  }
+  .lightbox-nav {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.8rem;
+  }
+  .lightbox-prev { left: 1rem; }
+  .lightbox-next { right: 1rem; }
 </style>
 </head>
 <body>
@@ -304,6 +350,13 @@
   </section>
 </main>
 <footer id="footer"></footer>
+
+<div id="lightbox" class="lightbox" style="display:none">
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Bezárás">✕</button>
+  <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Előző kép">‹</button>
+  <img id="lightboxImg" alt="">
+  <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Következő kép">›</button>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
@@ -528,18 +581,18 @@ function renderReports(reports) {
     if (Array.isArray(r.images) && r.images.length > 0) {
       const gallery = document.createElement('div');
       gallery.className = 'report-images';
-      for (const src of r.images) {
-        const a = document.createElement('a');
-        a.href = src;
-        a.target = '_blank';
-        a.rel = 'noopener';
+      r.images.forEach((src, index) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'report-thumb';
+        btn.addEventListener('click', () => openLightbox(r.images, index, r.title));
         const img = document.createElement('img');
         img.src = src;
         img.loading = 'lazy';
         img.alt = r.title;
-        a.appendChild(img);
-        gallery.appendChild(a);
-      }
+        btn.appendChild(img);
+        gallery.appendChild(btn);
+      });
       card.appendChild(gallery);
     }
 
@@ -552,6 +605,49 @@ function renderReports(reports) {
 
     list.appendChild(card);
   }
+}
+
+let lightboxImages = [];
+let lightboxIndex = 0;
+
+function showLightboxImage() {
+  const img = document.getElementById('lightboxImg');
+  img.src = lightboxImages[lightboxIndex];
+  const multi = lightboxImages.length > 1;
+  document.getElementById('lightboxPrev').style.display = multi ? '' : 'none';
+  document.getElementById('lightboxNext').style.display = multi ? '' : 'none';
+}
+
+function openLightbox(images, index, altText) {
+  lightboxImages = images;
+  lightboxIndex = index;
+  document.getElementById('lightboxImg').alt = altText || '';
+  showLightboxImage();
+  document.getElementById('lightbox').style.display = 'flex';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').style.display = 'none';
+}
+
+function lightboxStep(delta) {
+  lightboxIndex = (lightboxIndex + delta + lightboxImages.length) % lightboxImages.length;
+  showLightboxImage();
+}
+
+function initLightbox() {
+  document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+  document.getElementById('lightboxPrev').addEventListener('click', () => lightboxStep(-1));
+  document.getElementById('lightboxNext').addEventListener('click', () => lightboxStep(1));
+  document.getElementById('lightbox').addEventListener('click', (e) => {
+    if (e.target.id === 'lightbox') closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (document.getElementById('lightbox').style.display === 'none') return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') lightboxStep(-1);
+    if (e.key === 'ArrowRight') lightboxStep(1);
+  });
 }
 
 // A "Túrabeszámolók" fül alapból rejtve van a látogatók elől — a
@@ -593,6 +689,7 @@ function initTabs() {
 async function init() {
   initMap();
   initTabs();
+  initLightbox();
 
   let data;
   try {
