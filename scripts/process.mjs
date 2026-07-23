@@ -109,7 +109,10 @@ async function nominatimSearch(query) {
 
 // Free geocoding via OpenStreetMap Nominatim — no API key, but its usage
 // policy caps requests at 1/sec, so results are cached to data/geocode-cache.json
-// and only genuinely new locations trigger a network call on later runs.
+// and only genuinely new locations trigger a network call on later runs. A
+// failed lookup is cached as null and never retried automatically — OSM data
+// grows over time, so a location that fails today may resolve months later;
+// delete its line from geocode-cache.json manually to force a retry.
 async function geocode(location, cache) {
   if (!location || location in cache) return cache[location] ?? null;
   let coords = null;
@@ -155,6 +158,9 @@ const KNOWN_TOWNS = {
   // Balatonfüred, not a separate settlement) — fall back to the parent town.
   Balatonkáptalanfüred: 'Balatonfüred', Káptalanfüred: 'Balatonfüred',
   Margitsziget: 'Margitsziget',
+  // Rivers/lakes named directly in the title when the scraped "location" is
+  // just the event description (no real address was found on the page).
+  Bodrog: 'Bodrog', 'Tisza-tó': 'Tisza-tó', 'Tisza-tavon': 'Tisza-tó',
 };
 
 // Towns outside Hungary that still show up in Hungarian-organized event
@@ -163,6 +169,7 @@ const KNOWN_TOWNS = {
 const FOREIGN_TOWNS = {
   Hallstatt: 'Hallstatt, Ausztria',
   Bled: 'Bled, Szlovénia',
+  Málta: 'Málta',
 };
 
 // Case/inflection-insensitive substring match — Hungarian titles reference towns

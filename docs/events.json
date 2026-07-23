@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T08:12:58.471Z",
+  "lastUpdated": "2026-07-23T08:25:37.815Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -11,7 +11,9 @@
       "rawWhen": "2020. július 25., szombat, 9:00–18:30 CEST",
       "location": "HULLADÉKVÁLOGATÁS: Dinnyéshát Kikötőben",
       "url": "https://www.facebook.com/events/196206901787809/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.4934878,
+      "lon": 20.5661623
     },
     {
       "id": "fb-433071114399367",
@@ -51,7 +53,9 @@
       "rawWhen": "2022. aug. 26., 10:00 – 2022. aug. 28., 20:00 CEST",
       "location": "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak",
       "url": "https://www.facebook.com/events/437744534809816/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 47.4934878,
+      "lon": 20.5661623
     },
     {
       "id": "fb-901964684478317",
@@ -132,8 +136,8 @@
       "location": "Eastern Balatonföldvár Beach, Somogyi Béla utca, Balatonföldvár 8623, Magyarország",
       "url": "https://www.facebook.com/events/3322590254703578/",
       "source": "facebook",
-      "lat": 46.8491197,
-      "lon": 17.8792403
+      "lat": 46.8544704,
+      "lon": 17.8819153
     },
     {
       "id": "fb-742321281360402",
@@ -160,8 +164,8 @@
       "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
       "url": "https://www.facebook.com/events/336116472893246/",
       "source": "facebook",
-      "lat": 46.9796854,
-      "lon": 17.9231412
+      "lat": 46.9708985,
+      "lon": 17.9380754
     },
     {
       "id": "fb-3919192395073035",
@@ -1014,7 +1018,9 @@
       "rawWhen": "Aug. 1., 11:00 – aug. 2., 16:00 CEST",
       "location": "Gondolkoztál már azon, milyen lehet egy olyan folyón evezni, ahol teljesen elfelejtheted a rohanást és a kemény sodrást? A Bodrog pont ilyen! A tiszalöki duzzasztás miatt a víz itt… Továbbiak",
       "url": "https://www.facebook.com/events/1050075824156673/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 48.3009115,
+      "lon": 21.5595025
     },
     {
       "id": "fb-1552273686682118",
@@ -1136,7 +1142,9 @@
       "rawWhen": "Aug. 19., 6:00 – aug. 23., 21:00 CEST",
       "location": "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska",
       "url": "https://www.facebook.com/events/850932464338253/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 44.1999702,
+      "lon": 15.6860003
     },
     {
       "id": "fb-1001816658985569",
@@ -1190,7 +1198,9 @@
       "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
       "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
       "url": "https://www.facebook.com/events/892111770603769/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 35.9311442,
+      "lon": 14.3951627
     }
   ]
 }
