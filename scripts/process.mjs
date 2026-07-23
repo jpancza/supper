@@ -1,8 +1,9 @@
 // Turns data/raw-events.json (written by scripts/scrape.mjs) into
 // docs/events.json: parses Hungarian dates, filters to SUP/evezés-related
-// titles, merges in manually-added events, geocodes locations, and attaches
-// a 7-day weather forecast. No Facebook access needed — safe to re-run any
-// time the parsing/filtering/geocoding logic changes, without re-scraping.
+// titles, merges into every event ever seen (nothing is ever removed, only
+// added/refreshed by URL), geocodes locations, and attaches a 7-day weather
+// forecast. No Facebook access needed — safe to re-run any time the
+// parsing/filtering/geocoding logic changes, without re-scraping.
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -332,7 +333,6 @@ function toProcessedEvent(raw) {
 async function main() {
   const raw = JSON.parse(await readFile(RAW_EVENTS_PATH, 'utf-8'));
   const existing = await loadExisting();
-  const manualEvents = existing.filter((e) => e.source === 'manual');
 
   let scraped = raw.events.map(toProcessedEvent).filter(Boolean);
   const droppedByDate = raw.events.length - scraped.length;
@@ -341,14 +341,19 @@ async function main() {
   scraped = scraped.filter((e) => isSupRelated(e.title));
   const droppedByKeyword = beforeKeywordFilter - scraped.length;
 
-  const byUrl = new Map();
-  for (const e of [...manualEvents, ...scraped]) {
+  // Every event ever seen (kezi/manual or scraped) stays forever, keyed by
+  // URL — a URL missing from today's scrape (event already happened and its
+  // organizer moved on to "upcoming_hosted_events" mode, Facebook rate-limited
+  // the runner, ...) must never delete it. Today's scrape only adds brand-new
+  // URLs or refreshes ones it still sees; nothing is ever dropped just for
+  // being absent from one run.
+  const byUrl = new Map(existing.map((e) => [e.url, e]));
+  for (const e of scraped) {
     byUrl.set(e.url, e);
   }
 
-  // Past events are kept (not re-scraped, but not deleted either) so the site
-  // can offer a "show past events" toggle — they're just sorted to the front.
   const merged = [...byUrl.values()].sort((a, b) => (a.dateISO || '9999').localeCompare(b.dateISO || '9999'));
+  const newUrls = scraped.filter((e) => !existing.some((old) => old.url === e.url)).length;
 
   const { newLookups, fallbackResolved } = await geocodeEvents(merged);
   const withWeather = await addWeather(merged);
@@ -360,7 +365,7 @@ async function main() {
   );
 
   console.log(
-    `Kesz: ${merged.length} esemeny (${manualEvents.length} kezi + ${scraped.length} automatikus talalat, ` +
+    `Kesz: ${merged.length} esemeny (${existing.length} korabban ismert, ${newUrls} uj a mai scrapelesbol, ` +
     `${droppedByDate} kihagyva datum hianyaban, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ` +
     `${newLookups} uj geokodolas, ${fallbackResolved} telepules-nev alapjan, ${withWeather} idojaras-adat).`
   );
