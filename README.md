@@ -33,6 +33,22 @@ Ha egy szervezőnek van saját honlapja RSS-feeddel, azt `"type": "rss"` forrás
 
 Ha egy esemény nem fogható be automatikusan (pl. zárt Facebook-csoportban hirdetik), írd bele kézzel a `docs/events.json` `events` tömbjébe egy `"source": "manual"` mezővel ellátott objektumként — ezeket az automatikus frissítés megtartja, nem írja felül.
 
+## Túrabeszámoló hozzáadása
+
+A "Túrabeszámolók" fül tartalma a `docs/reports.json`-ban van, ezt teljesen kézzel karbantartod (semmilyen script nem nyúl hozzá). Egy bejegyzés:
+
+```json
+{
+  "id": "egyedi-nev",
+  "title": "Naplementés túra Siófokon",
+  "dateISO": "2026-07-20",
+  "text": "Első bekezdés.\n\nMásodik bekezdés.",
+  "images": ["images/reports/siofok-1.jpg", "images/reports/siofok-2.jpg"]
+}
+```
+
+A `text` mezőben üres sorral válaszd el a bekezdéseket. A képeket másold be a `docs/images/reports/` mappába, és a `images` tömbben a `docs/`-hoz képesti relatív útvonalukat add meg. Legújabb dátum kerül legfelülre.
+
 ## GitHub Pages bekapcsolása (egyszeri lépés)
 
 A repó Settings → Pages menüjében állítsd be:

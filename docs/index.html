@@ -193,6 +193,69 @@
   a.src-link {
     color: var(--accent);
   }
+  .tabs {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 1.4rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    font: inherit;
+    font-size: 0.95rem;
+    color: var(--muted);
+    padding: 0.6rem 0.9rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  .tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+  }
+  .report-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+  .report-card h3 {
+    margin: 0 0 0.15rem;
+    font-size: 1.1rem;
+  }
+  .report-date {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.7rem;
+  }
+  .report-text p {
+    margin: 0 0 0.7rem;
+  }
+  .report-text p:last-child {
+    margin-bottom: 0;
+  }
+  .report-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.5rem;
+    margin: 0.8rem 0;
+  }
+  .report-images a {
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .report-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 </style>
 </head>
 <body>
@@ -201,30 +264,41 @@
   <p>Magyar szervezésű SUP túrák egy helyen, hogy ne csak a fényképest beszámolókat lásd. Az oldal automatikusan figyeli a szervezők Facebook-oldalait és honlapjait.</p>
 </header>
 <main>
-  <div class="controls">
-    <select id="organizerFilter">
-      <option value="">Összes szervező</option>
-    </select>
-    <input type="search" id="searchBox" placeholder="Keresés (pl. helyszín, cím)...">
+  <div class="tabs">
+    <button type="button" class="tab-btn active" id="tabTours">Túrák</button>
+    <button type="button" class="tab-btn" id="tabReports">Túrabeszámolók</button>
   </div>
-  <label class="toggle-past">
-    <input type="checkbox" id="showPast">
-    Amiről sajnos már lemaradtál
-  </label>
-  <label class="toggle-past">
-    <input type="checkbox" id="showMap" checked>
-    Mutasd térképen!
-  </label>
-  <div id="mapSection">
-    <div class="map-controls">
-      <label for="mapDateFilter">Ezt a napot tedd a térképre:</label>
-      <select id="mapDateFilter">
-        <option value="">Minden nap</option>
+
+  <section id="toursSection">
+    <div class="controls">
+      <select id="organizerFilter">
+        <option value="">Összes szervező</option>
       </select>
+      <input type="search" id="searchBox" placeholder="Keresés (pl. helyszín, cím)...">
     </div>
-    <div id="map"></div>
-  </div>
-  <div id="eventList" class="loading">Betöltés…</div>
+    <label class="toggle-past">
+      <input type="checkbox" id="showPast">
+      Amiről sajnos már lemaradtál
+    </label>
+    <label class="toggle-past">
+      <input type="checkbox" id="showMap" checked>
+      Mutasd térképen!
+    </label>
+    <div id="mapSection">
+      <div class="map-controls">
+        <label for="mapDateFilter">Ezt a napot tedd a térképre:</label>
+        <select id="mapDateFilter">
+          <option value="">Minden nap</option>
+        </select>
+      </div>
+      <div id="map"></div>
+    </div>
+    <div id="eventList" class="loading">Betöltés…</div>
+  </section>
+
+  <section id="reportsSection" style="display:none">
+    <div id="reportList" class="loading">Betöltés…</div>
+  </section>
 </main>
 <footer id="footer"></footer>
 
@@ -407,8 +481,88 @@ function render(events) {
   }
 }
 
+function renderReports(reports) {
+  const list = document.getElementById('reportList');
+  if (reports.length === 0) {
+    list.className = 'empty';
+    list.textContent = 'Még nincs túrabeszámoló.';
+    return;
+  }
+
+  list.className = '';
+  list.innerHTML = '';
+
+  const sorted = [...reports].sort((a, b) => (b.dateISO || '').localeCompare(a.dateISO || ''));
+  for (const r of sorted) {
+    const card = document.createElement('div');
+    card.className = 'report-card';
+
+    const h3 = document.createElement('h3');
+    h3.textContent = r.title;
+    card.appendChild(h3);
+
+    if (r.dateISO) {
+      const dateEl = document.createElement('div');
+      dateEl.className = 'report-date';
+      dateEl.textContent = parseISO(r.dateISO).toLocaleDateString('hu-HU');
+      card.appendChild(dateEl);
+    }
+
+    if (Array.isArray(r.images) && r.images.length > 0) {
+      const gallery = document.createElement('div');
+      gallery.className = 'report-images';
+      for (const src of r.images) {
+        const a = document.createElement('a');
+        a.href = src;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        const img = document.createElement('img');
+        img.src = src;
+        img.loading = 'lazy';
+        img.alt = r.title;
+        a.appendChild(img);
+        gallery.appendChild(a);
+      }
+      card.appendChild(gallery);
+    }
+
+    if (r.text) {
+      const textEl = document.createElement('div');
+      textEl.className = 'report-text';
+      textEl.innerHTML = r.text.split(/\n\s*\n/).map((p) => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('');
+      card.appendChild(textEl);
+    }
+
+    list.appendChild(card);
+  }
+}
+
+function initTabs() {
+  const tabTours = document.getElementById('tabTours');
+  const tabReports = document.getElementById('tabReports');
+  const toursSection = document.getElementById('toursSection');
+  const reportsSection = document.getElementById('reportsSection');
+
+  tabTours.addEventListener('click', () => {
+    tabTours.classList.add('active');
+    tabReports.classList.remove('active');
+    toursSection.style.display = '';
+    reportsSection.style.display = 'none';
+    if (document.getElementById('showMap').checked) {
+      setTimeout(() => map.invalidateSize(), 0);
+    }
+  });
+  tabReports.addEventListener('click', () => {
+    tabReports.classList.add('active');
+    tabTours.classList.remove('active');
+    reportsSection.style.display = '';
+    toursSection.style.display = 'none';
+  });
+}
+
 async function init() {
   initMap();
+  initTabs();
 
   let data;
   try {
@@ -417,6 +571,14 @@ async function init() {
   } catch (err) {
     document.getElementById('eventList').textContent = 'Nem sikerült betölteni az eseményeket.';
     return;
+  }
+
+  try {
+    const reportsRes = await fetch('reports.json', { cache: 'no-store' });
+    const reportsData = await reportsRes.json();
+    renderReports(reportsData.reports || []);
+  } catch (err) {
+    document.getElementById('reportList').textContent = 'Nem sikerült betölteni a beszámolókat.';
   }
 
   const events = data.events || [];
