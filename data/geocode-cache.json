@@ -182,5 +182,22 @@
   "Dunakiliti, Magyarország": {
     "lat": 47.9662482,
     "lon": 17.2882323
+  },
+  "Hallstatt, Ausztria": {
+    "lat": 47.5347939,
+    "lon": 13.5988875
+  },
+  "Bled, Szlovénia": {
+    "lat": 46.3684202,
+    "lon": 14.1100595
+  },
+  "Fonyód, Magyarország": {
+    "lat": 46.7467521,
+    "lon": 17.54946
+  },
+  "Balatonkáptalanfüred, Magyarország": null,
+  "Balatonfüred, Magyarország": {
+    "lat": 46.9567254,
+    "lon": 17.888892
   }
 }

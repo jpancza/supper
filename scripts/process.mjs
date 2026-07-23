@@ -137,17 +137,50 @@ async function geocode(location, cache) {
 // query when the scraped "location" is missing or too mangled to geocode
 // (e.g. a description paragraph), but the town name shows up in the title
 // anyway ("Naplementés SUP túra Balatonszemesen").
-const KNOWN_TOWNS = [
-  'Balatonszemes', 'Balatonföldvár', 'Balatonfüred', 'Balatonalmádi', 'Balatonvilágos',
-  'Balatonlelle', 'Balatonboglár', 'Balatonakarattya', 'Alsóörs', 'Csopak', 'Zamárdi',
-  'Siófok', 'Keszthely', 'Fonyód', 'Badacsony', 'Révfülöp', 'Tihany', 'Poroszló',
-  'Tiszafüred', 'Szarvas', 'Visegrád', 'Dunaharaszti', 'Szentendre', 'Vác', 'Göd',
-  'Dunakiliti', 'Esztergom', 'Győr', 'Szolnok', 'Gemenc', 'Szeged', 'Tata', 'Dunaújváros',
-];
+// Maps a substring that shows up in scraped text to the canonical name to
+// geocode — usually identical, but a few towns get referenced by a shorter
+// or colloquial form that isn't itself a resolvable Nominatim query (e.g.
+// "Káptalanfüred" without its "Balaton" prefix).
+const KNOWN_TOWNS = {
+  Balatonszemes: 'Balatonszemes', Balatonföldvár: 'Balatonföldvár', Balatonfüred: 'Balatonfüred',
+  Balatonalmádi: 'Balatonalmádi', Balatonvilágos: 'Balatonvilágos', Balatonlelle: 'Balatonlelle',
+  Balatonboglár: 'Balatonboglár', Balatonakarattya: 'Balatonakarattya', Alsóörs: 'Alsóörs',
+  Csopak: 'Csopak', Zamárdi: 'Zamárdi', Siófok: 'Siófok', Keszthely: 'Keszthely',
+  Fonyód: 'Fonyód', Badacsony: 'Badacsony', Révfülöp: 'Révfülöp', Tihany: 'Tihany',
+  Poroszló: 'Poroszló', Tiszafüred: 'Tiszafüred', Szarvas: 'Szarvas', Visegrád: 'Visegrád',
+  Dunaharaszti: 'Dunaharaszti', Szentendre: 'Szentendre', Vác: 'Vác', Göd: 'Göd',
+  Dunakiliti: 'Dunakiliti', Esztergom: 'Esztergom', Győr: 'Győr', Szolnok: 'Szolnok',
+  Gemenc: 'Gemenc', Szeged: 'Szeged', Tata: 'Tata', Dunaújváros: 'Dunaújváros',
+  // Balatonkáptalanfüred isn't its own entry in Nominatim (it's a district of
+  // Balatonfüred, not a separate settlement) — fall back to the parent town.
+  Balatonkáptalanfüred: 'Balatonfüred', Káptalanfüred: 'Balatonfüred',
+  Margitsziget: 'Margitsziget',
+};
+
+// Towns outside Hungary that still show up in Hungarian-organized event
+// titles/descriptions — mapped to the full geocode query (not just ", Magyarország")
+// since a bare town name would otherwise geocode ambiguously or to the wrong country.
+const FOREIGN_TOWNS = {
+  Hallstatt: 'Hallstatt, Ausztria',
+  Bled: 'Bled, Szlovénia',
+};
+
+// Case/inflection-insensitive substring match — Hungarian titles reference towns
+// in inflected forms ("Fonyódi", "Balatonkáptalanfüredi"), and the raw scraped
+// text's capitalization isn't guaranteed to match the canonical town name's.
+function includesTown(text, town) {
+  return text.toLowerCase().includes(town.toLowerCase());
+}
 
 function findKnownTown(text) {
   if (!text) return null;
-  return KNOWN_TOWNS.find((town) => text.includes(town)) || null;
+  const match = Object.keys(KNOWN_TOWNS).find((town) => includesTown(text, town));
+  return match ? KNOWN_TOWNS[match] : null;
+}
+
+function findForeignTown(text) {
+  if (!text) return null;
+  return Object.keys(FOREIGN_TOWNS).find((town) => includesTown(text, town)) || null;
 }
 
 async function geocodeEvents(events) {
@@ -155,6 +188,22 @@ async function geocodeEvents(events) {
   let newLookups = 0;
 
   for (const e of events) {
+    // A foreign town named in the title (Hallstatt, Bled, ...) is trusted over
+    // e.location even when the latter already geocodes fine — organizers often
+    // post trips abroad under their home-club's default address.
+    const foreignTown = findForeignTown(e.title);
+    if (foreignTown) {
+      const query = FOREIGN_TOWNS[foreignTown];
+      const isNew = !(query in cache);
+      const coords = await geocode(query, cache);
+      if (isNew) newLookups += 1;
+      if (coords) {
+        e.lat = coords.lat;
+        e.lon = coords.lon;
+        continue;
+      }
+    }
+
     if (!e.location) continue;
     const isNew = !(e.location in cache);
     const coords = await geocode(e.location, cache);
