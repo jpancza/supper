@@ -1,0 +1,14 @@
+# SUP túrák
+
+> Magyar szervezésű SUP (stand up paddle) túrák gyűjtőoldala — naponta automatikusan frissülő lista a magyarországi (és néhány külföldi) SUP-túrákról, azok időpontjával, helyszínével és időjárás-előrejelzésével.
+
+Az oldal magyar SUP-szervezők (pl. SUPrafel, SUP Budapest, SUP and Go, Old Lake SUP és mások) nyilvános közösségimédia-eseményeit gyűjti össze egy helyre, hogy a paddleboardozni vágyók könnyen megtalálják a közelgő túrákat anélkül, hogy külön-külön kellene követniük minden szervezőt.
+
+## Tartalom
+
+- [Túrák](https://supper.hu/): naponta frissülő, szűrhető/kereshető lista a közelgő SUP-túrákról, dátummal, helyszínnel, szervezővel és időjárás-előrejelzéssel, térképes megjelenítéssel.
+- Gépi feldolgozáshoz: [sitemap.xml](https://supper.hu/sitemap.xml); az oldal minden közelgő túrához schema.org/Event JSON-LD strukturált adatot is közöl.
+
+## Kapcsolat
+
+info@supper.hu
