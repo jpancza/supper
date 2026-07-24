@@ -5,26 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SUP túrák | Magyar szervezésű evezős túrák egy helyen</title>
 <meta name="description" content="Magyar szervezésű SUP túrák gyűjtőoldala — hogy ne maradj le semmiről!">
+<link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root {
-    --bg: #f6f9fb;
+    --bg: #f4f8fa;
     --card-bg: #ffffff;
-    --text: #16232c;
-    --muted: #5b6b76;
-    --accent: #0e7c86;
-    --accent-2: #e4633f;
-    --border: #e1e8ec;
+    --text: #0d1f2e;
+    --muted: #56707e;
+    --accent: #0c8fa0;
+    --accent-2: #0a3f68;
+    --border: #dde6ea;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #0f1618;
-      --card-bg: #172225;
-      --text: #e8f0f2;
-      --muted: #9fb0b8;
-      --accent: #3fc4c9;
-      --accent-2: #ff8b63;
-      --border: #263338;
+      --bg: #0a1620;
+      --card-bg: #12222c;
+      --text: #e7f1f5;
+      --muted: #93aab5;
+      --accent: #2ed6df;
+      --accent-2: #6fa8e0;
+      --border: #223640;
     }
   }
   * { box-sizing: border-box; }
@@ -36,20 +38,50 @@
     line-height: 1.5;
   }
   header {
-    padding: 2.5rem 1.25rem 1.5rem;
+    padding: 1.6rem 1.25rem 0;
     max-width: 780px;
     margin: 0 auto;
   }
-  header h1 {
-    margin: 0 0 0.4rem;
-    font-size: 1.9rem;
+  .hero-wave {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    padding: 1.7rem 1.7rem 1.6rem;
+  }
+  .hero-wave .wave-bg {
+    position: absolute;
+    inset: auto 0 0 0;
+    width: 100%;
+    height: 72px;
+    display: block;
+  }
+  .hero-wave .hero-content {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1.1rem;
   }
-  header p {
-    color: var(--muted);
+  .hero-wave .logo-mark-img {
+    height: 64px;
+    width: auto;
+    display: block;
+    flex: 0 0 auto;
+  }
+  header h1 {
     margin: 0;
+    font-size: 2rem;
+    font-family: "Century Gothic", "Avenir Next", "Segoe UI", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header h1 .sup { color: var(--accent-2); }
+  header h1 .turak { color: var(--accent); }
+  header p {
+    position: relative;
+    color: var(--muted);
+    margin: 0.6rem 0 0;
     max-width: 60ch;
   }
   main {
@@ -139,10 +171,12 @@
     text-align: center;
   }
   .event-date .day {
+    font-family: "Century Gothic", "Avenir Next", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent);
     line-height: 1;
+    font-variant-numeric: tabular-nums;
   }
   .event-date .dow {
     font-size: 0.72rem;
@@ -309,8 +343,19 @@
 </head>
 <body>
 <header>
-  <h1>🏄 SUP túrák</h1>
-  <p>Magyar szervezésű SUP túrák egy helyen, hogy ne csak a fényképes beszámolókat lásd. Az oldal automatikusan figyeli a szervezők Facebook-oldalait és honlapjait.</p>
+  <div class="hero-wave">
+    <div class="hero-content">
+      <img class="logo-mark-img" src="images/logo.png" alt="SUP túrák logó" width="292" height="420">
+      <div>
+        <h1><span class="sup">SUP</span> <span class="turak">túrák</span></h1>
+        <p>Magyar szervezésű SUP túrák egy helyen, hogy ne csak a fényképes beszámolókat lásd. Az oldal automatikusan figyeli a szervezők Facebook-oldalait és honlapjait.</p>
+      </div>
+    </div>
+    <svg class="wave-bg" viewBox="0 0 700 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,55 C60,30 120,30 180,55 C240,80 300,80 360,55 C420,30 480,30 540,55 C600,80 660,80 700,55 L700,90 L0,90 Z" fill="var(--accent)" opacity="0.14"/>
+      <path d="M0,65 C70,45 140,45 210,65 C280,85 350,85 420,65 C490,45 560,45 630,65 C665,75 685,75 700,68 L700,90 L0,90 Z" fill="var(--accent)" opacity="0.22"/>
+    </svg>
+  </div>
 </header>
 <main>
   <div class="tabs">
