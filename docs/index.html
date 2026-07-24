@@ -5,8 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SUP túrák | Magyar szervezésű evezős túrák egy helyen</title>
 <meta name="description" content="Magyar szervezésű SUP túrák gyűjtőoldala — hogy ne maradj le semmiről!">
+<link rel="canonical" href="https://supper.hu/">
 <link rel="icon" type="image/png" sizes="64x64" href="images/favicon-64.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SUP túrák">
+<meta property="og:locale" content="hu_HU">
+<meta property="og:url" content="https://supper.hu/">
+<meta property="og:title" content="SUP túrák | Magyar szervezésű evezős túrák egy helyen">
+<meta property="og:description" content="Magyar szervezésű SUP túrák gyűjtőoldala — hogy ne maradj le semmiről!">
+<meta property="og:image" content="https://supper.hu/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SUP túrák | Magyar szervezésű evezős túrák egy helyen">
+<meta name="twitter:description" content="Magyar szervezésű SUP túrák gyűjtőoldala — hogy ne maradj le semmiről!">
+<meta name="twitter:image" content="https://supper.hu/images/og-image.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root {
@@ -216,9 +232,24 @@
   footer {
     max-width: 780px;
     margin: 0 auto;
-    padding: 1rem 1.25rem 3rem;
+    padding: 2rem 1.25rem 3rem;
     color: var(--muted);
     font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+  footer .disclaimer {
+    margin: 0 0 0.8rem;
+    max-width: 60ch;
+  }
+  footer .contact {
+    margin: 0 0 1rem;
+  }
+  footer .contact a {
+    color: var(--accent);
+  }
+  footer #lastUpdated {
+    margin: 0;
+    font-size: 0.8rem;
   }
   .empty, .loading {
     color: var(--muted);
@@ -394,7 +425,11 @@
     <div id="reportList" class="loading">Betöltés…</div>
   </section>
 </main>
-<footer id="footer"></footer>
+<footer id="footer">
+  <p class="disclaimer">Ez egy nem hivatalos, automatikusan frissülő gyűjtőoldal — nem a túraszervezők üzemeltetik. Az adatok (időpont, helyszín, ár) a szervezők nyilvános Facebook-oldalairól származnak automatikusan, ezért előfordulhat pontatlanság vagy elmaradás — indulás előtt mindig nézd meg a szervező saját oldalát. Az időjárás-előrejelzés tájékoztató jellegű.</p>
+  <p class="contact">Hibát találtál, vagy szeretnéd, hogy felvegyük a túrátokat? Írj: <a href="mailto:info@supper.hu">info@supper.hu</a></p>
+  <p id="lastUpdated"></p>
+</footer>
 
 <div id="lightbox" class="lightbox" style="display:none">
   <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Bezárás">✕</button>
@@ -731,6 +766,51 @@ function initTabs() {
   });
 }
 
+// Google gazdag találati (rich results) esemény-kártyáihoz: csak a közelgő,
+// helyszínnel rendelkező eseményeket tesszük közzé, mert az
+// OfflineEventAttendanceMode fizikai helyszínt vár el.
+function buildEventStructuredData(events) {
+  const todayISO = new Date().toISOString().slice(0, 10);
+  const upcoming = events
+    .filter((e) => e.dateISO && e.dateISO >= todayISO && e.location)
+    .slice(0, 20);
+
+  if (upcoming.length === 0) return null;
+
+  const items = upcoming.map((e) => {
+    let startDate = e.dateISO;
+    if (e.timeText && /^\d{1,2}:\d{2}$/.test(e.timeText.trim())) {
+      const [h, m] = e.timeText.trim().split(':');
+      startDate = `${e.dateISO}T${h.padStart(2, '0')}:${m}:00`;
+    }
+    const item = {
+      '@type': 'Event',
+      name: e.title,
+      startDate,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      url: e.url,
+      organizer: { '@type': 'Organization', name: e.organizerName },
+      location: { '@type': 'Place', name: e.location },
+    };
+    if (e.lat != null && e.lon != null) {
+      item.location.geo = { '@type': 'GeoCoordinates', latitude: e.lat, longitude: e.lon };
+    }
+    return item;
+  });
+
+  return { '@context': 'https://schema.org', '@graph': items };
+}
+
+function injectStructuredData(events) {
+  const data = buildEventStructuredData(events);
+  if (!data) return;
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(data);
+  document.head.appendChild(script);
+}
+
 async function init() {
   initMap();
   initTabs();
@@ -779,15 +859,19 @@ async function init() {
   });
 
   render(events);
+  injectStructuredData(events);
 
-  const footer = document.getElementById('footer');
+  const lastUpdated = document.getElementById('lastUpdated');
   if (data.lastUpdated) {
     const updated = new Date(data.lastUpdated);
-    footer.textContent = `Utolsó frissítés: ${updated.toLocaleString('hu-HU')}`;
+    lastUpdated.textContent = `Utolsó frissítés: ${updated.toLocaleString('hu-HU')}`;
   }
 }
 
 init();
 </script>
+
+<script data-goatcounter="https://supper.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

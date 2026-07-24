@@ -32,14 +32,26 @@ function stripAccents(s) {
 function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true } = {}) {
   if (!line) return null;
   const yearMatch = line.match(/(\d{4})\./);
-  const monthDayMatch = line.match(/([A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)\.?\s*(\d{1,2})\./);
+  const monthDayRe = /([A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)\.?\s*(\d{1,2})\./g;
+  const monthDayMatches = [...line.matchAll(monthDayRe)];
   const timeMatch = line.match(/(\d{1,2}):(\d{2})/);
-  if (!monthDayMatch) return null;
+  if (monthDayMatches.length === 0) return null;
 
-  const monthWord = stripAccents(monthDayMatch[1].toLowerCase()).slice(0, 3);
-  const monthIndex = MONTHS[monthWord];
-  if (monthIndex === undefined) return null;
-  const day = parseInt(monthDayMatch[2], 10);
+  const toMonthDay = (m) => {
+    const monthWord = stripAccents(m[1].toLowerCase()).slice(0, 3);
+    const monthIndex = MONTHS[monthWord];
+    return monthIndex === undefined ? null : { monthIndex, day: parseInt(m[2], 10) };
+  };
+
+  const start = toMonthDay(monthDayMatches[0]);
+  if (!start) return null;
+  // Multi-day events ("júl. 23. – júl. 26.") list a second month/day after
+  // the dash. Use the LATER of the two for the "has this passed" check below,
+  // so a still-running event whose start day is yesterday doesn't get bumped
+  // a full year forward just because its first day is technically in the past.
+  const end = monthDayMatches.length > 1
+    ? toMonthDay(monthDayMatches[monthDayMatches.length - 1])
+    : null;
 
   let year = yearMatch ? parseInt(yearMatch[1], 10) : now.getFullYear();
   if (!yearMatch && assumeUpcoming) {
@@ -48,7 +60,8 @@ function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true
     // must mean it hasn't happened yet, i.e. it's next year's occurrence.
     // On a fallback/past listing the same date-less line is far more likely
     // to just be this year's (already-happened) event, so leave it as-is.
-    const candidate = new Date(year, monthIndex, day);
+    const reference = end || start;
+    const candidate = new Date(year, reference.monthIndex, reference.day);
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     if (candidate < today) year += 1;
   }
@@ -56,7 +69,7 @@ function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true
   const hh = timeMatch ? parseInt(timeMatch[1], 10) : 0;
   const mm = timeMatch ? parseInt(timeMatch[2], 10) : 0;
   const pad = (n) => String(n).padStart(2, '0');
-  const dateISO = `${year}-${pad(monthIndex + 1)}-${pad(day)}`;
+  const dateISO = `${year}-${pad(start.monthIndex + 1)}-${pad(start.day)}`;
   const timeText = timeMatch ? `${pad(hh)}:${pad(mm)}` : null;
   return { dateISO, timeText };
 }
