@@ -1,17 +1,6 @@
 {
-  "scrapedAt": "2026-07-24T07:42:29.802Z",
+  "scrapedAt": "2026-07-25T07:28:30.526Z",
   "events": [
-    {
-      "id": "fb-1575845237277305",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "rawWhen": "2026. július 24., péntek, 18:00–20:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1575845237277305/",
-      "source": "facebook"
-    },
     {
       "id": "fb-1742583116928758",
       "title": "Tihany Sajkodi Öböl sup túra",
@@ -435,7 +424,7 @@
       "title": "SUP jóga",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
-      "rawWhen": "2026. július 24., péntek, 18:00–19:30 CEST",
+      "rawWhen": "2026. július 31., péntek, 18:00–19:30 CEST",
       "assumeUpcoming": true,
       "location": "Kapcsolódj ki velünk a természetben, és tapasztald meg a jóga és a SUP különleges találkozását! A víz nyugalma, a finom egyensúlyi kihívások és a … Továbbiak",
       "url": "https://www.facebook.com/events/1276106657931027/",
@@ -541,17 +530,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1972104563443329",
-      "title": "Naplementés SUP jóga a Balatonon",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "rawWhen": "2026. július 24., péntek, 19:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1972104563443329/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1000920522710711",
       "title": "Naplementés SUP túra",
       "organizerId": "support-fonyod",
@@ -618,22 +596,11 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1027108263449473",
-      "title": "Naplemente SUP túra - Sajkodról",
-      "organizerId": "balatonsup",
-      "organizerName": "Balatonsup",
-      "rawWhen": "2026. július 24., péntek, 18:30–20:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Tihany (Veszprém megye, Magyarország)",
-      "url": "https://www.facebook.com/events/1027108263449473/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1370500938294676",
-      "title": "Augusztus 20-23. aktívan Ausztriában",
+      "title": "Nyári szezonkezdés aktívan Ausztriában",
       "organizerId": "balatonsup",
       "organizerName": "Balatonsup",
-      "rawWhen": "2026. augusztus 20., csütörtök, 10:00 CEST",
+      "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
       "assumeUpcoming": false,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
@@ -644,7 +611,7 @@
       "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
-      "rawWhen": "2026. július 24., péntek, 19:30–21:30 CEST",
+      "rawWhen": "2026. július 31., péntek, 19:30–21:30 CEST",
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
