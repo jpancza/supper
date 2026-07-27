@@ -370,6 +370,23 @@ function toProcessedEvent(raw) {
   };
 }
 
+// Flags events that are probably the same real-world trip listed twice —
+// same organizer, same date+time, neither already hidden. This happens when
+// an organizer creates a fresh Facebook event instead of editing the old
+// one (see the byUrl merge loop above). Only warns; nothing is hidden
+// automatically, since we can't tell from scraped data alone which of the
+// two is the stale one — a human has to look at both URLs and decide.
+function findPossibleDuplicates(events) {
+  const groups = new Map();
+  for (const e of events) {
+    if (e.hidden || !e.dateISO) continue;
+    const key = `${e.organizerId}|${e.dateISO}|${e.timeText || ''}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+  return [...groups.values()].filter((group) => group.length > 1);
+}
+
 async function main() {
   const raw = JSON.parse(await readFile(RAW_EVENTS_PATH, 'utf-8'));
   const existing = await loadExisting();
@@ -389,6 +406,15 @@ async function main() {
   // being absent from one run.
   const byUrl = new Map(existing.map((e) => [e.url, e]));
   for (const e of scraped) {
+    // An organizer sometimes recreates a Facebook event instead of editing
+    // the original (same trip, new event ID) — the stale one never
+    // disappears from scraping since it's still a live FB event, just not
+    // the one people should book. Manually mark it `"hidden": true` in
+    // docs/events.json once identified (see findPossibleDuplicates below,
+    // and the "Duplikátum-események" section in README.md); preserve that
+    // flag across re-scrapes here, since this loop otherwise fully replaces
+    // the record for any URL still seen.
+    if (byUrl.get(e.url)?.hidden) e.hidden = true;
     byUrl.set(e.url, e);
   }
 
@@ -409,6 +435,16 @@ async function main() {
     `${droppedByDate} kihagyva datum hianya/lezart foglalas miatt, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ` +
     `${newLookups} uj geokodolas, ${fallbackResolved} telepules-nev alapjan, ${withWeather} idojaras-adat).`
   );
+
+  const duplicateGroups = findPossibleDuplicates(merged);
+  if (duplicateGroups.length > 0) {
+    console.warn(`\nFigyelem: ${duplicateGroups.length} lehetseges duplikatum (ugyanaz a szervezo+datum+idopont):`);
+    for (const group of duplicateGroups) {
+      console.warn(`  ${group[0].organizerName}, ${group[0].dateISO} ${group[0].timeText || ''}:`);
+      for (const e of group) console.warn(`    - ${e.title} — ${e.url}`);
+    }
+    console.warn('  A valodi duplikatumot kezzel jelold "hidden": true mezovel a docs/events.json-ban.');
+  }
 }
 
 main().catch((err) => {

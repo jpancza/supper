@@ -836,9 +836,13 @@ async function init() {
     }
   }
 
-  const events = data.events || [];
+  // A "hidden": true esemény (pl. egy szervező által véletlenül duplán
+  // létrehozott FB-esemény) az adatban megmarad, csak nem jelenik meg —
+  // ld. README.md "Duplikátum-események" szakasza.
+  const events = (data.events || []).filter((e) => !e.hidden);
   const organizerSelect = document.getElementById('organizerFilter');
-  const organizers = [...new Map(events.map((e) => [e.organizerId, e.organizerName])).entries()];
+  const organizers = [...new Map(events.map((e) => [e.organizerId, e.organizerName])).entries()]
+    .sort((a, b) => a[1].localeCompare(b[1], 'hu'));
   for (const [id, name] of organizers) {
     const opt = document.createElement('option');
     opt.value = id;

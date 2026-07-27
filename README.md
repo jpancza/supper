@@ -35,6 +35,12 @@ A `"type": "funrafting"` forrás a funrafting.hu túranaptár-oldalait olvassa (
 
 Ha egy esemény nem fogható be automatikusan (pl. zárt Facebook-csoportban hirdetik), írd bele kézzel a `docs/events.json` `events` tömbjébe egy `"source": "manual"` mezővel ellátott objektumként — ezeket az automatikus frissítés megtartja, nem írja felül.
 
+## Duplikátum-események
+
+Előfordul, hogy egy szervező egy meglévő szerkesztése helyett egy vadonatúj Facebook-eseményt hoz létre ugyanarra a túrára (más esemény-ID, gyakran kicsit más cím) — ilyenkor a naptárban ugyanaz a túra két bejegyzésként jelenik meg. A `npm run process` a futás végén kiírja a valószínű duplikátumokat (ugyanaz a szervező + dátum + időpont), de automatikusan nem dönt köztük, mert az adatokból nem derül ki, melyik az elavult.
+
+Ha kézzel azonosítottad a felesleges bejegyzést, tedd rá a `"hidden": true` mezőt a `docs/events.json`-ban az adott eseményre. Ez nem törli — az adat megmarad, csak a weboldal nem jeleníti meg —, és a napi automata frissítés is megtartja ezt a jelölést, amíg a szervező FB-oldalán az az esemény még létezik.
+
 ## Túrabeszámoló hozzáadása
 
 A "Túrabeszámolók" fül tartalma a `docs/reports.json`-ban van, ezt teljesen kézzel karbantartod (semmilyen script nem nyúl hozzá). Egy bejegyzés:

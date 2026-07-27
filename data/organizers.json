@@ -138,5 +138,12 @@
     "sources": [
       { "type": "funrafting", "url": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag" }
     ]
+  },
+  {
+    "id": "riversup",
+    "name": "RiverSUP",
+    "sources": [
+      { "type": "facebook", "url": "https://www.facebook.com/RiverSUP-100916654870918" }
+    ]
   }
 ]

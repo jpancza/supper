@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T11:30:52.229Z",
+  "lastUpdated": "2026-07-27T12:17:51.390Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -782,10 +782,10 @@
       "lon": 19.066566,
       "weather": {
         "tempMax": 35.4,
-        "tempMin": 21.6,
+        "tempMin": 21.4,
         "precipProbability": 0,
-        "windSpeed": 9.6,
-        "windDirection": 122
+        "windSpeed": 8.4,
+        "windDirection": 115
       }
     },
     {
@@ -1021,6 +1021,7 @@
       "location": "Gondolkoztál már azon, milyen lehet egy olyan folyón evezni, ahol teljesen elfelejtheted a rohanást és a kemény sodrást? A Bodrog pont ilyen! A tiszalöki duzzasztás miatt a víz itt… Továbbiak",
       "url": "https://www.facebook.com/events/1050075824156673/",
       "source": "facebook",
+      "hidden": true,
       "lat": 48.3009115,
       "lon": 21.5595025,
       "weather": {
