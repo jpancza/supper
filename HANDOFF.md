@@ -26,6 +26,7 @@ data/organizers.json  → scripts/scrape.mjs  → data/raw-events.json → scrip
 ```
 
 - **`scripts/scrape.mjs`** — Playwright headless Chrome, bejelentkezés nélkül olvassa a szervezők FB "Események" fülét (`/upcoming_hosted_events`, ill. `profile.php?id=...&sk=upcoming_hosted_events` a `/p/Name-id/` típusú oldalaknál). Csak nyers adatot ment — **nem** parse-olja a dátumot, nem szűr, nem geokódol. Lassú (~5 perc 19 szervezőnél).
+- **`scripts/scrape-funrafting.mjs`** (2026-07-27-től) — külön modulban, nem a Facebook-scraper része. A funrafting.hu túranaptár-oldalát (`/tudatosturazo/sup-tura-magyarorszag`) olvassa — nem Facebook-forrás, sima szerveroldalt renderelt HTML. A naptárban SUP mellett Kenu/Kajak túrák is szerepelnek; ezeket nem itt szűri ki (ez a modul is "nyers adatot ment" elvű), hanem a lefelé irányuló `isSupRelated` cím-kulcsszó-szűrés dobja el természetesen, mert csak a SUP-túráknak van valódi cím-térképe (`titleByHref`, a funrafting saját "Aktív túrák" kártyáinak `img[alt]`-jából). A "Foglalás lezárult" (nem aktív) időpontokat a `process.mjs` dobja el (`raw.available === false`), nem a scraper. **Fontos csapda, amit már megoldottunk:** a funrafting egy visszatérő túratípushoz (pl. "Munka utáni SUP túra") mindig UGYANAZT az URL-t adja minden dátumra — a `process.mjs` `byUrl`-alapú "esemény-megőrzés" logikája emiatt összemosná a különböző időpontokat egyetlen eseménnyé. Megoldás: a scraper minden esemény URL-jéhez dátum-fragmentet fűz (`...#2026.08.23`), ez a böngészőben ártalmatlan (figyelmen kívül hagyja), de a `byUrl` map-nek külön kulcs.
 - **`scripts/process.mjs`** — a nyers adatból építi a `docs/events.json`-t: magyar dátum-parse, kulcsszó-szűrés, geokódolás (Nominatim, cache-elve `data/geocode-cache.json`-ban), időjárás (Open-Meteo, csak 7 napon belüli + ismert koordinátájú eseményekhez). **Gyors (~2 mp), nincs Facebook-hívás.**
   - **Esemény-megőrzés (2026-07-23-től):** a `byUrl` map a *teljes korábbi* `docs/events.json`-ból indul (nem csak a `source:"manual"` elemekből!), és a mai scrape csak hozzáad/frissít URL szerint. Egy esemény soha nem törlődik pusztán azért, mert egy adott napi futásból hiányzik (pl. mert a szervezője időközben "van közelgő eseménye" módba váltott a Facebookon, és a Korábbiak-lista már nem adja vissza). Ez egy valós hibából lett javítva — korábban a nem-kézi események simán eltűntek, ha a szervezőjük FB-állapota változott.
 - **`docs/reports.json`** — teljesen kézzel karbantartott, **semmilyen script nem nyúl hozzá**. A "Túrabeszámolók" fül tartalma (blogszerű bejegyzések, saját túrákról). Séma és hozzáadás menete a README "Túrabeszámoló hozzáadása" szakaszában.
@@ -36,7 +37,7 @@ data/organizers.json  → scripts/scrape.mjs  → data/raw-events.json → scrip
 
 ## Jelenlegi állapot
 
-- **19 szervező** követve (lista: `data/organizers.json`)
+- **20 szervező** követve (lista: `data/organizers.json`) — ebből 19 Facebook-forrás, 1 (`funrafting`) a funrafting.hu túranaptárát olvassa, nem Facebookot.
 - **73 esemény** a `docs/events.json`-ban (a szám naponta változik)
 - **3 túrabeszámoló** a `docs/reports.json`-ban (Keszthely–Zala, Szekszárd–Sárvíz, Millstätter-tó/Ausztria), mindegyiknél legalább 1 fotó
 - Weboldal funkciók:

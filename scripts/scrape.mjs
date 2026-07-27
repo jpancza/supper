@@ -16,6 +16,7 @@ import Parser from 'rss-parser';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { scrapeFunraftingCalendar } from './scrape-funrafting.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -200,6 +201,8 @@ async function main() {
         scraped.push(...(await scrapeFacebookOrganizer(page, organizer, source)));
       } else if (source.type === 'rss') {
         scraped.push(...(await scrapeRssOrganizer(organizer, source)));
+      } else if (source.type === 'funrafting') {
+        scraped.push(...(await scrapeFunraftingCalendar(page, organizer, source)));
       }
     }
   }

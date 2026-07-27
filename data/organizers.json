@@ -131,5 +131,12 @@
     "sources": [
       { "type": "facebook", "url": "https://www.facebook.com/supgonyu" }
     ]
+  },
+  {
+    "id": "funrafting",
+    "name": "Funrafting (Tudatos Túrázó)",
+    "sources": [
+      { "type": "funrafting", "url": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag" }
+    ]
   }
 ]

@@ -172,6 +172,10 @@ const KNOWN_TOWNS = {
   // Balatonfüred, not a separate settlement) — fall back to the parent town.
   Balatonkáptalanfüred: 'Balatonfüred', Káptalanfüred: 'Balatonfüred',
   Margitsziget: 'Margitsziget',
+  // funrafting.hu calendar locations ("Csepel - Molnár-sziget", "Ráckeve -
+  // Angyali-sziget", "Rácalmási-szigetek") name a district/town plus an
+  // unresolvable island name — geocode the town part instead.
+  Csepel: 'Csepel', Ráckeve: 'Ráckeve', Rácalmás: 'Rácalmás',
   // Rivers/lakes named directly in the title when the scraped "location" is
   // just the event description (no real address was found on the page).
   Bodrog: 'Bodrog', 'Tisza-tó': 'Tisza-tó', 'Tisza-tavon': 'Tisza-tó',
@@ -326,6 +330,29 @@ function toProcessedEvent(raw) {
     };
   }
 
+  if (raw.source === 'funrafting') {
+    // Booking already closed ("Foglalás lezárult") — the calendar keeps
+    // showing these, but they're no longer something a visitor can join.
+    if (raw.available === false) return null;
+    // Dates here are already unambiguous ("2026.08.23", or "2026.08.14-16"
+    // for a multi-day trip) — no month-name/year-guessing needed, just pull
+    // the leading YYYY.MM.DD out.
+    const m = (raw.rawWhen || '').match(/^(\d{4})\.(\d{2})\.(\d{2})/);
+    if (!m) return null;
+    return {
+      id: raw.id,
+      title: raw.title,
+      organizerId: raw.organizerId,
+      organizerName: raw.organizerName,
+      dateISO: `${m[1]}-${m[2]}-${m[3]}`,
+      timeText: null,
+      rawWhen: raw.rawWhen,
+      location: raw.location,
+      url: raw.url,
+      source: 'funrafting',
+    };
+  }
+
   const dateInfo = parseHungarianEventDate(raw.rawWhen, { assumeUpcoming: raw.assumeUpcoming });
   if (!dateInfo) return null;
 
@@ -379,7 +406,7 @@ async function main() {
 
   console.log(
     `Kesz: ${merged.length} esemeny (${existing.length} korabban ismert, ${newUrls} uj a mai scrapelesbol, ` +
-    `${droppedByDate} kihagyva datum hianyaban, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ` +
+    `${droppedByDate} kihagyva datum hianya/lezart foglalas miatt, ${droppedByKeyword} kiszurve mert nem SUP/evezes, ` +
     `${newLookups} uj geokodolas, ${fallbackResolved} telepules-nev alapjan, ${withWeather} idojaras-adat).`
   );
 }

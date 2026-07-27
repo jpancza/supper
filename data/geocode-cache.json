@@ -238,5 +238,18 @@
   "Rákóczi út 56, Sárospatak 3950, Magyarország": {
     "lat": 48.31977,
     "lon": 21.5667
+  },
+  "Csepel - Molnár-sziget": null,
+  "Ráckeve - Angyali-sziget": {
+    "lat": 47.1760583,
+    "lon": 18.9417023
+  },
+  "Göd": {
+    "lat": 47.6834336,
+    "lon": 19.1341568
+  },
+  "Ráckeve, Magyarország": {
+    "lat": 47.1609765,
+    "lon": 18.9436266
   }
 }

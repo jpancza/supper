@@ -6,7 +6,7 @@ Automatikusan összegyűjti a szervezők Facebook-oldalain és RSS-forrásain me
 
 Két lépésre van szétválasztva, hogy a feldolgozási logika (dátum-parse, szűrés, geokódolás, időjárás) módosítása után ne kelljen újra a lassú Facebook-scrapelést lefuttatni:
 
-- `data/organizers.json` — a követett szervezők listája, mindegyikhez egy vagy több forrás (`facebook` vagy `rss`).
+- `data/organizers.json` — a követett szervezők listája, mindegyikhez egy vagy több forrás (`facebook`, `rss`, vagy `funrafting`).
 - `scripts/scrape.mjs` (**1. lépés — `npm run scrape`**) — headless böngészővel (Playwright) beolvassa a Facebook-oldalak nyilvános "Események" fülét, ill. az RSS-forrásokat, és a nyers, feldolgozatlan találatokat elmenti ide: `data/raw-events.json`. Ez a lassú, Facebook-függő lépés.
 - `scripts/process.mjs` (**2. lépés — `npm run process`**) — a `data/raw-events.json`-t alakítja a végleges `docs/events.json`-ná: magyar dátumok értelmezése, SUP/evezés-szűrés, kézi események beillesztése, geokódolás (OpenStreetMap Nominatim), időjárás (Open-Meteo). Nincs hozzá Facebook-hozzáférés — bátran újrafuttatható, ha csak ezen a logikán változtatunk.
 - `npm run fetch` — a fenti kettő egymás után (ezt hívja a GitHub Action).
@@ -28,6 +28,8 @@ Szerkeszd a `data/organizers.json`-t:
 ```
 
 Ha egy szervezőnek van saját honlapja RSS-feeddel, azt `"type": "rss"` forrásként add hozzá.
+
+A `"type": "funrafting"` forrás a funrafting.hu túranaptár-oldalait olvassa (`scripts/scrape-funrafting.mjs`, külön modulban, nem a Facebook-scraper része) — csak a foglalható ("aktív") időpontokat veszi fel, dátum szerint csoportosítva a naptárból, nem a Facebookról.
 
 ## Esemény kézi hozzáadása
 

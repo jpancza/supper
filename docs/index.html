@@ -535,7 +535,7 @@ function updateMap(filtered) {
         <strong>${escapeHtml(e.title)}</strong><br>
         ${e.dateISO ? parseISO(e.dateISO).toLocaleDateString('hu-HU') : ''} ${e.timeText || ''}<br>
         ${escapeHtml(e.organizerName)}<br>
-        <a href="${e.url}" target="_blank" rel="noopener">Megnyitás Facebookon</a>
+        <a href="${e.url}" target="_blank" rel="noopener">${e.source === 'facebook' ? 'Megnyitás Facebookon' : 'Részletek megnyitása'}</a>
       </div>
     `;
     L.marker([e.lat, e.lon]).bindPopup(popup).addTo(markersLayer);
