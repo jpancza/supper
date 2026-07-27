@@ -777,25 +777,42 @@ function buildEventStructuredData(events) {
 
   if (upcoming.length === 0) return null;
 
-  const items = upcoming.map((e) => {
-    let startDate = e.dateISO;
-    if (e.timeText && /^\d{1,2}:\d{2}$/.test(e.timeText.trim())) {
-      const [h, m] = e.timeText.trim().split(':');
-      startDate = `${e.dateISO}T${h.padStart(2, '0')}:${m}:00`;
+  const combineDateTime = (dateISO, timeText) => {
+    if (!dateISO) return null;
+    if (timeText && /^\d{1,2}:\d{2}$/.test(timeText.trim())) {
+      const [h, m] = timeText.trim().split(':');
+      return `${dateISO}T${h.padStart(2, '0')}:${m}:00`;
     }
+    return dateISO;
+  };
+
+  const items = upcoming.map((e) => {
     const item = {
       '@type': 'Event',
       name: e.title,
-      startDate,
+      // A short, factual summary synthesized from data we already show on
+      // the card — Google flags a missing "description" otherwise, and we
+      // have no real per-event description text (Facebook's isn't scraped).
+      description: `${e.title} — ${e.organizerName} szervezésében.`,
+      startDate: combineDateTime(e.dateISO, e.timeText),
       eventStatus: 'https://schema.org/EventScheduled',
       eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
       url: e.url,
       organizer: { '@type': 'Organization', name: e.organizerName },
-      location: { '@type': 'Place', name: e.location },
+      // schema.org accepts a plain string for Place.address; reusing the
+      // same text as `name` is redundant but satisfies the optional field
+      // Google's Rich Results check otherwise flags as missing.
+      location: { '@type': 'Place', name: e.location, address: e.location },
     };
+    if (e.organizerUrl) item.organizer.url = e.organizerUrl;
     if (e.lat != null && e.lon != null) {
       item.location.geo = { '@type': 'GeoCoordinates', latitude: e.lat, longitude: e.lon };
     }
+    // Only set when the source text actually stated an end (multi-day trips,
+    // or a same-day time range) — most events are a single point in time
+    // and get no endDate, which schema.org treats as fine either way.
+    const endDate = combineDateTime(e.endDateISO || e.dateISO, e.endTimeText);
+    if (e.endDateISO || e.endTimeText) item.endDate = endDate;
     return item;
   });
 

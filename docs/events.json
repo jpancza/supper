@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T12:17:51.390Z",
+  "lastUpdated": "2026-07-27T15:31:28.623Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -8,6 +8,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2020-07-25",
       "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "18:30",
       "rawWhen": "2020. július 25., szombat, 9:00–18:30 CEST",
       "location": "HULLADÉKVÁLOGATÁS: Dinnyéshát Kikötőben",
       "url": "https://www.facebook.com/events/196206901787809/",
@@ -22,6 +24,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2021-06-26",
       "timeText": "08:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
       "rawWhen": "2021. június 26., szombat, 8:00–17:00 CEST",
       "location": "A Siófoki Kajak-kenu Pont a szabadidősportot",
       "url": "https://www.facebook.com/events/433071114399367/",
@@ -36,6 +40,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2022-07-16",
       "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2022. július 16., szombat, 10:00 CEST",
       "location": "A Siófoki Kajak-kenu Pont a szabadidősportot",
       "url": "https://www.facebook.com/events/661620218483353/",
@@ -50,6 +56,8 @@
       "organizerName": "SupZone",
       "dateISO": "2022-08-26",
       "timeText": "10:00",
+      "endDateISO": "2022-08-28",
+      "endTimeText": "20:00",
       "rawWhen": "2022. aug. 26., 10:00 – 2022. aug. 28., 20:00 CEST",
       "location": "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak",
       "url": "https://www.facebook.com/events/437744534809816/",
@@ -64,6 +72,8 @@
       "organizerName": "SupZone",
       "dateISO": "2023-02-23",
       "timeText": "12:00",
+      "endDateISO": "2023-02-26",
+      "endTimeText": "16:00",
       "rawWhen": "2023. febr. 23., 12:00 – 2023. febr. 26., 16:00 CET",
       "location": "Albertirsai út 10., Budapest (Magyarország)",
       "url": "https://www.facebook.com/events/901964684478317/",
@@ -78,6 +88,8 @@
       "organizerName": "SupZone",
       "dateISO": "2023-06-16",
       "timeText": "13:00",
+      "endDateISO": "2023-06-18",
+      "endTimeText": "00:00",
       "rawWhen": "2023. jún. 16., 13:00 – 2023. jún. 18., 0:00 CEST",
       "location": "SUP-oznál végre Budapesten? Jó helyen jársz. Paddleboarding @ Budapest.",
       "url": "https://www.facebook.com/events/2040818256309021/",
@@ -92,6 +104,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2023-06-24",
       "timeText": "08:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2023. június 24., szombat, 8:00 CEST",
       "location": "A siófoki Nagystrand a Balaton egyik legnagyobb és leglátogatottabb strandja.",
       "url": "https://www.facebook.com/events/278106637910025/",
@@ -106,6 +120,8 @@
       "organizerName": "SupZone",
       "dateISO": "2024-02-22",
       "timeText": "12:00",
+      "endDateISO": "2024-02-25",
+      "endTimeText": "17:00",
       "rawWhen": "2024. febr. 22., 12:00 – 2024. febr. 25., 17:00 CET",
       "location": "A Hungexpo Zrt. Magyarország elismerten elsőszámú kiállításszervező cége.",
       "url": "https://www.facebook.com/events/2725885124228702/",
@@ -118,6 +134,8 @@
       "organizerName": "SUPrise",
       "dateISO": "2024-07-12",
       "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2024. július 12., péntek, 10:30 CEST",
       "location": "Keszthely Városi Strand",
       "url": "https://www.facebook.com/events/799483498977715/",
@@ -132,6 +150,8 @@
       "organizerName": "SUPrise",
       "dateISO": "2024-07-13",
       "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2024. július 13., szombat, 11:00 CEST",
       "location": "Eastern Balatonföldvár Beach, Somogyi Béla utca, Balatonföldvár 8623, Magyarország",
       "url": "https://www.facebook.com/events/3322590254703578/",
@@ -146,6 +166,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2024-07-14",
       "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2024. július 14., vasárnap, 9:00 CEST",
       "location": "Petőfi sétány 9, Siófok 8600, Magyarország",
       "url": "https://www.facebook.com/events/742321281360402/",
@@ -160,6 +182,8 @@
       "organizerName": "SUPrise",
       "dateISO": "2024-07-15",
       "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2024. július 15., hétfő, 11:00 CEST",
       "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
       "url": "https://www.facebook.com/events/336116472893246/",
@@ -174,6 +198,8 @@
       "organizerName": "SUPrise",
       "dateISO": "2024-07-16",
       "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2024. július 16., kedd, 11:00 CEST",
       "location": "A Balaton180 Adománygy… Továbbiak",
       "url": "https://www.facebook.com/events/3919192395073035/",
@@ -188,6 +214,8 @@
       "organizerName": "SUPlife.hu",
       "dateISO": "2025-07-06",
       "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2025. július 6., vasárnap, 10:00 CEST",
       "location": "Petőfi sétány 3, Siófok 8600, Magyarország",
       "url": "https://www.facebook.com/events/643307465187650/",
@@ -202,6 +230,8 @@
       "organizerName": "SupZone",
       "dateISO": "2025-08-02",
       "timeText": "20:00",
+      "endDateISO": null,
+      "endTimeText": "02:00",
       "rawWhen": "2025. augusztus 2., szombat, 20:00–2:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/1333720191182460/",
@@ -216,6 +246,8 @@
       "organizerName": "SUP Arrabona",
       "dateISO": "2025-09-19",
       "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "19:00",
       "rawWhen": "2025. szeptember 19., péntek, 17:00–19:00 CEST",
       "location": "Bahnhof, Győr 9026, Magyarország",
       "url": "https://www.facebook.com/events/1001501984824327/",
@@ -230,6 +262,8 @@
       "organizerName": "SUP Arrabona",
       "dateISO": "2025-09-28",
       "timeText": "14:00",
+      "endDateISO": null,
+      "endTimeText": "16:00",
       "rawWhen": "2025. szeptember 28., vasárnap, 14:00–16:00 CEST",
       "location": "Bahnhof, Győr 9026, Magyarország",
       "url": "https://www.facebook.com/events/2065462713931015/",
@@ -244,6 +278,8 @@
       "organizerName": "SUP Arrabona",
       "dateISO": "2025-10-04",
       "timeText": "09:00",
+      "endDateISO": "2025-10-11",
+      "endTimeText": "18:00",
       "rawWhen": "2025. okt. 4., 9:00 – 2025. okt. 11., 18:00 CEST",
       "location": "Carrer Cala de Bou, 50, 07829 Sant Josep de sa Talaia (Illes Balears), Espanya",
       "url": "https://www.facebook.com/events/634504949260955/",
@@ -258,6 +294,8 @@
       "organizerName": "SUP Arrabona",
       "dateISO": "2026-06-11",
       "timeText": "06:00",
+      "endDateISO": "2026-06-14",
+      "endTimeText": "18:00",
       "rawWhen": "Jún. 11., 6:00 – jún. 14., 18:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/2574129439610280/",
@@ -711,6 +749,8 @@
       "organizerName": "SUPport - Fonyód",
       "dateISO": "2026-07-27",
       "timeText": "19:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026. július 27., hétfő, 19:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/996957989827091/",
@@ -718,11 +758,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.3,
+        "tempMax": 29.4,
         "tempMin": 20,
         "precipProbability": 45,
-        "windSpeed": 25.3,
-        "windDirection": 275
+        "windSpeed": 19.5,
+        "windDirection": 280
       }
     },
     {
@@ -732,6 +772,8 @@
       "organizerName": "SUPport - Fonyód",
       "dateISO": "2026-07-27",
       "timeText": "19:00",
+      "endDateISO": null,
+      "endTimeText": "21:00",
       "rawWhen": "2026. július 27., hétfő, 19:00–21:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2194160984714461/",
@@ -739,11 +781,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.3,
+        "tempMax": 29.4,
         "tempMin": 20,
         "precipProbability": 45,
-        "windSpeed": 25.3,
-        "windDirection": 275
+        "windSpeed": 19.5,
+        "windDirection": 280
       }
     },
     {
@@ -753,6 +795,8 @@
       "organizerName": "SUPport - Fonyód",
       "dateISO": "2026-07-28",
       "timeText": "07:30",
+      "endDateISO": null,
+      "endTimeText": "09:30",
       "rawWhen": "2026. július 28., kedd, 7:30–9:30 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1392672286092436/",
@@ -761,10 +805,10 @@
       "lon": 17.5507597,
       "weather": {
         "tempMax": 29.4,
-        "tempMin": 20.7,
+        "tempMin": 20.4,
         "precipProbability": 3,
-        "windSpeed": 19.2,
-        "windDirection": 327
+        "windSpeed": 16.9,
+        "windDirection": 306
       }
     },
     {
@@ -774,6 +818,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-07-29",
       "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
       "rawWhen": "2026. július 29., szerda, 17:00–18:00 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1019697720984944/",
@@ -782,10 +828,10 @@
       "lon": 19.066566,
       "weather": {
         "tempMax": 35.4,
-        "tempMin": 21.4,
+        "tempMin": 21.3,
         "precipProbability": 0,
-        "windSpeed": 8.4,
-        "windDirection": 115
+        "windSpeed": 7.9,
+        "windDirection": 139
       }
     },
     {
@@ -795,6 +841,8 @@
       "organizerName": "Shaka Windsurf Spot",
       "dateISO": "2026-07-29",
       "timeText": "21:00",
+      "endDateISO": null,
+      "endTimeText": "22:30",
       "rawWhen": "2026. július 29., szerda, 21:00–22:30 CEST",
       "location": "Hullám utca 7, Balatonszemes 8636, Magyarország",
       "url": "https://www.facebook.com/events/1543927677475366/",
@@ -803,10 +851,10 @@
       "lon": 17.7420482,
       "weather": {
         "tempMax": 34.5,
-        "tempMin": 18.7,
+        "tempMin": 18,
         "precipProbability": 0,
-        "windSpeed": 10.5,
-        "windDirection": 174
+        "windSpeed": 13.9,
+        "windDirection": 147
       }
     },
     {
@@ -816,6 +864,8 @@
       "organizerName": "Balatonsup",
       "dateISO": "2026-07-31",
       "timeText": "19:15",
+      "endDateISO": null,
+      "endTimeText": "21:15",
       "rawWhen": "2026. július 31., péntek, 19:15–21:15 CEST",
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
@@ -837,6 +887,8 @@
       "organizerName": "SUP Dunakanyar",
       "dateISO": "2026-07-31",
       "timeText": "18:00",
+      "endDateISO": null,
+      "endTimeText": "19:30",
       "rawWhen": "2026. július 31., péntek, 18:00–19:30 CEST",
       "location": "Kapcsolódj ki velünk a természetben, és tapasztald meg a jóga és a SUP különleges találkozását! A víz nyugalma, a finom egyensúlyi kihívások és a … Továbbiak",
       "url": "https://www.facebook.com/events/1276106657931027/",
@@ -849,6 +901,8 @@
       "organizerName": "Shaka Windsurf Spot",
       "dateISO": "2026-07-31",
       "timeText": "19:30",
+      "endDateISO": null,
+      "endTimeText": "21:30",
       "rawWhen": "2026. július 31., péntek, 19:30–21:30 CEST",
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
@@ -870,6 +924,8 @@
       "organizerName": "Sunset Sup",
       "dateISO": "2026-07-31",
       "timeText": "19:00",
+      "endDateISO": null,
+      "endTimeText": "21:00",
       "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
       "location": "Göd (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/4468508466719894/",
@@ -877,11 +933,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 37,
-        "tempMin": 21.3,
-        "precipProbability": 2,
-        "windSpeed": 7.7,
-        "windDirection": 151
+        "tempMax": 36.7,
+        "tempMin": 21,
+        "precipProbability": 0,
+        "windSpeed": 7.6,
+        "windDirection": 150
       }
     },
     {
@@ -891,6 +947,8 @@
       "organizerName": "SUP Budapest",
       "dateISO": "2026-08-01",
       "timeText": "18:00",
+      "endDateISO": "2026-08-02",
+      "endTimeText": "18:00",
       "rawWhen": "Aug. 1., 18:00 – aug. 2., 18:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/991830680282210/",
@@ -900,9 +958,9 @@
       "weather": {
         "tempMax": 38,
         "tempMin": 25.8,
-        "precipProbability": 4,
-        "windSpeed": 10.7,
-        "windDirection": 149
+        "precipProbability": 2,
+        "windSpeed": 9.3,
+        "windDirection": 164
       }
     },
     {
@@ -912,6 +970,8 @@
       "organizerName": "SUP Dunakanyar",
       "dateISO": "2026-08-01",
       "timeText": "17:30",
+      "endDateISO": null,
+      "endTimeText": "20:30",
       "rawWhen": "2026. augusztus 1., szombat, 17:30–20:30 CEST",
       "location": "Sportcentrum, Visegrád",
       "url": "https://www.facebook.com/events/1693231265014620/",
@@ -919,11 +979,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 38.6,
-        "tempMin": 23.2,
-        "precipProbability": 8,
-        "windSpeed": 9.2,
-        "windDirection": 129
+        "tempMax": 38.3,
+        "tempMin": 23.1,
+        "precipProbability": 10,
+        "windSpeed": 12.3,
+        "windDirection": 141
       }
     },
     {
@@ -933,6 +993,8 @@
       "organizerName": "Shaka Windsurf Spot",
       "dateISO": "2026-08-01",
       "timeText": "19:30",
+      "endDateISO": null,
+      "endTimeText": "20:30",
       "rawWhen": "2026. augusztus 1., szombat, 19:30–20:30 CEST",
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
@@ -954,6 +1016,8 @@
       "organizerName": "SUP and Go",
       "dateISO": "2026-08-01",
       "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "10:30",
       "rawWhen": "2026. augusztus 1., szombat, 9:00–10:30 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1031254566277272/",
@@ -962,10 +1026,10 @@
       "lon": 19.101496,
       "weather": {
         "tempMax": 38.5,
-        "tempMin": 24.8,
-        "precipProbability": 4,
-        "windSpeed": 13,
-        "windDirection": 163
+        "tempMin": 24.9,
+        "precipProbability": 2,
+        "windSpeed": 10.2,
+        "windDirection": 168
       }
     },
     {
@@ -975,6 +1039,8 @@
       "organizerName": "SUP and Go",
       "dateISO": "2026-08-01",
       "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "14:00",
       "rawWhen": "2026. augusztus 1., szombat, 11:00–14:00 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1189960853308065/",
@@ -983,10 +1049,10 @@
       "lon": 19.101496,
       "weather": {
         "tempMax": 38.5,
-        "tempMin": 24.8,
-        "precipProbability": 4,
-        "windSpeed": 13,
-        "windDirection": 163
+        "tempMin": 24.9,
+        "precipProbability": 2,
+        "windSpeed": 10.2,
+        "windDirection": 168
       }
     },
     {
@@ -996,6 +1062,8 @@
       "organizerName": "SUP Budapest",
       "dateISO": "2026-08-01",
       "timeText": "21:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026. augusztus 1., szombat, 21:00 CEST",
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/1785569039478302/",
@@ -1005,9 +1073,9 @@
       "weather": {
         "tempMax": 38,
         "tempMin": 25.8,
-        "precipProbability": 4,
-        "windSpeed": 10.7,
-        "windDirection": 149
+        "precipProbability": 2,
+        "windSpeed": 9.3,
+        "windDirection": 164
       }
     },
     {
@@ -1025,11 +1093,11 @@
       "lat": 48.3009115,
       "lon": 21.5595025,
       "weather": {
-        "tempMax": 36.4,
-        "tempMin": 22.4,
-        "precipProbability": 8,
-        "windSpeed": 10.5,
-        "windDirection": 119
+        "tempMax": 35.5,
+        "tempMin": 22.1,
+        "precipProbability": 6,
+        "windSpeed": 12.9,
+        "windDirection": 123
       }
     },
     {
@@ -1039,6 +1107,8 @@
       "organizerName": "Suppoznijó",
       "dateISO": "2026-08-01",
       "timeText": "09:30",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026. augusztus 1., szombat, 9:30 CEST",
       "location": "Dunapart, Dunakiliti (Győr-Moson-Sopron megye, Magyarország)",
       "url": "https://www.facebook.com/events/1552273686682118/",
@@ -1048,7 +1118,7 @@
       "weather": {
         "tempMax": 38.4,
         "tempMin": 23.4,
-        "precipProbability": 3,
+        "precipProbability": 0,
         "windSpeed": 13.2,
         "windDirection": 211
       }
@@ -1060,6 +1130,8 @@
       "organizerName": "Sunset Sup",
       "dateISO": "2026-08-01",
       "timeText": "05:00",
+      "endDateISO": null,
+      "endTimeText": "07:00",
       "rawWhen": "2026. augusztus 1., szombat, 5:00–7:00 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/996650189924960/",
@@ -1067,11 +1139,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 38.1,
-        "tempMin": 24.2,
-        "precipProbability": 6,
-        "windSpeed": 13.3,
-        "windDirection": 152
+        "tempMax": 37.9,
+        "tempMin": 23.4,
+        "precipProbability": 2,
+        "windSpeed": 9.2,
+        "windDirection": 172
       }
     },
     {
@@ -1081,6 +1153,8 @@
       "organizerName": "Kiteline SE",
       "dateISO": "2026-08-01",
       "timeText": "11:00",
+      "endDateISO": "2026-08-02",
+      "endTimeText": "16:00",
       "rawWhen": "Aug. 1., 11:00 – aug. 2., 16:00 CEST",
       "location": "Rákóczi út 56, Sárospatak 3950, Magyarország",
       "url": "https://www.facebook.com/events/1424185042883082/",
@@ -1088,11 +1162,11 @@
       "lat": 48.31977,
       "lon": 21.5667,
       "weather": {
-        "tempMax": 36.4,
-        "tempMin": 22.4,
-        "precipProbability": 8,
-        "windSpeed": 10.5,
-        "windDirection": 119
+        "tempMax": 35.5,
+        "tempMin": 22.1,
+        "precipProbability": 6,
+        "windSpeed": 12.9,
+        "windDirection": 123
       }
     },
     {
@@ -1102,6 +1176,8 @@
       "organizerName": "Sunset Sup",
       "dateISO": "2026-08-01",
       "timeText": "18:30",
+      "endDateISO": null,
+      "endTimeText": "20:30",
       "rawWhen": "2026. augusztus 1., szombat, 18:30–20:30 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1812468856443538/",
@@ -1109,11 +1185,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 38.1,
-        "tempMin": 24.2,
-        "precipProbability": 6,
-        "windSpeed": 13.3,
-        "windDirection": 152
+        "tempMax": 37.9,
+        "tempMin": 23.4,
+        "precipProbability": 2,
+        "windSpeed": 9.2,
+        "windDirection": 172
       }
     },
     {
@@ -1123,6 +1199,8 @@
       "organizerName": "SUP Dunakanyar",
       "dateISO": "2026-08-02",
       "timeText": "14:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
       "rawWhen": "2026. augusztus 2., vasárnap, 14:00–17:00 CEST",
       "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
       "url": "https://www.facebook.com/events/1501114621187012/",
@@ -1135,6 +1213,8 @@
       "organizerName": "SUP Dunakanyar",
       "dateISO": "2026-08-02",
       "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "13:00",
       "rawWhen": "2026. augusztus 2., vasárnap, 10:00–13:00 CEST",
       "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
       "url": "https://www.facebook.com/events/996559680027070/",
@@ -1147,6 +1227,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-08-02",
       "timeText": "11:30",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026. augusztus 2., vasárnap, 11:30 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/2165347574404391/",
@@ -1155,10 +1237,10 @@
       "lon": 19.066566,
       "weather": {
         "tempMax": 38.5,
-        "tempMin": 27,
+        "tempMin": 25.7,
         "precipProbability": 7,
         "windSpeed": 8.9,
-        "windDirection": 133
+        "windDirection": 149
       }
     },
     {
@@ -1168,6 +1250,8 @@
       "organizerName": "Sunset Sup",
       "dateISO": "2026-08-02",
       "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "11:00",
       "rawWhen": "2026. augusztus 2., vasárnap, 9:00–11:00 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1074823901742042/",
@@ -1176,10 +1260,10 @@
       "lon": 19.1304295,
       "weather": {
         "tempMax": 38.3,
-        "tempMin": 25.9,
+        "tempMin": 23.7,
         "precipProbability": 10,
         "windSpeed": 8.3,
-        "windDirection": 137
+        "windDirection": 152
       }
     },
     {
@@ -1189,6 +1273,8 @@
       "organizerName": "Sunset Sup",
       "dateISO": "2026-08-04",
       "timeText": "18:30",
+      "endDateISO": null,
+      "endTimeText": "21:30",
       "rawWhen": "2026. augusztus 4., kedd, 18:30–21:30 CEST",
       "location": "Regős utca 25, Göd 2132, Magyarország",
       "url": "https://www.facebook.com/events/1766857558005598/",
@@ -1203,6 +1289,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-08-04",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.08.04 (k)",
       "location": "Csepel - Molnár-sziget",
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.08.04",
@@ -1217,6 +1305,8 @@
       "organizerName": "SUP Budapest",
       "dateISO": "2026-08-08",
       "timeText": "14:00",
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026. augusztus 8., szombat, 14:00 CEST",
       "location": "Különleges és egyedi adottságokkal rendelkező rendezvényhelyszín konferenciák, esküvők, sajtótájékoztatók, céges rendezvények számára!",
       "url": "https://www.facebook.com/events/1651923759432654/",
@@ -1229,6 +1319,8 @@
       "organizerName": "SUP BÁZIS",
       "dateISO": "2026-08-11",
       "timeText": "10:00",
+      "endDateISO": "2026-08-15",
+      "endTimeText": "17:00",
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/769807296136263/",
@@ -1243,6 +1335,8 @@
       "organizerName": "SUP BÁZIS",
       "dateISO": "2026-08-11",
       "timeText": "10:00",
+      "endDateISO": "2026-08-15",
+      "endTimeText": "17:00",
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/1408262600700579/",
@@ -1257,6 +1351,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-08-15",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.08.15 (szo)",
       "location": "Ráckeve - Angyali-sziget",
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-sup-tura-rackevei-duna-szigetek#2026.08.15",
@@ -1271,6 +1367,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-08-18",
       "timeText": "07:00",
+      "endDateISO": "2026-08-22",
+      "endTimeText": "08:00",
       "rawWhen": "Aug. 18., 7:00 – aug. 22., 8:00 CEST",
       "location": "Makarska (Split-Dalmácia megye, Horvátország)",
       "url": "https://www.facebook.com/events/780797511242415/",
@@ -1285,6 +1383,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-08-18",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.08.18 (k)",
       "location": "Csepel - Molnár-sziget",
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.08.18",
@@ -1299,6 +1399,8 @@
       "organizerName": "SUPrafel",
       "dateISO": "2026-08-19",
       "timeText": "06:00",
+      "endDateISO": "2026-08-23",
+      "endTimeText": "21:00",
       "rawWhen": "Aug. 19., 6:00 – aug. 23., 21:00 CEST",
       "location": "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska",
       "url": "https://www.facebook.com/events/850932464338253/",
@@ -1313,6 +1415,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-08-23",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.08.23 (v)",
       "location": "Göd",
       "url": "https://funrafting.hu/tudatosturazo/sup-tura-god-homoksziget#2026.08.23",
@@ -1327,6 +1431,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-08-28",
       "timeText": "13:00",
+      "endDateISO": "2026-08-30",
+      "endTimeText": "17:00",
       "rawWhen": "Aug. 28., 13:00 – aug. 30., 17:00 CEST",
       "location": "Szálka, Tolna, Hungary",
       "url": "https://www.facebook.com/events/1001816658985569/",
@@ -1341,6 +1447,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-08-29",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.08.29 (szo)",
       "location": "Ráckeve - Angyali-sziget",
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-sup-tura-rackevei-duna-szigetek#2026.08.29",
@@ -1355,6 +1463,8 @@
       "organizerName": "Kiteline SE",
       "dateISO": "2026-09-05",
       "timeText": "11:00",
+      "endDateISO": "2026-09-06",
+      "endTimeText": "18:00",
       "rawWhen": "Szept. 5., 11:00 – szept. 6., 18:00 CEST",
       "location": "Tiszafüred - Tisza-tó",
       "url": "https://www.facebook.com/events/1576141673471436/",
@@ -1369,6 +1479,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-09-08",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.09.08 (k)",
       "location": "Csepel - Molnár-sziget",
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.09.08",
@@ -1383,6 +1495,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-09-11",
       "timeText": "17:00",
+      "endDateISO": "2026-09-13",
+      "endTimeText": "13:00",
       "rawWhen": "Szept. 11., 17:00 – szept. 13., 13:00 CEST",
       "location": "Bled je najbolj znan po Blejskem jezeru in otoku s cerkvijo, ki ob prvem pogledu vzameta dih zaradi svoje izredne lepote… Továbbiak",
       "url": "https://www.facebook.com/events/1300441262050641/",
@@ -1397,6 +1511,8 @@
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "dateISO": "2026-09-12",
       "timeText": null,
+      "endDateISO": null,
+      "endTimeText": null,
       "rawWhen": "2026.09.12 (szo)",
       "location": "Ráckeve - Angyali-sziget",
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-sup-tura-rackevei-duna-szigetek#2026.09.12",
@@ -1411,6 +1527,8 @@
       "organizerName": "SUP the Lifestyle",
       "dateISO": "2026-10-07",
       "timeText": "11:00",
+      "endDateISO": "2026-10-11",
+      "endTimeText": "22:00",
       "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
       "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
       "url": "https://www.facebook.com/events/892111770603769/",

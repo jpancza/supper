@@ -34,7 +34,7 @@ function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true
   const yearMatch = line.match(/(\d{4})\./);
   const monthDayRe = /([A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)\.?\s*(\d{1,2})\./g;
   const monthDayMatches = [...line.matchAll(monthDayRe)];
-  const timeMatch = line.match(/(\d{1,2}):(\d{2})/);
+  const timeMatches = [...line.matchAll(/(\d{1,2}):(\d{2})/g)];
   if (monthDayMatches.length === 0) return null;
 
   const toMonthDay = (m) => {
@@ -66,12 +66,25 @@ function parseHungarianEventDate(line, { now = new Date(), assumeUpcoming = true
     if (candidate < today) year += 1;
   }
 
-  const hh = timeMatch ? parseInt(timeMatch[1], 10) : 0;
-  const mm = timeMatch ? parseInt(timeMatch[2], 10) : 0;
   const pad = (n) => String(n).padStart(2, '0');
+  const formatTime = (m) => (m ? `${pad(parseInt(m[1], 10))}:${m[2]}` : null);
   const dateISO = `${year}-${pad(start.monthIndex + 1)}-${pad(start.day)}`;
-  const timeText = timeMatch ? `${pad(hh)}:${pad(mm)}` : null;
-  return { dateISO, timeText };
+  const timeText = formatTime(timeMatches[0]);
+
+  // End date/time, when the line actually states one: a second month/day
+  // ("júl. 23. – júl. 26.") means a multi-day event; a second bare time on a
+  // single-day line ("9:00–10:30") means a same-day end time only. Most
+  // lines have neither — a single point-in-time event — so both stay null.
+  let endDateISO = null;
+  let endTimeText = null;
+  if (end) {
+    endDateISO = `${year}-${pad(end.monthIndex + 1)}-${pad(end.day)}`;
+    endTimeText = formatTime(timeMatches[1]) || formatTime(timeMatches[0]);
+  } else if (timeMatches.length > 1) {
+    endTimeText = formatTime(timeMatches[1]);
+  }
+
+  return { dateISO, timeText, endDateISO, endTimeText };
 }
 
 function isSupRelated(title) {
@@ -321,6 +334,7 @@ function toProcessedEvent(raw) {
       title: raw.title,
       organizerId: raw.organizerId,
       organizerName: raw.organizerName,
+      organizerUrl: raw.organizerUrl,
       dateISO,
       timeText: null,
       rawWhen: raw.rawWhen,
@@ -339,13 +353,19 @@ function toProcessedEvent(raw) {
     // the leading YYYY.MM.DD out.
     const m = (raw.rawWhen || '').match(/^(\d{4})\.(\d{2})\.(\d{2})/);
     if (!m) return null;
+    // A multi-day trip's end day shares the same year/month ("2026.08.14-16"),
+    // unlike Facebook's cross-month "júl. 23. – júl. 26." format.
+    const endDayMatch = (raw.rawWhen || '').match(/^\d{4}\.\d{2}\.\d{2}-(\d{2})/);
     return {
       id: raw.id,
       title: raw.title,
       organizerId: raw.organizerId,
       organizerName: raw.organizerName,
+      organizerUrl: raw.organizerUrl,
       dateISO: `${m[1]}-${m[2]}-${m[3]}`,
       timeText: null,
+      endDateISO: endDayMatch ? `${m[1]}-${m[2]}-${endDayMatch[1]}` : null,
+      endTimeText: null,
       rawWhen: raw.rawWhen,
       location: raw.location,
       url: raw.url,
@@ -361,8 +381,11 @@ function toProcessedEvent(raw) {
     title: raw.title,
     organizerId: raw.organizerId,
     organizerName: raw.organizerName,
+    organizerUrl: raw.organizerUrl,
     dateISO: dateInfo.dateISO,
     timeText: dateInfo.timeText,
+    endDateISO: dateInfo.endDateISO,
+    endTimeText: dateInfo.endTimeText,
     rawWhen: raw.rawWhen,
     location: raw.location,
     url: raw.url,

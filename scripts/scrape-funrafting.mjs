@@ -66,6 +66,7 @@ export async function scrapeFunraftingCalendar(page, organizer, source) {
         title,
         organizerId: organizer.id,
         organizerName: organizer.name,
+        organizerUrl: source.url,
         rawWhen: `${entry.datum} ${entry.nap}`.trim(),
         location: entry.helyszin,
         available: entry.available,
