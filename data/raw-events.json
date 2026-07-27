@@ -1,17 +1,6 @@
 {
-  "scrapedAt": "2026-07-26T07:46:36.488Z",
+  "scrapedAt": "2026-07-27T08:45:32.815Z",
   "events": [
-    {
-      "id": "fb-1736273180869334",
-      "title": "Sup túra a Parlament előtt",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "rawWhen": "2026. július 26., vasárnap, 14:00–16:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Kossuth Lajos üdülőpart 21, Budapest 1039, Magyarország",
-      "url": "https://www.facebook.com/events/1736273180869334/",
-      "source": "facebook"
-    },
     {
       "id": "fb-850932464338253",
       "title": "Sup túra Winnetou nyomában",
@@ -21,17 +10,6 @@
       "assumeUpcoming": true,
       "location": "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska",
       "url": "https://www.facebook.com/events/850932464338253/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1818940552813880",
-      "title": "SUP túra Szarvason - Evezés a belvárosban! - MÁR VAN MENÜ!",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "rawWhen": "2026. július 26., vasárnap, 10:00–18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Petőfi Sándor utca 19, Szarvas 5540, Magyarország",
-      "url": "https://www.facebook.com/events/1818940552813880/",
       "source": "facebook"
     },
     {
@@ -79,22 +57,11 @@
       "source": "facebook"
     },
     {
-      "id": "fb-783747124801407",
-      "title": "Sup túra az RSD legszebb csatornáján / Kezdőknek is tökéletes /",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "rawWhen": "2026. július 26., vasárnap, 13:00 CEST",
-      "assumeUpcoming": true,
-      "location": "DMTK Vizisport szakosztály vizi-telepe",
-      "url": "https://www.facebook.com/events/783747124801407/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1019697720984944",
       "title": "120 perces kezdő sup oktatás az Újpesti-öbölben + gyakorló sup túra /max 8 fő/",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
-      "rawWhen": "2026. július 27., hétfő, 17:00–18:00 CEST",
+      "rawWhen": "2026. július 29., szerda, 17:00–18:00 CEST",
       "assumeUpcoming": true,
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1019697720984944/",
@@ -160,21 +127,10 @@
       "title": "SUP Budapest városi túrák reggel és este",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
-      "rawWhen": "Júl. 25., 18:00 – júl. 26., 18:00 CEST",
+      "rawWhen": "Aug. 1., 18:00 – aug. 2., 18:00 CEST",
       "assumeUpcoming": true,
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/991830680282210/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1567004264297759",
-      "title": "Hallstatt SUP Adventure 2026",
-      "organizerId": "sup-budapest",
-      "organizerName": "SUP Budapest",
-      "rawWhen": "Júl. 23., 7:00 – júl. 26., 16:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Római part 29, Budapest 1031, Magyarország",
-      "url": "https://www.facebook.com/events/1567004264297759/",
       "source": "facebook"
     },
     {
@@ -208,6 +164,17 @@
       "assumeUpcoming": true,
       "location": "Lloret De Vista Alegre, Islas Baleares, Spain",
       "url": "https://www.facebook.com/events/724826747117514/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2205864270196685",
+      "title": "Naturelle Vadvizes kalandok Szlovéniában 2026",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "rawWhen": "Aug. 14., 9:00 – aug. 16., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/2205864270196685/",
       "source": "facebook"
     },
     {
@@ -358,7 +325,7 @@
       "title": "Délutáni chill SUP túra",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
-      "rawWhen": "2026. július 26., vasárnap, 14:00–17:00 CEST",
+      "rawWhen": "2026. augusztus 2., vasárnap, 14:00–17:00 CEST",
       "assumeUpcoming": true,
       "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
       "url": "https://www.facebook.com/events/1501114621187012/",
@@ -380,21 +347,10 @@
       "title": "Fedezd fel a SUP világát! – Kezdő SUP oktatás kicsiknek és nagyoknak",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
-      "rawWhen": "2026. július 26., vasárnap, 10:00–13:00 CEST",
+      "rawWhen": "2026. augusztus 2., vasárnap, 10:00–13:00 CEST",
       "assumeUpcoming": true,
       "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
       "url": "https://www.facebook.com/events/996559680027070/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1070830029238426",
-      "title": "Sup Kaland a Tihanyi Partoknál",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "rawWhen": "2026. július 26., vasárnap, 18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Sajkodi strand, Tihany 8237, Magyarország",
-      "url": "https://www.facebook.com/events/1070830029238426/",
       "source": "facebook"
     },
     {
@@ -475,22 +431,11 @@
       "source": "facebook"
     },
     {
-      "id": "fb-827173613694403",
-      "title": "Naplementés SUP túra",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "rawWhen": "2026. július 26., vasárnap, 19:00 CEST",
-      "assumeUpcoming": true,
-      "location": "A fonyódi Kutyabarát Fürdőhely NEM(!) hivatalos oldala.",
-      "url": "https://www.facebook.com/events/827173613694403/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1392672286092436",
       "title": "SUP&Sunrise - Napindító Sup túra a Balatonon",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
-      "rawWhen": "2026. július 27., hétfő, 7:30–9:30 CEST",
+      "rawWhen": "2026. július 28., kedd, 7:30–9:30 CEST",
       "assumeUpcoming": true,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1392672286092436/",
@@ -629,17 +574,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1347379290694844",
-      "title": "SUP jóga Sándor Anikóval Gödnél",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "rawWhen": "2026. július 26., vasárnap, 18:30–19:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Ha még nem álltál SUP deszkán ne aggódj! Fokozatosan épül … Továbbiak",
-      "url": "https://www.facebook.com/events/1347379290694844/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-4468508466719894",
       "title": "Naplementés SUP élményevezés Gödnél, kezdőknek is, tanítással (péntek-szombat- vasárnap IS!",
       "organizerId": "sunset-sup",
@@ -772,17 +706,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-945465721148056",
-      "title": "BETELT! Rafting túra Boszniában az Una folyón Négy nap - négy evezés",
-      "organizerId": "eventus-vizitura",
-      "organizerName": "Eventus vízitúra",
-      "rawWhen": "Júl. 23., 13:00 – júl. 26., 16:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Izačić, Federation Of Bosnia And Herzegovina, Bosnia And Herzegovina",
-      "url": "https://www.facebook.com/events/945465721148056/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1332244958750413",
       "title": "Krumlov chill - Boldogságterápia, itt nem lehetsz elég laza. Két nap a Moldván!",
       "organizerId": "eventus-vizitura",
@@ -835,6 +758,17 @@
       "assumeUpcoming": false,
       "location": "Hallstättersee Landesstraße, 4831 Obertraun, Österreich",
       "url": "https://www.facebook.com/events/1174186027938795/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1712467283331894",
+      "title": "Ingyenes kenu kormányos oktatás",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "rawWhen": "2026. augusztus 29., szombat, 9:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Vízisport utca 44, Budapest 1237, Magyarország",
+      "url": "https://www.facebook.com/events/1712467283331894/",
       "source": "facebook"
     },
     {

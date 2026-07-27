@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T07:46:39.838Z",
+  "lastUpdated": "2026-07-27T08:45:35.703Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -462,20 +462,6 @@
       }
     },
     {
-      "id": "fb-991830680282210",
-      "title": "SUP Budapest városi túrák reggel és este",
-      "organizerId": "sup-budapest",
-      "organizerName": "SUP Budapest",
-      "dateISO": "2026-07-25",
-      "timeText": "18:00",
-      "rawWhen": "Júl. 25., 18:00 – júl. 26., 18:00 CEST",
-      "location": "Római part 29, Budapest 1031, Magyarország",
-      "url": "https://www.facebook.com/events/991830680282210/",
-      "source": "facebook",
-      "lat": 47.5711734,
-      "lon": 19.064441
-    },
-    {
       "id": "fb-2527117181040072",
       "title": "Swim SUP Run TihanySport Challenge",
       "organizerId": "tihany-sport",
@@ -656,30 +642,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1501114621187012",
-      "title": "Délutáni chill SUP túra",
-      "organizerId": "sup-dunakanyar",
-      "organizerName": "SUP Dunakanyar",
-      "dateISO": "2026-07-26",
-      "timeText": "14:00",
-      "rawWhen": "2026. július 26., vasárnap, 14:00–17:00 CEST",
-      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
-      "url": "https://www.facebook.com/events/1501114621187012/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-996559680027070",
-      "title": "Fedezd fel a SUP világát! – Kezdő SUP oktatás kicsiknek és nagyoknak",
-      "organizerId": "sup-dunakanyar",
-      "organizerName": "SUP Dunakanyar",
-      "dateISO": "2026-07-26",
-      "timeText": "10:00",
-      "rawWhen": "2026. július 26., vasárnap, 10:00–13:00 CEST",
-      "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
-      "url": "https://www.facebook.com/events/996559680027070/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1070830029238426",
       "title": "Sup Kaland a Tihanyi Partoknál",
       "organizerId": "tihany-sport",
@@ -743,48 +705,6 @@
       }
     },
     {
-      "id": "fb-1019697720984944",
-      "title": "120 perces kezdő sup oktatás az Újpesti-öbölben + gyakorló sup túra /max 8 fő/",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "dateISO": "2026-07-27",
-      "timeText": "17:00",
-      "rawWhen": "2026. július 27., hétfő, 17:00–18:00 CEST",
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1019697720984944/",
-      "source": "facebook",
-      "lat": 47.5514268,
-      "lon": 19.066566,
-      "weather": {
-        "tempMax": 32.2,
-        "tempMin": 22.6,
-        "precipProbability": 24,
-        "windSpeed": 30.6,
-        "windDirection": 295
-      }
-    },
-    {
-      "id": "fb-1392672286092436",
-      "title": "SUP&Sunrise - Napindító Sup túra a Balatonon",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "dateISO": "2026-07-27",
-      "timeText": "07:30",
-      "rawWhen": "2026. július 27., hétfő, 7:30–9:30 CEST",
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1392672286092436/",
-      "source": "facebook",
-      "lat": 46.7481409,
-      "lon": 17.5507597,
-      "weather": {
-        "tempMax": 29.1,
-        "tempMin": 19.6,
-        "precipProbability": 25,
-        "windSpeed": 28.8,
-        "windDirection": 302
-      }
-    },
-    {
       "id": "fb-996957989827091",
       "title": "Naplementés SUP túra kezdőknek a Balatonon",
       "organizerId": "support-fonyod",
@@ -798,11 +718,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.1,
-        "tempMin": 19.6,
-        "precipProbability": 25,
-        "windSpeed": 28.8,
-        "windDirection": 302
+        "tempMax": 29.4,
+        "tempMin": 20,
+        "precipProbability": 45,
+        "windSpeed": 19.5,
+        "windDirection": 271
       }
     },
     {
@@ -819,11 +739,53 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.1,
-        "tempMin": 19.6,
-        "precipProbability": 25,
-        "windSpeed": 28.8,
-        "windDirection": 302
+        "tempMax": 29.4,
+        "tempMin": 20,
+        "precipProbability": 45,
+        "windSpeed": 19.5,
+        "windDirection": 271
+      }
+    },
+    {
+      "id": "fb-1392672286092436",
+      "title": "SUP&Sunrise - Napindító Sup túra a Balatonon",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "dateISO": "2026-07-28",
+      "timeText": "07:30",
+      "rawWhen": "2026. július 28., kedd, 7:30–9:30 CEST",
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/1392672286092436/",
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 28.6,
+        "tempMin": 20.7,
+        "precipProbability": 3,
+        "windSpeed": 16.1,
+        "windDirection": 330
+      }
+    },
+    {
+      "id": "fb-1019697720984944",
+      "title": "120 perces kezdő sup oktatás az Újpesti-öbölben + gyakorló sup túra /max 8 fő/",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "dateISO": "2026-07-29",
+      "timeText": "17:00",
+      "rawWhen": "2026. július 29., szerda, 17:00–18:00 CEST",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1019697720984944/",
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 34.3,
+        "tempMin": 21.8,
+        "precipProbability": 0,
+        "windSpeed": 10.1,
+        "windDirection": 120
       }
     },
     {
@@ -840,11 +802,11 @@
       "lat": 46.8014474,
       "lon": 17.7420482,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 19.6,
+        "tempMax": 34.5,
+        "tempMin": 18.2,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 33
+        "windSpeed": 6.6,
+        "windDirection": 150
       }
     },
     {
@@ -861,11 +823,11 @@
       "lat": 46.9567254,
       "lon": 17.888892,
       "weather": {
-        "tempMax": 38.2,
-        "tempMin": 23.7,
+        "tempMax": 35.8,
+        "tempMin": 24.8,
         "precipProbability": 0,
-        "windSpeed": 10.8,
-        "windDirection": 180
+        "windSpeed": 9.5,
+        "windDirection": 49
       }
     },
     {
@@ -894,11 +856,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 39.1,
-        "tempMin": 19.1,
+        "tempMax": 37.1,
+        "tempMin": 21.4,
         "precipProbability": 0,
-        "windSpeed": 5.7,
-        "windDirection": 156
+        "windSpeed": 6.8,
+        "windDirection": 85
       }
     },
     {
@@ -915,11 +877,32 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 36.6,
-        "tempMin": 22.1,
+        "tempMax": 37,
+        "tempMin": 21.3,
         "precipProbability": 0,
-        "windSpeed": 8.4,
-        "windDirection": 140
+        "windSpeed": 7.7,
+        "windDirection": 151
+      }
+    },
+    {
+      "id": "fb-991830680282210",
+      "title": "SUP Budapest városi túrák reggel és este",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "dateISO": "2026-08-01",
+      "timeText": "18:00",
+      "rawWhen": "Aug. 1., 18:00 – aug. 2., 18:00 CEST",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/991830680282210/",
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441,
+      "weather": {
+        "tempMax": 38,
+        "tempMin": 25.8,
+        "precipProbability": 8,
+        "windSpeed": 10.7,
+        "windDirection": 149
       }
     },
     {
@@ -936,11 +919,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 37.6,
-        "tempMin": 25.1,
-        "precipProbability": 0,
-        "windSpeed": 11.1,
-        "windDirection": 126
+        "tempMax": 38.6,
+        "tempMin": 23.2,
+        "precipProbability": 12,
+        "windSpeed": 9.2,
+        "windDirection": 129
       }
     },
     {
@@ -957,11 +940,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 39.3,
-        "tempMin": 20.4,
+        "tempMax": 38.9,
+        "tempMin": 19.2,
         "precipProbability": 0,
-        "windSpeed": 13.2,
-        "windDirection": 157
+        "windSpeed": 11.2,
+        "windDirection": 168
       }
     },
     {
@@ -978,11 +961,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 37.9,
-        "tempMin": 26.2,
-        "precipProbability": 0,
-        "windSpeed": 6.3,
-        "windDirection": 164
+        "tempMax": 38.5,
+        "tempMin": 24.8,
+        "precipProbability": 8,
+        "windSpeed": 13,
+        "windDirection": 163
       }
     },
     {
@@ -999,11 +982,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 37.9,
-        "tempMin": 26.2,
-        "precipProbability": 0,
-        "windSpeed": 6.3,
-        "windDirection": 164
+        "tempMax": 38.5,
+        "tempMin": 24.8,
+        "precipProbability": 8,
+        "windSpeed": 13,
+        "windDirection": 163
       }
     },
     {
@@ -1020,11 +1003,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 37.6,
-        "tempMin": 26.6,
-        "precipProbability": 0,
-        "windSpeed": 8.4,
-        "windDirection": 171
+        "tempMax": 38,
+        "tempMin": 25.8,
+        "precipProbability": 8,
+        "windSpeed": 10.7,
+        "windDirection": 149
       }
     },
     {
@@ -1041,11 +1024,11 @@
       "lat": 48.3009115,
       "lon": 21.5595025,
       "weather": {
-        "tempMax": 34.8,
-        "tempMin": 23.9,
-        "precipProbability": 2,
-        "windSpeed": 11.2,
-        "windDirection": 130
+        "tempMax": 36.4,
+        "tempMin": 22.4,
+        "precipProbability": 14,
+        "windSpeed": 10.5,
+        "windDirection": 119
       }
     },
     {
@@ -1062,11 +1045,11 @@
       "lat": 47.9662482,
       "lon": 17.2882323,
       "weather": {
-        "tempMax": 39.7,
-        "tempMin": 23.8,
-        "precipProbability": 3,
-        "windSpeed": 14.7,
-        "windDirection": 244
+        "tempMax": 38.4,
+        "tempMin": 22.2,
+        "precipProbability": 0,
+        "windSpeed": 13.2,
+        "windDirection": 193
       }
     },
     {
@@ -1083,11 +1066,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.5,
-        "tempMin": 25,
-        "precipProbability": 0,
-        "windSpeed": 7.8,
-        "windDirection": 174
+        "tempMax": 38.1,
+        "tempMin": 24.2,
+        "precipProbability": 6,
+        "windSpeed": 13.3,
+        "windDirection": 152
       }
     },
     {
@@ -1104,11 +1087,11 @@
       "lat": 48.31977,
       "lon": 21.5667,
       "weather": {
-        "tempMax": 34.8,
-        "tempMin": 23.9,
-        "precipProbability": 2,
-        "windSpeed": 11.2,
-        "windDirection": 130
+        "tempMax": 36.4,
+        "tempMin": 22.4,
+        "precipProbability": 14,
+        "windSpeed": 10.5,
+        "windDirection": 119
       }
     },
     {
@@ -1125,12 +1108,36 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.5,
-        "tempMin": 25,
-        "precipProbability": 0,
-        "windSpeed": 7.8,
-        "windDirection": 174
+        "tempMax": 38.1,
+        "tempMin": 24.2,
+        "precipProbability": 6,
+        "windSpeed": 13.3,
+        "windDirection": 152
       }
+    },
+    {
+      "id": "fb-1501114621187012",
+      "title": "Délutáni chill SUP túra",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "dateISO": "2026-08-02",
+      "timeText": "14:00",
+      "rawWhen": "2026. augusztus 2., vasárnap, 14:00–17:00 CEST",
+      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
+      "url": "https://www.facebook.com/events/1501114621187012/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-996559680027070",
+      "title": "Fedezd fel a SUP világát! – Kezdő SUP oktatás kicsiknek és nagyoknak",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "dateISO": "2026-08-02",
+      "timeText": "10:00",
+      "rawWhen": "2026. augusztus 2., vasárnap, 10:00–13:00 CEST",
+      "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
+      "url": "https://www.facebook.com/events/996559680027070/",
+      "source": "facebook"
     },
     {
       "id": "fb-2165347574404391",
@@ -1144,7 +1151,14 @@
       "url": "https://www.facebook.com/events/2165347574404391/",
       "source": "facebook",
       "lat": 47.5514268,
-      "lon": 19.066566
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 38.5,
+        "tempMin": 27,
+        "precipProbability": 6,
+        "windSpeed": 8.9,
+        "windDirection": 133
+      }
     },
     {
       "id": "fb-1074823901742042",
@@ -1158,7 +1172,14 @@
       "url": "https://www.facebook.com/events/1074823901742042/",
       "source": "facebook",
       "lat": 47.7072856,
-      "lon": 19.1304295
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 38.3,
+        "tempMin": 25.9,
+        "precipProbability": 8,
+        "windSpeed": 8.3,
+        "windDirection": 137
+      }
     },
     {
       "id": "fb-1766857558005598",
