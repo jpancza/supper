@@ -5,6 +5,14 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
+  schedule:
+    # 05:15 UTC = 07:15 CEST — 15 perccel az update.yml (07:00) után, hogy
+    # legyen ideje lefutni a scrape+commitnak. Azért kell külön schedule és
+    # nem elég az update.yml push-ja: a botnak a beépített GITHUB_TOKEN-nel
+    # tett push-ja szándékosan nem indít el más workflow-t (a GitHub védelme
+    # a végtelen ciklusok ellen), úgyhogy a napi commit önmagában sosem
+    # triggerelné ezt a workflow-t.
+    - cron: '15 5 * * *'
   workflow_dispatch: {}
 
 jobs:
