@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-07-27T15:31:28.623Z",
+  "lastUpdated": "2026-07-28T07:48:23.165Z",
   "events": [
     {
       "id": "fb-196206901787809",
       "title": "A Nagy Tisza-tó Takarítás: SUP-al a Single Use Plastic ellen",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2020-07-25",
       "timeText": "09:00",
       "endDateISO": null,
@@ -22,6 +23,7 @@
       "title": "II.Siófoki Sup Kupa",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2021-06-26",
       "timeText": "08:00",
       "endDateISO": null,
@@ -38,6 +40,7 @@
       "title": "III.Siófoki Sup Kupa",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2022-07-16",
       "timeText": "10:00",
       "endDateISO": null,
@@ -54,6 +57,7 @@
       "title": "SUP Budapest: Kalandok a Tisza-tavon",
       "organizerId": "supzone",
       "organizerName": "SupZone",
+      "organizerUrl": "https://www.facebook.com/supzoneHU",
       "dateISO": "2022-08-26",
       "timeText": "10:00",
       "endDateISO": "2022-08-28",
@@ -70,6 +74,7 @@
       "title": "SupZone.hu x Budapest Boat Show 2023",
       "organizerId": "supzone",
       "organizerName": "SupZone",
+      "organizerUrl": "https://www.facebook.com/supzoneHU",
       "dateISO": "2023-02-23",
       "timeText": "12:00",
       "endDateISO": "2023-02-26",
@@ -86,6 +91,7 @@
       "title": "SUP Budapest: SUP és kalandtúra Hallstattban",
       "organizerId": "supzone",
       "organizerName": "SupZone",
+      "organizerUrl": "https://www.facebook.com/supzoneHU",
       "dateISO": "2023-06-16",
       "timeText": "13:00",
       "endDateISO": "2023-06-18",
@@ -102,6 +108,7 @@
       "title": "IV. Siófoki SUP Kupa",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2023-06-24",
       "timeText": "08:00",
       "endDateISO": null,
@@ -118,6 +125,7 @@
       "title": "SupZone a Budapest Boat Shown!",
       "organizerId": "supzone",
       "organizerName": "SupZone",
+      "organizerUrl": "https://www.facebook.com/supzoneHU",
       "dateISO": "2024-02-22",
       "timeText": "12:00",
       "endDateISO": "2024-02-25",
@@ -132,6 +140,7 @@
       "title": "Balaton180 SUP Oktatás- Keszthely, Városi strand",
       "organizerId": "suprise",
       "organizerName": "SUPrise",
+      "organizerUrl": "https://www.facebook.com/DUNA420",
       "dateISO": "2024-07-12",
       "timeText": "10:30",
       "endDateISO": null,
@@ -148,6 +157,7 @@
       "title": "Balaton180 SUP oktatás - Balatonföldvár, Keleti Strand)",
       "organizerId": "suprise",
       "organizerName": "SUPrise",
+      "organizerUrl": "https://www.facebook.com/DUNA420",
       "dateISO": "2024-07-13",
       "timeText": "11:00",
       "endDateISO": null,
@@ -164,6 +174,7 @@
       "title": "V. Siófoki SUP kupa és SUPlife családi nap",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2024-07-14",
       "timeText": "09:00",
       "endDateISO": null,
@@ -180,6 +191,7 @@
       "title": "Balaton180 SUP Oktatás- Csopak, Strand",
       "organizerId": "suprise",
       "organizerName": "SUPrise",
+      "organizerUrl": "https://www.facebook.com/DUNA420",
       "dateISO": "2024-07-15",
       "timeText": "11:00",
       "endDateISO": null,
@@ -196,6 +208,7 @@
       "title": "Balaton180 SUP Oktatás - Révfülöp, Szigeti Strand",
       "organizerId": "suprise",
       "organizerName": "SUPrise",
+      "organizerUrl": "https://www.facebook.com/DUNA420",
       "dateISO": "2024-07-16",
       "timeText": "11:00",
       "endDateISO": null,
@@ -212,6 +225,7 @@
       "title": "VI. Siófoki SUP kupa és SUPlife családi nap",
       "organizerId": "suplife-hu",
       "organizerName": "SUPlife.hu",
+      "organizerUrl": "https://www.facebook.com/suplifehu",
       "dateISO": "2025-07-06",
       "timeText": "10:00",
       "endDateISO": null,
@@ -228,6 +242,7 @@
       "title": "SUP Budapest: Éjszakai evezés a városon át",
       "organizerId": "supzone",
       "organizerName": "SupZone",
+      "organizerUrl": "https://www.facebook.com/supzoneHU",
       "dateISO": "2025-08-02",
       "timeText": "20:00",
       "endDateISO": null,
@@ -240,10 +255,43 @@
       "lon": 19.064441
     },
     {
+      "id": "fb-723240754046561",
+      "title": "BETELT. könnyű SUP-túra a Soroksári-Dunán Czuczor-sziget kerüléssel",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2025-09-06",
+      "timeText": "09:30",
+      "endDateISO": null,
+      "endTimeText": "12:30",
+      "rawWhen": "2025. szeptember 6., szombat, 9:30–12:30 CEST",
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/723240754046561/",
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
+    },
+    {
+      "id": "fb-961328369390235",
+      "title": "Kerka-Mura-Dráva SUP túra",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2025-09-11",
+      "timeText": "08:00",
+      "endDateISO": "2025-09-14",
+      "endTimeText": "19:00",
+      "rawWhen": "2025. szept. 11., 8:00 – 2025. szept. 14., 19:00 CEST",
+      "location": "részvételi díj: 33.000 Ft/fő + szállás (saját felszereléssel 20.00… Továbbiak",
+      "url": "https://www.facebook.com/events/961328369390235/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1001501984824327",
       "title": "Naplementés SUP túrák Győrben",
       "organizerId": "sup-arrabona",
       "organizerName": "SUP Arrabona",
+      "organizerUrl": "https://www.facebook.com/supgonyu",
       "dateISO": "2025-09-19",
       "timeText": "17:00",
       "endDateISO": null,
@@ -256,10 +304,28 @@
       "lon": 17.6342832
     },
     {
+      "id": "fb-799196056126279",
+      "title": "Nehéz SUP túra a Szigetközben",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2025-09-20",
+      "timeText": "09:00",
+      "endDateISO": "2025-09-21",
+      "endTimeText": "18:00",
+      "rawWhen": "2025. szept. 20., 9:00 – 2025. szept. 21., 18:00 CEST",
+      "location": "Aranyossziget utca 66, Mosonmagyaróvár 9200, Magyarország",
+      "url": "https://www.facebook.com/events/799196056126279/",
+      "source": "facebook",
+      "lat": 47.8539531,
+      "lon": 17.2816798
+    },
+    {
       "id": "fb-2065462713931015",
       "title": "SUP oktatás és könnyed túra Győrben",
       "organizerId": "sup-arrabona",
       "organizerName": "SUP Arrabona",
+      "organizerUrl": "https://www.facebook.com/supgonyu",
       "dateISO": "2025-09-28",
       "timeText": "14:00",
       "endDateISO": null,
@@ -276,6 +342,7 @@
       "title": "Sail'n'SUP Ibiza",
       "organizerId": "sup-arrabona",
       "organizerName": "SUP Arrabona",
+      "organizerUrl": "https://www.facebook.com/supgonyu",
       "dateISO": "2025-10-04",
       "timeText": "09:00",
       "endDateISO": "2025-10-11",
@@ -288,10 +355,26 @@
       "lon": 1.2706805
     },
     {
+      "id": "fb-1215193747194070",
+      "title": "SUP-túra, Vajas-fok",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-05-09",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. május 9., szombat, 9:00–17:00 CEST",
+      "location": "részvételi díj: 15.000 Ft/fő (saj… Továbbiak",
+      "url": "https://www.facebook.com/events/1215193747194070/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-2574129439610280",
       "title": "Hike & SUP túra az Imotski tavaknál",
       "organizerId": "sup-arrabona",
       "organizerName": "SUP Arrabona",
+      "organizerUrl": "https://www.facebook.com/supgonyu",
       "dateISO": "2026-06-11",
       "timeText": "06:00",
       "endDateISO": "2026-06-14",
@@ -302,6 +385,74 @@
       "source": "facebook",
       "lat": 47.5711734,
       "lon": 19.064441
+    },
+    {
+      "id": "fb-1058293236861951",
+      "title": "SUP túra, Tisza-tó",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-06-14",
+      "timeText": "09:30",
+      "endDateISO": null,
+      "endTimeText": "15:00",
+      "rawWhen": "2026. június 14., vasárnap, 9:30–15:00 CEST",
+      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1058293236861951/",
+      "source": "facebook",
+      "lat": 47.6422726,
+      "lon": 20.6523749
+    },
+    {
+      "id": "fb-36299608953017758",
+      "title": "SUP túra, Tisza-tó",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-06-21",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "16:00",
+      "rawWhen": "2026. június 21., vasárnap, 9:00–16:00 CEST",
+      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/36299608953017758/",
+      "source": "facebook",
+      "lat": 47.6422726,
+      "lon": 20.6523749
+    },
+    {
+      "id": "fb-1359271069387502",
+      "title": "SUP túra, Tisza-tó",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-06-21",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "16:00",
+      "rawWhen": "2026. június 21., vasárnap, 9:00–16:00 CEST",
+      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1359271069387502/",
+      "source": "facebook",
+      "lat": 47.6422726,
+      "lon": 20.6523749
+    },
+    {
+      "id": "fb-1436625925161105",
+      "title": "1 napos biztonságtechnikai SUP oktatás és túra a Tisza-tavi madárrezervátumban",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-07-19",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. július 19., vasárnap, 9:00–17:00 CEST",
+      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1436625925161105/",
+      "source": "facebook",
+      "lat": 47.6422726,
+      "lon": 20.6523749
     },
     {
       "id": "fb-945465721148056",
@@ -770,22 +921,23 @@
       "title": "Golden Hour SUP – Aranyórás evezés a Balatonon",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
-      "dateISO": "2026-07-27",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-07-28",
       "timeText": "19:00",
       "endDateISO": null,
       "endTimeText": "21:00",
-      "rawWhen": "2026. július 27., hétfő, 19:00–21:00 CEST",
+      "rawWhen": "2026. július 28., kedd, 19:00–21:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2194160984714461/",
       "source": "facebook",
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.4,
-        "tempMin": 20,
-        "precipProbability": 45,
-        "windSpeed": 19.5,
-        "windDirection": 280
+        "tempMax": 29.5,
+        "tempMin": 20.4,
+        "precipProbability": 0,
+        "windSpeed": 12.2,
+        "windDirection": 279
       }
     },
     {
@@ -793,22 +945,23 @@
       "title": "SUP&Sunrise - Napindító Sup túra a Balatonon",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
-      "dateISO": "2026-07-28",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-07-29",
       "timeText": "07:30",
       "endDateISO": null,
       "endTimeText": "09:30",
-      "rawWhen": "2026. július 28., kedd, 7:30–9:30 CEST",
+      "rawWhen": "2026. július 29., szerda, 7:30–9:30 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1392672286092436/",
       "source": "facebook",
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.4,
-        "tempMin": 20.4,
-        "precipProbability": 3,
-        "windSpeed": 16.9,
-        "windDirection": 306
+        "tempMax": 34,
+        "tempMin": 17.4,
+        "precipProbability": 0,
+        "windSpeed": 14.1,
+        "windDirection": 123
       }
     },
     {
@@ -816,22 +969,23 @@
       "title": "120 perces kezdő sup oktatás az Újpesti-öbölben + gyakorló sup túra /max 8 fő/",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-07-29",
       "timeText": "17:00",
       "endDateISO": null,
-      "endTimeText": "18:00",
-      "rawWhen": "2026. július 29., szerda, 17:00–18:00 CEST",
+      "endTimeText": "19:00",
+      "rawWhen": "2026. július 29., szerda, 17:00–19:00 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1019697720984944/",
       "source": "facebook",
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 35.4,
+        "tempMax": 35.6,
         "tempMin": 21.3,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 139
+        "windSpeed": 10.4,
+        "windDirection": 140
       }
     },
     {
@@ -839,6 +993,7 @@
       "title": "Teliholdas SUP túra - Balatonszemes 2026.07.29.",
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
+      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "dateISO": "2026-07-29",
       "timeText": "21:00",
       "endDateISO": null,
@@ -850,11 +1005,11 @@
       "lat": 46.8014474,
       "lon": 17.7420482,
       "weather": {
-        "tempMax": 34.5,
-        "tempMin": 18,
+        "tempMax": 33.2,
+        "tempMin": 18.7,
         "precipProbability": 0,
-        "windSpeed": 13.9,
-        "windDirection": 147
+        "windSpeed": 15.1,
+        "windDirection": 98
       }
     },
     {
@@ -862,6 +1017,7 @@
       "title": "Ingyenes SUP tanfolyam és közösségi SUP-ozás a Káptalanfüredi Nagystrandon",
       "organizerId": "balatonsup",
       "organizerName": "Balatonsup",
+      "organizerUrl": "https://www.facebook.com/balatonsup",
       "dateISO": "2026-07-31",
       "timeText": "19:15",
       "endDateISO": null,
@@ -873,11 +1029,11 @@
       "lat": 46.9567254,
       "lon": 17.888892,
       "weather": {
-        "tempMax": 35.9,
-        "tempMin": 23.2,
+        "tempMax": 36.1,
+        "tempMin": 22.7,
         "precipProbability": 0,
-        "windSpeed": 5.3,
-        "windDirection": 32
+        "windSpeed": 4.6,
+        "windDirection": 277
       }
     },
     {
@@ -885,6 +1041,7 @@
       "title": "SUP jóga",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
       "dateISO": "2026-07-31",
       "timeText": "18:00",
       "endDateISO": null,
@@ -899,6 +1056,7 @@
       "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
+      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "dateISO": "2026-07-31",
       "timeText": "19:30",
       "endDateISO": null,
@@ -910,11 +1068,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 37.2,
-        "tempMin": 22.6,
+        "tempMax": 37.3,
+        "tempMin": 21.5,
         "precipProbability": 0,
-        "windSpeed": 5.8,
-        "windDirection": 149
+        "windSpeed": 5.1,
+        "windDirection": 186
       }
     },
     {
@@ -922,6 +1080,7 @@
       "title": "Naplementés SUP élményevezés Gödnél, kezdőknek is, tanítással (péntek-szombat- vasárnap IS!",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-07-31",
       "timeText": "19:00",
       "endDateISO": null,
@@ -933,11 +1092,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 36.7,
-        "tempMin": 21,
+        "tempMax": 36.4,
+        "tempMin": 20.3,
         "precipProbability": 0,
-        "windSpeed": 7.6,
-        "windDirection": 150
+        "windSpeed": 8.8,
+        "windDirection": 143
       }
     },
     {
@@ -945,6 +1104,7 @@
       "title": "SUP Budapest városi túrák reggel és este",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
       "dateISO": "2026-08-01",
       "timeText": "18:00",
       "endDateISO": "2026-08-02",
@@ -956,11 +1116,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 38,
-        "tempMin": 25.8,
+        "tempMax": 37.3,
+        "tempMin": 24.7,
         "precipProbability": 2,
-        "windSpeed": 9.3,
-        "windDirection": 164
+        "windSpeed": 12.4,
+        "windDirection": 161
       }
     },
     {
@@ -968,6 +1128,7 @@
       "title": "Naplemente SUP túra",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
       "dateISO": "2026-08-01",
       "timeText": "17:30",
       "endDateISO": null,
@@ -979,11 +1140,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 38.3,
-        "tempMin": 23.1,
-        "precipProbability": 10,
-        "windSpeed": 12.3,
-        "windDirection": 141
+        "tempMax": 37.9,
+        "tempMin": 22.4,
+        "precipProbability": 2,
+        "windSpeed": 8.8,
+        "windDirection": 144
       }
     },
     {
@@ -991,6 +1152,7 @@
       "title": "Naplementés SUP túra, Golden hour élmény Balatonszemesen",
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
+      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "dateISO": "2026-08-01",
       "timeText": "19:30",
       "endDateISO": null,
@@ -1002,11 +1164,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 38.9,
-        "tempMin": 20.9,
+        "tempMax": 36.5,
+        "tempMin": 21.7,
         "precipProbability": 0,
-        "windSpeed": 11.2,
-        "windDirection": 167
+        "windSpeed": 10.2,
+        "windDirection": 340
       }
     },
     {
@@ -1014,6 +1176,7 @@
       "title": "Basic 1. - Kezdő SUP oktatás",
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
       "dateISO": "2026-08-01",
       "timeText": "09:00",
       "endDateISO": null,
@@ -1025,11 +1188,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 38.5,
-        "tempMin": 24.9,
+        "tempMax": 37.8,
+        "tempMin": 24.4,
         "precipProbability": 2,
-        "windSpeed": 10.2,
-        "windDirection": 168
+        "windSpeed": 11,
+        "windDirection": 188
       }
     },
     {
@@ -1037,6 +1200,7 @@
       "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
       "dateISO": "2026-08-01",
       "timeText": "11:00",
       "endDateISO": null,
@@ -1048,11 +1212,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 38.5,
-        "tempMin": 24.9,
+        "tempMax": 37.8,
+        "tempMin": 24.4,
         "precipProbability": 2,
-        "windSpeed": 10.2,
-        "windDirection": 168
+        "windSpeed": 11,
+        "windDirection": 188
       }
     },
     {
@@ -1060,6 +1224,7 @@
       "title": "SUP Budapest éjszakai evezés a városon át",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
       "dateISO": "2026-08-01",
       "timeText": "21:00",
       "endDateISO": null,
@@ -1071,11 +1236,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 38,
-        "tempMin": 25.8,
+        "tempMax": 37.3,
+        "tempMin": 24.7,
         "precipProbability": 2,
-        "windSpeed": 9.3,
-        "windDirection": 164
+        "windSpeed": 12.4,
+        "windDirection": 161
       }
     },
     {
@@ -1093,11 +1258,11 @@
       "lat": 48.3009115,
       "lon": 21.5595025,
       "weather": {
-        "tempMax": 35.5,
-        "tempMin": 22.1,
-        "precipProbability": 6,
-        "windSpeed": 12.9,
-        "windDirection": 123
+        "tempMax": 35.6,
+        "tempMin": 21.1,
+        "precipProbability": 4,
+        "windSpeed": 15.1,
+        "windDirection": 136
       }
     },
     {
@@ -1105,6 +1270,7 @@
       "title": "Vadregényes SUP Kaland: A Szigetköz Ékköve (Haladó Túra)",
       "organizerId": "suppoznijo",
       "organizerName": "Suppoznijó",
+      "organizerUrl": "https://www.facebook.com/profile.php?id=61576461913729",
       "dateISO": "2026-08-01",
       "timeText": "09:30",
       "endDateISO": null,
@@ -1116,11 +1282,11 @@
       "lat": 47.9662482,
       "lon": 17.2882323,
       "weather": {
-        "tempMax": 38.4,
-        "tempMin": 23.4,
-        "precipProbability": 0,
-        "windSpeed": 13.2,
-        "windDirection": 211
+        "tempMax": 34.2,
+        "tempMin": 24.1,
+        "precipProbability": 5,
+        "windSpeed": 16.5,
+        "windDirection": 336
       }
     },
     {
@@ -1128,6 +1294,7 @@
       "title": "Napfelkeltés, napüdvözlőjógàs SUP evezés Gödnél, kezdőknek is, tanítással + Termelôi piac",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-08-01",
       "timeText": "05:00",
       "endDateISO": null,
@@ -1139,11 +1306,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.9,
-        "tempMin": 23.4,
-        "precipProbability": 2,
-        "windSpeed": 9.2,
-        "windDirection": 172
+        "tempMax": 37.2,
+        "tempMin": 23.1,
+        "precipProbability": 0,
+        "windSpeed": 15,
+        "windDirection": 150
       }
     },
     {
@@ -1151,6 +1318,7 @@
       "title": "Bodrogi SUP Kaland & Bográcsparti – Kétnapos Érintetlen Paradicsom Sárospatakon",
       "organizerId": "kiteline-se",
       "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "dateISO": "2026-08-01",
       "timeText": "11:00",
       "endDateISO": "2026-08-02",
@@ -1162,11 +1330,11 @@
       "lat": 48.31977,
       "lon": 21.5667,
       "weather": {
-        "tempMax": 35.5,
-        "tempMin": 22.1,
-        "precipProbability": 6,
-        "windSpeed": 12.9,
-        "windDirection": 123
+        "tempMax": 35.6,
+        "tempMin": 21.1,
+        "precipProbability": 4,
+        "windSpeed": 15.1,
+        "windDirection": 136
       }
     },
     {
@@ -1174,6 +1342,7 @@
       "title": "Naplementés SUP evezés Gödnél kezdőknek is! Tanítással! Péntek- szombat este",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-08-01",
       "timeText": "18:30",
       "endDateISO": null,
@@ -1185,18 +1354,34 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.9,
-        "tempMin": 23.4,
-        "precipProbability": 2,
-        "windSpeed": 9.2,
-        "windDirection": 172
+        "tempMax": 37.2,
+        "tempMin": 23.1,
+        "precipProbability": 0,
+        "windSpeed": 15,
+        "windDirection": 150
       }
+    },
+    {
+      "id": "fb-1390529646476569",
+      "title": "Igazi summer sup vibe az RSD legszebb részein + Nocsak bár",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-08-01",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. augusztus 1., szombat, 10:30 CEST",
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/1390529646476569/",
+      "source": "facebook"
     },
     {
       "id": "fb-1501114621187012",
       "title": "Délutáni chill SUP túra",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
       "dateISO": "2026-08-02",
       "timeText": "14:00",
       "endDateISO": null,
@@ -1211,6 +1396,7 @@
       "title": "Fedezd fel a SUP világát! – Kezdő SUP oktatás kicsiknek és nagyoknak",
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
       "dateISO": "2026-08-02",
       "timeText": "10:00",
       "endDateISO": null,
@@ -1225,6 +1411,7 @@
       "title": "Sup szafari Gemenc közepén",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-08-02",
       "timeText": "11:30",
       "endDateISO": null,
@@ -1236,11 +1423,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 38.5,
-        "tempMin": 25.7,
-        "precipProbability": 7,
-        "windSpeed": 8.9,
-        "windDirection": 149
+        "tempMax": 37.8,
+        "tempMin": 24.8,
+        "precipProbability": 6,
+        "windSpeed": 18.3,
+        "windDirection": 9
       }
     },
     {
@@ -1248,6 +1435,7 @@
       "title": "Reggeli hullámcsendes SUP élményevezés Gödnél, kezdőknek is! Tanítással",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-08-02",
       "timeText": "09:00",
       "endDateISO": null,
@@ -1259,11 +1447,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 38.3,
-        "tempMin": 23.7,
-        "precipProbability": 10,
-        "windSpeed": 8.3,
-        "windDirection": 152
+        "tempMax": 38.2,
+        "tempMin": 23.1,
+        "precipProbability": 4,
+        "windSpeed": 20.1,
+        "windDirection": 3
       }
     },
     {
@@ -1271,6 +1459,7 @@
       "title": "Sunset SUP fitnesz + Körtánc // 08.04. // Göd Dunapart",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-08-04",
       "timeText": "18:30",
       "endDateISO": null,
@@ -1287,6 +1476,7 @@
       "title": "SUP túra a Ráckevei-Dunán Budapesten",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-08-04",
       "timeText": null,
       "endDateISO": null,
@@ -1303,6 +1493,7 @@
       "title": "10 éves a SUP Budapest - szülinapi happening",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
       "dateISO": "2026-08-08",
       "timeText": "14:00",
       "endDateISO": null,
@@ -1313,10 +1504,28 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1847398536667903",
+      "title": "Fattyúszerkő-kilátó SUP túra",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "dateISO": "2026-08-08",
+      "timeText": "13:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. augusztus 8., szombat, 13:00–17:00 CEST",
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1847398536667903/",
+      "source": "facebook",
+      "lat": 47.634656,
+      "lon": 20.6413876
+    },
+    {
       "id": "fb-769807296136263",
       "title": "KEZDŐ FELNŐTT SUP TÁBOR SZÁLLÁSSAL #2",
       "organizerId": "sup-bazis",
       "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
       "dateISO": "2026-08-11",
       "timeText": "10:00",
       "endDateISO": "2026-08-15",
@@ -1333,6 +1542,7 @@
       "title": "KEZDŐ SUP TÁBOR GYEREKEKNEK (SZÁLLÁSSAL, ÉTKEZÉSSEL)",
       "organizerId": "sup-bazis",
       "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
       "dateISO": "2026-08-11",
       "timeText": "10:00",
       "endDateISO": "2026-08-15",
@@ -1349,6 +1559,7 @@
       "title": "SUP túra a Ráckevei-Dunán a Balabán-sziget és az Angyali-sziget lagúnáiban",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-08-15",
       "timeText": null,
       "endDateISO": null,
@@ -1365,6 +1576,7 @@
       "title": "Ünnepi sup kalandok Makarskán a Horvát Riviérán 4.0 /Limitált létszám max 8 fő /",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-08-18",
       "timeText": "07:00",
       "endDateISO": "2026-08-22",
@@ -1381,6 +1593,7 @@
       "title": "SUP túra a Ráckevei-Dunán Budapesten",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-08-18",
       "timeText": null,
       "endDateISO": null,
@@ -1397,6 +1610,7 @@
       "title": "Sup túra Winnetou nyomában",
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
       "dateISO": "2026-08-19",
       "timeText": "06:00",
       "endDateISO": "2026-08-23",
@@ -1413,6 +1627,7 @@
       "title": "SUP túra a gödi Homoksziget körül",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-08-23",
       "timeText": null,
       "endDateISO": null,
@@ -1429,6 +1644,7 @@
       "title": "Gemenc SUP Szafari-Szarvasbőgés Hétvége / 3 nap 2 éjszaka/",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-08-28",
       "timeText": "13:00",
       "endDateISO": "2026-08-30",
@@ -1445,6 +1661,7 @@
       "title": "SUP túra a Ráckevei-Dunán a Balabán-sziget és az Angyali-sziget lagúnáiban",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-08-29",
       "timeText": null,
       "endDateISO": null,
@@ -1461,6 +1678,7 @@
       "title": "Tiszafüred Sup Túra - Tisza tó - Két napos, campingezős suptúra augusztusban!",
       "organizerId": "kiteline-se",
       "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "dateISO": "2026-09-05",
       "timeText": "11:00",
       "endDateISO": "2026-09-06",
@@ -1477,6 +1695,7 @@
       "title": "SUP túra a Ráckevei-Dunán Budapesten",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-09-08",
       "timeText": null,
       "endDateISO": null,
@@ -1493,6 +1712,7 @@
       "title": "Bled - Bohinj - Most na Soci szeptemberi sup töltődés",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-09-11",
       "timeText": "17:00",
       "endDateISO": "2026-09-13",
@@ -1509,6 +1729,7 @@
       "title": "SUP túra a Ráckevei-Dunán a Balabán-sziget és az Angyali-sziget lagúnáiban",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "dateISO": "2026-09-12",
       "timeText": null,
       "endDateISO": null,
@@ -1525,6 +1746,7 @@
       "title": "Októberi sup trip Málta szigetén 8.0",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-10-07",
       "timeText": "11:00",
       "endDateISO": "2026-10-11",
