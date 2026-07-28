@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T11:01:47.803Z",
+  "lastUpdated": "2026-07-28T13:21:06.089Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -981,11 +981,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 36,
-        "tempMin": 21.6,
+        "tempMax": 36.2,
+        "tempMin": 21.8,
         "precipProbability": 0,
-        "windSpeed": 12.6,
-        "windDirection": 144
+        "windSpeed": 11.9,
+        "windDirection": 137
       }
     },
     {
@@ -1092,11 +1092,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 36.4,
-        "tempMin": 20.3,
+        "tempMax": 36.2,
+        "tempMin": 20.1,
         "precipProbability": 0,
-        "windSpeed": 8.8,
-        "windDirection": 143
+        "windSpeed": 8,
+        "windDirection": 138
       }
     },
     {
@@ -1117,10 +1117,10 @@
       "lon": 19.064441,
       "weather": {
         "tempMax": 37.3,
-        "tempMin": 24.7,
+        "tempMin": 24.6,
         "precipProbability": 2,
-        "windSpeed": 12.4,
-        "windDirection": 161
+        "windSpeed": 11.3,
+        "windDirection": 151
       }
     },
     {
@@ -1140,11 +1140,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 37.9,
-        "tempMin": 22.4,
+        "tempMax": 37.5,
+        "tempMin": 22.1,
         "precipProbability": 4,
-        "windSpeed": 8.8,
-        "windDirection": 144
+        "windSpeed": 9.2,
+        "windDirection": 130
       }
     },
     {
@@ -1188,11 +1188,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 37.8,
+        "tempMax": 37.7,
         "tempMin": 24.4,
         "precipProbability": 2,
-        "windSpeed": 11,
-        "windDirection": 188
+        "windSpeed": 11.4,
+        "windDirection": 180
       }
     },
     {
@@ -1212,11 +1212,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 37.8,
+        "tempMax": 37.7,
         "tempMin": 24.4,
         "precipProbability": 2,
-        "windSpeed": 11,
-        "windDirection": 188
+        "windSpeed": 11.4,
+        "windDirection": 180
       }
     },
     {
@@ -1237,10 +1237,10 @@
       "lon": 19.064441,
       "weather": {
         "tempMax": 37.3,
-        "tempMin": 24.7,
+        "tempMin": 24.6,
         "precipProbability": 2,
-        "windSpeed": 12.4,
-        "windDirection": 161
+        "windSpeed": 11.3,
+        "windDirection": 151
       }
     },
     {
@@ -1258,11 +1258,11 @@
       "lat": 48.3009115,
       "lon": 21.5595025,
       "weather": {
-        "tempMax": 35.6,
-        "tempMin": 21.1,
+        "tempMax": 35.4,
+        "tempMin": 21.2,
         "precipProbability": 2,
-        "windSpeed": 15.1,
-        "windDirection": 136
+        "windSpeed": 11.8,
+        "windDirection": 118
       }
     },
     {
@@ -1306,11 +1306,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.2,
-        "tempMin": 23.1,
+        "tempMax": 37,
+        "tempMin": 22.5,
         "precipProbability": 2,
-        "windSpeed": 15,
-        "windDirection": 150
+        "windSpeed": 10.9,
+        "windDirection": 149
       }
     },
     {
@@ -1330,11 +1330,11 @@
       "lat": 48.31977,
       "lon": 21.5667,
       "weather": {
-        "tempMax": 35.6,
-        "tempMin": 21.1,
+        "tempMax": 35.4,
+        "tempMin": 21.2,
         "precipProbability": 2,
-        "windSpeed": 15.1,
-        "windDirection": 136
+        "windSpeed": 11.8,
+        "windDirection": 118
       }
     },
     {
@@ -1354,11 +1354,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 37.2,
-        "tempMin": 23.1,
+        "tempMax": 37,
+        "tempMin": 22.5,
         "precipProbability": 2,
-        "windSpeed": 15,
-        "windDirection": 150
+        "windSpeed": 10.9,
+        "windDirection": 149
       }
     },
     {
@@ -1423,11 +1423,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 37.8,
-        "tempMin": 24.8,
+        "tempMax": 38.1,
+        "tempMin": 24.2,
         "precipProbability": 24,
-        "windSpeed": 18.3,
-        "windDirection": 9
+        "windSpeed": 10.7,
+        "windDirection": 1
       }
     },
     {
@@ -1447,11 +1447,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 38.2,
-        "tempMin": 23.1,
+        "tempMax": 38,
+        "tempMin": 22.3,
         "precipProbability": 20,
-        "windSpeed": 20.1,
-        "windDirection": 3
+        "windSpeed": 9.1,
+        "windDirection": 338
       }
     },
     {
@@ -1703,7 +1703,9 @@
       "rawWhen": "Szept. 4., 8:00 – szept. 7., 22:00 CEST",
       "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
       "url": "https://www.facebook.com/events/1469022475008904/",
-      "source": "facebook"
+      "source": "facebook",
+      "lat": 43.8221757,
+      "lon": 15.5925162
     },
     {
       "id": "fb-1576141673471436",

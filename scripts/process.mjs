@@ -110,6 +110,14 @@ async function loadGeocodeCache() {
   }
 }
 
+// Some European addresses prefix the postcode with an ISO country code
+// ("HR-22243 Murter") — Nominatim's free-text search fails on that exact
+// token even though the plain "22243 Murter" resolves fine. Strip it so a
+// foreign-address fallback query has a chance too.
+function stripCountryPostcodePrefix(s) {
+  return s.replace(/\b[A-Z]{1,2}-(\d{4,6})\b/g, '$1');
+}
+
 // Nominatim's free-text search is picky about full Hungarian street
 // addresses ("Petőfi Sándor utca 19, Szarvas 5540, Magyarország" finds
 // nothing) but handles the town-level remainder fine. Build a list of
@@ -121,7 +129,8 @@ function buildGeocodeQueries(location) {
   for (let i = 1; i < parts.length - 1; i++) {
     queries.push(parts.slice(i).join(', '));
   }
-  return [...new Set(queries)];
+  const strippedPrefix = queries.map(stripCountryPostcodePrefix).filter((q, i) => q !== queries[i]);
+  return [...new Set([...queries, ...strippedPrefix])];
 }
 
 async function nominatimSearch(query) {

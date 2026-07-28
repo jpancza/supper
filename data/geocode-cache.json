@@ -266,5 +266,8 @@
     "lat": 48.1514537,
     "lon": 16.9453602
   },
-  "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska": null
+  "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska": {
+    "lat": 43.8221757,
+    "lon": 15.5925162
+  }
 }
