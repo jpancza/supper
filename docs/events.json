@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T07:48:23.165Z",
+  "lastUpdated": "2026-07-28T11:01:47.803Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -933,11 +933,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.5,
+        "tempMax": 29.4,
         "tempMin": 20.4,
         "precipProbability": 0,
-        "windSpeed": 12.2,
-        "windDirection": 279
+        "windSpeed": 10.8,
+        "windDirection": 278
       }
     },
     {
@@ -957,11 +957,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 34,
+        "tempMax": 34.3,
         "tempMin": 17.4,
         "precipProbability": 0,
-        "windSpeed": 14.1,
-        "windDirection": 123
+        "windSpeed": 11.4,
+        "windDirection": 139
       }
     },
     {
@@ -981,11 +981,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 35.6,
-        "tempMin": 21.3,
+        "tempMax": 36,
+        "tempMin": 21.6,
         "precipProbability": 0,
-        "windSpeed": 10.4,
-        "windDirection": 140
+        "windSpeed": 12.6,
+        "windDirection": 144
       }
     },
     {
@@ -1005,11 +1005,11 @@
       "lat": 46.8014474,
       "lon": 17.7420482,
       "weather": {
-        "tempMax": 33.2,
-        "tempMin": 18.7,
+        "tempMax": 33.7,
+        "tempMin": 18.6,
         "precipProbability": 0,
-        "windSpeed": 15.1,
-        "windDirection": 98
+        "windSpeed": 11.5,
+        "windDirection": 118
       }
     },
     {
@@ -1030,10 +1030,10 @@
       "lon": 17.888892,
       "weather": {
         "tempMax": 36.1,
-        "tempMin": 22.7,
+        "tempMin": 22.2,
         "precipProbability": 0,
-        "windSpeed": 4.6,
-        "windDirection": 277
+        "windSpeed": 5.1,
+        "windDirection": 298
       }
     },
     {
@@ -1068,11 +1068,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 37.3,
-        "tempMin": 21.5,
+        "tempMax": 36.8,
+        "tempMin": 21.6,
         "precipProbability": 0,
-        "windSpeed": 5.1,
-        "windDirection": 186
+        "windSpeed": 5.2,
+        "windDirection": 182
       }
     },
     {
@@ -1142,7 +1142,7 @@
       "weather": {
         "tempMax": 37.9,
         "tempMin": 22.4,
-        "precipProbability": 2,
+        "precipProbability": 4,
         "windSpeed": 8.8,
         "windDirection": 144
       }
@@ -1164,11 +1164,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 36.5,
-        "tempMin": 21.7,
+        "tempMax": 38.2,
+        "tempMin": 21.1,
         "precipProbability": 0,
-        "windSpeed": 10.2,
-        "windDirection": 340
+        "windSpeed": 12.8,
+        "windDirection": 180
       }
     },
     {
@@ -1260,7 +1260,7 @@
       "weather": {
         "tempMax": 35.6,
         "tempMin": 21.1,
-        "precipProbability": 4,
+        "precipProbability": 2,
         "windSpeed": 15.1,
         "windDirection": 136
       }
@@ -1282,11 +1282,11 @@
       "lat": 47.9662482,
       "lon": 17.2882323,
       "weather": {
-        "tempMax": 34.2,
-        "tempMin": 24.1,
+        "tempMax": 37.8,
+        "tempMin": 23.7,
         "precipProbability": 5,
-        "windSpeed": 16.5,
-        "windDirection": 336
+        "windSpeed": 9.4,
+        "windDirection": 233
       }
     },
     {
@@ -1308,7 +1308,7 @@
       "weather": {
         "tempMax": 37.2,
         "tempMin": 23.1,
-        "precipProbability": 0,
+        "precipProbability": 2,
         "windSpeed": 15,
         "windDirection": 150
       }
@@ -1332,7 +1332,7 @@
       "weather": {
         "tempMax": 35.6,
         "tempMin": 21.1,
-        "precipProbability": 4,
+        "precipProbability": 2,
         "windSpeed": 15.1,
         "windDirection": 136
       }
@@ -1356,7 +1356,7 @@
       "weather": {
         "tempMax": 37.2,
         "tempMin": 23.1,
-        "precipProbability": 0,
+        "precipProbability": 2,
         "windSpeed": 15,
         "windDirection": 150
       }
@@ -1425,7 +1425,7 @@
       "weather": {
         "tempMax": 37.8,
         "tempMin": 24.8,
-        "precipProbability": 6,
+        "precipProbability": 24,
         "windSpeed": 18.3,
         "windDirection": 9
       }
@@ -1449,7 +1449,7 @@
       "weather": {
         "tempMax": 38.2,
         "tempMin": 23.1,
-        "precipProbability": 4,
+        "precipProbability": 20,
         "windSpeed": 20.1,
         "windDirection": 3
       }
@@ -1623,6 +1623,23 @@
       "lon": 15.6860003
     },
     {
+      "id": "fb-1257516332979348",
+      "title": "SUP-időutazás a Monarchiába: Wachau-Bécs-Pozsony-Óvár",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "dateISO": "2026-08-21",
+      "timeText": "08:00",
+      "endDateISO": "2026-08-23",
+      "endTimeText": "20:00",
+      "rawWhen": "Aug. 21., 8:00 – aug. 23., 20:00 CEST",
+      "location": "Donaulände 2, 2410 Hainburg an der Donau, Österreich",
+      "url": "https://www.facebook.com/events/1257516332979348/",
+      "source": "facebook",
+      "lat": 48.1514537,
+      "lon": 16.9453602
+    },
+    {
       "id": "funrafting-sup-tura-god-homoksziget-2026-08-23",
       "title": "SUP túra a gödi Homoksziget körül",
       "organizerId": "funrafting",
@@ -1672,6 +1689,21 @@
       "source": "funrafting",
       "lat": 47.1760583,
       "lon": 18.9417023
+    },
+    {
+      "id": "fb-1469022475008904",
+      "title": "Adriai SUP-túra 2.0 – Indián nyár a Winnetou-kanyonban",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "dateISO": "2026-09-04",
+      "timeText": "08:00",
+      "endDateISO": "2026-09-07",
+      "endTimeText": "22:00",
+      "rawWhen": "Szept. 4., 8:00 – szept. 7., 22:00 CEST",
+      "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
+      "url": "https://www.facebook.com/events/1469022475008904/",
+      "source": "facebook"
     },
     {
       "id": "fb-1576141673471436",

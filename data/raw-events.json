@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-28T07:48:15.484Z",
+  "scrapedAt": "2026-07-28T11:01:39.878Z",
   "events": [
     {
       "id": "fb-850932464338253",
@@ -218,18 +218,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-742321281360402",
-      "title": "V. Siófoki SUP kupa és SUPlife családi nap",
-      "organizerId": "suplife-hu",
-      "organizerName": "SUPlife.hu",
-      "organizerUrl": "https://www.facebook.com/suplifehu",
-      "rawWhen": "2024. július 14., vasárnap, 9:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Petőfi sétány 9, Siófok 8600, Magyarország",
-      "url": "https://www.facebook.com/events/742321281360402/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-278106637910025",
       "title": "IV. Siófoki SUP Kupa",
       "organizerId": "suplife-hu",
@@ -398,6 +386,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-2882017342159146",
+      "title": "Fuss a Buliba! Tihany Season Running Edition",
+      "organizerId": "tihany-sport",
+      "organizerName": "Tihany Sport és Szabadidő",
+      "organizerUrl": "https://www.facebook.com/tihanysport",
+      "rawWhen": "2026. augusztus 10., hétfő, 19:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Zaft Beach Bar",
+      "url": "https://www.facebook.com/events/2882017342159146/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1721416378976879",
       "title": "BBT eBike túra: Héthatár Csúcsai e-bike túra by TihanySport",
       "organizerId": "tihany-sport",
@@ -500,7 +500,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2026. július 31., péntek, 19:15–21:15 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
       "source": "facebook"
@@ -512,7 +512,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
@@ -524,7 +524,7 @@
       "organizerName": "Shaka Windsurf Spot",
       "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "rawWhen": "2026. július 31., péntek, 19:30–21:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
       "source": "facebook"
@@ -536,7 +536,7 @@
       "organizerName": "Shaka Windsurf Spot",
       "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "rawWhen": "2026. augusztus 1., szombat, 19:30–20:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
       "source": "facebook"
@@ -548,7 +548,7 @@
       "organizerName": "Shaka Windsurf Spot",
       "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
       "rawWhen": "2026. július 29., szerda, 21:00–22:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Hullám utca 7, Balatonszemes 8636, Magyarország",
       "url": "https://www.facebook.com/events/1543927677475366/",
       "source": "facebook"
@@ -560,7 +560,7 @@
       "organizerName": "Kiteline SE",
       "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "rawWhen": "Aug. 1., 11:00 – aug. 2., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Rákóczi út 56, Sárospatak 3950, Magyarország",
       "url": "https://www.facebook.com/events/1424185042883082/",
       "source": "facebook"
@@ -572,7 +572,7 @@
       "organizerName": "Kiteline SE",
       "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "rawWhen": "Aug. 13., 10:00 – aug. 27., 9:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kremasti Rhodos",
       "url": "https://www.facebook.com/events/3349702011865114/",
       "source": "facebook"
@@ -584,7 +584,7 @@
       "organizerName": "Kiteline SE",
       "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "rawWhen": "Szept. 5., 11:00 – szept. 6., 18:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Tiszafüred - Tisza-tó",
       "url": "https://www.facebook.com/events/1576141673471436/",
       "source": "facebook"
@@ -728,7 +728,7 @@
       "organizerName": "SUP BÁZIS",
       "organizerUrl": "https://www.facebook.com/supbazis",
       "rawWhen": "2026. augusztus 8., szombat, 13:00–17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/1847398536667903/",
       "source": "facebook"
@@ -740,7 +740,7 @@
       "organizerName": "SUP BÁZIS",
       "organizerUrl": "https://www.facebook.com/supbazis",
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/769807296136263/",
       "source": "facebook"
@@ -752,7 +752,7 @@
       "organizerName": "SUP BÁZIS",
       "organizerUrl": "https://www.facebook.com/supbazis",
       "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/1408262600700579/",
       "source": "facebook"
@@ -764,7 +764,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. augusztus 22., szombat, 9:00–17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Vízisport utca 24, Budapest 1201, Magyarország",
       "url": "https://www.facebook.com/events/1289248152534270/",
       "source": "facebook"
@@ -776,7 +776,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Aug. 7., 19:00 – aug. 9., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Masná 129, 381 01 Český Krumlov, Česko",
       "url": "https://www.facebook.com/events/1332244958750413/",
       "source": "facebook"
@@ -788,7 +788,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Aug. 14., 19:00 – aug. 16., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Masná 129, 381 01 Český Krumlov, Česko",
       "url": "https://www.facebook.com/events/945847885158947/",
       "source": "facebook"
@@ -800,7 +800,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Aug. 20., 15:00 – aug. 23., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "- Közös evezé… Továbbiak",
       "url": "https://www.facebook.com/events/1332336258668345/",
       "source": "facebook"
@@ -812,7 +812,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. augusztus 22., szombat, 9:00–17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Vízisport utca 44, Budapest 1237, Magyarország",
       "url": "https://www.facebook.com/events/1518998473171688/",
       "source": "facebook"
@@ -824,7 +824,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Aug. 28., 19:00 – aug. 30., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Hallstättersee Landesstraße, 4831 Obertraun, Österreich",
       "url": "https://www.facebook.com/events/1174186027938795/",
       "source": "facebook"
@@ -836,7 +836,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. augusztus 29., szombat, 9:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Vízisport utca 44, Budapest 1237, Magyarország",
       "url": "https://www.facebook.com/events/1712467283331894/",
       "source": "facebook"
@@ -1427,6 +1427,30 @@
       "assumeUpcoming": false,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/723240754046561/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1257516332979348",
+      "title": "SUP-időutazás a Monarchiába: Wachau-Bécs-Pozsony-Óvár",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "Aug. 21., 8:00 – aug. 23., 20:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Donaulände 2, 2410 Hainburg an der Donau, Österreich",
+      "url": "https://www.facebook.com/events/1257516332979348/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1469022475008904",
+      "title": "Adriai SUP-túra 2.0 – Indián nyár a Winnetou-kanyonban",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "Szept. 4., 8:00 – szept. 7., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
+      "url": "https://www.facebook.com/events/1469022475008904/",
       "source": "facebook"
     }
   ]
