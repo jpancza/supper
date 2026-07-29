@@ -269,5 +269,13 @@
   "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska": {
     "lat": 43.8221757,
     "lon": 15.5925162
+  },
+  "Füredi utca 36, Alsóörs 8226, Magyarország": {
+    "lat": 46.9861423,
+    "lon": 17.9799863
+  },
+  "Táncsics Mihály utca 1, Alsóörs 8226, Magyarország": {
+    "lat": 46.9870434,
+    "lon": 17.9805508
   }
 }
