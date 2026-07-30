@@ -5,21 +5,31 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
-  schedule:
-    # 05:15 UTC = 07:15 CEST — 15 perccel az update.yml (07:00) után, hogy
-    # legyen ideje lefutni a scrape+commitnak. Azért kell külön schedule és
-    # nem elég az update.yml push-ja: a botnak a beépített GITHUB_TOKEN-nel
-    # tett push-ja szándékosan nem indít el más workflow-t (a GitHub védelme
-    # a végtelen ciklusok ellen), úgyhogy a napi commit önmagában sosem
-    # triggerelné ezt a workflow-t.
-    - cron: '15 5 * * *'
+  workflow_run:
+    # Az update.yml (napi scrape+commit) tényleges befejezéséhez kötve, nem
+    # egy találgatott időponthoz — korábban egy fix 05:15 UTC schedule volt
+    # itt, "15 perccel az update.yml (05:00 UTC) után", abban bízva, hogy a
+    # scrape addigra végez. Ez race condition-t okozott: a GitHub ütemezett
+    # workflow-i nem garantáltan a megadott percben indulnak (akár 1-2+ órás
+    # csúszás is előfordulhat alacsony terhelésű repóknál), és ha az
+    # update.yml később fut le, mint a deploy.yml fix ütemezése, a deploy a
+    # tegnapi adatot tölti fel — a bot ezutáni push-a pedig szándékosan nem
+    # triggereli újra ezt a workflow-t (GitHub védelme a végtelen ciklusok
+    # ellen a beépített GITHUB_TOKEN-es push-oknál). A workflow_run ehelyett
+    # arra vár, hogy az "Update events" workflow ténylegesen lezáruljon,
+    # bármikor történjen is az.
+    workflows: ["Update events"]
+    types: [completed]
   workflow_dispatch: {}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
