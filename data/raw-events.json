@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-29T07:54:41.934Z",
+  "scrapedAt": "2026-07-30T07:44:46.453Z",
   "events": [
     {
       "id": "fb-2565730453886862",
@@ -9,7 +9,7 @@
       "organizerUrl": "https://www.facebook.com/suprafel",
       "rawWhen": "2026. augusztus 1., szombat, 11:00–18:00 CEST",
       "assumeUpcoming": true,
-      "location": "Haloda a fűz alatt - Keselyűsi halsütöde a Gemenc szívében",
+      "location": "Szekszárdi Kajak Kenu SE",
       "url": "https://www.facebook.com/events/2565730453886862/",
       "source": "facebook"
     },
@@ -23,6 +23,18 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1567360661604543/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2205075040286658",
+      "title": "Sárospatak-Bodrogi Sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. augusztus 8., szombat, 10:00–21:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Lábasház (Sunrive), Sárospatak 3950, Magyarország",
+      "url": "https://www.facebook.com/events/2205075040286658/",
       "source": "facebook"
     },
     {
@@ -62,6 +74,78 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1622315719626984",
+      "title": "Basic 1. - Kezdő SUP oktatás",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 2., vasárnap, 9:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/1622315719626984/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1027539726839460",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 2., vasárnap, 11:00–14:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/1027539726839460/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2281707972639550",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 2., vasárnap, 11:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/2281707972639550/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1734037021006405",
+      "title": "Basic 1. - Kezdő SUP oktatás",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 8., szombat, 9:00–10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/1734037021006405/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1034706586202569",
+      "title": "Basic 1. - Kezdő SUP oktatás",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 15., szombat, 9:00–10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/1034706586202569/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-3156232464563894",
+      "title": "Basic 1. - Kezdő SUP oktatás",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. augusztus 22., szombat, 9:00–10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/3156232464563894/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-4532194447016037",
       "title": "Lebegő hangfürdő Tatán",
       "organizerId": "old-lake-sup",
@@ -83,18 +167,6 @@
       "assumeUpcoming": true,
       "location": "Egy különleg… Továbbiak",
       "url": "https://www.facebook.com/events/1634303524336410/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1019697720984944",
-      "title": "120 perces kezdő sup oktatás az Újpesti-öbölben + gyakorló sup túra /max 8 fő/",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. július 29., szerda, 17:00–19:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1019697720984944/",
       "source": "facebook"
     },
     {
@@ -523,8 +595,8 @@
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. július 30., csütörtök, 7:30–9:30 CEST",
-      "assumeUpcoming": true,
+      "rawWhen": "2026. július 31., péntek, 7:30–9:30 CEST",
+      "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1392672286092436/",
       "source": "facebook"
@@ -535,8 +607,8 @@
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. július 29., szerda, 19:00–21:00 CEST",
-      "assumeUpcoming": true,
+      "rawWhen": "2026. július 30., csütörtök, 19:00–21:00 CEST",
+      "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2194160984714461/",
       "source": "facebook"
@@ -548,9 +620,21 @@
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
       "rawWhen": "2026. augusztus 1., szombat, 18:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1041181498650239/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1680000653232831",
+      "title": "Naplementés SUP túra",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "rawWhen": "2026. augusztus 2., vasárnap, 19:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/1680000653232831/",
       "source": "facebook"
     },
     {
@@ -623,30 +707,6 @@
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1543927677475366",
-      "title": "Teliholdas SUP túra - Balatonszemes 2026.07.29.",
-      "organizerId": "shaka-windsurf-spot",
-      "organizerName": "Shaka Windsurf Spot",
-      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
-      "rawWhen": "2026. július 29., szerda, 21:00–22:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Hullám utca 7, Balatonszemes 8636, Magyarország",
-      "url": "https://www.facebook.com/events/1543927677475366/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1424185042883082",
-      "title": "Bodrogi SUP Kaland & Bográcsparti – Kétnapos Érintetlen Paradicsom Sárospatakon",
-      "organizerId": "kiteline-se",
-      "organizerName": "Kiteline SE",
-      "organizerUrl": "https://www.facebook.com/kiteline.hu",
-      "rawWhen": "Aug. 1., 11:00 – aug. 2., 16:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Rákóczi út 56, Sárospatak 3950, Magyarország",
-      "url": "https://www.facebook.com/events/1424185042883082/",
       "source": "facebook"
     },
     {
@@ -743,6 +803,18 @@
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1074823901742042/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1065729992689888",
+      "title": "Sunset Sup jóga Sándor Anikóval Gödnél, kezdőknek is bátran",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 2., vasárnap, 18:30–20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1065729992689888/",
       "source": "facebook"
     },
     {
