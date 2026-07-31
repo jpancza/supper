@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-30T07:44:46.453Z",
+  "scrapedAt": "2026-07-31T07:55:24.774Z",
   "events": [
     {
       "id": "fb-2565730453886862",
@@ -203,6 +203,18 @@
       "assumeUpcoming": true,
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1110591684626102/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-4576822172552232",
+      "title": "Sup vibe a mesés Szigetköz varázsában /Új helyszín /",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 15., szombat, 10:30–16:31 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/4576822172552232/",
       "source": "facebook"
     },
     {
@@ -590,24 +602,12 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1392672286092436",
-      "title": "SUP&Sunrise - Napindító Sup túra a Balatonon",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. július 31., péntek, 7:30–9:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1392672286092436/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-2194160984714461",
       "title": "Golden Hour SUP – Aranyórás evezés a Balatonon",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. július 30., csütörtök, 19:00–21:00 CEST",
+      "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
       "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2194160984714461/",
@@ -707,6 +707,18 @@
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2869668940066278",
+      "title": "Helemba-zátony szombat éjjeli sup és sütögetés - Vasárnap Esztergom Szénlerakó-Szobi rév SUP túra",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
+      "rawWhen": "2026. augusztus 2., vasárnap, 10:00–17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Esztergom Szénrakodó",
+      "url": "https://www.facebook.com/events/2869668940066278/",
       "source": "facebook"
     },
     {
