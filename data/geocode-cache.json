@@ -291,5 +291,22 @@
   "Tata, Magyarország": {
     "lat": 47.6516214,
     "lon": 18.3282083
+  },
+  "Holdudvar, Margitsziget (hivatalos oldal)": null,
+  "Göd, 2131": {
+    "lat": 47.6879452,
+    "lon": 19.1375105
+  },
+  "Duna korzó 27, Szentendre 2000, Magyarország": {
+    "lat": 47.6698691,
+    "lon": 19.0783854
+  },
+  "Dunasziget (Győr-Moson-Sopron megye, Magyarország)": {
+    "lat": 47.9416346,
+    "lon": 17.3554366
+  },
+  "Margitsziget, Magyarország": {
+    "lat": 47.5272928,
+    "lon": 19.0478668
   }
 }

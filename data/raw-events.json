@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-02T07:41:45.422Z",
+  "scrapedAt": "2026-08-03T08:41:51.534Z",
   "events": [
     {
       "id": "fb-1567360661604543",
@@ -38,36 +38,12 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1622315719626984",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 2., vasárnap, 9:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1622315719626984/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1027539726839460",
-      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 2., vasárnap, 11:00–14:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1027539726839460/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1734037021006405",
       "title": "Basic 1. - Kezdő SUP oktatás",
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
       "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 8., szombat, 9:00–10:30 CEST",
+      "rawWhen": "2026. augusztus 9., vasárnap, 9:00–10:30 CEST",
       "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1734037021006405/",
@@ -79,7 +55,7 @@
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
       "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 8., szombat, 11:00–14:00 CEST",
+      "rawWhen": "2026. augusztus 9., vasárnap, 11:00–14:00 CEST",
       "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/2281707972639550/",
@@ -218,18 +194,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2165347574404391",
-      "title": "Sup szafari Gemenc közepén",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 2., vasárnap, 11:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/2165347574404391/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1110591684626102",
       "title": "Kezdő sup oktatás + gyakorló sup túra az Újpesti - öbölben/max 8 fő/",
       "organizerId": "sup-the-lifestyle",
@@ -314,12 +278,24 @@
       "source": "facebook"
     },
     {
+      "id": "fb-4499253950334851",
+      "title": "Sup túra Poroszló és környékén",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. szeptember 6., vasárnap, 11:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.",
+      "url": "https://www.facebook.com/events/4499253950334851/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-991830680282210",
       "title": "SUP Budapest városi túrák reggel és este",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
       "organizerUrl": "https://www.facebook.com/supbudapest",
-      "rawWhen": "Aug. 1., 18:00 – aug. 2., 18:00 CEST",
+      "rawWhen": "Aug. 8., 18:00 – aug. 9., 18:00 CEST",
       "assumeUpcoming": true,
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/991830680282210/",
@@ -333,7 +309,7 @@
       "organizerUrl": "https://www.facebook.com/supbudapest",
       "rawWhen": "2026. augusztus 8., szombat, 14:00 CEST",
       "assumeUpcoming": true,
-      "location": "Különleges és egyedi adottságokkal rendelkező rendezvényhelyszín konferenciák, esküvők, sajtótájékoztatók, céges rendezvények számára!",
+      "location": "Holdudvar, Margitsziget (hivatalos oldal)",
       "url": "https://www.facebook.com/events/1651923759432654/",
       "source": "facebook"
     },
@@ -371,6 +347,18 @@
       "assumeUpcoming": true,
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/2019391308604901/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2276355386438537",
+      "title": "SUP Budapest x GymBeam Szentendre - Római SUP túra",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "rawWhen": "2026. augusztus 21., péntek, 13:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Duna korzó 27, Szentendre 2000, Magyarország",
+      "url": "https://www.facebook.com/events/2276355386438537/",
       "source": "facebook"
     },
     {
@@ -535,7 +523,7 @@
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
       "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "rawWhen": "2026. augusztus 2., vasárnap, 14:00–17:00 CEST",
+      "rawWhen": "2026. augusztus 9., vasárnap, 14:00–17:00 CEST",
       "assumeUpcoming": true,
       "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
       "url": "https://www.facebook.com/events/1501114621187012/",
@@ -559,7 +547,7 @@
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
       "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "rawWhen": "2026. augusztus 2., vasárnap, 10:00–13:00 CEST",
+      "rawWhen": "2026. augusztus 9., vasárnap, 10:00–13:00 CEST",
       "assumeUpcoming": true,
       "location": "Szeretnéd biztonságosan, nyugodt körülmények között kipróbálni a SUP-ozást? Várunk szeretettel kezdő oktatásunkon, ahol lépésről lépésre, jó hangulatban sajátíthatod el a legfontos… Továbbiak",
       "url": "https://www.facebook.com/events/996559680027070/",
@@ -572,7 +560,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 10., hétfő, 19:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Zaft Beach Bar",
       "url": "https://www.facebook.com/events/2882017342159146/",
       "source": "facebook"
@@ -584,7 +572,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 20., csütörtök, 9:30–16:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Aranyhíd sétány 8, Balatonfüred 8230, Magyarország",
       "url": "https://www.facebook.com/events/1721416378976879/",
       "source": "facebook"
@@ -596,7 +584,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 29., szombat, 16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Ez a túra a TihanySport kalandok sorozat része, amelynek kül… Továbbiak",
       "url": "https://www.facebook.com/events/28186251277654317/",
       "source": "facebook"
@@ -608,7 +596,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 30., vasárnap, 18:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "A Tihany Season Running … Továbbiak",
       "url": "https://www.facebook.com/events/1634381011587414/",
       "source": "facebook"
@@ -620,7 +608,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -632,7 +620,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -644,21 +632,21 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
     },
     {
-      "id": "fb-1680000653232831",
-      "title": "Naplementés SUP túra",
+      "id": "fb-1575873183891600",
+      "title": "SUP & GÖRÖG PISZTÁCIA – EGY KÜLÖNLEGES REGGEL A BALATONON",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 2., vasárnap, 19:00 CEST",
+      "rawWhen": "2026. augusztus 9., vasárnap, 8:00 CEST",
       "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1680000653232831/",
+      "url": "https://www.facebook.com/events/1575873183891600/",
       "source": "facebook"
     },
     {
@@ -671,18 +659,6 @@
       "assumeUpcoming": false,
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1627130245693073",
-      "title": "SUP oktatás és biztonságtechnikai tréning Alsóörsön",
-      "organizerId": "balatonsup",
-      "organizerName": "Balatonsup",
-      "organizerUrl": "https://www.facebook.com/balatonsup",
-      "rawWhen": "2026. augusztus 2., vasárnap, 11:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Táncsics Mihály utca 1, Alsóörs 8226, Magyarország",
-      "url": "https://www.facebook.com/events/1627130245693073/",
       "source": "facebook"
     },
     {
@@ -722,18 +698,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2869668940066278",
-      "title": "Helemba-zátony szombat éjjeli sup és sütögetés - Vasárnap Esztergom Szénlerakó-Szobi rév SUP túra",
-      "organizerId": "kiteline-se",
-      "organizerName": "Kiteline SE",
-      "organizerUrl": "https://www.facebook.com/kiteline.hu",
-      "rawWhen": "2026. augusztus 2., vasárnap, 10:00–17:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Esztergom Szénrakodó",
-      "url": "https://www.facebook.com/events/2869668940066278/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-3349702011865114",
       "title": "Rodosz Classic XXIV. - Ahol a Meltemi mindig fúj",
       "organizerId": "kiteline-se",
@@ -770,27 +734,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1074823901742042",
-      "title": "Reggeli hullámcsendes SUP élményevezés Gödnél, kezdőknek is! Tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 2., vasárnap, 9:00–11:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1074823901742042/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1065729992689888",
-      "title": "Sunset Sup jóga Sándor Anikóval Gödnél, kezdőknek is bátran",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 2., vasárnap, 18:30–20:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1065729992689888/",
+      "id": "fb-898603579995003",
+      "title": "Sportos SUP túra Dunakilitiből a Denkpál hallépcsőig",
+      "organizerId": "suppoznijo",
+      "organizerName": "Suppoznijó",
+      "organizerUrl": "https://www.facebook.com/profile.php?id=61576461913729",
+      "rawWhen": "2026. augusztus 23., vasárnap, 9:30–12:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Dunasziget (Győr-Moson-Sopron megye, Magyarország)",
+      "url": "https://www.facebook.com/events/898603579995003/",
       "source": "facebook"
     },
     {
@@ -827,6 +779,18 @@
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1686424870153536/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1074089778517405",
+      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 8., szombat, 18:30–20:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Göd, 2131",
+      "url": "https://www.facebook.com/events/1074089778517405/",
       "source": "facebook"
     },
     {
@@ -1269,7 +1233,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.04 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.08.04",
       "source": "funrafting"
     },
@@ -1490,99 +1454,27 @@
       "source": "funrafting"
     },
     {
-      "id": "fb-1436625925161105",
-      "title": "1 napos biztonságtechnikai SUP oktatás és túra a Tisza-tavi madárrezervátumban",
+      "id": "fb-1964596257534082",
+      "title": "SUP túra a Szigetközben",
       "organizerId": "riversup",
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2026. július 19., vasárnap, 9:00–17:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
-      "url": "https://www.facebook.com/events/1436625925161105/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-36299608953017758",
-      "title": "SUP túra, Tisza-tó",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2026. június 21., vasárnap, 9:00–16:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
-      "url": "https://www.facebook.com/events/36299608953017758/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1359271069387502",
-      "title": "SUP túra, Tisza-tó",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2026. június 21., vasárnap, 9:00–16:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
-      "url": "https://www.facebook.com/events/1359271069387502/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1058293236861951",
-      "title": "SUP túra, Tisza-tó",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2026. június 14., vasárnap, 9:30–15:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
-      "url": "https://www.facebook.com/events/1058293236861951/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1215193747194070",
-      "title": "SUP-túra, Vajas-fok",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2026. május 9., szombat, 9:00–17:00 CEST",
-      "assumeUpcoming": false,
-      "location": "részvételi díj: 15.000 Ft/fő (saj… Továbbiak",
-      "url": "https://www.facebook.com/events/1215193747194070/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-799196056126279",
-      "title": "Nehéz SUP túra a Szigetközben",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2025. szept. 20., 9:00 – 2025. szept. 21., 18:00 CEST",
+      "rawWhen": "2026. augusztus 8., szombat, 8:30–17:00 CEST",
       "assumeUpcoming": false,
       "location": "Aranyossziget utca 66, Mosonmagyaróvár 9200, Magyarország",
-      "url": "https://www.facebook.com/events/799196056126279/",
+      "url": "https://www.facebook.com/events/1964596257534082/",
       "source": "facebook"
     },
     {
-      "id": "fb-961328369390235",
-      "title": "Kerka-Mura-Dráva SUP túra",
+      "id": "fb-3266711170386274",
+      "title": "SUP túra, Tisza-tó",
       "organizerId": "riversup",
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2025. szept. 11., 8:00 – 2025. szept. 14., 19:00 CEST",
+      "rawWhen": "2026. szeptember 6., vasárnap, 9:00–16:00 CEST",
       "assumeUpcoming": false,
-      "location": "részvételi díj: 33.000 Ft/fő + szállás (saját felszereléssel 20.00… Továbbiak",
-      "url": "https://www.facebook.com/events/961328369390235/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-723240754046561",
-      "title": "BETELT. könnyű SUP-túra a Soroksári-Dunán Czuczor-sziget kerüléssel",
-      "organizerId": "riversup",
-      "organizerName": "RiverSUP",
-      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
-      "rawWhen": "2025. szeptember 6., szombat, 9:30–12:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/723240754046561/",
+      "location": "Csapó köz 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/3266711170386274/",
       "source": "facebook"
     },
     {
