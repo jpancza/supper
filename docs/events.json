@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T08:42:02.442Z",
+  "lastUpdated": "2026-08-04T07:49:57.324Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -1539,11 +1539,11 @@
       "lat": 47.7066543,
       "lon": 19.1325325,
       "weather": {
-        "tempMax": 41,
-        "tempMin": 23.8,
+        "tempMax": 40.8,
+        "tempMin": 24,
         "precipProbability": 0,
-        "windSpeed": 8.3,
-        "windDirection": 86
+        "windSpeed": 10.1,
+        "windDirection": 176
       }
     },
     {
@@ -1563,16 +1563,16 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 40.5,
-        "tempMin": 26,
+        "tempMax": 40.3,
+        "tempMin": 24.3,
         "precipProbability": 0,
-        "windSpeed": 11.9,
-        "windDirection": 92
+        "windSpeed": 11.5,
+        "windDirection": 177
       }
     },
     {
       "id": "fb-4418232045116246",
-      "title": "Kánikulai hűsítő SUP evezés Gödnél, kezdőknek is",
+      "title": "Kánikulai hűsítő SUP evezés Gödnél, SZERDA- CSÜT- SZOMBAT: kezdőknek is",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -1587,11 +1587,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 41.6,
-        "tempMin": 27.4,
+        "tempMax": 41.8,
+        "tempMin": 26.7,
         "precipProbability": 0,
-        "windSpeed": 10.1,
-        "windDirection": 117
+        "windSpeed": 9,
+        "windDirection": 172
       }
     },
     {
@@ -1611,11 +1611,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 42,
-        "tempMin": 29.4,
+        "tempMax": 41.8,
+        "tempMin": 27.2,
         "precipProbability": 0,
-        "windSpeed": 9.4,
-        "windDirection": 105
+        "windSpeed": 9.7,
+        "windDirection": 180
       }
     },
     {
@@ -1635,16 +1635,16 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 39.9,
-        "tempMin": 25.6,
-        "precipProbability": 22,
-        "windSpeed": 12.2,
-        "windDirection": 7
+        "tempMax": 40.7,
+        "tempMin": 30.2,
+        "precipProbability": 11,
+        "windSpeed": 14.2,
+        "windDirection": 340
       }
     },
     {
       "id": "fb-1686424870153536",
-      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél, kezdőknek is!",
+      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -1659,11 +1659,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 39.5,
-        "tempMin": 23.6,
-        "precipProbability": 16,
-        "windSpeed": 8.2,
-        "windDirection": 326
+        "tempMax": 40.5,
+        "tempMin": 29,
+        "precipProbability": 8,
+        "windSpeed": 14.4,
+        "windDirection": 337
       }
     },
     {
@@ -1698,11 +1698,35 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 24.6,
-        "precipProbability": 15,
-        "windSpeed": 20.3,
-        "windDirection": 351
+        "tempMax": 28.7,
+        "tempMin": 22,
+        "precipProbability": 20,
+        "windSpeed": 28.6,
+        "windDirection": 348
+      }
+    },
+    {
+      "id": "fb-2943917849284405",
+      "title": "Hétvégi naplementés SUP túrák",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-08-07",
+      "timeText": "19:00",
+      "endDateISO": null,
+      "endTimeText": "21:00",
+      "rawWhen": "2026. augusztus 7., péntek, 19:00–21:00 CEST",
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/2943917849284405/",
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 28.1,
+        "tempMin": 21.1,
+        "precipProbability": 13,
+        "windSpeed": 30,
+        "windDirection": 350
       }
     },
     {
@@ -1722,11 +1746,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 32.1,
-        "tempMin": 21.5,
-        "precipProbability": 22,
-        "windSpeed": 10.6,
-        "windDirection": 9
+        "tempMax": 31,
+        "tempMin": 22.2,
+        "precipProbability": 18,
+        "windSpeed": 10.5,
+        "windDirection": 29
       }
     },
     {
@@ -1746,11 +1770,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 31.7,
-        "tempMin": 20.9,
-        "precipProbability": 23,
-        "windSpeed": 9,
-        "windDirection": 5
+        "tempMax": 30.8,
+        "tempMin": 21.7,
+        "precipProbability": 17,
+        "windSpeed": 10.8,
+        "windDirection": 50
       }
     },
     {
@@ -1770,11 +1794,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 28.4,
-        "tempMin": 22.9,
-        "precipProbability": 23,
-        "windSpeed": 8.8,
-        "windDirection": 62
+        "tempMax": 29.4,
+        "tempMin": 17.7,
+        "precipProbability": 15,
+        "windSpeed": 12.4,
+        "windDirection": 347
       }
     },
     {
@@ -1794,11 +1818,11 @@
       "lat": 47.5272928,
       "lon": 19.0478668,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 22,
-        "precipProbability": 22,
-        "windSpeed": 10.4,
-        "windDirection": 19
+        "tempMax": 31.4,
+        "tempMin": 22.5,
+        "precipProbability": 18,
+        "windSpeed": 11.5,
+        "windDirection": 35
       }
     },
     {
@@ -1818,11 +1842,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 29.5,
-        "tempMin": 21.1,
+        "tempMax": 29.8,
+        "tempMin": 22.1,
         "precipProbability": 19,
-        "windSpeed": 22.7,
-        "windDirection": 29
+        "windSpeed": 21.1,
+        "windDirection": 25
       }
     },
     {
@@ -1842,10 +1866,10 @@
       "lat": 48.3182993,
       "lon": 21.5730189,
       "weather": {
-        "tempMax": 28.5,
-        "tempMin": 20,
-        "precipProbability": 16,
-        "windSpeed": 22.1,
+        "tempMax": 28,
+        "tempMin": 20.5,
+        "precipProbability": 11,
+        "windSpeed": 21.4,
         "windDirection": 12
       }
     },
@@ -1866,7 +1890,7 @@
     },
     {
       "id": "fb-1074089778517405",
-      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is: + Szerda+ Csüt IS: tanítással",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -1881,11 +1905,11 @@
       "lat": 47.6879452,
       "lon": 19.1375105,
       "weather": {
-        "tempMax": 31.7,
-        "tempMin": 20.8,
-        "precipProbability": 22,
-        "windSpeed": 12.6,
-        "windDirection": 1
+        "tempMax": 30.8,
+        "tempMin": 21.4,
+        "precipProbability": 17,
+        "windSpeed": 11.4,
+        "windDirection": 25
       }
     },
     {
@@ -1905,11 +1929,11 @@
       "lat": 47.8539531,
       "lon": 17.2816798,
       "weather": {
-        "tempMax": 31.1,
-        "tempMin": 21.1,
-        "precipProbability": 18,
-        "windSpeed": 9.4,
-        "windDirection": 163
+        "tempMax": 28.4,
+        "tempMin": 14.3,
+        "precipProbability": 3,
+        "windSpeed": 10.7,
+        "windDirection": 358
       }
     },
     {
@@ -1959,11 +1983,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 22.2,
-        "precipProbability": 20,
-        "windSpeed": 10.4,
-        "windDirection": 70
+        "tempMax": 32.9,
+        "tempMin": 20.8,
+        "precipProbability": 6,
+        "windSpeed": 11.8,
+        "windDirection": 84
       }
     },
     {
@@ -1983,11 +2007,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 22.2,
-        "precipProbability": 20,
-        "windSpeed": 10.4,
-        "windDirection": 70
+        "tempMax": 32.9,
+        "tempMin": 20.8,
+        "precipProbability": 6,
+        "windSpeed": 11.8,
+        "windDirection": 84
       }
     },
     {
@@ -2007,11 +2031,35 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 29.8,
-        "tempMin": 19.5,
-        "precipProbability": 15,
-        "windSpeed": 8.4,
-        "windDirection": 195
+        "tempMax": 33.9,
+        "tempMin": 15.5,
+        "precipProbability": 7,
+        "windSpeed": 8.8,
+        "windDirection": 153
+      }
+    },
+    {
+      "id": "fb-1037906958987753",
+      "title": "Sunset Sup jóga Gödnél Sándor Anikóval",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-09",
+      "timeText": "18:30",
+      "endDateISO": null,
+      "endTimeText": "20:00",
+      "rawWhen": "2026. augusztus 9., vasárnap, 18:30–20:00 CEST",
+      "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
+      "url": "https://www.facebook.com/events/1037906958987753/",
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 32.3,
+        "tempMin": 18.2,
+        "precipProbability": 2,
+        "windSpeed": 8.9,
+        "windDirection": 38
       }
     },
     {

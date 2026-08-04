@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-03T08:41:51.534Z",
+  "scrapedAt": "2026-08-04T07:49:52.707Z",
   "events": [
     {
       "id": "fb-1567360661604543",
@@ -560,7 +560,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 10., hétfő, 19:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Zaft Beach Bar",
       "url": "https://www.facebook.com/events/2882017342159146/",
       "source": "facebook"
@@ -572,7 +572,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 20., csütörtök, 9:30–16:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Aranyhíd sétány 8, Balatonfüred 8230, Magyarország",
       "url": "https://www.facebook.com/events/1721416378976879/",
       "source": "facebook"
@@ -584,7 +584,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 29., szombat, 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Ez a túra a TihanySport kalandok sorozat része, amelynek kül… Továbbiak",
       "url": "https://www.facebook.com/events/28186251277654317/",
       "source": "facebook"
@@ -596,7 +596,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 30., vasárnap, 18:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "A Tihany Season Running … Továbbiak",
       "url": "https://www.facebook.com/events/1634381011587414/",
       "source": "facebook"
@@ -608,7 +608,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -620,7 +620,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -632,9 +632,21 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2943917849284405",
+      "title": "Hétvégi naplementés SUP túrák",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "rawWhen": "2026. augusztus 7., péntek, 19:00–21:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/2943917849284405/",
       "source": "facebook"
     },
     {
@@ -644,7 +656,7 @@
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
       "rawWhen": "2026. augusztus 9., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1575873183891600/",
       "source": "facebook"
@@ -759,7 +771,7 @@
     },
     {
       "id": "fb-4418232045116246",
-      "title": "Kánikulai hűsítő SUP evezés Gödnél, kezdőknek is",
+      "title": "Kánikulai hűsítő SUP evezés Gödnél, SZERDA- CSÜT- SZOMBAT: kezdőknek is",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -771,7 +783,7 @@
     },
     {
       "id": "fb-1686424870153536",
-      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél, kezdőknek is!",
+      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -783,7 +795,7 @@
     },
     {
       "id": "fb-1074089778517405",
-      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is: + Szerda+ Csüt IS: tanítással",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -791,6 +803,18 @@
       "assumeUpcoming": false,
       "location": "Göd, 2131",
       "url": "https://www.facebook.com/events/1074089778517405/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1037906958987753",
+      "title": "Sunset Sup jóga Gödnél Sándor Anikóval",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 9., vasárnap, 18:30–20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
+      "url": "https://www.facebook.com/events/1037906958987753/",
       "source": "facebook"
     },
     {
