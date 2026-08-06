@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-08-05T07:50:27.320Z",
+  "scrapedAt": "2026-08-06T07:50:34.228Z",
   "events": [
-    {
-      "id": "fb-1567360661604543",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. augusztus 5., szerda, 18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1567360661604543/",
-      "source": "facebook"
-    },
     {
       "id": "fb-2205075040286658",
       "title": "Sárospatak-Bodrogi Sup túra",
@@ -23,6 +11,30 @@
       "assumeUpcoming": true,
       "location": "Lábasház (Sunrive), Sárospatak 3950, Magyarország",
       "url": "https://www.facebook.com/events/2205075040286658/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1463738585805762",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. augusztus 11., kedd, 17:30–20:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1463738585805762/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1562173025454358",
+      "title": "Sup túra kezdőknek Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. augusztus 13., csütörtök, 17:30–19:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1562173025454358/",
       "source": "facebook"
     },
     {
@@ -242,6 +254,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-906869499152382",
+      "title": "Lazulós sup vibe a Dunakanyarban /Esztergom - Helemba-sziget-Pilismarót/",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 16., vasárnap, 10:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/906869499152382/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-780797511242415",
       "title": "Ünnepi sup kalandok Makarskán a Horvát Riviérán 4.0 /Limitált létszám max 8 fő /",
       "organizerId": "sup-the-lifestyle",
@@ -275,18 +299,6 @@
       "assumeUpcoming": true,
       "location": "Szálka, Tolna, Hungary",
       "url": "https://www.facebook.com/events/1001816658985569/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1347279790951952",
-      "title": "Sup szafari Gemenc közepén /szarvasbőgéskor/",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 29., szombat, 11:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1347279790951952/",
       "source": "facebook"
     },
     {
@@ -710,6 +722,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-28140784525539301",
+      "title": "Szentendre – Római part - Sup Túra",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
+      "rawWhen": "2026. augusztus 9., vasárnap, 10:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Duna korzó 14, Szentendre 2000, Magyarország",
+      "url": "https://www.facebook.com/events/28140784525539301/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-3349702011865114",
       "title": "Rodosz Classic XXIV. - Ahol a Meltemi mindig fúj",
       "organizerId": "kiteline-se",
@@ -758,36 +782,12 @@
       "source": "facebook"
     },
     {
-      "id": "fb-4418232045116246",
-      "title": "Kánikulai hűsítő SUP evezés Gödnél, SZERDA- CSÜT- SZOMBAT: kezdőknek is",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 5., szerda, 19:05–21:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/4418232045116246/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1686424870153536",
-      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 6., csütörtök, 19:00–21:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1686424870153536/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1074089778517405",
-      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is: + Szerda+ Csüt IS: tanítással",
+      "title": "Kánikulai hűsítő SUP élményevezés Gödnél, kezdoknek is: + Szerdán IS: tanítással",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 8., szombat, 18:45–20:45 CEST",
+      "rawWhen": "2026. augusztus 8., szombat, 18:30–20:30 CEST",
       "assumeUpcoming": false,
       "location": "Göd, 2131",
       "url": "https://www.facebook.com/events/1074089778517405/",
@@ -803,6 +803,18 @@
       "assumeUpcoming": false,
       "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
       "url": "https://www.facebook.com/events/1037906958987753/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1686424870153536",
+      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 12., szerda, 19:00–21:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1686424870153536/",
       "source": "facebook"
     },
     {
