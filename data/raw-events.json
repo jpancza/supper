@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-06T07:50:34.228Z",
+  "scrapedAt": "2026-08-07T06:18:06.047Z",
   "events": [
     {
       "id": "fb-2205075040286658",
@@ -206,18 +206,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1110591684626102",
-      "title": "Kezdő sup oktatás + gyakorló sup túra az Újpesti - öbölben/max 8 fő/",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 6., csütörtök, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1110591684626102/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-920121464452168",
       "title": "Morning sup Budapesten keresztül",
       "organizerId": "sup-the-lifestyle",
@@ -299,6 +287,18 @@
       "assumeUpcoming": true,
       "location": "Szálka, Tolna, Hungary",
       "url": "https://www.facebook.com/events/1001816658985569/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1347279790951952",
+      "title": "Sup szafari Gemenc közepén /szarvasbőgéskor/",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 29., szombat, 11:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1347279790951952/",
       "source": "facebook"
     },
     {
@@ -572,7 +572,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 10., hétfő, 19:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Zaft Beach Bar",
       "url": "https://www.facebook.com/events/2882017342159146/",
       "source": "facebook"
@@ -584,7 +584,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 20., csütörtök, 9:30–16:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Aranyhíd sétány 8, Balatonfüred 8230, Magyarország",
       "url": "https://www.facebook.com/events/1721416378976879/",
       "source": "facebook"
@@ -596,7 +596,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 29., szombat, 16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Ez a túra a TihanySport kalandok sorozat része, amelynek kül… Továbbiak",
       "url": "https://www.facebook.com/events/28186251277654317/",
       "source": "facebook"
@@ -608,7 +608,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 30., vasárnap, 18:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "A Tihany Season Running … Továbbiak",
       "url": "https://www.facebook.com/events/1634381011587414/",
       "source": "facebook"
@@ -620,7 +620,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -632,7 +632,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -644,7 +644,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
