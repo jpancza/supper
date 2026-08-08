@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T06:18:08.348Z",
+  "lastUpdated": "2026-08-08T05:54:39.751Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -1643,66 +1643,27 @@
       }
     },
     {
-      "id": "fb-1276106657931027",
-      "title": "SUP jóga",
-      "organizerId": "sup-dunakanyar",
-      "organizerName": "SUP Dunakanyar",
-      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "dateISO": "2026-08-07",
-      "timeText": "18:00",
-      "endDateISO": null,
-      "endTimeText": "19:30",
-      "rawWhen": "2026. augusztus 7., péntek, 18:00–19:30 CEST",
-      "location": "Kapcsolódj ki velünk a természetben, és tapasztald meg a jóga és a SUP különleges találkozását! A víz nyugalma, a finom egyensúlyi kihívások és a … Továbbiak",
-      "url": "https://www.facebook.com/events/1276106657931027/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1413297043775425",
-      "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
-      "organizerId": "shaka-windsurf-spot",
-      "organizerName": "Shaka Windsurf Spot",
-      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
-      "dateISO": "2026-08-07",
-      "timeText": "19:30",
-      "endDateISO": null,
-      "endTimeText": "21:30",
-      "rawWhen": "2026. augusztus 7., péntek, 19:30–21:30 CEST",
-      "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
-      "url": "https://www.facebook.com/events/1413297043775425/",
-      "source": "facebook",
-      "lat": 46.806042,
-      "lon": 17.7789908,
-      "weather": {
-        "tempMax": 31.9,
-        "tempMin": 25.5,
-        "precipProbability": 10,
-        "windSpeed": 26.4,
-        "windDirection": 1
-      }
-    },
-    {
       "id": "fb-2943917849284405",
       "title": "Hétvégi naplementés SUP túrák",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "dateISO": "2026-08-07",
+      "dateISO": "2026-08-08",
       "timeText": "19:00",
       "endDateISO": null,
       "endTimeText": "21:00",
-      "rawWhen": "2026. augusztus 7., péntek, 19:00–21:00 CEST",
+      "rawWhen": "2026. augusztus 8., szombat, 19:00–21:00 CEST",
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/2943917849284405/",
       "source": "facebook",
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 30.8,
-        "tempMin": 24.7,
-        "precipProbability": 3,
-        "windSpeed": 34.4,
-        "windDirection": 357
+        "tempMax": 30.3,
+        "tempMin": 22,
+        "precipProbability": 48,
+        "windSpeed": 18.2,
+        "windDirection": 8
       }
     },
     {
@@ -1722,11 +1683,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 34.4,
-        "tempMin": 24.3,
-        "precipProbability": 22,
-        "windSpeed": 19.1,
-        "windDirection": 32
+        "tempMax": 34.1,
+        "tempMin": 22.5,
+        "precipProbability": 0,
+        "windSpeed": 16.6,
+        "windDirection": 22
       }
     },
     {
@@ -1747,10 +1708,10 @@
       "lon": 18.9703373,
       "weather": {
         "tempMax": 32.4,
-        "tempMin": 23.1,
-        "precipProbability": 25,
-        "windSpeed": 19.4,
-        "windDirection": 53
+        "tempMin": 20.9,
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 35
       }
     },
     {
@@ -1770,11 +1731,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 31.5,
-        "tempMin": 23.5,
-        "precipProbability": 18,
-        "windSpeed": 14.3,
-        "windDirection": 9
+        "tempMax": 30.2,
+        "tempMin": 22,
+        "precipProbability": 45,
+        "windSpeed": 15.1,
+        "windDirection": 31
       }
     },
     {
@@ -1794,11 +1755,11 @@
       "lat": 47.5272928,
       "lon": 19.0478668,
       "weather": {
-        "tempMax": 34.2,
-        "tempMin": 24.2,
-        "precipProbability": 22,
+        "tempMax": 33.9,
+        "tempMin": 22.4,
+        "precipProbability": 0,
         "windSpeed": 18.4,
-        "windDirection": 29
+        "windDirection": 20
       }
     },
     {
@@ -1818,11 +1779,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 31.3,
-        "tempMin": 21.4,
-        "precipProbability": 2,
-        "windSpeed": 25.2,
-        "windDirection": 28
+        "tempMax": 29.7,
+        "tempMin": 20.3,
+        "precipProbability": 0,
+        "windSpeed": 24.5,
+        "windDirection": 23
       }
     },
     {
@@ -1842,11 +1803,11 @@
       "lat": 48.3182993,
       "lon": 21.5730189,
       "weather": {
-        "tempMax": 30.5,
-        "tempMin": 21.6,
-        "precipProbability": 4,
-        "windSpeed": 24.5,
-        "windDirection": 12
+        "tempMax": 28.3,
+        "tempMin": 19.7,
+        "precipProbability": 3,
+        "windSpeed": 25.6,
+        "windDirection": 9
       }
     },
     {
@@ -1881,16 +1842,16 @@
       "lat": 47.6879452,
       "lon": 19.1375105,
       "weather": {
-        "tempMax": 33.1,
-        "tempMin": 23.3,
-        "precipProbability": 24,
-        "windSpeed": 20.5,
-        "windDirection": 38
+        "tempMax": 32.9,
+        "tempMin": 21.5,
+        "precipProbability": 0,
+        "windSpeed": 17.6,
+        "windDirection": 19
       }
     },
     {
       "id": "fb-1964596257534082",
-      "title": "SUP túra a Szigetközben",
+      "title": "SUP túra a Szigetközben BETELT",
       "organizerId": "riversup",
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
@@ -1905,11 +1866,11 @@
       "lat": 47.8539531,
       "lon": 17.2816798,
       "weather": {
-        "tempMax": 31.4,
-        "tempMin": 20.7,
-        "precipProbability": 8,
-        "windSpeed": 14.5,
-        "windDirection": 15
+        "tempMax": 31.2,
+        "tempMin": 21.4,
+        "precipProbability": 3,
+        "windSpeed": 18.3,
+        "windDirection": 4
       }
     },
     {
@@ -1959,11 +1920,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 21.4,
-        "precipProbability": 1,
-        "windSpeed": 16.9,
-        "windDirection": 52
+        "tempMax": 33.4,
+        "tempMin": 20.4,
+        "precipProbability": 0,
+        "windSpeed": 16.2,
+        "windDirection": 40
       }
     },
     {
@@ -1983,11 +1944,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 21.4,
-        "precipProbability": 1,
-        "windSpeed": 16.9,
-        "windDirection": 52
+        "tempMax": 33.4,
+        "tempMin": 20.4,
+        "precipProbability": 0,
+        "windSpeed": 16.2,
+        "windDirection": 40
       }
     },
     {
@@ -2007,11 +1968,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 18.1,
+        "tempMax": 30.6,
+        "tempMin": 20.4,
         "precipProbability": 0,
-        "windSpeed": 12.9,
-        "windDirection": 80
+        "windSpeed": 13.3,
+        "windDirection": 63
       }
     },
     {
@@ -2031,11 +1992,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 31.9,
-        "tempMin": 20.8,
+        "tempMax": 32.4,
+        "tempMin": 19,
         "precipProbability": 0,
-        "windSpeed": 12.2,
-        "windDirection": 27
+        "windSpeed": 9.4,
+        "windDirection": 26
       }
     },
     {
@@ -2055,11 +2016,11 @@
       "lat": 47.2671482,
       "lon": 18.9672674,
       "weather": {
-        "tempMax": 32.1,
-        "tempMin": 20.8,
-        "precipProbability": 1,
-        "windSpeed": 16.6,
-        "windDirection": 69
+        "tempMax": 32.6,
+        "tempMin": 20,
+        "precipProbability": 0,
+        "windSpeed": 15.1,
+        "windDirection": 51
       }
     },
     {
@@ -2079,11 +2040,11 @@
       "lat": 47.6770296,
       "lon": 19.0796984,
       "weather": {
-        "tempMax": 31.7,
-        "tempMin": 21.1,
+        "tempMax": 32.5,
+        "tempMin": 19.8,
         "precipProbability": 0,
-        "windSpeed": 14,
-        "windDirection": 33
+        "windSpeed": 11.9,
+        "windDirection": 21
       }
     },
     {
@@ -2103,11 +2064,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 34.8,
-        "tempMin": 21.3,
-        "precipProbability": 12,
-        "windSpeed": 24.7,
-        "windDirection": 13
+        "tempMax": 33.7,
+        "tempMin": 22.6,
+        "precipProbability": 18,
+        "windSpeed": 23,
+        "windDirection": 59
       }
     },
     {
@@ -2127,11 +2088,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 34.8,
-        "tempMin": 21.3,
-        "precipProbability": 12,
-        "windSpeed": 24.7,
-        "windDirection": 13
+        "tempMax": 33.7,
+        "tempMin": 22.6,
+        "precipProbability": 18,
+        "windSpeed": 23,
+        "windDirection": 59
       }
     },
     {
@@ -2151,11 +2112,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 35.7,
-        "tempMin": 25,
-        "precipProbability": 4,
-        "windSpeed": 15.5,
-        "windDirection": 326
+        "tempMax": 35.5,
+        "tempMin": 24.4,
+        "precipProbability": 2,
+        "windSpeed": 18.6,
+        "windDirection": 325
       }
     },
     {
@@ -2175,11 +2136,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 29.3,
-        "tempMin": 20.7,
-        "precipProbability": 9,
-        "windSpeed": 11.2,
-        "windDirection": 15
+        "tempMax": 28.8,
+        "tempMin": 18.5,
+        "precipProbability": 0,
+        "windSpeed": 10.8,
+        "windDirection": 16
       }
     },
     {
@@ -2199,11 +2160,74 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 31.5,
-        "tempMin": 21.3,
+        "tempMax": 30.8,
+        "tempMin": 18.8,
         "precipProbability": 0,
-        "windSpeed": 8.5,
-        "windDirection": 27
+        "windSpeed": 11.8,
+        "windDirection": 52
+      }
+    },
+    {
+      "id": "fb-1276106657931027",
+      "title": "SUP jóga",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
+      "dateISO": "2026-08-14",
+      "timeText": "18:00",
+      "endDateISO": null,
+      "endTimeText": "19:30",
+      "rawWhen": "2026. augusztus 14., péntek, 18:00–19:30 CEST",
+      "location": "Kapcsolódj ki velünk a természetben, és tapasztald meg a jóga és a SUP különleges találkozását! A víz nyugalma, a finom egyensúlyi kihívások és a … Továbbiak",
+      "url": "https://www.facebook.com/events/1276106657931027/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1413297043775425",
+      "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
+      "organizerId": "shaka-windsurf-spot",
+      "organizerName": "Shaka Windsurf Spot",
+      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
+      "dateISO": "2026-08-14",
+      "timeText": "19:30",
+      "endDateISO": null,
+      "endTimeText": "21:30",
+      "rawWhen": "2026. augusztus 14., péntek, 19:30–21:30 CEST",
+      "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
+      "url": "https://www.facebook.com/events/1413297043775425/",
+      "source": "facebook",
+      "lat": 46.806042,
+      "lon": 17.7789908,
+      "weather": {
+        "tempMax": 32.3,
+        "tempMin": 20.4,
+        "precipProbability": 0,
+        "windSpeed": 9.8,
+        "windDirection": 93
+      }
+    },
+    {
+      "id": "fb-1548816253395789",
+      "title": "Naplementés SUP élményevezés Gödnél, kezdôknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-14",
+      "timeText": "18:45",
+      "endDateISO": null,
+      "endTimeText": "20:45",
+      "rawWhen": "2026. augusztus 14., péntek, 18:45–20:45 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1548816253395789/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 30.6,
+        "tempMin": 18.1,
+        "precipProbability": 0,
+        "windSpeed": 6.2,
+        "windDirection": 360
       }
     },
     {
@@ -2290,6 +2314,23 @@
       "source": "facebook",
       "lat": 47.3818192,
       "lon": 19.101496
+    },
+    {
+      "id": "fb-1364336685858913",
+      "title": "Leányfalu-Parlament Sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-08-15",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. augusztus 15., szombat, 9:00–18:00 CEST",
+      "location": "Budapesti Műszaki és Gazdaságtudományi Egyetem, Műegyetem rakpart 3, Budapest 1111, Magyarország",
+      "url": "https://www.facebook.com/events/1364336685858913/",
+      "source": "facebook",
+      "lat": 47.4808855,
+      "lon": 19.0544434
     },
     {
       "id": "fb-906869499152382",
@@ -2611,6 +2652,21 @@
       "source": "funrafting",
       "lat": 47.1609765,
       "lon": 18.9436266
+    },
+    {
+      "id": "fb-2552657691840334",
+      "title": "Kerka-Mura-Dráva SUP túra",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-09-09",
+      "timeText": "20:00",
+      "endDateISO": "2026-09-13",
+      "endTimeText": "18:00",
+      "rawWhen": "Szept. 9., 20:00 – szept. 13., 18:00 CEST",
+      "location": "részvételi díj: 62.000 Ft/fő (saját felszereléssel 47.000 Ft/fő), a… Továbbiak",
+      "url": "https://www.facebook.com/events/2552657691840334/",
+      "source": "facebook"
     },
     {
       "id": "fb-1300441262050641",
