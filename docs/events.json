@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T06:21:20.995Z",
+  "lastUpdated": "2026-08-11T06:02:48.571Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -1927,11 +1927,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 37.8,
-        "tempMin": 22.5,
-        "precipProbability": 4,
-        "windSpeed": 33.1,
-        "windDirection": 354
+        "tempMax": 36.7,
+        "tempMin": 21.4,
+        "precipProbability": 10,
+        "windSpeed": 28.8,
+        "windDirection": 47
       }
     },
     {
@@ -1951,11 +1951,11 @@
       "lat": 47.634656,
       "lon": 20.6413876,
       "weather": {
-        "tempMax": 37.8,
-        "tempMin": 22.5,
-        "precipProbability": 4,
-        "windSpeed": 33.1,
-        "windDirection": 354
+        "tempMax": 36.7,
+        "tempMin": 21.4,
+        "precipProbability": 10,
+        "windSpeed": 28.8,
+        "windDirection": 47
       }
     },
     {
@@ -1975,11 +1975,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 36.7,
-        "tempMin": 25.9,
-        "precipProbability": 0,
-        "windSpeed": 24.1,
-        "windDirection": 322
+        "tempMax": 35.8,
+        "tempMin": 23.9,
+        "precipProbability": 2,
+        "windSpeed": 23.4,
+        "windDirection": 304
       }
     },
     {
@@ -1999,11 +1999,35 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 30.3,
-        "tempMin": 19.4,
+        "tempMax": 31.5,
+        "tempMin": 19.9,
         "precipProbability": 0,
-        "windSpeed": 12.6,
-        "windDirection": 21
+        "windSpeed": 15.5,
+        "windDirection": 17
+      }
+    },
+    {
+      "id": "fb-1283739730377695",
+      "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-08-12",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. augusztus 12., szerda, 17:00 CEST",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1283739730377695/",
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 32,
+        "tempMin": 21.4,
+        "precipProbability": 0,
+        "windSpeed": 15.1,
+        "windDirection": 27
       }
     },
     {
@@ -2024,10 +2048,10 @@
       "lon": 19.0830184,
       "weather": {
         "tempMax": 30.5,
-        "tempMin": 18.4,
+        "tempMin": 19.7,
         "precipProbability": 0,
-        "windSpeed": 10.8,
-        "windDirection": 43
+        "windSpeed": 16.2,
+        "windDirection": 30
       }
     },
     {
@@ -2062,10 +2086,10 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 30.7,
+        "tempMax": 30.6,
         "tempMin": 18,
         "precipProbability": 0,
-        "windSpeed": 9.4,
+        "windSpeed": 10.4,
         "windDirection": 71
       }
     },
@@ -2086,11 +2110,35 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 30.6,
-        "tempMin": 17.6,
+        "tempMax": 30.2,
+        "tempMin": 17.2,
         "precipProbability": 0,
-        "windSpeed": 10.4,
-        "windDirection": 26
+        "windSpeed": 12.5,
+        "windDirection": 25
+      }
+    },
+    {
+      "id": "fb-1711217193435467",
+      "title": "Hétvégi naplementés SUP túrák",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-08-14",
+      "timeText": "18:45",
+      "endDateISO": null,
+      "endTimeText": "20:45",
+      "rawWhen": "2026. augusztus 14., péntek, 18:45–20:45 CEST",
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/1711217193435467/",
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 31.5,
+        "tempMin": 15,
+        "precipProbability": 0,
+        "windSpeed": 10.5,
+        "windDirection": 61
       }
     },
     {
@@ -2110,11 +2158,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 18,
+        "tempMax": 32.2,
+        "tempMin": 18.3,
         "precipProbability": 0,
-        "windSpeed": 7.8,
-        "windDirection": 118
+        "windSpeed": 8.1,
+        "windDirection": 74
       }
     },
     {
@@ -2134,11 +2182,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 32.1,
-        "tempMin": 16.8,
+        "tempMax": 31.8,
+        "tempMin": 16.6,
         "precipProbability": 0,
-        "windSpeed": 9.3,
-        "windDirection": 109
+        "windSpeed": 9.4,
+        "windDirection": 98
       }
     },
     {
@@ -2158,11 +2206,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 34.6,
-        "tempMin": 16.6,
+        "tempMax": 33.2,
+        "tempMin": 18,
         "precipProbability": 0,
-        "windSpeed": 9.8,
-        "windDirection": 163
+        "windSpeed": 7.7,
+        "windDirection": 141
       }
     },
     {
@@ -2182,11 +2230,11 @@
       "lat": 46.9567254,
       "lon": 17.888892,
       "weather": {
-        "tempMax": 34.4,
-        "tempMin": 18.6,
+        "tempMax": 32.3,
+        "tempMin": 21.1,
         "precipProbability": 0,
-        "windSpeed": 12.3,
-        "windDirection": 197
+        "windSpeed": 7.6,
+        "windDirection": 113
       }
     },
     {
@@ -2206,11 +2254,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 33.2,
-        "tempMin": 19,
+        "tempMax": 32.8,
+        "tempMin": 19.5,
         "precipProbability": 0,
-        "windSpeed": 10.2,
-        "windDirection": 109
+        "windSpeed": 10,
+        "windDirection": 100
       }
     },
     {
@@ -2230,11 +2278,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 33.4,
-        "tempMin": 19.3,
+        "tempMax": 33.1,
+        "tempMin": 19.8,
         "precipProbability": 0,
-        "windSpeed": 8.1,
-        "windDirection": 92
+        "windSpeed": 10.3,
+        "windDirection": 87
       }
     },
     {
@@ -2254,11 +2302,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 18,
+        "tempMax": 32.2,
+        "tempMin": 18.3,
         "precipProbability": 0,
-        "windSpeed": 7.8,
-        "windDirection": 118
+        "windSpeed": 8.1,
+        "windDirection": 74
       }
     },
     {
@@ -2278,11 +2326,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 33.4,
-        "tempMin": 19.3,
+        "tempMax": 33.1,
+        "tempMin": 19.8,
         "precipProbability": 0,
-        "windSpeed": 8.1,
-        "windDirection": 92
+        "windSpeed": 10.3,
+        "windDirection": 87
       }
     },
     {
@@ -2302,11 +2350,11 @@
       "lat": 47.4808855,
       "lon": 19.0544434,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 19.3,
+        "tempMax": 32.5,
+        "tempMin": 19.5,
         "precipProbability": 0,
-        "windSpeed": 8.1,
-        "windDirection": 109
+        "windSpeed": 8.3,
+        "windDirection": 79
       }
     },
     {
@@ -2356,11 +2404,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 33.9,
-        "tempMin": 23.4,
-        "precipProbability": 1,
-        "windSpeed": 12.1,
-        "windDirection": 176
+        "tempMax": 33.5,
+        "tempMin": 21.8,
+        "precipProbability": 0,
+        "windSpeed": 12.8,
+        "windDirection": 189
       }
     },
     {
@@ -2380,11 +2428,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 33.6,
-        "tempMin": 21.8,
-        "precipProbability": 1,
-        "windSpeed": 13,
-        "windDirection": 177
+        "tempMax": 33.5,
+        "tempMin": 20.1,
+        "precipProbability": 0,
+        "windSpeed": 13.7,
+        "windDirection": 183
       }
     },
     {
@@ -2402,7 +2450,14 @@
       "url": "https://www.facebook.com/events/1830884811620992/",
       "source": "facebook",
       "lat": 47.6793704,
-      "lon": 19.1572771
+      "lon": 19.1572771,
+      "weather": {
+        "tempMax": 34.8,
+        "tempMin": 22.2,
+        "precipProbability": 8,
+        "windSpeed": 9.8,
+        "windDirection": 162
+      }
     },
     {
       "id": "fb-780797511242415",

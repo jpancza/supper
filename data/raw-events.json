@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-10T06:21:18.592Z",
+  "scrapedAt": "2026-08-11T06:02:46.691Z",
   "events": [
     {
       "id": "fb-1463738585805762",
@@ -182,6 +182,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1283739730377695",
+      "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 12., szerda, 17:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1283739730377695/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-4576822172552232",
       "title": "Sup vibe a mesés Szigetköz varázsában /Új helyszín /",
       "organizerId": "sup-the-lifestyle",
@@ -263,18 +275,6 @@
       "assumeUpcoming": true,
       "location": "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.",
       "url": "https://www.facebook.com/events/4499253950334851/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1300441262050641",
-      "title": "Bled - Bohinj - Most na Soci szeptemberi sup töltődés",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "Szept. 11., 17:00 – szept. 13., 13:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Bled je najbolj znan po Blejskem jezeru in otoku s cerkvijo, ki ob prvem pogledu vzameta dih zaradi svoje izredne lepote… Továbbiak",
-      "url": "https://www.facebook.com/events/1300441262050641/",
       "source": "facebook"
     },
     {
@@ -554,18 +554,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2882017342159146",
-      "title": "Fuss a Buliba! Tihany Season Running Edition",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "organizerUrl": "https://www.facebook.com/tihanysport",
-      "rawWhen": "2026. augusztus 10., hétfő, 19:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Zaft Beach Bar",
-      "url": "https://www.facebook.com/events/2882017342159146/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1721416378976879",
       "title": "BBT eBike túra: Héthatár Csúcsai e-bike túra by TihanySport",
       "organizerId": "tihany-sport",
@@ -638,63 +626,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2943917849284405",
+      "id": "fb-1711217193435467",
       "title": "Hétvégi naplementés SUP túrák",
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 9., vasárnap, 19:00–21:00 CEST",
-      "assumeUpcoming": false,
+      "rawWhen": "2026. augusztus 14., péntek, 18:45–20:45 CEST",
+      "assumeUpcoming": true,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/2943917849284405/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1575873183891600",
-      "title": "SUP & GÖRÖG PISZTÁCIA – EGY KÜLÖNLEGES REGGEL A BALATONON",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 9., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1575873183891600/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1680000653232831",
-      "title": "Naplementés SUP túra",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 2., vasárnap, 19:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1680000653232831/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1041181498650239",
-      "title": "SUP&Wine- A Balaton legízletesebb naplementéje",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 1., szombat, 18:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1041181498650239/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2194160984714461",
-      "title": "Golden Hour SUP – Aranyórás evezés a Balatonon",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. július 31., péntek, 19:00–21:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/2194160984714461/",
+      "url": "https://www.facebook.com/events/1711217193435467/",
       "source": "facebook"
     },
     {
@@ -704,7 +644,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2026. augusztus 15., szombat, 15:00–17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
       "source": "facebook"
@@ -716,7 +656,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
@@ -1269,7 +1209,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.11 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-kenutura-rackevei-duna#2026.08.11",
       "source": "funrafting"
     },
