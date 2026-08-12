@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-08-11T06:02:46.691Z",
+  "scrapedAt": "2026-08-12T06:25:16.171Z",
   "events": [
-    {
-      "id": "fb-1463738585805762",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. augusztus 11., kedd, 17:30–20:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1463738585805762/",
-      "source": "facebook"
-    },
     {
       "id": "fb-1562173025454358",
       "title": "Sup túra kezdőknek Dunaharasztin",
@@ -182,18 +170,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1283739730377695",
-      "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 12., szerda, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1283739730377695/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-4576822172552232",
       "title": "Sup vibe a mesés Szigetköz varázsában /Új helyszín /",
       "organizerId": "sup-the-lifestyle",
@@ -239,6 +215,18 @@
       "assumeUpcoming": true,
       "location": "DMTK Vizisport szakosztály vizi-telepe",
       "url": "https://www.facebook.com/events/1314328250690466/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1283739730377695",
+      "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 27., csütörtök, 17:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1283739730377695/",
       "source": "facebook"
     },
     {
@@ -632,7 +620,7 @@
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
       "rawWhen": "2026. augusztus 14., péntek, 18:45–20:45 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1711217193435467/",
       "source": "facebook"
@@ -644,7 +632,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2026. augusztus 15., szombat, 15:00–17:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
       "source": "facebook"
@@ -656,7 +644,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
