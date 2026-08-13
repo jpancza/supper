@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-12T06:25:16.171Z",
+  "scrapedAt": "2026-08-13T06:27:14.330Z",
   "events": [
     {
       "id": "fb-1562173025454358",
@@ -195,7 +195,7 @@
     },
     {
       "id": "fb-780797511242415",
-      "title": "Ünnepi sup kalandok Makarskán a Horvát Riviérán 4.0 /Limitált létszám max 8 fő /",
+      "title": "Ünnepi sup kalandok Makarskán a Horvát Riviérán 4.0 /Limitált létszám max 8 fő / Megtelt",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
@@ -555,7 +555,7 @@
     },
     {
       "id": "fb-28186251277654317",
-      "title": "Naplemente Túra a",
+      "title": "Naplemente Túra a Tihanyi Csúcs-hegyre",
       "organizerId": "tihany-sport",
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
@@ -710,18 +710,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1686424870153536",
-      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 12., szerda, 19:00–21:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1686424870153536/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1548816253395789",
       "title": "Naplementés SUP élményevezés Gödnél, kezdôknek is, tanítással",
       "organizerId": "sunset-sup",
@@ -755,6 +743,18 @@
       "assumeUpcoming": false,
       "location": "2131, Göd (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/1830884811620992/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1686424870153536",
+      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 19., szerda, 19:00–21:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1686424870153536/",
       "source": "facebook"
     },
     {
