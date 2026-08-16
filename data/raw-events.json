@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-08-15T05:38:16.833Z",
+  "scrapedAt": "2026-08-16T05:39:57.261Z",
   "events": [
-    {
-      "id": "fb-1364336685858913",
-      "title": "Leányfalu-Parlament Sup túra",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. augusztus 15., szombat, 9:00–18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Budapesti Műszaki és Gazdaságtudományi Egyetem, Műegyetem rakpart 3, Budapest 1111, Magyarország",
-      "url": "https://www.facebook.com/events/1364336685858913/",
-      "source": "facebook"
-    },
     {
       "id": "fb-850932464338253",
       "title": "Sup túra Winnetou nyomában",
@@ -20,7 +8,7 @@
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
       "rawWhen": "Aug. 19., 6:00 – aug. 23., 21:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Beba Beach Bar, Put Gračaca, HR-23450 Obrovac, Hrvatska",
       "url": "https://www.facebook.com/events/850932464338253/",
       "source": "facebook"
@@ -32,45 +20,9 @@
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
       "rawWhen": "2026. augusztus 25., kedd, 17:30–20:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1081917117515070/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1034706586202569",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 9:00–10:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1034706586202569/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1391127086335822",
-      "title": "Basic 2. gyakorló SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 9:00–11:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1391127086335822/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4608982115997784",
-      "title": "Molnár-sziget északi csúcs - kezdő és gyakorlott 7 km",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 11:00–14:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/4608982115997784/",
       "source": "facebook"
     },
     {
@@ -122,18 +74,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-4576822172552232",
-      "title": "Sup vibe a mesés Szigetköz varázsában /Új helyszín /",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 15., szombat, 11:00–17:01 CEST",
-      "assumeUpcoming": true,
-      "location": "… Továbbiak",
-      "url": "https://www.facebook.com/events/4576822172552232/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-906869499152382",
       "title": "Lazulós sup vibe a Dunakanyarban /Esztergom - Helemba-sziget-Pilismarót/",
       "organizerId": "sup-the-lifestyle",
@@ -141,7 +81,7 @@
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "rawWhen": "2026. augusztus 16., vasárnap, 10:00 CEST",
       "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "location": "Cooking Association for Passion - a place to share delicious dishes that are easy to make and delicio",
       "url": "https://www.facebook.com/events/906869499152382/",
       "source": "facebook"
     },
@@ -215,6 +155,18 @@
       "assumeUpcoming": true,
       "location": "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.",
       "url": "https://www.facebook.com/events/4499253950334851/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1300441262050641",
+      "title": "Bled - Bohinj - Most na Soci szeptemberi sup töltődés",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "Szept. 11., 17:00 – szept. 13., 13:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Bled je najbolj znan po Blejskem jezeru in otoku s cerkvijo, ki ob prvem pogledu vzameta dih zaradi svoje izredne lepote… Továbbiak",
+      "url": "https://www.facebook.com/events/1300441262050641/",
       "source": "facebook"
     },
     {
@@ -451,7 +403,7 @@
       "organizerId": "sup-dunakanyar",
       "organizerName": "SUP Dunakanyar",
       "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "rawWhen": "2026. augusztus 15., szombat, 17:30–20:30 CEST",
+      "rawWhen": "2026. augusztus 22., szombat, 17:30–20:30 CEST",
       "assumeUpcoming": true,
       "location": "Sportcentrum, Visegrád",
       "url": "https://www.facebook.com/events/1693231265014620/",
@@ -491,6 +443,18 @@
       "assumeUpcoming": true,
       "location": "A Gemenci-erdő a Duna egyik legnagyobb természetes ártere. A jobb parton a gátakat messzebb ép?",
       "url": "https://www.facebook.com/events/4678239452465635/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1352472279731668",
+      "title": "Egész napos SUP túra – Esztergomtól Visegrádig!",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
+      "rawWhen": "2026. augusztus 20., csütörtök, 9:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Megálló: Ebéd a Pilismaróti-p… Továbbiak",
+      "url": "https://www.facebook.com/events/1352472279731668/",
       "source": "facebook"
     },
     {
@@ -571,8 +535,8 @@
       "organizerId": "support-fonyod",
       "organizerName": "SUPport - Fonyód",
       "organizerUrl": "https://www.facebook.com/supfonyod",
-      "rawWhen": "2026. augusztus 15., szombat, 18:45–20:45 CEST",
-      "assumeUpcoming": false,
+      "rawWhen": "2026. augusztus 16., vasárnap, 18:45–20:45 CEST",
+      "assumeUpcoming": true,
       "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
       "url": "https://www.facebook.com/events/1711217193435467/",
       "source": "facebook"
@@ -583,7 +547,7 @@
       "organizerId": "balatonsup",
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
-      "rawWhen": "2026. augusztus 15., szombat, 15:00–17:00 CEST",
+      "rawWhen": "2026. augusztus 16., vasárnap, 15:00–17:00 CEST",
       "assumeUpcoming": false,
       "location": "Káptalanfüredi Nagystrand",
       "url": "https://www.facebook.com/events/927877513600217/",
@@ -619,7 +583,7 @@
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
       "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
-      "rawWhen": "2026. augusztus 15., szombat, 19:30–20:30 CEST",
+      "rawWhen": "2026. augusztus 22., szombat, 19:30–20:30 CEST",
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1403911707544096/",
@@ -662,18 +626,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1830884811620992",
-      "title": "Naplementés SUP evezés Gödnél, kezdôknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 15., szombat, 18:30–20:30 CEST",
-      "assumeUpcoming": false,
-      "location": "2131, Göd (Pest megye, Magyarország)",
-      "url": "https://www.facebook.com/events/1830884811620992/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-2064868391572798",
       "title": "Naplementés SUP evezés Gödnél, kezdôknek is, tanítâssal",
       "organizerId": "sunset-sup",
@@ -687,7 +639,7 @@
     },
     {
       "id": "fb-1099029146133233",
-      "title": "Sunset Sup fittnessz+ Körtânc a Duna parton Gödnél",
+      "title": "Sunset Sup fitness+ Körtânc a Duna parton Gödnél",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -707,6 +659,18 @@
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1686424870153536/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1830884811620992",
+      "title": "Naplementés SUP evezés Gödnél, kezdôknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 21., péntek, 18:30–20:30 CEST",
+      "assumeUpcoming": false,
+      "location": "2131, Göd (Pest megye, Magyarország)",
+      "url": "https://www.facebook.com/events/1830884811620992/",
       "source": "facebook"
     },
     {
@@ -758,6 +722,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1408262600700579",
+      "title": "KEZDŐ SUP TÁBOR GYEREKEKNEK (SZÁLLÁSSAL, ÉTKEZÉSSEL)",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1408262600700579/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-769807296136263",
       "title": "KEZDŐ FELNŐTT SUP TÁBOR SZÁLLÁSSAL #2",
       "organizerId": "sup-bazis",
@@ -770,15 +746,75 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1408262600700579",
+      "id": "fb-1847398536667903",
+      "title": "Fattyúszerkő-kilátó SUP túra",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "2026. augusztus 8., szombat, 13:00–17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1847398536667903/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1328679189418856",
+      "title": "Bölömbika SUP túra",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "2026. július 18., szombat, 13:00–17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1328679189418856/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2038791996920244",
+      "title": "BETELT! - KÖZÉP ÉS HALADÓ FELNŐTT SUP TÁBOR SZÁLLÁSSAL",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "Júl. 14., 10:00 – júl. 18., 17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/2038791996920244/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-862804553244956",
+      "title": "HALADÓ GYEREK SUP TÁBOR (SZÁLLÁSSAL, ÉTKEZÉSSEL)",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "Júl. 14., 10:00 – júl. 18., 17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/862804553244956/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1068740372310095",
+      "title": "Sóházi-kanyar + SUP-játékok",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "2026. július 11., szombat, 13:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/1068740372310095/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2633271847043117",
       "title": "KEZDŐ SUP TÁBOR GYEREKEKNEK (SZÁLLÁSSAL, ÉTKEZÉSSEL)",
       "organizerId": "sup-bazis",
       "organizerName": "SUP BÁZIS",
       "organizerUrl": "https://www.facebook.com/supbazis",
-      "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
+      "rawWhen": "Jún. 30., 10:00 – júl. 4., 17:00 CEST",
       "assumeUpcoming": false,
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
-      "url": "https://www.facebook.com/events/1408262600700579/",
+      "url": "https://www.facebook.com/events/2633271847043117/",
       "source": "facebook"
     },
     {
