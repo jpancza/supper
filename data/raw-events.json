@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-17T05:45:29.931Z",
+  "scrapedAt": "2026-08-18T05:42:00.120Z",
   "events": [
     {
       "id": "fb-850932464338253",
@@ -23,6 +23,18 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1081917117515070/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1424306506235359",
+      "title": "Budapest Park Suprafel Party",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. augusztus 28., péntek, 22:00–3:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Most ismét a Budapest Park-ba mennénk, kapunyitás 22:00… Továbbiak",
+      "url": "https://www.facebook.com/events/1424306506235359/",
       "source": "facebook"
     },
     {
@@ -189,7 +201,7 @@
       "organizerUrl": "https://www.facebook.com/supbudapest",
       "rawWhen": "2026. augusztus 21., péntek, 13:00 CEST",
       "assumeUpcoming": true,
-      "location": "Duna korzó 27, Szentendre 2000, Magyarország",
+      "location": "Strand utca, Szentendre (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/2276355386438537/",
       "source": "facebook"
     },
@@ -1197,7 +1209,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.18 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-kenutura-rackevei-duna#2026.08.18",
       "source": "funrafting"
     },
@@ -1209,7 +1221,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.18 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.08.18",
       "source": "funrafting"
     },
@@ -1379,6 +1391,102 @@
       "assumeUpcoming": false,
       "location": "részvételi díj: 62.000 Ft/fő (saját felszereléssel 47.000 Ft/fő), a… Továbbiak",
       "url": "https://www.facebook.com/events/2552657691840334/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-3410552679114745",
+      "title": "Ráckevei SUP túra vadregényes lagúna látogatással",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. július 10., péntek, 10:00–15:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Nyírfa utca 16, Ráckeve 2300, Magyarország",
+      "url": "https://www.facebook.com/events/3410552679114745/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-880857577792005",
+      "title": "SUP STRAND PIKNIK SUMMER PARTY",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. június 27., szombat, 10:00–17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Egy csodás strand és kemping a Kis-Duna partján, Ráckevén. Várunk mindenkit nagy szeretettel!",
+      "url": "https://www.facebook.com/events/880857577792005/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2340085066527055",
+      "title": "Bilinguál Munka utáni SUP túra Budapesten Halas Gusztitól",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. június 11., csütörtök, 17:00–20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Gusztinál a legjobb a hekk!",
+      "url": "https://www.facebook.com/events/2340085066527055/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1997733307770210",
+      "title": "Ráckevei SUP túra vadregényes lagúna látogatással",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. június 7., vasárnap, 10:00–15:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Nyírfa utca 16, Ráckeve 2300, Magyarország",
+      "url": "https://www.facebook.com/events/1997733307770210/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2045282726023537",
+      "title": "Ráckevei SUP túra vadregényes lagúna látogatással",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. május 25., hétfő, 10:00–17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Nyírfa utca 16, Ráckeve 2300, Magyarország",
+      "url": "https://www.facebook.com/events/2045282726023537/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1855136408503023",
+      "title": "Teknősnéző bilingual SUP vadregényes Balabán Túra",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. május 23., szombat, 11:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Egy csodás strand és kemping a Kis-Duna partján, Ráckevén. Várunk mindenkit nagy szeretettel!",
+      "url": "https://www.facebook.com/events/1855136408503023/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1469022158305764",
+      "title": "Teknősnéző bilingual SUP vadregényes Balabán Túra",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. május 23., szombat, 11:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Egy csodás strand és kemping a Kis-Duna partján, Ráckevén. Várunk mindenkit nagy szeretettel!",
+      "url": "https://www.facebook.com/events/1469022158305764/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-959613836671768",
+      "title": "Teknősnéző bilingual SUP vadregényes Balabán Túra",
+      "organizerId": "superyogi",
+      "organizerName": "SuperYogi",
+      "organizerUrl": "https://www.facebook.com/jules.toth",
+      "rawWhen": "2026. május 1., péntek, 11:30–16:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Egy csodás strand és kemping a Kis-Duna partján, Ráckevén. Várunk mindenkit nagy szeretettel!",
+      "url": "https://www.facebook.com/events/959613836671768/",
       "source": "facebook"
     },
     {
