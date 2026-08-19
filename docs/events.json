@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T05:42:09.270Z",
+  "lastUpdated": "2026-08-19T05:45:22.042Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2484,14 +2484,7 @@
       "url": "https://www.facebook.com/events/780797511242415/",
       "source": "facebook",
       "lat": 43.2939756,
-      "lon": 17.020242,
-      "weather": {
-        "tempMax": 29.3,
-        "tempMin": 25.7,
-        "precipProbability": 33,
-        "windSpeed": 7.8,
-        "windDirection": 276
-      }
+      "lon": 17.020242
     },
     {
       "id": "funrafting-munka-utani-sup-tura-rackevei-duna-2026-08-18",
@@ -2558,11 +2551,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 28.7,
-        "tempMin": 18.5,
-        "precipProbability": 14,
-        "windSpeed": 12.2,
-        "windDirection": 252
+        "tempMax": 30.2,
+        "tempMin": 19,
+        "precipProbability": 61,
+        "windSpeed": 13.7,
+        "windDirection": 254
       }
     },
     {
@@ -2582,11 +2575,11 @@
       "lat": 44.1999702,
       "lon": 15.6860003,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 22.9,
+        "tempMax": 35.7,
+        "tempMin": 22.2,
         "precipProbability": 0,
-        "windSpeed": 18,
-        "windDirection": 204
+        "windSpeed": 15,
+        "windDirection": 210
       }
     },
     {
@@ -2621,11 +2614,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 33.7,
-        "tempMin": 20.6,
-        "precipProbability": 20,
-        "windSpeed": 11.5,
-        "windDirection": 197
+        "tempMax": 37.5,
+        "tempMin": 22.5,
+        "precipProbability": 22,
+        "windSpeed": 24.8,
+        "windDirection": 212
       }
     },
     {
@@ -2645,11 +2638,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 33.7,
-        "tempMin": 18.8,
-        "precipProbability": 22,
-        "windSpeed": 14.1,
-        "windDirection": 193
+        "tempMax": 35.5,
+        "tempMin": 20.8,
+        "precipProbability": 37,
+        "windSpeed": 14,
+        "windDirection": 245
       }
     },
     {
@@ -2669,11 +2662,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 33.7,
-        "tempMin": 20,
-        "precipProbability": 27,
-        "windSpeed": 16.3,
-        "windDirection": 227
+        "tempMax": 32.8,
+        "tempMin": 20.9,
+        "precipProbability": 24,
+        "windSpeed": 17.9,
+        "windDirection": 202
       }
     },
     {
@@ -2693,11 +2686,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 33.9,
-        "tempMin": 23.9,
-        "precipProbability": 20,
-        "windSpeed": 18.9,
-        "windDirection": 220
+        "tempMax": 31.9,
+        "tempMin": 24.4,
+        "precipProbability": 18,
+        "windSpeed": 26.2,
+        "windDirection": 244
       }
     },
     {
@@ -2717,11 +2710,11 @@
       "lat": 48.1514537,
       "lon": 16.9453602,
       "weather": {
-        "tempMax": 32.3,
-        "tempMin": 19.8,
-        "precipProbability": 44,
-        "windSpeed": 19.3,
-        "windDirection": 189
+        "tempMax": 26.5,
+        "tempMin": 19.7,
+        "precipProbability": 63,
+        "windSpeed": 26.9,
+        "windDirection": 301
       }
     },
     {
@@ -2741,11 +2734,11 @@
       "lat": 47.6600551,
       "lon": 19.0790356,
       "weather": {
-        "tempMax": 33.6,
-        "tempMin": 20.8,
-        "precipProbability": 28,
-        "windSpeed": 15.3,
-        "windDirection": 223
+        "tempMax": 33.1,
+        "tempMin": 21.6,
+        "precipProbability": 35,
+        "windSpeed": 17.5,
+        "windDirection": 207
       }
     },
     {
@@ -2765,11 +2758,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 30,
-        "tempMin": 21.4,
+        "tempMax": 27.9,
+        "tempMin": 19.7,
         "precipProbability": 16,
-        "windSpeed": 19.4,
-        "windDirection": 279
+        "windSpeed": 22.1,
+        "windDirection": 298
       }
     },
     {
@@ -2789,11 +2782,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 25.6,
-        "tempMin": 21.5,
-        "precipProbability": 29,
-        "windSpeed": 15.1,
-        "windDirection": 302
+        "tempMax": 28.8,
+        "tempMin": 20.6,
+        "precipProbability": 19,
+        "windSpeed": 17.9,
+        "windDirection": 342
       }
     },
     {
@@ -2813,11 +2806,59 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 31.7,
-        "tempMin": 22.6,
-        "precipProbability": 19,
-        "windSpeed": 15.7,
-        "windDirection": 278
+        "tempMax": 30,
+        "tempMin": 20.5,
+        "precipProbability": 16,
+        "windSpeed": 18.5,
+        "windDirection": 307
+      }
+    },
+    {
+      "id": "fb-1369221968611780",
+      "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-22",
+      "timeText": "08:30",
+      "endDateISO": null,
+      "endTimeText": "10:30",
+      "rawWhen": "2026. augusztus 22., szombat, 8:30–10:30 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1369221968611780/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 28.1,
+        "tempMin": 19.7,
+        "precipProbability": 14,
+        "windSpeed": 21.8,
+        "windDirection": 302
+      }
+    },
+    {
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-22",
+      "timeText": "18:00",
+      "endDateISO": null,
+      "endTimeText": "20:00",
+      "rawWhen": "2026. augusztus 22., szombat, 18:00–20:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 28.1,
+        "tempMin": 19.7,
+        "precipProbability": 14,
+        "windSpeed": 21.8,
+        "windDirection": 302
       }
     },
     {
@@ -2867,11 +2908,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 31.3,
-        "tempMin": 19.6,
-        "precipProbability": 12,
-        "windSpeed": 10,
-        "windDirection": 327
+        "tempMax": 29.9,
+        "tempMin": 16.3,
+        "precipProbability": 16,
+        "windSpeed": 8.3,
+        "windDirection": 341
       }
     },
     {
@@ -2891,11 +2932,11 @@
       "lat": 47.9416346,
       "lon": 17.3554366,
       "weather": {
-        "tempMax": 31.3,
-        "tempMin": 18.5,
-        "precipProbability": 7,
-        "windSpeed": 14.2,
-        "windDirection": 167
+        "tempMax": 31.2,
+        "tempMin": 19.9,
+        "precipProbability": 4,
+        "windSpeed": 12.1,
+        "windDirection": 136
       }
     },
     {
@@ -2928,7 +2969,14 @@
       "url": "https://www.facebook.com/events/1081917117515070/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 31.7,
+        "tempMin": 20.1,
+        "precipProbability": 44,
+        "windSpeed": 16.3,
+        "windDirection": 88
+      }
     },
     {
       "id": "fb-1283739730377695",
@@ -3029,6 +3077,23 @@
       "source": "facebook",
       "lat": 47.5711734,
       "lon": 19.064441
+    },
+    {
+      "id": "fb-1050879434500742",
+      "title": "Vajas-Foki Sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-08-30",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. augusztus 30., vasárnap, 11:00–18:00 CEST",
+      "location": "Mediterrán pub&pizzéria, Dusnok 6353, Magyarország",
+      "url": "https://www.facebook.com/events/1050879434500742/",
+      "source": "facebook",
+      "lat": 46.3900215,
+      "lon": 18.958962
     },
     {
       "id": "fb-1469022475008904",
@@ -3163,6 +3228,23 @@
       "source": "funrafting",
       "lat": 47.1760583,
       "lon": 18.9417023
+    },
+    {
+      "id": "fb-1065473509297285",
+      "title": "Szarvasbőgéses Ottalvós Szigetközi Sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-12",
+      "timeText": "13:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 12., szombat, 13:00 CEST",
+      "location": "Popeye, Dunasziget 9226, Magyarország",
+      "url": "https://www.facebook.com/events/1065473509297285/",
+      "source": "facebook",
+      "lat": 47.9508072,
+      "lon": 17.3457742
     },
     {
       "id": "fb-4285107801740911",
