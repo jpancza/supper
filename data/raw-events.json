@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-19T05:45:15.023Z",
+  "scrapedAt": "2026-08-20T05:43:03.460Z",
   "events": [
     {
       "id": "fb-850932464338253",
@@ -71,18 +71,6 @@
       "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/3156232464563894/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1076637531975640",
-      "title": "Naplemente túra",
-      "organizerId": "old-lake-sup",
-      "organizerName": "Old Lake SUP",
-      "organizerUrl": "https://www.facebook.com/oldlakesup",
-      "rawWhen": "2026. augusztus 19., szerda, 18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Minden, ami SUP az Öreg-tavon",
-      "url": "https://www.facebook.com/events/1076637531975640/",
       "source": "facebook"
     },
     {
@@ -578,6 +566,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-28562603379991908",
+      "title": "Augusztus 20-i SUP túra",
+      "organizerId": "balatonsup",
+      "organizerName": "Balatonsup",
+      "organizerUrl": "https://www.facebook.com/balatonsup",
+      "rawWhen": "2026. augusztus 20., csütörtök, 11:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Sirály park, Alsóörs",
+      "url": "https://www.facebook.com/events/28562603379991908/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1370500938294676",
       "title": "Nyári szezonkezdés aktívan Ausztriában",
       "organizerId": "balatonsup",
@@ -650,12 +650,36 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 22., szombat, 18:00–20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1369221968611780",
+      "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. augusztus 23., vasárnap, 9:00–11:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1369221968611780/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1686424870153536",
       "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 19., szerda, 18:30–20:30 CEST",
+      "rawWhen": "2026. augusztus 23., vasárnap, 18:00–20:00 CEST",
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1686424870153536/",
@@ -667,34 +691,10 @@
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 21., péntek, 18:30–20:30 CEST",
+      "rawWhen": "2026. augusztus 23., vasárnap, 18:00–20:00 CEST",
       "assumeUpcoming": false,
       "location": "2131, Göd (Pest megye, Magyarország)",
       "url": "https://www.facebook.com/events/1830884811620992/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1369221968611780",
-      "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 22., szombat, 8:30–10:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1369221968611780/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1745975946509399",
-      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 22., szombat, 18:00–20:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook"
     },
     {
@@ -1269,7 +1269,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.22 (szo)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-delelotti-kenutura-rackevei-duna#2026.08.22",
       "source": "funrafting"
     },
@@ -1281,7 +1281,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.23 (v)",
       "location": "Göd",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/sup-tura-god-homoksziget#2026.08.23",
       "source": "funrafting"
     },
