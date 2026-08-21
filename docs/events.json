@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T05:43:07.139Z",
+  "lastUpdated": "2026-08-21T05:43:49.105Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2581,14 +2581,7 @@
       "url": "https://www.facebook.com/events/2019391308604901/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441,
-      "weather": {
-        "tempMax": 36.7,
-        "tempMin": 22.4,
-        "precipProbability": 18,
-        "windSpeed": 22.3,
-        "windDirection": 186
-      }
+      "lon": 19.064441
     },
     {
       "id": "fb-1352472279731668",
@@ -2655,11 +2648,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 33,
-        "tempMin": 23.3,
-        "precipProbability": 18,
-        "windSpeed": 21.5,
-        "windDirection": 258
+        "tempMax": 31,
+        "tempMin": 22,
+        "precipProbability": 60,
+        "windSpeed": 31,
+        "windDirection": 267
       }
     },
     {
@@ -2679,10 +2672,10 @@
       "lat": 48.1514537,
       "lon": 16.9453602,
       "weather": {
-        "tempMax": 27.4,
-        "tempMin": 19.1,
-        "precipProbability": 70,
-        "windSpeed": 20.8,
+        "tempMax": 29.5,
+        "tempMin": 19,
+        "precipProbability": 60,
+        "windSpeed": 15.8,
         "windDirection": 162
       }
     },
@@ -2703,11 +2696,11 @@
       "lat": 47.6600551,
       "lon": 19.0790356,
       "weather": {
-        "tempMax": 31.1,
-        "tempMin": 20.4,
-        "precipProbability": 35,
-        "windSpeed": 40,
-        "windDirection": 193
+        "tempMax": 33.9,
+        "tempMin": 22.8,
+        "precipProbability": 75,
+        "windSpeed": 29.2,
+        "windDirection": 198
       }
     },
     {
@@ -2727,11 +2720,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 27.6,
-        "tempMin": 17.1,
-        "precipProbability": 18,
-        "windSpeed": 23.8,
-        "windDirection": 286
+        "tempMax": 25.4,
+        "tempMin": 17.9,
+        "precipProbability": 24,
+        "windSpeed": 25.9,
+        "windDirection": 276
       }
     },
     {
@@ -2751,11 +2744,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 26.4,
-        "tempMin": 19.4,
-        "precipProbability": 55,
-        "windSpeed": 18.2,
-        "windDirection": 336
+        "tempMax": 24.6,
+        "tempMin": 20.2,
+        "precipProbability": 48,
+        "windSpeed": 19.7,
+        "windDirection": 351
       }
     },
     {
@@ -2775,11 +2768,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 29.6,
-        "tempMin": 18,
-        "precipProbability": 12,
-        "windSpeed": 17.6,
-        "windDirection": 305
+        "tempMax": 29,
+        "tempMin": 19.9,
+        "precipProbability": 24,
+        "windSpeed": 23.8,
+        "windDirection": 297
       }
     },
     {
@@ -2799,16 +2792,40 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 27.8,
-        "tempMin": 17.8,
-        "precipProbability": 14,
-        "windSpeed": 19.4,
-        "windDirection": 305
+        "tempMax": 27.5,
+        "tempMin": 19.1,
+        "precipProbability": 17,
+        "windSpeed": 20.5,
+        "windDirection": 292
+      }
+    },
+    {
+      "id": "fb-1999200604070896",
+      "title": "Szezonzáró, kánikulai SUP fitness Zsanival",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-22",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": "11:45",
+      "rawWhen": "2026. augusztus 22., szombat, 10:30–11:45 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1999200604070896/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 27.5,
+        "tempMin": 19.1,
+        "precipProbability": 17,
+        "windSpeed": 20.5,
+        "windDirection": 292
       }
     },
     {
       "id": "fb-1686424870153536",
-      "title": "Munka utáni levezetős- leevezős hűsítő SUP evezés Gödnél: +Szerda+ Szombat: kezdőknek is!",
+      "title": "Kánikula búcsúztató SUP chillevezés Gödnél: kezdőknek is!",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -2823,11 +2840,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.8,
-        "tempMin": 18.7,
-        "precipProbability": 6,
-        "windSpeed": 12.5,
-        "windDirection": 316
+        "tempMax": 24.3,
+        "tempMin": 16.7,
+        "precipProbability": 2,
+        "windSpeed": 15.5,
+        "windDirection": 309
       }
     },
     {
@@ -2847,11 +2864,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 26.8,
-        "tempMin": 18.7,
-        "precipProbability": 6,
-        "windSpeed": 12.5,
-        "windDirection": 316
+        "tempMax": 24.3,
+        "tempMin": 16.6,
+        "precipProbability": 2,
+        "windSpeed": 15.8,
+        "windDirection": 310
       }
     },
     {
@@ -2871,11 +2888,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.8,
-        "tempMin": 18.7,
-        "precipProbability": 6,
-        "windSpeed": 12.5,
-        "windDirection": 316
+        "tempMax": 24.3,
+        "tempMin": 16.7,
+        "precipProbability": 2,
+        "windSpeed": 15.5,
+        "windDirection": 309
       }
     },
     {
@@ -2925,11 +2942,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 26.8,
-        "tempMin": 18.7,
-        "precipProbability": 6,
-        "windSpeed": 12.5,
-        "windDirection": 316
+        "tempMax": 24.3,
+        "tempMin": 16.7,
+        "precipProbability": 2,
+        "windSpeed": 15.8,
+        "windDirection": 310
       }
     },
     {
@@ -2949,11 +2966,11 @@
       "lat": 47.9416346,
       "lon": 17.3554366,
       "weather": {
-        "tempMax": 25.2,
-        "tempMin": 17.2,
-        "precipProbability": 3,
+        "tempMax": 25.3,
+        "tempMin": 16.2,
+        "precipProbability": 0,
         "windSpeed": 13.1,
-        "windDirection": 326
+        "windDirection": 336
       }
     },
     {
@@ -2972,6 +2989,30 @@
       "source": "facebook"
     },
     {
+      "id": "fb-2061579151388242",
+      "title": "Szezonzáró SUP jóga Sándor Anikóval, Göd",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-23",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. augusztus 23., vasárnap, 17:00–18:00 CEST",
+      "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
+      "url": "https://www.facebook.com/events/2061579151388242/",
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 24.3,
+        "tempMin": 16.7,
+        "precipProbability": 2,
+        "windSpeed": 15.8,
+        "windDirection": 310
+      }
+    },
+    {
       "id": "fb-1081917117515070",
       "title": "Sup technikai oktatás Márton Karcsival",
       "organizerId": "suprafel",
@@ -2988,11 +3029,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 30.3,
-        "tempMin": 17.4,
-        "precipProbability": 26,
-        "windSpeed": 12.6,
-        "windDirection": 81
+        "tempMax": 30.6,
+        "tempMin": 17,
+        "precipProbability": 14,
+        "windSpeed": 13.2,
+        "windDirection": 75
       }
     },
     {
@@ -3010,7 +3051,14 @@
       "url": "https://www.facebook.com/events/1283739730377695/",
       "source": "facebook",
       "lat": 47.5514268,
-      "lon": 19.066566
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 31.9,
+        "tempMin": 19.8,
+        "precipProbability": 0,
+        "windSpeed": 7.9,
+        "windDirection": 104
+      }
     },
     {
       "id": "fb-1001816658985569",
