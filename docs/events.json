@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T05:43:49.105Z",
+  "lastUpdated": "2026-08-22T05:39:49.411Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2632,30 +2632,6 @@
       }
     },
     {
-      "id": "fb-1413297043775425",
-      "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
-      "organizerId": "shaka-windsurf-spot",
-      "organizerName": "Shaka Windsurf Spot",
-      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
-      "dateISO": "2026-08-21",
-      "timeText": "19:30",
-      "endDateISO": null,
-      "endTimeText": "21:30",
-      "rawWhen": "2026. augusztus 21., péntek, 19:30–21:30 CEST",
-      "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
-      "url": "https://www.facebook.com/events/1413297043775425/",
-      "source": "facebook",
-      "lat": 46.806042,
-      "lon": 17.7789908,
-      "weather": {
-        "tempMax": 31,
-        "tempMin": 22,
-        "precipProbability": 60,
-        "windSpeed": 31,
-        "windDirection": 267
-      }
-    },
-    {
       "id": "fb-1257516332979348",
       "title": "SUP-időutazás a Monarchiába: Wachau-Bécs-Pozsony-Óvár",
       "organizerId": "supway",
@@ -2670,14 +2646,7 @@
       "url": "https://www.facebook.com/events/1257516332979348/",
       "source": "facebook",
       "lat": 48.1514537,
-      "lon": 16.9453602,
-      "weather": {
-        "tempMax": 29.5,
-        "tempMin": 19,
-        "precipProbability": 60,
-        "windSpeed": 15.8,
-        "windDirection": 162
-      }
+      "lon": 16.9453602
     },
     {
       "id": "fb-2276355386438537",
@@ -2720,11 +2689,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 25.4,
-        "tempMin": 17.9,
-        "precipProbability": 24,
-        "windSpeed": 25.9,
-        "windDirection": 276
+        "tempMax": 26.3,
+        "tempMin": 18.3,
+        "precipProbability": 70,
+        "windSpeed": 25.6,
+        "windDirection": 282
       }
     },
     {
@@ -2744,11 +2713,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 24.6,
-        "tempMin": 20.2,
-        "precipProbability": 48,
-        "windSpeed": 19.7,
-        "windDirection": 351
+        "tempMax": 25.7,
+        "tempMin": 20.4,
+        "precipProbability": 38,
+        "windSpeed": 27.3,
+        "windDirection": 336
       }
     },
     {
@@ -2768,11 +2737,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 29,
-        "tempMin": 19.9,
-        "precipProbability": 24,
-        "windSpeed": 23.8,
-        "windDirection": 297
+        "tempMax": 29.3,
+        "tempMin": 19.2,
+        "precipProbability": 74,
+        "windSpeed": 24.1,
+        "windDirection": 300
       }
     },
     {
@@ -2792,11 +2761,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 27.5,
-        "tempMin": 19.1,
-        "precipProbability": 17,
+        "tempMax": 27.9,
+        "tempMin": 19.3,
+        "precipProbability": 77,
         "windSpeed": 20.5,
-        "windDirection": 292
+        "windDirection": 300
       }
     },
     {
@@ -2816,11 +2785,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 27.5,
-        "tempMin": 19.1,
-        "precipProbability": 17,
+        "tempMax": 27.9,
+        "tempMin": 19.3,
+        "precipProbability": 77,
         "windSpeed": 20.5,
-        "windDirection": 292
+        "windDirection": 300
       }
     },
     {
@@ -2840,11 +2809,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.3,
-        "tempMin": 16.7,
-        "precipProbability": 2,
-        "windSpeed": 15.5,
-        "windDirection": 309
+        "tempMax": 28.3,
+        "tempMin": 17,
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 317
       }
     },
     {
@@ -2864,11 +2833,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 24.3,
+        "tempMax": 28,
         "tempMin": 16.6,
-        "precipProbability": 2,
-        "windSpeed": 15.8,
-        "windDirection": 310
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 317
       }
     },
     {
@@ -2888,11 +2857,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.3,
-        "tempMin": 16.7,
-        "precipProbability": 2,
-        "windSpeed": 15.5,
-        "windDirection": 309
+        "tempMax": 28.3,
+        "tempMin": 17,
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 317
       }
     },
     {
@@ -2942,11 +2911,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 24.3,
+        "tempMax": 28.1,
         "tempMin": 16.7,
-        "precipProbability": 2,
-        "windSpeed": 15.8,
-        "windDirection": 310
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 317
       }
     },
     {
@@ -2966,11 +2935,11 @@
       "lat": 47.9416346,
       "lon": 17.3554366,
       "weather": {
-        "tempMax": 25.3,
-        "tempMin": 16.2,
+        "tempMax": 25.4,
+        "tempMin": 15.3,
         "precipProbability": 0,
-        "windSpeed": 13.1,
-        "windDirection": 336
+        "windSpeed": 12,
+        "windDirection": 321
       }
     },
     {
@@ -3005,12 +2974,27 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 24.3,
+        "tempMax": 28.1,
         "tempMin": 16.7,
-        "precipProbability": 2,
-        "windSpeed": 15.8,
-        "windDirection": 310
+        "precipProbability": 0,
+        "windSpeed": 14.8,
+        "windDirection": 317
       }
+    },
+    {
+      "id": "fb-1995939531059221",
+      "title": "Sup túra Szigetszentmiklós nádasaiban Kezdöknek is",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-08-23",
+      "timeText": "10:45",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. augusztus 23., vasárnap, 10:45 CEST",
+      "location": "Túr… Továbbiak",
+      "url": "https://www.facebook.com/events/1995939531059221/",
+      "source": "facebook"
     },
     {
       "id": "fb-1081917117515070",
@@ -3029,11 +3013,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 30.6,
-        "tempMin": 17,
-        "precipProbability": 14,
-        "windSpeed": 13.2,
-        "windDirection": 75
+        "tempMax": 31.5,
+        "tempMin": 18.3,
+        "precipProbability": 21,
+        "windSpeed": 12.6,
+        "windDirection": 89
       }
     },
     {
@@ -3053,11 +3037,35 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 31.9,
-        "tempMin": 19.8,
-        "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 104
+        "tempMax": 30.5,
+        "tempMin": 18,
+        "precipProbability": 4,
+        "windSpeed": 9.9,
+        "windDirection": 73
+      }
+    },
+    {
+      "id": "fb-1413297043775425",
+      "title": "Naplementés SUP túra Balatonszemesen, Golden hour élmény!",
+      "organizerId": "shaka-windsurf-spot",
+      "organizerName": "Shaka Windsurf Spot",
+      "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
+      "dateISO": "2026-08-28",
+      "timeText": "19:30",
+      "endDateISO": null,
+      "endTimeText": "21:30",
+      "rawWhen": "2026. augusztus 28., péntek, 19:30–21:30 CEST",
+      "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
+      "url": "https://www.facebook.com/events/1413297043775425/",
+      "source": "facebook",
+      "lat": 46.806042,
+      "lon": 17.7789908,
+      "weather": {
+        "tempMax": 34.5,
+        "tempMin": 19.7,
+        "precipProbability": 31,
+        "windSpeed": 24.5,
+        "windDirection": 195
       }
     },
     {
@@ -3075,7 +3083,14 @@
       "url": "https://www.facebook.com/events/1001816658985569/",
       "source": "facebook",
       "lat": 46.2773672,
-      "lon": 18.6372014
+      "lon": 18.6372014,
+      "weather": {
+        "tempMax": 37.1,
+        "tempMin": 22.9,
+        "precipProbability": 19,
+        "windSpeed": 16.5,
+        "windDirection": 193
+      }
     },
     {
       "id": "fb-1424306506235359",

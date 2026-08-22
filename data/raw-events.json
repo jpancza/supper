@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-21T05:43:47.463Z",
+  "scrapedAt": "2026-08-22T05:39:46.451Z",
   "events": [
     {
       "id": "fb-850932464338253",
@@ -110,6 +110,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1995939531059221",
+      "title": "Sup túra Szigetszentmiklós nádasaiban Kezdöknek is",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. augusztus 23., vasárnap, 10:45 CEST",
+      "assumeUpcoming": true,
+      "location": "Túr… Továbbiak",
+      "url": "https://www.facebook.com/events/1995939531059221/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1283739730377695",
       "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
       "organizerId": "sup-the-lifestyle",
@@ -182,18 +194,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-892111770603769",
-      "title": "Októberi sup trip Málta szigetén 8.0",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
-      "url": "https://www.facebook.com/events/892111770603769/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-2019391308604901",
       "title": "Alpesi Kalandtúra a svájci-olasz határvidéken: SUP, rafting, kanyonig",
       "organizerId": "sup-budapest",
@@ -203,18 +203,6 @@
       "assumeUpcoming": true,
       "location": "Római part 29, Budapest 1031, Magyarország",
       "url": "https://www.facebook.com/events/2019391308604901/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2276355386438537",
-      "title": "SUP Budapest x GymBeam Szentendre - Római SUP túra",
-      "organizerId": "sup-budapest",
-      "organizerName": "SUP Budapest",
-      "organizerUrl": "https://www.facebook.com/supbudapest",
-      "rawWhen": "2026. augusztus 21., péntek, 13:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Strand utca, Szentendre (Pest megye, Magyarország)",
-      "url": "https://www.facebook.com/events/2276355386438537/",
       "source": "facebook"
     },
     {
@@ -452,7 +440,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 29., szombat, 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Ez a túra a TihanySport kalandok sorozat része, amelynek kül… Továbbiak",
       "url": "https://www.facebook.com/events/28186251277654317/",
       "source": "facebook"
@@ -464,7 +452,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. augusztus 30., vasárnap, 18:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "A Tihany Season Running … Továbbiak",
       "url": "https://www.facebook.com/events/1634381011587414/",
       "source": "facebook"
@@ -476,7 +464,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -488,7 +476,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -500,7 +488,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -559,7 +547,7 @@
       "organizerId": "shaka-windsurf-spot",
       "organizerName": "Shaka Windsurf Spot",
       "organizerUrl": "https://www.facebook.com/ShakaWindsurfSpot",
-      "rawWhen": "2026. augusztus 21., péntek, 19:30–21:30 CEST",
+      "rawWhen": "2026. augusztus 28., péntek, 19:30–21:30 CEST",
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
