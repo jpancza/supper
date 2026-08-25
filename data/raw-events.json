@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-24T05:49:26.360Z",
+  "scrapedAt": "2026-08-25T05:43:56.873Z",
   "events": [
     {
       "id": "fb-1081917117515070",
@@ -691,7 +691,7 @@
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 30., vasárnap, 17:30–18:30 CEST",
+      "rawWhen": "2026. augusztus 30., vasárnap, 17:00–18:00 CEST",
       "assumeUpcoming": false,
       "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
       "url": "https://www.facebook.com/events/2061579151388242/",
@@ -879,7 +879,7 @@
     },
     {
       "id": "fb-1712467283331894",
-      "title": "Ingyenes kenu kormányos oktatás",
+      "title": "BETELT! Ingyenes kenu kormányos oktatás",
       "organizerId": "eventus-vizitura",
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
@@ -1317,7 +1317,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.08.25 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-kenutura-rackevei-duna#2026.08.25",
       "source": "funrafting"
     },
