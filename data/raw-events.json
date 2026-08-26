@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-08-25T05:43:56.873Z",
+  "scrapedAt": "2026-08-26T05:45:55.449Z",
   "events": [
-    {
-      "id": "fb-1081917117515070",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. augusztus 25., kedd, 17:30–20:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1081917117515070/",
-      "source": "facebook"
-    },
     {
       "id": "fb-1424306506235359",
       "title": "Budapest Park Suprafel Party",
@@ -50,99 +38,27 @@
       "source": "facebook"
     },
     {
-      "id": "fb-3156232464563894",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 22., szombat, 9:00–10:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/3156232464563894/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4608982115997784",
-      "title": "Molnár-sziget északi csúcs - kezdő és gyakorlott 7 km",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 11:00–14:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/4608982115997784/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1391127086335822",
+      "id": "fb-1573947037790610",
       "title": "Basic 2. gyakorló SUP oktatás",
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
       "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 9:00–11:00 CEST",
-      "assumeUpcoming": false,
+      "rawWhen": "2026. augusztus 29., szombat, 9:00–11:00 CEST",
+      "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1391127086335822/",
+      "url": "https://www.facebook.com/events/1573947037790610/",
       "source": "facebook"
     },
     {
-      "id": "fb-1034706586202569",
+      "id": "fb-1043503751900931",
       "title": "Basic 1. - Kezdő SUP oktatás",
       "organizerId": "sup-and-go",
       "organizerName": "SUP and Go",
       "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 15., szombat, 9:00–10:30 CEST",
-      "assumeUpcoming": false,
+      "rawWhen": "2026. szeptember 5., szombat, 9:00–10:30 CEST",
+      "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1034706586202569/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2281707972639550",
-      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 9., vasárnap, 11:00–14:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/2281707972639550/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1734037021006405",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 9., vasárnap, 9:00–10:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1734037021006405/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1027539726839460",
-      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 2., vasárnap, 11:00–14:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1027539726839460/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1622315719626984",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. augusztus 2., vasárnap, 9:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1622315719626984/",
+      "url": "https://www.facebook.com/events/1043503751900931/",
       "source": "facebook"
     },
     {
@@ -218,15 +134,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-4499253950334851",
-      "title": "Sup túra Poroszló és környékén",
+      "id": "fb-1078559368432770",
+      "title": "Nyári sup vibe a mesés Szigetközben",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "rawWhen": "2026. szeptember 6., vasárnap, 11:00 CEST",
       "assumeUpcoming": true,
-      "location": "Kajak-, kenu- és kerékpárkölcsönzést és kempinget.",
-      "url": "https://www.facebook.com/events/4499253950334851/",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1078559368432770/",
       "source": "facebook"
     },
     {
