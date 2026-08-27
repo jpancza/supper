@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T05:45:58.002Z",
+  "lastUpdated": "2026-08-27T16:25:58.600Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2759,32 +2759,8 @@
       }
     },
     {
-      "id": "fb-1745975946509399",
-      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "dateISO": "2026-08-26",
-      "timeText": "18:30",
-      "endDateISO": null,
-      "endTimeText": "20:30",
-      "rawWhen": "2026. augusztus 26., szerda, 18:30–20:30 CEST",
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1745975946509399/",
-      "source": "facebook",
-      "lat": 47.7072856,
-      "lon": 19.1304295,
-      "weather": {
-        "tempMax": 28.9,
-        "tempMin": 20.6,
-        "precipProbability": 8,
-        "windSpeed": 13.7,
-        "windDirection": 357
-      }
-    },
-    {
       "id": "fb-1999200604070896",
-      "title": "Szezonzáró, kánikulai SUP fitness Zsanival",
+      "title": "Szezonzáró, kánikulai SUP fitness Zsanival+ utàna SUP naplementés evezes",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
@@ -2799,11 +2775,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 30.6,
-        "tempMin": 19.4,
-        "precipProbability": 0,
-        "windSpeed": 13,
-        "windDirection": 48
+        "tempMax": 26,
+        "tempMin": 18.3,
+        "precipProbability": 61,
+        "windSpeed": 7.9,
+        "windDirection": 1
       }
     },
     {
@@ -2823,11 +2799,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 31.2,
-        "tempMin": 20.9,
-        "precipProbability": 2,
-        "windSpeed": 14.8,
-        "windDirection": 58
+        "tempMax": 26.8,
+        "tempMin": 18.5,
+        "precipProbability": 93,
+        "windSpeed": 13.7,
+        "windDirection": 27
       }
     },
     {
@@ -2847,11 +2823,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 35.3,
-        "tempMin": 20.9,
+        "tempMax": 34.9,
+        "tempMin": 19.5,
         "precipProbability": 0,
-        "windSpeed": 21.5,
-        "windDirection": 144
+        "windSpeed": 17.9,
+        "windDirection": 101
       }
     },
     {
@@ -2871,27 +2847,12 @@
       "lat": 46.2773672,
       "lon": 18.6372014,
       "weather": {
-        "tempMax": 34.6,
-        "tempMin": 20.8,
+        "tempMax": 35.3,
+        "tempMin": 20.3,
         "precipProbability": 0,
-        "windSpeed": 19.4,
-        "windDirection": 134
+        "windSpeed": 15.1,
+        "windDirection": 98
       }
-    },
-    {
-      "id": "fb-1424306506235359",
-      "title": "Budapest Park Suprafel Party",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "dateISO": "2026-08-28",
-      "timeText": "22:00",
-      "endDateISO": null,
-      "endTimeText": "03:00",
-      "rawWhen": "2026. augusztus 28., péntek, 22:00–3:00 CEST",
-      "location": "Most ismét a Budapest Park-ba mennénk, kapunyitás 22:00… Továbbiak",
-      "url": "https://www.facebook.com/events/1424306506235359/",
-      "source": "facebook"
     },
     {
       "id": "fb-1829576085115868",
@@ -2907,6 +2868,78 @@
       "location": "… Továbbiak",
       "url": "https://www.facebook.com/events/1829576085115868/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-1282646043847818",
+      "title": "Nyárbúcsúztató naplementés SUP-túrák",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-08-28",
+      "timeText": "18:30",
+      "endDateISO": null,
+      "endTimeText": "20:30",
+      "rawWhen": "2026. augusztus 28., péntek, 18:30–20:30 CEST",
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/1282646043847818/",
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 34.4,
+        "tempMin": 20.3,
+        "precipProbability": 0,
+        "windSpeed": 19.3,
+        "windDirection": 110
+      }
+    },
+    {
+      "id": "fb-1605500074535325",
+      "title": "SUP túra Győrben",
+      "organizerId": "balatonsup",
+      "organizerName": "Balatonsup",
+      "organizerUrl": "https://www.facebook.com/balatonsup",
+      "dateISO": "2026-08-28",
+      "timeText": "15:30",
+      "endDateISO": null,
+      "endTimeText": "17:30",
+      "rawWhen": "2026. augusztus 28., péntek, 15:30–17:30 CEST",
+      "location": "Győr (Győr-Moson-Sopron megye, Magyarország)",
+      "url": "https://www.facebook.com/events/1605500074535325/",
+      "source": "facebook",
+      "lat": 47.6805336,
+      "lon": 17.6915176,
+      "weather": {
+        "tempMax": 32.6,
+        "tempMin": 19.4,
+        "precipProbability": 0,
+        "windSpeed": 25,
+        "windDirection": 125
+      }
+    },
+    {
+      "id": "fb-1713337289937422",
+      "title": "SUP túra Győrben",
+      "organizerId": "balatonsup",
+      "organizerName": "Balatonsup",
+      "organizerUrl": "https://www.facebook.com/balatonsup",
+      "dateISO": "2026-08-28",
+      "timeText": "15:30",
+      "endDateISO": null,
+      "endTimeText": "17:30",
+      "rawWhen": "2026. augusztus 28., péntek, 15:30–17:30 CEST",
+      "location": "Győr (Győr-Moson-Sopron megye, Magyarország)",
+      "url": "https://www.facebook.com/events/1713337289937422/",
+      "source": "facebook",
+      "lat": 47.6805336,
+      "lon": 17.6915176,
+      "weather": {
+        "tempMax": 32.6,
+        "tempMin": 19.4,
+        "precipProbability": 0,
+        "windSpeed": 25,
+        "windDirection": 125
+      }
     },
     {
       "id": "fb-1686424870153536",
@@ -2925,11 +2958,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 31.3,
-        "tempMin": 22.2,
-        "precipProbability": 14,
-        "windSpeed": 18,
-        "windDirection": 299
+        "tempMax": 26.9,
+        "tempMin": 18.1,
+        "precipProbability": 25,
+        "windSpeed": 10.4,
+        "windDirection": 158
       }
     },
     {
@@ -2941,19 +2974,19 @@
       "dateISO": "2026-08-29",
       "timeText": "09:00",
       "endDateISO": null,
-      "endTimeText": "11:00",
-      "rawWhen": "2026. augusztus 29., szombat, 9:00–11:00 CEST",
+      "endTimeText": "12:00",
+      "rawWhen": "2026. augusztus 29., szombat, 9:00–12:00 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1369221968611780/",
       "source": "facebook",
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 31.3,
-        "tempMin": 22.2,
-        "precipProbability": 14,
-        "windSpeed": 18,
-        "windDirection": 299
+        "tempMax": 26.9,
+        "tempMin": 18.1,
+        "precipProbability": 25,
+        "windSpeed": 10.4,
+        "windDirection": 158
       }
     },
     {
@@ -2973,11 +3006,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 31.2,
-        "tempMin": 21.6,
-        "precipProbability": 12,
-        "windSpeed": 18.8,
-        "windDirection": 294
+        "tempMax": 26.1,
+        "tempMin": 18.5,
+        "precipProbability": 22,
+        "windSpeed": 11.9,
+        "windDirection": 16
       }
     },
     {
@@ -2997,11 +3030,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 28.6,
-        "tempMin": 20.9,
-        "precipProbability": 30,
-        "windSpeed": 23.7,
-        "windDirection": 32
+        "tempMax": 27.3,
+        "tempMin": 19.8,
+        "precipProbability": 15,
+        "windSpeed": 28,
+        "windDirection": 323
       }
     },
     {
@@ -3021,11 +3054,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 31.9,
-        "tempMin": 23.4,
-        "precipProbability": 10,
-        "windSpeed": 21.2,
-        "windDirection": 314
+        "tempMax": 25.9,
+        "tempMin": 18.8,
+        "precipProbability": 32,
+        "windSpeed": 12.6,
+        "windDirection": 112
       }
     },
     {
@@ -3045,11 +3078,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 31.4,
-        "tempMin": 23.1,
-        "precipProbability": 14,
-        "windSpeed": 17.5,
-        "windDirection": 311
+        "tempMax": 27.1,
+        "tempMin": 18.3,
+        "precipProbability": 27,
+        "windSpeed": 11.5,
+        "windDirection": 139
       }
     },
     {
@@ -3069,11 +3102,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 31.4,
-        "tempMin": 23.1,
-        "precipProbability": 14,
-        "windSpeed": 17.5,
-        "windDirection": 311
+        "tempMax": 27.2,
+        "tempMin": 18.4,
+        "precipProbability": 27,
+        "windSpeed": 11.5,
+        "windDirection": 140
       }
     },
     {
@@ -3093,11 +3126,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.3,
-        "tempMin": 23.1,
-        "precipProbability": 14,
-        "windSpeed": 18,
-        "windDirection": 302
+        "tempMax": 25.9,
+        "tempMin": 18.9,
+        "precipProbability": 27,
+        "windSpeed": 17.3,
+        "windDirection": 120
       }
     },
     {
@@ -3147,11 +3180,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 33,
-        "tempMin": 18.4,
-        "precipProbability": 6,
-        "windSpeed": 13.7,
-        "windDirection": 64
+        "tempMax": 31.6,
+        "tempMin": 16.8,
+        "precipProbability": 2,
+        "windSpeed": 7.6,
+        "windDirection": 144
       }
     },
     {
@@ -3171,11 +3204,11 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 34.3,
-        "tempMin": 21.4,
-        "precipProbability": 24,
-        "windSpeed": 14.2,
-        "windDirection": 359
+        "tempMax": 30.8,
+        "tempMin": 21.2,
+        "precipProbability": 8,
+        "windSpeed": 10.4,
+        "windDirection": 58
       }
     },
     {
@@ -3195,12 +3228,51 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 34.3,
-        "tempMin": 21.4,
-        "precipProbability": 24,
-        "windSpeed": 14.2,
-        "windDirection": 359
+        "tempMax": 30.8,
+        "tempMin": 21.2,
+        "precipProbability": 8,
+        "windSpeed": 10.4,
+        "windDirection": 58
       }
+    },
+    {
+      "id": "fb-1830884811620992",
+      "title": "Naplementés SUP evezés Gödnél, kezdôknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-08-30",
+      "timeText": "18:00",
+      "endDateISO": null,
+      "endTimeText": "20:00",
+      "rawWhen": "2026. augusztus 30., vasárnap, 18:00–20:00 CEST",
+      "location": "2131, Göd (Pest megye, Magyarország)",
+      "url": "https://www.facebook.com/events/1830884811620992/",
+      "source": "facebook",
+      "lat": 47.6793704,
+      "lon": 19.1572771,
+      "weather": {
+        "tempMax": 31.6,
+        "tempMin": 16.8,
+        "precipProbability": 2,
+        "windSpeed": 7.6,
+        "windDirection": 144
+      }
+    },
+    {
+      "id": "fb-1424306506235359",
+      "title": "Budapest Park Suprafel Party",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-04",
+      "timeText": "22:00",
+      "endDateISO": null,
+      "endTimeText": "03:00",
+      "rawWhen": "2026. szeptember 4., péntek, 22:00–3:00 CEST",
+      "location": "Most ismét a Budapest Park-ba mennénk, kapunyitás 22:00… Továbbiak",
+      "url": "https://www.facebook.com/events/1424306506235359/",
+      "source": "facebook"
     },
     {
       "id": "fb-1469022475008904",
@@ -3220,21 +3292,21 @@
       "lon": 15.5925162
     },
     {
-      "id": "fb-1830884811620992",
-      "title": "Naplementés SUP evezés Gödnél, kezdôknek is, tanítással",
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-09-05",
-      "timeText": "17:30",
+      "timeText": "18:00",
       "endDateISO": null,
-      "endTimeText": "19:30",
-      "rawWhen": "2026. szeptember 5., szombat, 17:30–19:30 CEST",
-      "location": "2131, Göd (Pest megye, Magyarország)",
-      "url": "https://www.facebook.com/events/1830884811620992/",
+      "endTimeText": "20:00",
+      "rawWhen": "2026. szeptember 5., szombat, 18:00–20:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook",
-      "lat": 47.6793704,
-      "lon": 19.1572771
+      "lat": 47.7072856,
+      "lon": 19.1304295
     },
     {
       "id": "fb-1995939531059221",
