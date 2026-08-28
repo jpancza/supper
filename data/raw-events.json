@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-27T16:25:56.692Z",
+  "scrapedAt": "2026-08-28T17:22:47.263Z",
   "events": [
     {
       "id": "fb-1050879434500742",
@@ -62,6 +62,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-2965927147078835",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. szeptember 5., szombat, 11:00–14:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/2965927147078835/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1727340378315617",
       "title": "Naplemente túra",
       "organizerId": "old-lake-sup",
@@ -71,18 +83,6 @@
       "assumeUpcoming": true,
       "location": "Minden, ami SUP az Öreg-tavon",
       "url": "https://www.facebook.com/events/1727340378315617/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1283739730377695",
-      "title": "Kezdő sup oktatás +gyakorló sup túra az Újpesti-öbölben",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 27., csütörtök, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/1283739730377695/",
       "source": "facebook"
     },
     {
@@ -103,7 +103,7 @@
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. augusztus 29., szombat, 11:00 CEST",
+      "rawWhen": "2026. augusztus 29., szombat, 11:30 CEST",
       "assumeUpcoming": true,
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1347279790951952/",
@@ -167,6 +167,18 @@
       "assumeUpcoming": true,
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/4285107801740911/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-892111770603769",
+      "title": "Októberi sup trip Málta szigetén 8.0",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "Okt. 7., 11:00 – okt. 11., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
+      "url": "https://www.facebook.com/events/892111770603769/",
       "source": "facebook"
     },
     {
@@ -470,30 +482,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1605500074535325",
-      "title": "SUP túra Győrben",
-      "organizerId": "balatonsup",
-      "organizerName": "Balatonsup",
-      "organizerUrl": "https://www.facebook.com/balatonsup",
-      "rawWhen": "2026. augusztus 28., péntek, 15:30–17:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Győr (Győr-Moson-Sopron megye, Magyarország)",
-      "url": "https://www.facebook.com/events/1605500074535325/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1713337289937422",
-      "title": "SUP túra Győrben",
-      "organizerId": "balatonsup",
-      "organizerName": "Balatonsup",
-      "organizerUrl": "https://www.facebook.com/balatonsup",
-      "rawWhen": "2026. augusztus 28., péntek, 15:30–17:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Győr (Győr-Moson-Sopron megye, Magyarország)",
-      "url": "https://www.facebook.com/events/1713337289937422/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1370500938294676",
       "title": "Nyári szezonkezdés aktívan Ausztriában",
       "organizerId": "balatonsup",
@@ -542,18 +530,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1999200604070896",
-      "title": "Szezonzáró, kánikulai SUP fitness Zsanival+ utàna SUP naplementés evezes",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 27., csütörtök, 17:30–18:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1999200604070896/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1369221968611780",
       "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
       "organizerId": "sunset-sup",
@@ -571,7 +547,7 @@
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. augusztus 29., szombat, 18:00–20:00 CEST",
+      "rawWhen": "2026. augusztus 29., szombat, 17:30–19:30 CEST",
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1686424870153536/",
@@ -1460,7 +1436,7 @@
       "organizerName": "Supway Hungary",
       "organizerUrl": "https://www.facebook.com/supwayhun",
       "rawWhen": "Szept. 4., 8:00 – szept. 7., 22:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
       "url": "https://www.facebook.com/events/1469022475008904/",
       "source": "facebook"

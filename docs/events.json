@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T16:25:58.600Z",
+  "lastUpdated": "2026-08-28T17:22:50.006Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2823,11 +2823,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 34.9,
-        "tempMin": 19.5,
+        "tempMax": 34.8,
+        "tempMin": 19.6,
         "precipProbability": 0,
-        "windSpeed": 17.9,
-        "windDirection": 101
+        "windSpeed": 18.4,
+        "windDirection": 99
       }
     },
     {
@@ -2847,11 +2847,11 @@
       "lat": 46.2773672,
       "lon": 18.6372014,
       "weather": {
-        "tempMax": 35.3,
-        "tempMin": 20.3,
+        "tempMax": 34.4,
+        "tempMin": 19.4,
         "precipProbability": 0,
-        "windSpeed": 15.1,
-        "windDirection": 98
+        "windSpeed": 13,
+        "windDirection": 114
       }
     },
     {
@@ -2886,11 +2886,11 @@
       "lat": 46.7481409,
       "lon": 17.5507597,
       "weather": {
-        "tempMax": 34.4,
+        "tempMax": 33.6,
         "tempMin": 20.3,
         "precipProbability": 0,
-        "windSpeed": 19.3,
-        "windDirection": 110
+        "windSpeed": 21.6,
+        "windDirection": 109
       }
     },
     {
@@ -2911,10 +2911,10 @@
       "lon": 17.6915176,
       "weather": {
         "tempMax": 32.6,
-        "tempMin": 19.4,
+        "tempMin": 19.5,
         "precipProbability": 0,
-        "windSpeed": 25,
-        "windDirection": 125
+        "windSpeed": 26.7,
+        "windDirection": 124
       }
     },
     {
@@ -2935,10 +2935,10 @@
       "lon": 17.6915176,
       "weather": {
         "tempMax": 32.6,
-        "tempMin": 19.4,
+        "tempMin": 19.5,
         "precipProbability": 0,
-        "windSpeed": 25,
-        "windDirection": 125
+        "windSpeed": 26.7,
+        "windDirection": 124
       }
     },
     {
@@ -2948,21 +2948,21 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-08-29",
-      "timeText": "18:00",
+      "timeText": "17:30",
       "endDateISO": null,
-      "endTimeText": "20:00",
-      "rawWhen": "2026. augusztus 29., szombat, 18:00–20:00 CEST",
+      "endTimeText": "19:30",
+      "rawWhen": "2026. augusztus 29., szombat, 17:30–19:30 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1686424870153536/",
       "source": "facebook",
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.9,
-        "tempMin": 18.1,
-        "precipProbability": 25,
-        "windSpeed": 10.4,
-        "windDirection": 158
+        "tempMax": 31,
+        "tempMin": 19.6,
+        "precipProbability": 16,
+        "windSpeed": 17.3,
+        "windDirection": 342
       }
     },
     {
@@ -2982,11 +2982,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.9,
-        "tempMin": 18.1,
-        "precipProbability": 25,
-        "windSpeed": 10.4,
-        "windDirection": 158
+        "tempMax": 31,
+        "tempMin": 19.6,
+        "precipProbability": 16,
+        "windSpeed": 17.3,
+        "windDirection": 342
       }
     },
     {
@@ -3006,11 +3006,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 26.1,
-        "tempMin": 18.5,
+        "tempMax": 30,
+        "tempMin": 19.3,
         "precipProbability": 22,
         "windSpeed": 11.9,
-        "windDirection": 16
+        "windDirection": 329
       }
     },
     {
@@ -3030,11 +3030,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 27.3,
-        "tempMin": 19.8,
-        "precipProbability": 15,
-        "windSpeed": 28,
-        "windDirection": 323
+        "tempMax": 29.2,
+        "tempMin": 21.7,
+        "precipProbability": 28,
+        "windSpeed": 28.2,
+        "windDirection": 20
       }
     },
     {
@@ -3054,11 +3054,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 25.9,
-        "tempMin": 18.8,
-        "precipProbability": 32,
-        "windSpeed": 12.6,
-        "windDirection": 112
+        "tempMax": 31.2,
+        "tempMin": 21.5,
+        "precipProbability": 25,
+        "windSpeed": 17.3,
+        "windDirection": 334
       }
     },
     {
@@ -3068,21 +3068,21 @@
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-08-29",
-      "timeText": "11:00",
+      "timeText": "11:30",
       "endDateISO": null,
       "endTimeText": null,
-      "rawWhen": "2026. augusztus 29., szombat, 11:00 CEST",
+      "rawWhen": "2026. augusztus 29., szombat, 11:30 CEST",
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1347279790951952/",
       "source": "facebook",
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 27.1,
-        "tempMin": 18.3,
-        "precipProbability": 27,
-        "windSpeed": 11.5,
-        "windDirection": 139
+        "tempMax": 31.5,
+        "tempMin": 21.6,
+        "precipProbability": 22,
+        "windSpeed": 15.1,
+        "windDirection": 340
       }
     },
     {
@@ -3102,11 +3102,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 27.2,
-        "tempMin": 18.4,
-        "precipProbability": 27,
-        "windSpeed": 11.5,
-        "windDirection": 140
+        "tempMax": 31.7,
+        "tempMin": 21.7,
+        "precipProbability": 22,
+        "windSpeed": 15.5,
+        "windDirection": 345
       }
     },
     {
@@ -3126,11 +3126,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 25.9,
-        "tempMin": 18.9,
-        "precipProbability": 27,
-        "windSpeed": 17.3,
-        "windDirection": 120
+        "tempMax": 31.5,
+        "tempMin": 21.4,
+        "precipProbability": 22,
+        "windSpeed": 17.6,
+        "windDirection": 7
       }
     },
     {
@@ -3180,11 +3180,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 31.6,
-        "tempMin": 16.8,
-        "precipProbability": 2,
-        "windSpeed": 7.6,
-        "windDirection": 144
+        "tempMax": 32.8,
+        "tempMin": 18.1,
+        "precipProbability": 0,
+        "windSpeed": 12.2,
+        "windDirection": 355
       }
     },
     {
@@ -3204,11 +3204,11 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 30.8,
-        "tempMin": 21.2,
-        "precipProbability": 8,
-        "windSpeed": 10.4,
-        "windDirection": 58
+        "tempMax": 33.9,
+        "tempMin": 21,
+        "precipProbability": 2,
+        "windSpeed": 9.4,
+        "windDirection": 8
       }
     },
     {
@@ -3228,11 +3228,11 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 30.8,
-        "tempMin": 21.2,
-        "precipProbability": 8,
-        "windSpeed": 10.4,
-        "windDirection": 58
+        "tempMax": 33.9,
+        "tempMin": 21,
+        "precipProbability": 2,
+        "windSpeed": 9.4,
+        "windDirection": 8
       }
     },
     {
@@ -3252,11 +3252,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 31.6,
-        "tempMin": 16.8,
-        "precipProbability": 2,
-        "windSpeed": 7.6,
-        "windDirection": 144
+        "tempMax": 32.7,
+        "tempMin": 18,
+        "precipProbability": 0,
+        "windSpeed": 12.2,
+        "windDirection": 355
       }
     },
     {
@@ -3353,6 +3353,23 @@
       "rawWhen": "2026. szeptember 5., szombat, 9:00–10:30 CEST",
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/1043503751900931/",
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496
+    },
+    {
+      "id": "fb-2965927147078835",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "dateISO": "2026-09-05",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "14:00",
+      "rawWhen": "2026. szeptember 5., szombat, 11:00–14:00 CEST",
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/2965927147078835/",
       "source": "facebook",
       "lat": 47.3818192,
       "lon": 19.101496
