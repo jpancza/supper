@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T17:22:50.006Z",
+  "lastUpdated": "2026-08-29T11:39:12.929Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -2845,14 +2845,7 @@
       "url": "https://www.facebook.com/events/1001816658985569/",
       "source": "facebook",
       "lat": 46.2773672,
-      "lon": 18.6372014,
-      "weather": {
-        "tempMax": 34.4,
-        "tempMin": 19.4,
-        "precipProbability": 0,
-        "windSpeed": 13,
-        "windDirection": 114
-      }
+      "lon": 18.6372014
     },
     {
       "id": "fb-1829576085115868",
@@ -2868,30 +2861,6 @@
       "location": "… Továbbiak",
       "url": "https://www.facebook.com/events/1829576085115868/",
       "source": "facebook"
-    },
-    {
-      "id": "fb-1282646043847818",
-      "title": "Nyárbúcsúztató naplementés SUP-túrák",
-      "organizerId": "support-fonyod",
-      "organizerName": "SUPport - Fonyód",
-      "organizerUrl": "https://www.facebook.com/supfonyod",
-      "dateISO": "2026-08-28",
-      "timeText": "18:30",
-      "endDateISO": null,
-      "endTimeText": "20:30",
-      "rawWhen": "2026. augusztus 28., péntek, 18:30–20:30 CEST",
-      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
-      "url": "https://www.facebook.com/events/1282646043847818/",
-      "source": "facebook",
-      "lat": 46.7481409,
-      "lon": 17.5507597,
-      "weather": {
-        "tempMax": 33.6,
-        "tempMin": 20.3,
-        "precipProbability": 0,
-        "windSpeed": 21.6,
-        "windDirection": 109
-      }
     },
     {
       "id": "fb-1605500074535325",
@@ -2942,6 +2911,30 @@
       }
     },
     {
+      "id": "fb-1282646043847818",
+      "title": "Nyárbúcsúztató naplementés SUP-túrák",
+      "organizerId": "support-fonyod",
+      "organizerName": "SUPport - Fonyód",
+      "organizerUrl": "https://www.facebook.com/supfonyod",
+      "dateISO": "2026-08-29",
+      "timeText": "18:30",
+      "endDateISO": null,
+      "endTimeText": "20:30",
+      "rawWhen": "2026. augusztus 29., szombat, 18:30–20:30 CEST",
+      "location": "Vitorlás utca 46, Fonyód 8640, Magyarország",
+      "url": "https://www.facebook.com/events/1282646043847818/",
+      "source": "facebook",
+      "lat": 46.7481409,
+      "lon": 17.5507597,
+      "weather": {
+        "tempMax": 27.5,
+        "tempMin": 21.5,
+        "precipProbability": 70,
+        "windSpeed": 43.4,
+        "windDirection": 360
+      }
+    },
+    {
       "id": "fb-1686424870153536",
       "title": "Kánikula búcsúztató SUP chillevezés Gödnél: kezdőknek is!",
       "organizerId": "sunset-sup",
@@ -2958,35 +2951,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 31,
-        "tempMin": 19.6,
-        "precipProbability": 16,
-        "windSpeed": 17.3,
-        "windDirection": 342
-      }
-    },
-    {
-      "id": "fb-1369221968611780",
-      "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "dateISO": "2026-08-29",
-      "timeText": "09:00",
-      "endDateISO": null,
-      "endTimeText": "12:00",
-      "rawWhen": "2026. augusztus 29., szombat, 9:00–12:00 CEST",
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1369221968611780/",
-      "source": "facebook",
-      "lat": 47.7072856,
-      "lon": 19.1304295,
-      "weather": {
-        "tempMax": 31,
-        "tempMin": 19.6,
-        "precipProbability": 16,
-        "windSpeed": 17.3,
-        "windDirection": 342
+        "tempMax": 30.8,
+        "tempMin": 19.9,
+        "precipProbability": 4,
+        "windSpeed": 16.6,
+        "windDirection": 326
       }
     },
     {
@@ -3006,11 +2975,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 30,
-        "tempMin": 19.3,
-        "precipProbability": 22,
-        "windSpeed": 11.9,
-        "windDirection": 329
+        "tempMax": 29.4,
+        "tempMin": 19.7,
+        "precipProbability": 4,
+        "windSpeed": 14.4,
+        "windDirection": 312
       }
     },
     {
@@ -3030,11 +2999,11 @@
       "lat": 46.806042,
       "lon": 17.7789908,
       "weather": {
-        "tempMax": 29.2,
-        "tempMin": 21.7,
-        "precipProbability": 28,
-        "windSpeed": 28.2,
-        "windDirection": 20
+        "tempMax": 28.5,
+        "tempMin": 21.1,
+        "precipProbability": 73,
+        "windSpeed": 36.9,
+        "windDirection": 346
       }
     },
     {
@@ -3054,11 +3023,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 31.2,
-        "tempMin": 21.5,
-        "precipProbability": 25,
-        "windSpeed": 17.3,
-        "windDirection": 334
+        "tempMax": 30.5,
+        "tempMin": 20.4,
+        "precipProbability": 16,
+        "windSpeed": 17.6,
+        "windDirection": 322
       }
     },
     {
@@ -3078,11 +3047,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 31.5,
-        "tempMin": 21.6,
-        "precipProbability": 22,
-        "windSpeed": 15.1,
-        "windDirection": 340
+        "tempMax": 31.4,
+        "tempMin": 21.5,
+        "precipProbability": 10,
+        "windSpeed": 16.6,
+        "windDirection": 310
       }
     },
     {
@@ -3102,11 +3071,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 31.7,
-        "tempMin": 21.7,
-        "precipProbability": 22,
-        "windSpeed": 15.5,
-        "windDirection": 345
+        "tempMax": 31.6,
+        "tempMin": 21.4,
+        "precipProbability": 10,
+        "windSpeed": 14,
+        "windDirection": 319
       }
     },
     {
@@ -3126,11 +3095,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 31.5,
-        "tempMin": 21.4,
-        "precipProbability": 22,
-        "windSpeed": 17.6,
-        "windDirection": 7
+        "tempMax": 31.4,
+        "tempMin": 21.3,
+        "precipProbability": 10,
+        "windSpeed": 19.8,
+        "windDirection": 332
       }
     },
     {
@@ -3180,11 +3149,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 18.1,
+        "tempMax": 33.2,
+        "tempMin": 17.2,
         "precipProbability": 0,
-        "windSpeed": 12.2,
-        "windDirection": 355
+        "windSpeed": 9.7,
+        "windDirection": 228
       }
     },
     {
@@ -3204,11 +3173,11 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 33.9,
-        "tempMin": 21,
-        "precipProbability": 2,
-        "windSpeed": 9.4,
-        "windDirection": 8
+        "tempMax": 33.2,
+        "tempMin": 18,
+        "precipProbability": 0,
+        "windSpeed": 6.8,
+        "windDirection": 103
       }
     },
     {
@@ -3228,11 +3197,11 @@
       "lat": 46.3900215,
       "lon": 18.958962,
       "weather": {
-        "tempMax": 33.9,
-        "tempMin": 21,
-        "precipProbability": 2,
-        "windSpeed": 9.4,
-        "windDirection": 8
+        "tempMax": 33.2,
+        "tempMin": 18,
+        "precipProbability": 0,
+        "windSpeed": 6.8,
+        "windDirection": 103
       }
     },
     {
@@ -3252,11 +3221,11 @@
       "lat": 47.6793704,
       "lon": 19.1572771,
       "weather": {
-        "tempMax": 32.7,
-        "tempMin": 18,
+        "tempMax": 33.1,
+        "tempMin": 17.1,
         "precipProbability": 0,
-        "windSpeed": 12.2,
-        "windDirection": 355
+        "windSpeed": 9.7,
+        "windDirection": 228
       }
     },
     {
@@ -3289,7 +3258,31 @@
       "url": "https://www.facebook.com/events/1469022475008904/",
       "source": "facebook",
       "lat": 43.8221757,
-      "lon": 15.5925162
+      "lon": 15.5925162,
+      "weather": {
+        "tempMax": 32.9,
+        "tempMin": 21.7,
+        "precipProbability": 3,
+        "windSpeed": 18.8,
+        "windDirection": 311
+      }
+    },
+    {
+      "id": "fb-1369221968611780",
+      "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-05",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "11:00",
+      "rawWhen": "2026. szeptember 5., szombat, 9:00–11:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1369221968611780/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295
     },
     {
       "id": "fb-1745975946509399",
