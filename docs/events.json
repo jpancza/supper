@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T10:32:30.489Z",
+  "lastUpdated": "2026-08-31T11:36:23.836Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3041,29 +3041,7 @@
       "url": "https://www.facebook.com/events/1282646043847818/",
       "source": "facebook",
       "lat": 46.7481409,
-      "lon": 17.5507597,
-      "weather": {
-        "tempMax": 29.9,
-        "tempMin": 15.4,
-        "precipProbability": 0,
-        "windSpeed": 8.7,
-        "windDirection": 360
-      }
-    },
-    {
-      "id": "fb-1501114621187012",
-      "title": "Délutáni chill SUP túra",
-      "organizerId": "sup-dunakanyar",
-      "organizerName": "SUP Dunakanyar",
-      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "dateISO": "2026-08-30",
-      "timeText": "14:00",
-      "endDateISO": null,
-      "endTimeText": "17:00",
-      "rawWhen": "2026. augusztus 30., vasárnap, 14:00–17:00 CEST",
-      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
-      "url": "https://www.facebook.com/events/1501114621187012/",
-      "source": "facebook"
+      "lon": 17.5507597
     },
     {
       "id": "fb-996559680027070",
@@ -3208,11 +3186,35 @@
       "lat": 43.8221757,
       "lon": 15.5925162,
       "weather": {
-        "tempMax": 32,
-        "tempMin": 23.3,
+        "tempMax": 31.9,
+        "tempMin": 25.2,
         "precipProbability": 0,
-        "windSpeed": 19.1,
-        "windDirection": 295
+        "windSpeed": 23.4,
+        "windDirection": 336
+      }
+    },
+    {
+      "id": "fb-2848203118876139",
+      "title": "Szezonzáró, naplementés SUP evezés Gödnél, kezdőknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-04",
+      "timeText": "18:00",
+      "endDateISO": null,
+      "endTimeText": "20:00",
+      "rawWhen": "2026. szeptember 4., péntek, 18:00–20:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/2848203118876139/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 29,
+        "tempMin": 16.2,
+        "precipProbability": 0,
+        "windSpeed": 17,
+        "windDirection": 285
       }
     },
     {
@@ -3232,11 +3234,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 32.3,
-        "tempMin": 19.2,
-        "precipProbability": 4,
-        "windSpeed": 17.8,
-        "windDirection": 272
+        "tempMax": 32.8,
+        "tempMin": 19.4,
+        "precipProbability": 10,
+        "windSpeed": 20.3,
+        "windDirection": 286
       }
     },
     {
@@ -3256,11 +3258,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 19.2,
-        "precipProbability": 2,
-        "windSpeed": 17.3,
-        "windDirection": 274
+        "tempMax": 33,
+        "tempMin": 18.5,
+        "precipProbability": 8,
+        "windSpeed": 19.7,
+        "windDirection": 291
       }
     },
     {
@@ -3295,10 +3297,10 @@
       "lat": 47.6190622,
       "lon": 20.7560703,
       "weather": {
-        "tempMax": 33.6,
-        "tempMin": 19.8,
-        "precipProbability": 2,
-        "windSpeed": 22.7,
+        "tempMax": 33.9,
+        "tempMin": 21,
+        "precipProbability": 6,
+        "windSpeed": 26.9,
         "windDirection": 260
       }
     },
@@ -3319,11 +3321,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 34.7,
-        "tempMin": 20.5,
-        "precipProbability": 2,
-        "windSpeed": 18.8,
-        "windDirection": 270
+        "tempMax": 34.6,
+        "tempMin": 20.6,
+        "precipProbability": 10,
+        "windSpeed": 23.5,
+        "windDirection": 287
       }
     },
     {
@@ -3343,12 +3345,27 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 34.7,
-        "tempMin": 20.5,
-        "precipProbability": 2,
-        "windSpeed": 18.8,
-        "windDirection": 270
+        "tempMax": 34.6,
+        "tempMin": 20.6,
+        "precipProbability": 10,
+        "windSpeed": 23.5,
+        "windDirection": 287
       }
+    },
+    {
+      "id": "fb-1501114621187012",
+      "title": "Délutáni chill SUP túra",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
+      "dateISO": "2026-09-06",
+      "timeText": "14:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. szeptember 6., vasárnap, 14:00–17:00 CEST",
+      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
+      "url": "https://www.facebook.com/events/1501114621187012/",
+      "source": "facebook"
     },
     {
       "id": "fb-1369221968611780",
@@ -3365,7 +3382,14 @@
       "url": "https://www.facebook.com/events/1369221968611780/",
       "source": "facebook",
       "lat": 47.7072856,
-      "lon": 19.1304295
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 29.1,
+        "tempMin": 19.1,
+        "precipProbability": 4,
+        "windSpeed": 10.3,
+        "windDirection": 306
+      }
     },
     {
       "id": "fb-4499253950334851",
@@ -3382,7 +3406,14 @@
       "url": "https://www.facebook.com/events/4499253950334851/",
       "source": "facebook",
       "lat": 47.6435536,
-      "lon": 20.6560717
+      "lon": 20.6560717,
+      "weather": {
+        "tempMax": 28.4,
+        "tempMin": 19.1,
+        "precipProbability": 5,
+        "windSpeed": 11.2,
+        "windDirection": 181
+      }
     },
     {
       "id": "fb-3266711170386274",
@@ -3399,7 +3430,14 @@
       "url": "https://www.facebook.com/events/3266711170386274/",
       "source": "facebook",
       "lat": 47.6422726,
-      "lon": 20.6523749
+      "lon": 20.6523749,
+      "weather": {
+        "tempMax": 28.4,
+        "tempMin": 19.1,
+        "precipProbability": 5,
+        "windSpeed": 11.2,
+        "windDirection": 181
+      }
     },
     {
       "id": "fb-1078559368432770",
@@ -3416,7 +3454,38 @@
       "url": "https://www.facebook.com/events/1078559368432770/",
       "source": "facebook",
       "lat": 47.5514268,
-      "lon": 19.066566
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 29.8,
+        "tempMin": 19.8,
+        "precipProbability": 5,
+        "windSpeed": 12.8,
+        "windDirection": 321
+      }
+    },
+    {
+      "id": "fb-1094615939916253",
+      "title": "Szezonzáró SUP jóga Sándor Anikóval Gödnél, kezdőknek is",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-06",
+      "timeText": "17:30",
+      "endDateISO": null,
+      "endTimeText": "18:30",
+      "rawWhen": "2026. szeptember 6., vasárnap, 17:30–18:30 CEST",
+      "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
+      "url": "https://www.facebook.com/events/1094615939916253/",
+      "source": "facebook",
+      "lat": 47.6834336,
+      "lon": 19.1341568,
+      "weather": {
+        "tempMax": 29.1,
+        "tempMin": 19.1,
+        "precipProbability": 4,
+        "windSpeed": 10.3,
+        "windDirection": 306
+      }
     },
     {
       "id": "funrafting-munka-utani-sup-tura-rackevei-duna-2026-09-08",
