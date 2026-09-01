@@ -1,6 +1,18 @@
 {
-  "scrapedAt": "2026-08-31T11:36:21.729Z",
+  "scrapedAt": "2026-09-01T09:59:46.664Z",
   "events": [
+    {
+      "id": "fb-2205522796698342",
+      "title": "Sup túra kezdőknek Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 3., csütörtök, 17:00–19:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/2205522796698342/",
+      "source": "facebook"
+    },
     {
       "id": "fb-1424306506235359",
       "title": "Budapest Park Suprafel Party",
@@ -167,6 +179,18 @@
       "assumeUpcoming": true,
       "location": "Népsziget út 1, Budapest 1138, Magyarország",
       "url": "https://www.facebook.com/events/1078559368432770/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-3124350131094803",
+      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. szeptember 9., szerda, 17:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/3124350131094803/",
       "source": "facebook"
     },
     {
@@ -795,7 +819,7 @@
     },
     {
       "id": "fb-1033633349257118",
-      "title": "Sport-, Kultúra-, Gasztro-, Kaland: Ez a Krumlov Maraton",
+      "title": "Adrenalin, GasztroKaland, Mesevilág: Ez a Krumlov Maraton",
       "organizerId": "eventus-vizitura",
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",

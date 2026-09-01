@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T11:36:23.836Z",
+  "lastUpdated": "2026-09-01T09:59:48.219Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3155,6 +3155,30 @@
       }
     },
     {
+      "id": "fb-2205522796698342",
+      "title": "Sup túra kezdőknek Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-03",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "19:00",
+      "rawWhen": "2026. szeptember 3., csütörtök, 17:00–19:00 CEST",
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/2205522796698342/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 29.1,
+        "tempMin": 21.3,
+        "precipProbability": 6,
+        "windSpeed": 18,
+        "windDirection": 311
+      }
+    },
+    {
       "id": "fb-1424306506235359",
       "title": "Budapest Park Suprafel Party",
       "organizerId": "suprafel",
@@ -3187,10 +3211,10 @@
       "lon": 15.5925162,
       "weather": {
         "tempMax": 31.9,
-        "tempMin": 25.2,
+        "tempMin": 25.1,
         "precipProbability": 0,
         "windSpeed": 23.4,
-        "windDirection": 336
+        "windDirection": 331
       }
     },
     {
@@ -3210,11 +3234,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 29,
-        "tempMin": 16.2,
+        "tempMax": 29.3,
+        "tempMin": 17.1,
         "precipProbability": 0,
-        "windSpeed": 17,
-        "windDirection": 285
+        "windSpeed": 19.3,
+        "windDirection": 287
       }
     },
     {
@@ -3234,11 +3258,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 32.8,
-        "tempMin": 19.4,
-        "precipProbability": 10,
-        "windSpeed": 20.3,
-        "windDirection": 286
+        "tempMax": 29.9,
+        "tempMin": 19.8,
+        "precipProbability": 12,
+        "windSpeed": 22.8,
+        "windDirection": 296
       }
     },
     {
@@ -3258,11 +3282,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 33,
-        "tempMin": 18.5,
-        "precipProbability": 8,
-        "windSpeed": 19.7,
-        "windDirection": 291
+        "tempMax": 30.6,
+        "tempMin": 19.3,
+        "precipProbability": 10,
+        "windSpeed": 21.6,
+        "windDirection": 300
       }
     },
     {
@@ -3297,11 +3321,11 @@
       "lat": 47.6190622,
       "lon": 20.7560703,
       "weather": {
-        "tempMax": 33.9,
-        "tempMin": 21,
+        "tempMax": 32.6,
+        "tempMin": 21.5,
         "precipProbability": 6,
-        "windSpeed": 26.9,
-        "windDirection": 260
+        "windSpeed": 23.6,
+        "windDirection": 266
       }
     },
     {
@@ -3321,11 +3345,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 34.6,
-        "tempMin": 20.6,
+        "tempMax": 32.5,
+        "tempMin": 20.9,
         "precipProbability": 10,
-        "windSpeed": 23.5,
-        "windDirection": 287
+        "windSpeed": 17.6,
+        "windDirection": 291
       }
     },
     {
@@ -3345,11 +3369,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 34.6,
-        "tempMin": 20.6,
+        "tempMax": 32.5,
+        "tempMin": 20.9,
         "precipProbability": 10,
-        "windSpeed": 23.5,
-        "windDirection": 287
+        "windSpeed": 17.6,
+        "windDirection": 291
       }
     },
     {
@@ -3384,11 +3408,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 29.1,
-        "tempMin": 19.1,
+        "tempMax": 29.5,
+        "tempMin": 17.7,
         "precipProbability": 4,
-        "windSpeed": 10.3,
-        "windDirection": 306
+        "windSpeed": 12.1,
+        "windDirection": 300
       }
     },
     {
@@ -3408,11 +3432,11 @@
       "lat": 47.6435536,
       "lon": 20.6560717,
       "weather": {
-        "tempMax": 28.4,
-        "tempMin": 19.1,
-        "precipProbability": 5,
-        "windSpeed": 11.2,
-        "windDirection": 181
+        "tempMax": 30.5,
+        "tempMin": 19.5,
+        "precipProbability": 4,
+        "windSpeed": 17.9,
+        "windDirection": 294
       }
     },
     {
@@ -3432,11 +3456,11 @@
       "lat": 47.6422726,
       "lon": 20.6523749,
       "weather": {
-        "tempMax": 28.4,
-        "tempMin": 19.1,
-        "precipProbability": 5,
-        "windSpeed": 11.2,
-        "windDirection": 181
+        "tempMax": 30.5,
+        "tempMin": 19.5,
+        "precipProbability": 4,
+        "windSpeed": 17.9,
+        "windDirection": 294
       }
     },
     {
@@ -3456,11 +3480,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 29.8,
-        "tempMin": 19.8,
-        "precipProbability": 5,
-        "windSpeed": 12.8,
-        "windDirection": 321
+        "tempMax": 30.1,
+        "tempMin": 19.4,
+        "precipProbability": 4,
+        "windSpeed": 14,
+        "windDirection": 298
       }
     },
     {
@@ -3480,11 +3504,11 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 29.1,
-        "tempMin": 19.1,
+        "tempMax": 29.5,
+        "tempMin": 17.7,
         "precipProbability": 4,
-        "windSpeed": 10.3,
-        "windDirection": 306
+        "windSpeed": 12.1,
+        "windDirection": 300
       }
     },
     {
@@ -3518,6 +3542,23 @@
       "location": "részvételi díj: 62.000 Ft/fő (saját felszereléssel 47.000 Ft/fő), a… Továbbiak",
       "url": "https://www.facebook.com/events/2552657691840334/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-3124350131094803",
+      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-09-09",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 9., szerda, 17:00 CEST",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/3124350131094803/",
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566
     },
     {
       "id": "fb-1300441262050641",
