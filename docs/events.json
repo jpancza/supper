@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T09:59:48.219Z",
+  "lastUpdated": "2026-09-02T09:30:39.157Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3171,11 +3171,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 29.1,
-        "tempMin": 21.3,
-        "precipProbability": 6,
-        "windSpeed": 18,
-        "windDirection": 311
+        "tempMax": 30.3,
+        "tempMin": 21.6,
+        "precipProbability": 4,
+        "windSpeed": 18.7,
+        "windDirection": 317
       }
     },
     {
@@ -3210,11 +3210,11 @@
       "lat": 43.8221757,
       "lon": 15.5925162,
       "weather": {
-        "tempMax": 31.9,
-        "tempMin": 25.1,
+        "tempMax": 31,
+        "tempMin": 24.3,
         "precipProbability": 0,
-        "windSpeed": 23.4,
-        "windDirection": 331
+        "windSpeed": 14.2,
+        "windDirection": 303
       }
     },
     {
@@ -3234,11 +3234,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 29.3,
-        "tempMin": 17.1,
+        "tempMax": 30,
+        "tempMin": 21.1,
         "precipProbability": 0,
-        "windSpeed": 19.3,
-        "windDirection": 287
+        "windSpeed": 15.5,
+        "windDirection": 290
       }
     },
     {
@@ -3258,11 +3258,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 29.9,
-        "tempMin": 19.8,
-        "precipProbability": 12,
-        "windSpeed": 22.8,
-        "windDirection": 296
+        "tempMax": 25.3,
+        "tempMin": 18.4,
+        "precipProbability": 22,
+        "windSpeed": 25.5,
+        "windDirection": 284
       }
     },
     {
@@ -3282,11 +3282,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 30.6,
-        "tempMin": 19.3,
-        "precipProbability": 10,
-        "windSpeed": 21.6,
-        "windDirection": 300
+        "tempMax": 25.6,
+        "tempMin": 17.9,
+        "precipProbability": 14,
+        "windSpeed": 24.5,
+        "windDirection": 283
       }
     },
     {
@@ -3321,11 +3321,11 @@
       "lat": 47.6190622,
       "lon": 20.7560703,
       "weather": {
-        "tempMax": 32.6,
-        "tempMin": 21.5,
-        "precipProbability": 6,
-        "windSpeed": 23.6,
-        "windDirection": 266
+        "tempMax": 29.1,
+        "tempMin": 19.2,
+        "precipProbability": 16,
+        "windSpeed": 28.4,
+        "windDirection": 256
       }
     },
     {
@@ -3345,11 +3345,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.5,
-        "tempMin": 20.9,
-        "precipProbability": 10,
-        "windSpeed": 17.6,
-        "windDirection": 291
+        "tempMax": 27.7,
+        "tempMin": 20.4,
+        "precipProbability": 21,
+        "windSpeed": 23.4,
+        "windDirection": 282
       }
     },
     {
@@ -3369,11 +3369,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 32.5,
-        "tempMin": 20.9,
-        "precipProbability": 10,
-        "windSpeed": 17.6,
-        "windDirection": 291
+        "tempMax": 27.7,
+        "tempMin": 20.4,
+        "precipProbability": 21,
+        "windSpeed": 23.4,
+        "windDirection": 282
       }
     },
     {
@@ -3408,11 +3408,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 29.5,
-        "tempMin": 17.7,
-        "precipProbability": 4,
-        "windSpeed": 12.1,
-        "windDirection": 300
+        "tempMax": 26,
+        "tempMin": 14.5,
+        "precipProbability": 2,
+        "windSpeed": 16.4,
+        "windDirection": 303
       }
     },
     {
@@ -3432,16 +3432,16 @@
       "lat": 47.6435536,
       "lon": 20.6560717,
       "weather": {
-        "tempMax": 30.5,
-        "tempMin": 19.5,
-        "precipProbability": 4,
-        "windSpeed": 17.9,
-        "windDirection": 294
+        "tempMax": 27.2,
+        "tempMin": 15.1,
+        "precipProbability": 0,
+        "windSpeed": 16.4,
+        "windDirection": 306
       }
     },
     {
       "id": "fb-3266711170386274",
-      "title": "SUP túra, Tisza-tó",
+      "title": "ELMARAD - SUP túra, Tisza-tó",
       "organizerId": "riversup",
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
@@ -3456,11 +3456,11 @@
       "lat": 47.6422726,
       "lon": 20.6523749,
       "weather": {
-        "tempMax": 30.5,
-        "tempMin": 19.5,
-        "precipProbability": 4,
-        "windSpeed": 17.9,
-        "windDirection": 294
+        "tempMax": 27.2,
+        "tempMin": 15.1,
+        "precipProbability": 0,
+        "windSpeed": 16.4,
+        "windDirection": 306
       }
     },
     {
@@ -3480,11 +3480,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 30.1,
-        "tempMin": 19.4,
-        "precipProbability": 4,
-        "windSpeed": 14,
-        "windDirection": 298
+        "tempMax": 26.1,
+        "tempMin": 16.4,
+        "precipProbability": 2,
+        "windSpeed": 14.6,
+        "windDirection": 308
       }
     },
     {
@@ -3504,11 +3504,35 @@
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 29.5,
-        "tempMin": 17.7,
-        "precipProbability": 4,
-        "windSpeed": 12.1,
-        "windDirection": 300
+        "tempMax": 26,
+        "tempMin": 14.5,
+        "precipProbability": 2,
+        "windSpeed": 16.4,
+        "windDirection": 303
+      }
+    },
+    {
+      "id": "fb-2165738954353977",
+      "title": "Sup Túra a Szarvasi-Holt-Kőrösön",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-06",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. szeptember 6., vasárnap, 11:00–18:00 CEST",
+      "location": "Szarvas Városi Strand",
+      "url": "https://www.facebook.com/events/2165738954353977/",
+      "source": "facebook",
+      "lat": 46.8671865,
+      "lon": 20.5376811,
+      "weather": {
+        "tempMax": 27.6,
+        "tempMin": 16.1,
+        "precipProbability": 10,
+        "windSpeed": 18.4,
+        "windDirection": 302
       }
     },
     {
@@ -3526,7 +3550,14 @@
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.09.08",
       "source": "funrafting",
       "lat": 47.1609765,
-      "lon": 18.9436266
+      "lon": 18.9436266,
+      "weather": {
+        "tempMax": 31.5,
+        "tempMin": 18.2,
+        "precipProbability": 10,
+        "windSpeed": 7.6,
+        "windDirection": 143
+      }
     },
     {
       "id": "fb-2552657691840334",

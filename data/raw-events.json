@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-01T09:59:46.664Z",
+  "scrapedAt": "2026-09-02T09:30:35.340Z",
   "events": [
     {
       "id": "fb-2205522796698342",
@@ -23,6 +23,18 @@
       "assumeUpcoming": true,
       "location": "Most ismét a Budapest Park-ba mennénk, kapunyitás 22:00… Továbbiak",
       "url": "https://www.facebook.com/events/1424306506235359/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2165738954353977",
+      "title": "Sup Túra a Szarvasi-Holt-Kőrösön",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 6., vasárnap, 11:00–18:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Szarvas Városi Strand",
+      "url": "https://www.facebook.com/events/2165738954353977/",
       "source": "facebook"
     },
     {
@@ -440,7 +452,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -452,7 +464,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -464,7 +476,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -527,18 +539,6 @@
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1576141673471436",
-      "title": "Tiszafüred Sup Túra - Tisza tó - Két napos, campingezős suptúra augusztusban!",
-      "organizerId": "kiteline-se",
-      "organizerName": "Kiteline SE",
-      "organizerUrl": "https://www.facebook.com/kiteline.hu",
-      "rawWhen": "Szept. 5., 11:00 – szept. 6., 18:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Tiszafüred - Tisza-tó",
-      "url": "https://www.facebook.com/events/1576141673471436/",
       "source": "facebook"
     },
     {
@@ -1335,7 +1335,7 @@
     },
     {
       "id": "fb-3266711170386274",
-      "title": "SUP túra, Tisza-tó",
+      "title": "ELMARAD - SUP túra, Tisza-tó",
       "organizerId": "riversup",
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
