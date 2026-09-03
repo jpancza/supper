@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-02T09:30:35.340Z",
+  "scrapedAt": "2026-09-03T09:41:13.006Z",
   "events": [
     {
       "id": "fb-2205522796698342",
@@ -35,6 +35,30 @@
       "assumeUpcoming": true,
       "location": "Szarvas Városi Strand",
       "url": "https://www.facebook.com/events/2165738954353977/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-992696430498892",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 10., csütörtök, 17:00–19:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/992696430498892/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1426440089387316",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 10., csütörtök, 17:00–19:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1426440089387316/",
       "source": "facebook"
     },
     {
