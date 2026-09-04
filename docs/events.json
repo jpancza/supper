@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T09:41:14.831Z",
+  "lastUpdated": "2026-09-04T09:39:24.352Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3210,11 +3210,11 @@
       "lat": 43.8221757,
       "lon": 15.5925162,
       "weather": {
-        "tempMax": 31.6,
-        "tempMin": 23,
+        "tempMax": 32.8,
+        "tempMin": 23.6,
         "precipProbability": 0,
-        "windSpeed": 19.2,
-        "windDirection": 289
+        "windSpeed": 19.1,
+        "windDirection": 309
       }
     },
     {
@@ -3234,11 +3234,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 30.4,
-        "tempMin": 17.7,
-        "precipProbability": 0,
-        "windSpeed": 14.8,
-        "windDirection": 278
+        "tempMax": 31.4,
+        "tempMin": 17.5,
+        "precipProbability": 2,
+        "windSpeed": 14,
+        "windDirection": 263
       }
     },
     {
@@ -3258,11 +3258,11 @@
       "lat": 47.7845811,
       "lon": 18.9703373,
       "weather": {
-        "tempMax": 26,
-        "tempMin": 20.3,
-        "precipProbability": 51,
-        "windSpeed": 18,
-        "windDirection": 275
+        "tempMax": 28.3,
+        "tempMin": 19.3,
+        "precipProbability": 67,
+        "windSpeed": 20.9,
+        "windDirection": 280
       }
     },
     {
@@ -3282,11 +3282,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 25.4,
-        "tempMin": 20,
-        "precipProbability": 57,
-        "windSpeed": 24.1,
-        "windDirection": 300
+        "tempMax": 27.3,
+        "tempMin": 20.2,
+        "precipProbability": 72,
+        "windSpeed": 22.7,
+        "windDirection": 304
       }
     },
     {
@@ -3321,11 +3321,11 @@
       "lat": 47.6190622,
       "lon": 20.7560703,
       "weather": {
-        "tempMax": 27.5,
-        "tempMin": 20.6,
-        "precipProbability": 47,
-        "windSpeed": 18.7,
-        "windDirection": 256
+        "tempMax": 30,
+        "tempMin": 18.7,
+        "precipProbability": 57,
+        "windSpeed": 24.8,
+        "windDirection": 266
       }
     },
     {
@@ -3345,11 +3345,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 26.5,
-        "tempMin": 21.2,
-        "precipProbability": 51,
-        "windSpeed": 25.6,
-        "windDirection": 293
+        "tempMax": 29.2,
+        "tempMin": 20.5,
+        "precipProbability": 75,
+        "windSpeed": 24.8,
+        "windDirection": 297
       }
     },
     {
@@ -3369,11 +3369,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 26.5,
-        "tempMin": 21.2,
-        "precipProbability": 51,
-        "windSpeed": 25.6,
-        "windDirection": 293
+        "tempMax": 29.2,
+        "tempMin": 20.5,
+        "precipProbability": 75,
+        "windSpeed": 24.8,
+        "windDirection": 297
       }
     },
     {
@@ -3408,10 +3408,10 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.2,
-        "tempMin": 15.7,
+        "tempMax": 25,
+        "tempMin": 15.8,
         "precipProbability": 0,
-        "windSpeed": 20.4,
+        "windSpeed": 18.4,
         "windDirection": 304
       }
     },
@@ -3432,11 +3432,11 @@
       "lat": 47.6435536,
       "lon": 20.6560717,
       "weather": {
-        "tempMax": 25.6,
-        "tempMin": 17.3,
+        "tempMax": 26,
+        "tempMin": 15.4,
         "precipProbability": 0,
-        "windSpeed": 19.6,
-        "windDirection": 304
+        "windSpeed": 19.1,
+        "windDirection": 302
       }
     },
     {
@@ -3456,11 +3456,11 @@
       "lat": 47.6422726,
       "lon": 20.6523749,
       "weather": {
-        "tempMax": 25.6,
-        "tempMin": 17.3,
+        "tempMax": 26,
+        "tempMin": 15.4,
         "precipProbability": 0,
-        "windSpeed": 19.6,
-        "windDirection": 304
+        "windSpeed": 19.1,
+        "windDirection": 302
       }
     },
     {
@@ -3480,11 +3480,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 24.2,
-        "tempMin": 16.7,
+        "tempMax": 25.5,
+        "tempMin": 17.1,
         "precipProbability": 0,
         "windSpeed": 18.7,
-        "windDirection": 311
+        "windDirection": 306
       }
     },
     {
@@ -3494,20 +3494,20 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-09-06",
-      "timeText": "17:30",
+      "timeText": "17:00",
       "endDateISO": null,
-      "endTimeText": "18:30",
-      "rawWhen": "2026. szeptember 6., vasárnap, 17:30–18:30 CEST",
+      "endTimeText": "18:00",
+      "rawWhen": "2026. szeptember 6., vasárnap, 17:00–18:00 CEST",
       "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
       "url": "https://www.facebook.com/events/1094615939916253/",
       "source": "facebook",
       "lat": 47.6834336,
       "lon": 19.1341568,
       "weather": {
-        "tempMax": 24.2,
-        "tempMin": 15.7,
+        "tempMax": 24.8,
+        "tempMin": 15.8,
         "precipProbability": 0,
-        "windSpeed": 20.4,
+        "windSpeed": 18.4,
         "windDirection": 304
       }
     },
@@ -3528,10 +3528,10 @@
       "lat": 46.8671865,
       "lon": 20.5376811,
       "weather": {
-        "tempMax": 26.3,
-        "tempMin": 17.2,
-        "precipProbability": 1,
-        "windSpeed": 21.4,
+        "tempMax": 25.9,
+        "tempMin": 16,
+        "precipProbability": 0,
+        "windSpeed": 22,
         "windDirection": 306
       }
     },
@@ -3552,11 +3552,11 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 29.5,
-        "tempMin": 15.6,
-        "precipProbability": 5,
-        "windSpeed": 12.2,
-        "windDirection": 143
+        "tempMax": 32.3,
+        "tempMin": 16.4,
+        "precipProbability": 2,
+        "windSpeed": 9.8,
+        "windDirection": 190
       }
     },
     {
@@ -3591,11 +3591,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 30.5,
-        "tempMin": 18.5,
-        "precipProbability": 47,
-        "windSpeed": 23.3,
-        "windDirection": 256
+        "tempMax": 33.5,
+        "tempMin": 19.2,
+        "precipProbability": 42,
+        "windSpeed": 16.5,
+        "windDirection": 162
       }
     },
     {
@@ -3613,7 +3613,14 @@
       "url": "https://www.facebook.com/events/992696430498892/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 28.5,
+        "tempMin": 21.5,
+        "precipProbability": 39,
+        "windSpeed": 13,
+        "windDirection": 277
+      }
     },
     {
       "id": "fb-1426440089387316",
@@ -3630,7 +3637,14 @@
       "url": "https://www.facebook.com/events/1426440089387316/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 28.5,
+        "tempMin": 21.5,
+        "precipProbability": 39,
+        "windSpeed": 13,
+        "windDirection": 277
+      }
     },
     {
       "id": "fb-1300441262050641",
