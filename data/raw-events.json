@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-09-04T09:39:21.828Z",
+  "scrapedAt": "2026-09-05T09:00:05.955Z",
   "events": [
-    {
-      "id": "fb-1424306506235359",
-      "title": "Budapest Park Suprafel Party",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 4., péntek, 22:00–3:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Most ismét a Budapest Park-ba mennénk, kapunyitás 22:00… Továbbiak",
-      "url": "https://www.facebook.com/events/1424306506235359/",
-      "source": "facebook"
-    },
     {
       "id": "fb-2165738954353977",
       "title": "Sup Túra a Szarvasi-Holt-Kőrösön",
@@ -59,18 +47,6 @@
       "assumeUpcoming": true,
       "location": "Popeye, Dunasziget 9226, Magyarország",
       "url": "https://www.facebook.com/events/1065473509297285/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1043503751900931",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. szeptember 5., szombat, 9:00–10:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/1043503751900931/",
       "source": "facebook"
     },
     {
@@ -189,7 +165,7 @@
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "rawWhen": "2026. szeptember 5., szombat, 10:45 CEST",
       "assumeUpcoming": true,
-      "location": "Túr… Továbbiak",
+      "location": "Laza hangulat & őszinte vendéglátás - minden nap!",
       "url": "https://www.facebook.com/events/1995939531059221/",
       "source": "facebook"
     },
@@ -566,30 +542,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2848203118876139",
-      "title": "Szezonzáró, naplementés SUP evezés Gödnél, kezdőknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 4., péntek, 18:00–20:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/2848203118876139/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1745975946509399",
-      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 5., szombat, 17:30–19:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1745975946509399/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1369221968611780",
       "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
       "organizerId": "sunset-sup",
@@ -611,6 +563,18 @@
       "assumeUpcoming": false,
       "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
       "url": "https://www.facebook.com/events/1094615939916253/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 6., vasárnap, 18:00–20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook"
     },
     {
@@ -645,7 +609,7 @@
       "organizerUrl": "https://www.facebook.com/DUNA420",
       "rawWhen": "2024. július 13., szombat, 11:00 CEST",
       "assumeUpcoming": false,
-      "location": "Eastern Balatonföldvár Beach, Somogyi Béla utca, Balatonföldvár 8623, Magyarország",
+      "location": "Viharsarok Vitorlás központ, Balatonföldvár 8623, Magyarország",
       "url": "https://www.facebook.com/events/3322590254703578/",
       "source": "facebook"
     },
