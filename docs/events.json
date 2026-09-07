@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T09:21:36.482Z",
+  "lastUpdated": "2026-09-07T10:10:10.814Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3325,21 +3325,6 @@
       "lon": 19.101496
     },
     {
-      "id": "fb-1501114621187012",
-      "title": "Délutáni chill SUP túra",
-      "organizerId": "sup-dunakanyar",
-      "organizerName": "SUP Dunakanyar",
-      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
-      "dateISO": "2026-09-06",
-      "timeText": "14:00",
-      "endDateISO": null,
-      "endTimeText": "17:00",
-      "rawWhen": "2026. szeptember 6., vasárnap, 14:00–17:00 CEST",
-      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
-      "url": "https://www.facebook.com/events/1501114621187012/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1369221968611780",
       "title": "Reggeli, hullámcsendes SUP chill evezés Gödnél, kezdőknek is, tanítással",
       "organizerId": "sunset-sup",
@@ -3500,11 +3485,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 33.5,
-        "tempMin": 16.1,
+        "tempMax": 33,
+        "tempMin": 16.2,
         "precipProbability": 2,
-        "windSpeed": 12.6,
-        "windDirection": 152
+        "windSpeed": 15.1,
+        "windDirection": 167
       }
     },
     {
@@ -3524,11 +3509,11 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 33.6,
-        "tempMin": 17.2,
-        "precipProbability": 2,
-        "windSpeed": 11,
-        "windDirection": 148
+        "tempMax": 33.1,
+        "tempMin": 16.3,
+        "precipProbability": 0,
+        "windSpeed": 14,
+        "windDirection": 157
       }
     },
     {
@@ -3563,11 +3548,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 32.7,
-        "tempMin": 18,
-        "precipProbability": 24,
-        "windSpeed": 15.6,
-        "windDirection": 152
+        "tempMax": 33.7,
+        "tempMin": 20.5,
+        "precipProbability": 18,
+        "windSpeed": 14.8,
+        "windDirection": 165
       }
     },
     {
@@ -3587,11 +3572,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.1,
-        "tempMin": 16.3,
-        "precipProbability": 22,
-        "windSpeed": 17.6,
-        "windDirection": 292
+        "tempMax": 23.8,
+        "tempMin": 18.7,
+        "precipProbability": 29,
+        "windSpeed": 18.1,
+        "windDirection": 305
       }
     },
     {
@@ -3611,11 +3596,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.1,
-        "tempMin": 16.3,
-        "precipProbability": 22,
-        "windSpeed": 17.6,
-        "windDirection": 292
+        "tempMax": 23.8,
+        "tempMin": 18.7,
+        "precipProbability": 29,
+        "windSpeed": 18.1,
+        "windDirection": 305
       }
     },
     {
@@ -3635,11 +3620,11 @@
       "lat": 46.3684202,
       "lon": 14.1100595,
       "weather": {
-        "tempMax": 14.6,
-        "tempMin": 10.2,
-        "precipProbability": 41,
-        "windSpeed": 7.6,
-        "windDirection": 351
+        "tempMax": 17.1,
+        "tempMin": 13.4,
+        "precipProbability": 73,
+        "windSpeed": 5.2,
+        "windDirection": 94
       }
     },
     {
@@ -3659,11 +3644,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 25.1,
-        "tempMin": 14.1,
-        "precipProbability": 20,
-        "windSpeed": 12.2,
-        "windDirection": 346
+        "tempMax": 21.1,
+        "tempMin": 16,
+        "precipProbability": 22,
+        "windSpeed": 10.2,
+        "windDirection": 20
       }
     },
     {
@@ -3683,12 +3668,90 @@
       "lat": 47.9508072,
       "lon": 17.3457742,
       "weather": {
-        "tempMax": 15,
-        "tempMin": 13.4,
-        "precipProbability": 35,
-        "windSpeed": 24.7,
-        "windDirection": 341
+        "tempMax": 22.1,
+        "tempMin": 14.2,
+        "precipProbability": 23,
+        "windSpeed": 23.8,
+        "windDirection": 342
       }
+    },
+    {
+      "id": "fb-3907061962767157",
+      "title": "Basic 1. - Kezdő SUP oktatás",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "dateISO": "2026-09-12",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "10:30",
+      "rawWhen": "2026. szeptember 12., szombat, 9:00–10:30 CEST",
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/3907061962767157/",
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 21.1,
+        "tempMin": 16.1,
+        "precipProbability": 18,
+        "windSpeed": 10.5,
+        "windDirection": 19
+      }
+    },
+    {
+      "id": "fb-4070413293091839",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "dateISO": "2026-09-12",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "14:00",
+      "rawWhen": "2026. szeptember 12., szombat, 11:00–14:00 CEST",
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/4070413293091839/",
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 21.1,
+        "tempMin": 16.1,
+        "precipProbability": 18,
+        "windSpeed": 10.5,
+        "windDirection": 19
+      }
+    },
+    {
+      "id": "fb-4399298990329298",
+      "title": "Sup túra Szigetszentmiklós nádasaiban",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-09-12",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 12., szombat, 10:30 CEST",
+      "location": "Laza hangulat & őszinte vendéglátás - minden nap!",
+      "url": "https://www.facebook.com/events/4399298990329298/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1501114621187012",
+      "title": "Délutáni chill SUP túra",
+      "organizerId": "sup-dunakanyar",
+      "organizerName": "SUP Dunakanyar",
+      "organizerUrl": "https://www.facebook.com/p/SUP-Dunakanyar-61558819165393",
+      "dateISO": "2026-09-13",
+      "timeText": "14:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. szeptember 13., vasárnap, 14:00–17:00 CEST",
+      "location": "Te is érzed a hétköznapi hajtást? Cseréld le a stresszt a víz nyugalmára! Kapcsolódj ki velünk egy kényelmes, pihentető délutáni evezésen, ahol nem a tempó, hanem a teljes feltöltő… Továbbiak",
+      "url": "https://www.facebook.com/events/1501114621187012/",
+      "source": "facebook"
     },
     {
       "id": "fb-4285107801740911",
@@ -3705,7 +3768,14 @@
       "url": "https://www.facebook.com/events/4285107801740911/",
       "source": "facebook",
       "lat": 47.5514268,
-      "lon": 19.066566
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 19.1,
+        "tempMin": 16.2,
+        "precipProbability": 6,
+        "windSpeed": 6,
+        "windDirection": 350
+      }
     },
     {
       "id": "fb-1379004283882382",
@@ -3722,7 +3792,14 @@
       "url": "https://www.facebook.com/events/1379004283882382/",
       "source": "facebook",
       "lat": 47.7072856,
-      "lon": 19.1304295
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 19.9,
+        "tempMin": 16.1,
+        "precipProbability": 8,
+        "windSpeed": 5.2,
+        "windDirection": 329
+      }
     },
     {
       "id": "fb-1113444154545790",
@@ -3739,7 +3816,29 @@
       "url": "https://www.facebook.com/events/1113444154545790/",
       "source": "facebook",
       "lat": 47.7072856,
-      "lon": 19.1304295
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 19.9,
+        "tempMin": 16.1,
+        "precipProbability": 8,
+        "windSpeed": 5.2,
+        "windDirection": 329
+      }
+    },
+    {
+      "id": "fb-1874104956884329",
+      "title": "Sup túra Budapesten keresztül/ Nézd meg az ébredező várost sup deszkán/",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-09-19",
+      "timeText": "06:30",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 19., szombat, 6:30 CEST",
+      "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
+      "url": "https://www.facebook.com/events/1874104956884329/",
+      "source": "facebook"
     },
     {
       "id": "fb-1390981672865799",
