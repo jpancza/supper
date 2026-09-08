@@ -385,5 +385,21 @@
     "lat": 46.8491197,
     "lon": 17.8792403
   },
-  "Laza hangulat & őszinte vendéglátás - minden nap!": null
+  "Laza hangulat & őszinte vendéglátás - minden nap!": null,
+  "Somlyó utca 136, Ráckeve 2300, Magyarország": {
+    "lat": 47.1533734,
+    "lon": 18.9523269
+  },
+  "Dunasor 94, Szigethalom 2315, Magyarország": {
+    "lat": 47.3083914,
+    "lon": 19.0264892
+  },
+  "Dunakanyar Lángos, Zebegény 2627, Magyarország": {
+    "lat": 47.8000375,
+    "lon": 18.9101541
+  },
+  "Fáklya utca, Tata 2890, Magyarország": {
+    "lat": 47.6367286,
+    "lon": 18.3431267
+  }
 }

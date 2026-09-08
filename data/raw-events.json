@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-07T10:10:10.212Z",
+  "scrapedAt": "2026-09-08T09:36:04.841Z",
   "events": [
     {
       "id": "fb-992696430498892",
@@ -59,6 +59,18 @@
       "assumeUpcoming": true,
       "location": "Horgász part 68, Budapest 1239, Magyarország",
       "url": "https://www.facebook.com/events/4070413293091839/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1787532222587136",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "rawWhen": "2026. szeptember 13., vasárnap, 10:00–13:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/1787532222587136/",
       "source": "facebook"
     },
     {
@@ -530,18 +542,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1745975946509399",
-      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 8., kedd, 18:00–20:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1745975946509399/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1379004283882382",
       "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
       "organizerId": "sunset-sup",
@@ -563,6 +563,18 @@
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1113444154545790/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook"
     },
     {
@@ -1173,7 +1185,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.09.06 (szo)",
       "location": "Csepel - Dunaharaszti",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-kenutura-rackevei-duna#2026.09.06",
       "source": "funrafting"
     },
@@ -1197,7 +1209,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.09.08 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-sup-tura-rackevei-duna#2026.09.08",
       "source": "funrafting"
     },
@@ -1367,6 +1379,78 @@
       "assumeUpcoming": false,
       "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
       "url": "https://www.facebook.com/events/1469022475008904/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1257516332979348",
+      "title": "SUP-időutazás a Monarchiába: Wachau-Bécs-Pozsony-Óvár",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "Aug. 21., 8:00 – aug. 23., 20:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Donaulände 2, 2410 Hainburg an der Donau, Österreich",
+      "url": "https://www.facebook.com/events/1257516332979348/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1043287668211706",
+      "title": "SUP-túra Tata mesés vízivilágában",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "2026. július 12., vasárnap, 13:00–17:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Fáklya utca, Tata 2890, Magyarország",
+      "url": "https://www.facebook.com/events/1043287668211706/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-999679669717428",
+      "title": "SUP-túra Zebegénytől Verőcéig - egy titkos szerelem nyomában",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "2026. július 5., vasárnap, 13:00–17:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Dunakanyar Lángos, Zebegény 2627, Magyarország",
+      "url": "https://www.facebook.com/events/999679669717428/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-4331610607101718",
+      "title": "SUP-túra élményt és aranyat halmozva",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "2026. június 28., vasárnap, 11:00–15:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Dunasor 94, Szigethalom 2315, Magyarország",
+      "url": "https://www.facebook.com/events/4331610607101718/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-919122424541175",
+      "title": "SUP-túra élményt és aranyat halmozva",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "2026. június 14., vasárnap, 11:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Dunasor 94, Szigethalom 2315, Magyarország",
+      "url": "https://www.facebook.com/events/919122424541175/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-4830397853853703",
+      "title": "SUP-barangolás Ráckevén és a történelemben",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "rawWhen": "2026. június 7., vasárnap, 11:00–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Somlyó utca 136, Ráckeve 2300, Magyarország",
+      "url": "https://www.facebook.com/events/4830397853853703/",
       "source": "facebook"
     }
   ]
