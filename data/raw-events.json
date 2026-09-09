@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08T09:36:04.841Z",
+  "scrapedAt": "2026-09-09T09:38:06.284Z",
   "events": [
     {
       "id": "fb-992696430498892",
@@ -170,18 +170,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-3124350131094803",
-      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 9., szerda, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/3124350131094803/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1300441262050641",
       "title": "Bled - Bohinj - Most na Soci szeptemberi sup töltődés",
       "organizerId": "sup-the-lifestyle",
@@ -191,6 +179,18 @@
       "assumeUpcoming": true,
       "location": "Bled je najbolj znan po Blejskem jezeru in otoku s cerkvijo, ki ob prvem pogledu vzameta dih zaradi svoje izredne lepote… Továbbiak",
       "url": "https://www.facebook.com/events/1300441262050641/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-3124350131094803",
+      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. szeptember 11., péntek, 17:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/3124350131094803/",
       "source": "facebook"
     },
     {
@@ -428,7 +428,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -440,7 +440,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -452,7 +452,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -621,7 +621,7 @@
       "organizerUrl": "https://www.facebook.com/DUNA420",
       "rawWhen": "2024. július 12., péntek, 10:30 CEST",
       "assumeUpcoming": false,
-      "location": "Keszthely Városi Strand",
+      "location": "Procomp számítástechnika, Rákóczi Ferenc út, Keszthely 8360, Magyarország",
       "url": "https://www.facebook.com/events/799483498977715/",
       "source": "facebook"
     },
@@ -728,7 +728,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Szept. 19., 10:00 – szept. 20., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Bárduna utca 4, Ásványráró 9177, Magyarország",
       "url": "https://www.facebook.com/events/1738797427264359/",
       "source": "facebook"
@@ -740,7 +740,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. október 3., szombat, 9:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Piknik park, Budapest 1238, Magyarország",
       "url": "https://www.facebook.com/events/2693907074337140/",
       "source": "facebook"
@@ -752,7 +752,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 9., 18:00 – okt. 11., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "náměstí Svornosti 2, 381 01 Český Krumlov, Česko",
       "url": "https://www.facebook.com/events/1033633349257118/",
       "source": "facebook"
@@ -764,9 +764,21 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 16., 15:00 – okt. 18., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Sonnberg II 46, 8734 Lobmingtal, Österreich",
       "url": "https://www.facebook.com/events/28662694499989253/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-941687418361233",
+      "title": "Vízitúra vezetői tanfolyam",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. január 9., szombat, 9:00–16:00 CET",
+      "assumeUpcoming": true,
+      "location": "Árpád út 123, Budapest 1042, Magyarország",
+      "url": "https://www.facebook.com/events/941687418361233/",
       "source": "facebook"
     },
     {
@@ -1197,7 +1209,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.09.08 (k)",
       "location": "Csepel - Molnár-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/munka-utani-kenutura-rackevei-duna#2026.09.08",
       "source": "funrafting"
     },
@@ -1221,7 +1233,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.09.12 (szo)",
       "location": "Ráckeve - Angyali-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-kenutura-rackevei-duna-szigetek#2026.09.12",
       "source": "funrafting"
     },
@@ -1233,7 +1245,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2026.09.12 (szo)",
       "location": "Ráckeve - Angyali-sziget",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tudatosturazo/hetvegi-sup-tura-rackevei-duna-szigetek#2026.09.12",
       "source": "funrafting"
     },
@@ -1268,7 +1280,7 @@
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
       "rawWhen": "Szept. 9., 20:00 – szept. 13., 18:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "részvételi díj: 62.000 Ft/fő (saját felszereléssel 47.000 Ft/fő), a… Továbbiak",
       "url": "https://www.facebook.com/events/2552657691840334/",
       "source": "facebook"
