@@ -1,16 +1,16 @@
 {
-  "scrapedAt": "2026-09-09T09:38:06.284Z",
+  "scrapedAt": "2026-09-10T09:37:52.886Z",
   "events": [
     {
-      "id": "fb-992696430498892",
-      "title": "Sup technikai oktatás Márton Karcsival",
+      "id": "fb-1065473509297285",
+      "title": "Szarvasbőgéses Ottalvós Szigetközi Sup túra",
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 10., csütörtök, 17:00–19:30 CEST",
+      "rawWhen": "Szept. 12., 10:00 – szept. 13., 17:00 CEST",
       "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/992696430498892/",
+      "location": "Popeye, Dunasziget 9226, Magyarország",
+      "url": "https://www.facebook.com/events/1065473509297285/",
       "source": "facebook"
     },
     {
@@ -19,22 +19,10 @@
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 10., csütörtök, 17:00–19:30 CEST",
+      "rawWhen": "2026. szeptember 16., szerda, 17:00–19:30 CEST",
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1426440089387316/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1065473509297285",
-      "title": "Szarvasbőgéses Ottalvós Szigetközi Sup túra",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 12., szombat, 13:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Popeye, Dunasziget 9226, Magyarország",
-      "url": "https://www.facebook.com/events/1065473509297285/",
       "source": "facebook"
     },
     {
@@ -488,7 +476,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
@@ -548,7 +536,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 13., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1379004283882382/",
       "source": "facebook"
@@ -560,7 +548,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 13., vasárnap, 17:30–19:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1113444154545790/",
       "source": "facebook"
@@ -572,7 +560,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook"
