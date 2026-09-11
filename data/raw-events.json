@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-10T09:37:52.886Z",
+  "scrapedAt": "2026-09-11T09:34:56.054Z",
   "events": [
     {
       "id": "fb-1065473509297285",
@@ -417,7 +417,7 @@
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
       "assumeUpcoming": true,
-      "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
+      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
     },
@@ -429,7 +429,7 @@
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
       "assumeUpcoming": true,
-      "location": "Kotyogós Kávéterasz, Aranyház utca, Tihany 8237, Magyarország",
+      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
     },
@@ -476,7 +476,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
@@ -530,25 +530,13 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1379004283882382",
-      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 13., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1379004283882382/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1113444154545790",
       "title": "Szezonzáró, naplementès SUP élményevezés Gödnél kezdoknek is, tanìtással",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 13., vasárnap, 17:30–19:30 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1113444154545790/",
       "source": "facebook"
@@ -560,9 +548,21 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1745975946509399/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1379004283882382",
+      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 20., vasárnap, 9:30–11:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1379004283882382/",
       "source": "facebook"
     },
     {
@@ -716,7 +716,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Szept. 19., 10:00 – szept. 20., 16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Bárduna utca 4, Ásványráró 9177, Magyarország",
       "url": "https://www.facebook.com/events/1738797427264359/",
       "source": "facebook"
@@ -728,7 +728,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. október 3., szombat, 9:00–16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Piknik park, Budapest 1238, Magyarország",
       "url": "https://www.facebook.com/events/2693907074337140/",
       "source": "facebook"
@@ -740,7 +740,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 9., 18:00 – okt. 11., 16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "náměstí Svornosti 2, 381 01 Český Krumlov, Česko",
       "url": "https://www.facebook.com/events/1033633349257118/",
       "source": "facebook"
@@ -752,7 +752,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 16., 15:00 – okt. 18., 17:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Sonnberg II 46, 8734 Lobmingtal, Österreich",
       "url": "https://www.facebook.com/events/28662694499989253/",
       "source": "facebook"
@@ -764,7 +764,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2027. január 9., szombat, 9:00–16:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Árpád út 123, Budapest 1042, Magyarország",
       "url": "https://www.facebook.com/events/941687418361233/",
       "source": "facebook"
@@ -1268,7 +1268,7 @@
       "organizerName": "RiverSUP",
       "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
       "rawWhen": "Szept. 9., 20:00 – szept. 13., 18:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "részvételi díj: 62.000 Ft/fő (saját felszereléssel 47.000 Ft/fő), a… Továbbiak",
       "url": "https://www.facebook.com/events/2552657691840334/",
       "source": "facebook"

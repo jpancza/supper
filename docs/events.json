@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T09:37:53.543Z",
+  "lastUpdated": "2026-09-11T09:34:57.862Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3633,11 +3633,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 18.3,
-        "tempMin": 13.7,
-        "precipProbability": 89,
-        "windSpeed": 17.6,
-        "windDirection": 333
+        "tempMax": 18,
+        "tempMin": 13.3,
+        "precipProbability": 100,
+        "windSpeed": 17.3,
+        "windDirection": 317
       }
     },
     {
@@ -3657,11 +3657,11 @@
       "lat": 46.3684202,
       "lon": 14.1100595,
       "weather": {
-        "tempMax": 15.7,
-        "tempMin": 12.5,
-        "precipProbability": 80,
-        "windSpeed": 9.1,
-        "windDirection": 108
+        "tempMax": 16.6,
+        "tempMin": 11.9,
+        "precipProbability": 100,
+        "windSpeed": 10.2,
+        "windDirection": 102
       }
     },
     {
@@ -3681,11 +3681,11 @@
       "lat": 47.1760583,
       "lon": 18.9417023,
       "weather": {
-        "tempMax": 21.7,
-        "tempMin": 10.8,
-        "precipProbability": 8,
-        "windSpeed": 24.1,
-        "windDirection": 312
+        "tempMax": 20.2,
+        "tempMin": 9.9,
+        "precipProbability": 0,
+        "windSpeed": 18.7,
+        "windDirection": 300
       }
     },
     {
@@ -3706,10 +3706,10 @@
       "lon": 17.3457742,
       "weather": {
         "tempMax": 22.6,
-        "tempMin": 9.7,
-        "precipProbability": 0,
-        "windSpeed": 19,
-        "windDirection": 338
+        "tempMin": 8.7,
+        "precipProbability": 3,
+        "windSpeed": 14.2,
+        "windDirection": 327
       }
     },
     {
@@ -3729,11 +3729,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 22.6,
-        "tempMin": 11.8,
-        "precipProbability": 11,
-        "windSpeed": 15.1,
-        "windDirection": 317
+        "tempMax": 21,
+        "tempMin": 10.6,
+        "precipProbability": 0,
+        "windSpeed": 15.5,
+        "windDirection": 293
       }
     },
     {
@@ -3753,11 +3753,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 22.6,
-        "tempMin": 11.8,
-        "precipProbability": 11,
-        "windSpeed": 15.1,
-        "windDirection": 317
+        "tempMax": 21,
+        "tempMin": 10.6,
+        "precipProbability": 0,
+        "windSpeed": 15.5,
+        "windDirection": 293
       }
     },
     {
@@ -3807,35 +3807,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 20.7,
-        "tempMin": 10.5,
-        "precipProbability": 2,
-        "windSpeed": 6.3,
-        "windDirection": 170
-      }
-    },
-    {
-      "id": "fb-1379004283882382",
-      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "dateISO": "2026-09-13",
-      "timeText": "09:30",
-      "endDateISO": null,
-      "endTimeText": "11:30",
-      "rawWhen": "2026. szeptember 13., vasárnap, 9:30–11:30 CEST",
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1379004283882382/",
-      "source": "facebook",
-      "lat": 47.7072856,
-      "lon": 19.1304295,
-      "weather": {
-        "tempMax": 21.9,
-        "tempMin": 10.7,
-        "precipProbability": 3,
-        "windSpeed": 7,
-        "windDirection": 359
+        "tempMax": 23.7,
+        "tempMin": 12.9,
+        "precipProbability": 8,
+        "windSpeed": 8.3,
+        "windDirection": 325
       }
     },
     {
@@ -3855,11 +3831,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 21.9,
-        "tempMin": 10.7,
-        "precipProbability": 3,
-        "windSpeed": 7,
-        "windDirection": 359
+        "tempMax": 23,
+        "tempMin": 9.8,
+        "precipProbability": 4,
+        "windSpeed": 10.7,
+        "windDirection": 333
       }
     },
     {
@@ -3879,11 +3855,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 20.4,
-        "tempMin": 10.8,
-        "precipProbability": 2,
-        "windSpeed": 6.5,
-        "windDirection": 357
+        "tempMax": 23.9,
+        "tempMin": 10.9,
+        "precipProbability": 8,
+        "windSpeed": 10.1,
+        "windDirection": 278
       }
     },
     {
@@ -3903,11 +3879,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.8,
-        "tempMin": 14.4,
-        "precipProbability": 22,
-        "windSpeed": 8.9,
-        "windDirection": 161
+        "tempMax": 24.8,
+        "tempMin": 13.3,
+        "precipProbability": 38,
+        "windSpeed": 13.7,
+        "windDirection": 214
       }
     },
     {
@@ -3941,6 +3917,23 @@
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1874104956884329/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-1379004283882382",
+      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-20",
+      "timeText": "09:30",
+      "endDateISO": null,
+      "endTimeText": "11:30",
+      "rawWhen": "2026. szeptember 20., vasárnap, 9:30–11:30 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1379004283882382/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295
     },
     {
       "id": "fb-1390981672865799",
