@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-11T09:34:56.054Z",
+  "scrapedAt": "2026-09-12T09:15:42.740Z",
   "events": [
     {
       "id": "fb-1065473509297285",
@@ -23,18 +23,6 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1426440089387316/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-3907061962767157",
-      "title": "Basic 1. - Kezdő SUP oktatás",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. szeptember 12., szombat, 9:00–10:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/3907061962767157/",
       "source": "facebook"
     },
     {
@@ -170,30 +158,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-3124350131094803",
-      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 11., péntek, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/3124350131094803/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4399298990329298",
-      "title": "Sup túra Szigetszentmiklós nádasaiban",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 12., szombat, 10:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Laza hangulat & őszinte vendéglátás - minden nap!",
-      "url": "https://www.facebook.com/events/4399298990329298/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-4285107801740911",
       "title": "Sup szafari Gemenc közepén szarvasbőgés alatt",
       "organizerId": "sup-the-lifestyle",
@@ -206,6 +170,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-3124350131094803",
+      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. szeptember 16., szerda, 17:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/3124350131094803/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1874104956884329",
       "title": "Sup túra Budapesten keresztül/ Nézd meg az ébredező várost sup deszkán/",
       "organizerId": "sup-the-lifestyle",
@@ -215,6 +191,18 @@
       "assumeUpcoming": true,
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1874104956884329/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-4399298990329298",
+      "title": "Sup túra Szigetszentmiklós nádasaiban",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. szeptember 20., vasárnap, 10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Laza hangulat & őszinte vendéglátás - minden nap!",
+      "url": "https://www.facebook.com/events/4399298990329298/",
       "source": "facebook"
     },
     {
@@ -711,7 +699,7 @@
     },
     {
       "id": "fb-1738797427264359",
-      "title": "Szarvasbőgő vízitúra a Szigetközben",
+      "title": "Szarvasbőgő vízitúra a Szigetközben - BETELT",
       "organizerId": "eventus-vizitura",
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
