@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-12T09:15:42.740Z",
+  "scrapedAt": "2026-09-13T10:12:11.504Z",
   "events": [
     {
       "id": "fb-1065473509297285",
@@ -23,18 +23,6 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1426440089387316/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4070413293091839",
-      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
-      "organizerId": "sup-and-go",
-      "organizerName": "SUP and Go",
-      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
-      "rawWhen": "2026. szeptember 12., szombat, 11:00–14:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Horgász part 68, Budapest 1239, Magyarország",
-      "url": "https://www.facebook.com/events/4070413293091839/",
       "source": "facebook"
     },
     {
