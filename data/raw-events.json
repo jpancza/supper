@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-14T10:37:27.379Z",
+  "scrapedAt": "2026-09-15T10:03:14.470Z",
   "events": [
     {
       "id": "fb-1426440089387316",
@@ -566,6 +566,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1080765434438493",
+      "title": "Melegidős- naplementés SUP chill evezés Gödnél, kezdôknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 20., vasárnap, 17:00–19:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1080765434438493/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-3919192395073035",
       "title": "Balaton180 SUP Oktatás - Révfülöp, Szigeti Strand",
       "organizerId": "suprise",
@@ -623,6 +635,18 @@
       "assumeUpcoming": false,
       "location": "Üdülősor 1, Poroszló 3388, Magyarország",
       "url": "https://www.facebook.com/events/1408262600700579/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-769807296136263",
+      "title": "KEZDŐ FELNŐTT SUP TÁBOR SZÁLLÁSSAL #2",
+      "organizerId": "sup-bazis",
+      "organizerName": "SUP BÁZIS",
+      "organizerUrl": "https://www.facebook.com/supbazis",
+      "rawWhen": "Aug. 11., 10:00 – aug. 15., 17:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Üdülősor 1, Poroszló 3388, Magyarország",
+      "url": "https://www.facebook.com/events/769807296136263/",
       "source": "facebook"
     },
     {

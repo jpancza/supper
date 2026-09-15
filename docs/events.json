@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T10:37:28.375Z",
+  "lastUpdated": "2026-09-15T10:03:15.671Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3776,11 +3776,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 28.7,
-        "tempMin": 16.7,
+        "tempMax": 29.4,
+        "tempMin": 16.8,
         "precipProbability": 0,
-        "windSpeed": 14,
-        "windDirection": 178
+        "windSpeed": 12.2,
+        "windDirection": 184
       }
     },
     {
@@ -3800,11 +3800,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 28.4,
+        "tempMax": 29,
         "tempMin": 15.2,
         "precipProbability": 0,
-        "windSpeed": 13.7,
-        "windDirection": 181
+        "windSpeed": 12.6,
+        "windDirection": 190
       }
     },
     {
@@ -3824,11 +3824,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 25.1,
-        "tempMin": 14.5,
-        "precipProbability": 24,
-        "windSpeed": 14.4,
-        "windDirection": 303
+        "tempMax": 25,
+        "tempMin": 13.9,
+        "precipProbability": 10,
+        "windSpeed": 11.4,
+        "windDirection": 307
       }
     },
     {
@@ -3893,11 +3893,35 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 23.9,
-        "tempMin": 13.5,
-        "precipProbability": 8,
-        "windSpeed": 14.3,
-        "windDirection": 289
+        "tempMax": 24.9,
+        "tempMin": 12.6,
+        "precipProbability": 23,
+        "windSpeed": 14.1,
+        "windDirection": 304
+      }
+    },
+    {
+      "id": "fb-1080765434438493",
+      "title": "Melegidős- naplementés SUP chill evezés Gödnél, kezdôknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-20",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "19:00",
+      "rawWhen": "2026. szeptember 20., vasárnap, 17:00–19:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1080765434438493/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 24.9,
+        "tempMin": 12.6,
+        "precipProbability": 23,
+        "windSpeed": 14.1,
+        "windDirection": 304
       }
     },
     {
