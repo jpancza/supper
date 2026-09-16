@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:03:15.671Z",
+  "lastUpdated": "2026-09-16T09:54:32.960Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3776,11 +3776,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 29.4,
-        "tempMin": 16.8,
+        "tempMax": 28.5,
+        "tempMin": 15.8,
         "precipProbability": 0,
-        "windSpeed": 12.2,
-        "windDirection": 184
+        "windSpeed": 13,
+        "windDirection": 186
       }
     },
     {
@@ -3800,11 +3800,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 29,
-        "tempMin": 15.2,
+        "tempMax": 28.2,
+        "tempMin": 13.6,
         "precipProbability": 0,
-        "windSpeed": 12.6,
-        "windDirection": 190
+        "windSpeed": 13,
+        "windDirection": 169
       }
     },
     {
@@ -3824,11 +3824,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 25,
-        "tempMin": 13.9,
-        "precipProbability": 10,
-        "windSpeed": 11.4,
-        "windDirection": 307
+        "tempMax": 23.1,
+        "tempMin": 13.3,
+        "precipProbability": 16,
+        "windSpeed": 8.5,
+        "windDirection": 302
       }
     },
     {
@@ -3893,11 +3893,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.9,
-        "tempMin": 12.6,
-        "precipProbability": 23,
-        "windSpeed": 14.1,
-        "windDirection": 304
+        "tempMax": 26.1,
+        "tempMin": 14.3,
+        "precipProbability": 16,
+        "windSpeed": 11.1,
+        "windDirection": 288
       }
     },
     {
@@ -3917,11 +3917,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.9,
-        "tempMin": 12.6,
-        "precipProbability": 23,
-        "windSpeed": 14.1,
-        "windDirection": 304
+        "tempMax": 26.1,
+        "tempMin": 14.3,
+        "precipProbability": 16,
+        "windSpeed": 11.1,
+        "windDirection": 288
       }
     },
     {
