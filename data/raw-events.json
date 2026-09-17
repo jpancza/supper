@@ -1,16 +1,28 @@
 {
-  "scrapedAt": "2026-09-16T09:54:32.551Z",
+  "scrapedAt": "2026-09-17T10:01:10.988Z",
   "events": [
     {
-      "id": "fb-1426440089387316",
+      "id": "fb-1788105472533787",
+      "title": "Sup és Hekk túra az RSD szakaszán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 19., szombat, 10:00–18:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1788105472533787/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2130841200976128",
       "title": "Sup technikai oktatás Márton Karcsival",
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 16., szerda, 17:00–19:30 CEST",
+      "rawWhen": "2026. szeptember 24., csütörtök, 16:00–18:30 CEST",
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1426440089387316/",
+      "url": "https://www.facebook.com/events/2130841200976128/",
       "source": "facebook"
     },
     {
@@ -206,24 +218,12 @@
       "source": "facebook"
     },
     {
-      "id": "fb-3124350131094803",
-      "title": "Kezdő sup oktatás + gyakorló túra az Újpesti-öbölben",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 16., szerda, 17:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/3124350131094803/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1874104956884329",
       "title": "Sup túra Budapesten keresztül/ Nézd meg az ébredező várost sup deszkán/",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 19., szombat, 6:30 CEST",
+      "rawWhen": "2026. szeptember 19., szombat, 7:00 CEST",
       "assumeUpcoming": true,
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1874104956884329/",
@@ -254,15 +254,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1290283942498124",
-      "title": "STORE 13 - NATURELLE SURF CAMP",
+      "id": "fb-1391343333131270",
+      "title": "Óbudai Családi Vizes Sportnap a Dunán 2026",
       "organizerId": "sup-budapest",
       "organizerName": "SUP Budapest",
       "organizerUrl": "https://www.facebook.com/supbudapest",
-      "rawWhen": "Szept. 10., 23:00 – szept. 17., 2:00 CEST",
+      "rawWhen": "2026. szeptember 19., szombat, 9:00–15:00 CEST",
       "assumeUpcoming": true,
-      "location": "6 Rue Lafargue, 33780 Soulac-sur-Mer, France",
-      "url": "https://www.facebook.com/events/1290283942498124/",
+      "location": "Római part 27, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1391343333131270/",
       "source": "facebook"
     },
     {
@@ -527,6 +527,18 @@
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1045675288306802",
+      "title": "Újra sítúra Európa egyik legjobb síterepén egy luxus szálláson velünk! - Les2Alpes, Franciaország",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
+      "rawWhen": "2027. jan. 23., 10:00 – 2027. jan. 30., 20:00 CET",
+      "assumeUpcoming": false,
+      "location": "Les 2 Alpes",
+      "url": "https://www.facebook.com/events/1045675288306802/",
       "source": "facebook"
     },
     {

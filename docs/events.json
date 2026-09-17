@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T09:54:32.960Z",
+  "lastUpdated": "2026-09-17T10:01:11.911Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3824,11 +3824,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 23.1,
-        "tempMin": 13.3,
-        "precipProbability": 16,
-        "windSpeed": 8.5,
-        "windDirection": 302
+        "tempMax": 26.9,
+        "tempMin": 15.5,
+        "precipProbability": 4,
+        "windSpeed": 10.1,
+        "windDirection": 340
       }
     },
     {
@@ -3838,13 +3838,37 @@
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2026-09-19",
-      "timeText": "06:30",
+      "timeText": "07:00",
       "endDateISO": null,
       "endTimeText": null,
-      "rawWhen": "2026. szeptember 19., szombat, 6:30 CEST",
+      "rawWhen": "2026. szeptember 19., szombat, 7:00 CEST",
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1874104956884329/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-1788105472533787",
+      "title": "Sup és Hekk túra az RSD szakaszán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-19",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. szeptember 19., szombat, 10:00–18:00 CEST",
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1788105472533787/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 26.2,
+        "tempMin": 17.3,
+        "precipProbability": 12,
+        "windSpeed": 9.7,
+        "windDirection": 336
+      }
     },
     {
       "id": "fb-1501114621187012",
@@ -3893,11 +3917,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.1,
-        "tempMin": 14.3,
-        "precipProbability": 16,
-        "windSpeed": 11.1,
-        "windDirection": 288
+        "tempMax": 28.5,
+        "tempMin": 13.7,
+        "precipProbability": 6,
+        "windSpeed": 12.3,
+        "windDirection": 261
       }
     },
     {
@@ -3917,12 +3941,29 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.1,
-        "tempMin": 14.3,
-        "precipProbability": 16,
-        "windSpeed": 11.1,
-        "windDirection": 288
+        "tempMax": 28.5,
+        "tempMin": 13.7,
+        "precipProbability": 6,
+        "windSpeed": 12.3,
+        "windDirection": 261
       }
+    },
+    {
+      "id": "fb-2130841200976128",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-24",
+      "timeText": "16:00",
+      "endDateISO": null,
+      "endTimeText": "18:30",
+      "rawWhen": "2026. szeptember 24., csütörtök, 16:00–18:30 CEST",
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/2130841200976128/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184
     },
     {
       "id": "fb-1390981672865799",
