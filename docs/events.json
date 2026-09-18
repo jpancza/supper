@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T10:01:11.911Z",
+  "lastUpdated": "2026-09-18T09:39:04.324Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3824,11 +3824,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 26.9,
-        "tempMin": 15.5,
-        "precipProbability": 4,
-        "windSpeed": 10.1,
-        "windDirection": 340
+        "tempMax": 28.1,
+        "tempMin": 14,
+        "precipProbability": 12,
+        "windSpeed": 11.9,
+        "windDirection": 333
       }
     },
     {
@@ -3863,11 +3863,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 26.2,
-        "tempMin": 17.3,
-        "precipProbability": 12,
-        "windSpeed": 9.7,
-        "windDirection": 336
+        "tempMax": 28.5,
+        "tempMin": 17,
+        "precipProbability": 16,
+        "windSpeed": 12.6,
+        "windDirection": 346
       }
     },
     {
@@ -3917,11 +3917,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 28.5,
-        "tempMin": 13.7,
-        "precipProbability": 6,
-        "windSpeed": 12.3,
-        "windDirection": 261
+        "tempMax": 29.1,
+        "tempMin": 14.7,
+        "precipProbability": 0,
+        "windSpeed": 13.8,
+        "windDirection": 273
       }
     },
     {
@@ -3941,12 +3941,51 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 28.5,
-        "tempMin": 13.7,
-        "precipProbability": 6,
-        "windSpeed": 12.3,
-        "windDirection": 261
+        "tempMax": 29.1,
+        "tempMin": 14.7,
+        "precipProbability": 0,
+        "windSpeed": 13.8,
+        "windDirection": 273
       }
+    },
+    {
+      "id": "fb-948212634997164",
+      "title": "SUP túra Czuczor-sziget kerüléssel - gyakorló túra",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "dateISO": "2026-09-20",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "13:00",
+      "rawWhen": "2026. szeptember 20., vasárnap, 10:00–13:00 CEST",
+      "location": "Horgász part 68, Budapest 1239, Magyarország",
+      "url": "https://www.facebook.com/events/948212634997164/",
+      "source": "facebook",
+      "lat": 47.3818192,
+      "lon": 19.101496,
+      "weather": {
+        "tempMax": 29.7,
+        "tempMin": 16.5,
+        "precipProbability": 0,
+        "windSpeed": 14,
+        "windDirection": 266
+      }
+    },
+    {
+      "id": "fb-1427760535936985",
+      "title": "Molnár-szigeti sup túra Halas Guszti érintésével 27 fokos nyárban!",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
+      "dateISO": "2026-09-20",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": "16:00",
+      "rawWhen": "2026. szeptember 20., vasárnap, 10:30–16:00 CEST",
+      "location": "Molnár-sziget Dunapart",
+      "url": "https://www.facebook.com/events/1427760535936985/",
+      "source": "facebook"
     },
     {
       "id": "fb-2130841200976128",
@@ -3963,7 +4002,14 @@
       "url": "https://www.facebook.com/events/2130841200976128/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 21.9,
+        "tempMin": 10.1,
+        "precipProbability": 5,
+        "windSpeed": 10.6,
+        "windDirection": 263
+      }
     },
     {
       "id": "fb-1390981672865799",
