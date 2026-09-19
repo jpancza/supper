@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-09-18T09:39:02.030Z",
+  "scrapedAt": "2026-09-19T09:25:31.005Z",
   "events": [
-    {
-      "id": "fb-1788105472533787",
-      "title": "Sup és Hekk túra az RSD szakaszán",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 19., szombat, 10:00–18:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1788105472533787/",
-      "source": "facebook"
-    },
     {
       "id": "fb-2130841200976128",
       "title": "Sup technikai oktatás Márton Karcsival",
@@ -131,18 +119,6 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1874104956884329",
-      "title": "Sup túra Budapesten keresztül/ Nézd meg az ébredező várost sup deszkán/",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 19., szombat, 7:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
-      "url": "https://www.facebook.com/events/1874104956884329/",
       "source": "facebook"
     },
     {
@@ -416,7 +392,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
@@ -452,7 +428,7 @@
       "organizerName": "Kiteline SE",
       "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "rawWhen": "2026. szeptember 20., vasárnap, 10:30–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Molnár-sziget Dunapart",
       "url": "https://www.facebook.com/events/1427760535936985/",
       "source": "facebook"
@@ -464,7 +440,7 @@
       "organizerName": "Kiteline SE",
       "organizerUrl": "https://www.facebook.com/kiteline.hu",
       "rawWhen": "2027. jan. 23., 10:00 – 2027. jan. 30., 20:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Les 2 Alpes",
       "url": "https://www.facebook.com/events/1045675288306802/",
       "source": "facebook"
@@ -488,7 +464,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1745975946509399/",
       "source": "facebook"
@@ -500,7 +476,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 20., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1379004283882382/",
       "source": "facebook"
@@ -512,7 +488,7 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "rawWhen": "2026. szeptember 20., vasárnap, 17:00–19:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1080765434438493/",
       "source": "facebook"
@@ -668,7 +644,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Szept. 19., 10:00 – szept. 20., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Bárduna utca 4, Ásványráró 9177, Magyarország",
       "url": "https://www.facebook.com/events/1738797427264359/",
       "source": "facebook"
@@ -680,7 +656,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2026. október 3., szombat, 9:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Piknik park, Budapest 1238, Magyarország",
       "url": "https://www.facebook.com/events/2693907074337140/",
       "source": "facebook"
@@ -692,7 +668,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 9., 18:00 – okt. 11., 16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "náměstí Svornosti 2, 381 01 Český Krumlov, Česko",
       "url": "https://www.facebook.com/events/1033633349257118/",
       "source": "facebook"
@@ -704,7 +680,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "Okt. 16., 15:00 – okt. 18., 17:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Sonnberg II 46, 8734 Lobmingtal, Österreich",
       "url": "https://www.facebook.com/events/28662694499989253/",
       "source": "facebook"
@@ -716,7 +692,7 @@
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
       "rawWhen": "2027. január 9., szombat, 9:00–16:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Árpád út 123, Budapest 1042, Magyarország",
       "url": "https://www.facebook.com/events/941687418361233/",
       "source": "facebook"
