@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T09:25:31.375Z",
+  "lastUpdated": "2026-09-20T09:48:19.967Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3917,11 +3917,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 28.8,
-        "tempMin": 14.5,
-        "precipProbability": 2,
-        "windSpeed": 13.3,
-        "windDirection": 285
+        "tempMax": 28.5,
+        "tempMin": 13,
+        "precipProbability": 0,
+        "windSpeed": 11.9,
+        "windDirection": 259
       }
     },
     {
@@ -3941,11 +3941,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 28.8,
-        "tempMin": 14.5,
-        "precipProbability": 2,
-        "windSpeed": 13.3,
-        "windDirection": 285
+        "tempMax": 28.5,
+        "tempMin": 13,
+        "precipProbability": 0,
+        "windSpeed": 11.9,
+        "windDirection": 259
       }
     },
     {
@@ -3965,11 +3965,11 @@
       "lat": 47.3818192,
       "lon": 19.101496,
       "weather": {
-        "tempMax": 29.6,
-        "tempMin": 17.4,
+        "tempMax": 29.2,
+        "tempMin": 16.1,
         "precipProbability": 0,
-        "windSpeed": 16.6,
-        "windDirection": 274
+        "windSpeed": 10.8,
+        "windDirection": 272
       }
     },
     {
@@ -4004,11 +4004,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 19.7,
-        "tempMin": 9.9,
-        "precipProbability": 16,
-        "windSpeed": 17.4,
-        "windDirection": 251
+        "tempMax": 22.5,
+        "tempMin": 9.3,
+        "precipProbability": 14,
+        "windSpeed": 13.6,
+        "windDirection": 236
       }
     },
     {
@@ -4026,7 +4026,53 @@
       "url": "https://www.facebook.com/events/1390981672865799/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441
+      "lon": 19.064441,
+      "weather": {
+        "tempMax": 23.8,
+        "tempMin": 11.1,
+        "precipProbability": 8,
+        "windSpeed": 8,
+        "windDirection": 144
+      }
+    },
+    {
+      "id": "fb-1623844992585984",
+      "title": "Nyári sup vibe Zátonyi-Duna legszebb részein!",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-09-26",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 26., szombat, 10:30 CEST",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/1623844992585984/",
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566,
+      "weather": {
+        "tempMax": 23.8,
+        "tempMin": 11.1,
+        "precipProbability": 8,
+        "windSpeed": 8,
+        "windDirection": 144
+      }
+    },
+    {
+      "id": "fb-1694189381680577",
+      "title": "Good Morning Budapest sup túra",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-09-27",
+      "timeText": "07:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. szeptember 27., vasárnap, 7:00 CEST",
+      "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
+      "url": "https://www.facebook.com/events/1694189381680577/",
+      "source": "facebook"
     },
     {
       "id": "fb-892111770603769",
