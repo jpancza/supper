@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T09:48:19.967Z",
+  "lastUpdated": "2026-09-21T10:40:30.431Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3963,14 +3963,7 @@
       "url": "https://www.facebook.com/events/948212634997164/",
       "source": "facebook",
       "lat": 47.3818192,
-      "lon": 19.101496,
-      "weather": {
-        "tempMax": 29.2,
-        "tempMin": 16.1,
-        "precipProbability": 0,
-        "windSpeed": 10.8,
-        "windDirection": 272
-      }
+      "lon": 19.101496
     },
     {
       "id": "fb-1427760535936985",
@@ -4004,11 +3997,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 22.5,
-        "tempMin": 9.3,
-        "precipProbability": 14,
-        "windSpeed": 13.6,
-        "windDirection": 236
+        "tempMax": 22.1,
+        "tempMin": 9.7,
+        "precipProbability": 16,
+        "windSpeed": 20,
+        "windDirection": 277
       }
     },
     {
@@ -4028,11 +4021,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 23.8,
-        "tempMin": 11.1,
-        "precipProbability": 8,
-        "windSpeed": 8,
-        "windDirection": 144
+        "tempMax": 23,
+        "tempMin": 10.9,
+        "precipProbability": 4,
+        "windSpeed": 7.5,
+        "windDirection": 232
       }
     },
     {
@@ -4046,18 +4039,9 @@
       "endDateISO": null,
       "endTimeText": null,
       "rawWhen": "2026. szeptember 26., szombat, 10:30 CEST",
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
       "url": "https://www.facebook.com/events/1623844992585984/",
-      "source": "facebook",
-      "lat": 47.5514268,
-      "lon": 19.066566,
-      "weather": {
-        "tempMax": 23.8,
-        "tempMin": 11.1,
-        "precipProbability": 8,
-        "windSpeed": 8,
-        "windDirection": 144
-      }
+      "source": "facebook"
     },
     {
       "id": "fb-1694189381680577",
@@ -4073,6 +4057,54 @@
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1694189381680577/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-2112901926769239",
+      "title": "Finitó hullámcsendes SUP chill evezés Gödnél, kezdoknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-27",
+      "timeText": "09:30",
+      "endDateISO": null,
+      "endTimeText": "11:30",
+      "rawWhen": "2026. szeptember 27., vasárnap, 9:30–11:30 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/2112901926769239/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 24.6,
+        "tempMin": 10.9,
+        "precipProbability": 0,
+        "windSpeed": 6.4,
+        "windDirection": 219
+      }
+    },
+    {
+      "id": "fb-1598004915147040",
+      "title": "Finito naplementés SUP evezés Gödnel, kezdôknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-09-27",
+      "timeText": "17:00",
+      "endDateISO": null,
+      "endTimeText": "19:00",
+      "rawWhen": "2026. szeptember 27., vasárnap, 17:00–19:00 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1598004915147040/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 24.6,
+        "tempMin": 10.9,
+        "precipProbability": 0,
+        "windSpeed": 6.4,
+        "windDirection": 219
+      }
     },
     {
       "id": "fb-892111770603769",
