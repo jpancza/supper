@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T09:53:46.801Z",
+  "lastUpdated": "2026-09-23T09:56:33.718Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3997,11 +3997,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 23.2,
-        "tempMin": 10.3,
-        "precipProbability": 48,
-        "windSpeed": 18.4,
-        "windDirection": 278
+        "tempMax": 20.9,
+        "tempMin": 10.1,
+        "precipProbability": 61,
+        "windSpeed": 21.2,
+        "windDirection": 282
       }
     },
     {
@@ -4021,11 +4021,11 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 22,
-        "tempMin": 9.7,
-        "precipProbability": 4,
-        "windSpeed": 7.6,
-        "windDirection": 231
+        "tempMax": 20.1,
+        "tempMin": 9.1,
+        "precipProbability": 0,
+        "windSpeed": 6.9,
+        "windDirection": 134
       }
     },
     {
@@ -4075,11 +4075,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 22.4,
-        "tempMin": 11,
-        "precipProbability": 2,
-        "windSpeed": 9.2,
-        "windDirection": 182
+        "tempMax": 22.3,
+        "tempMin": 9.9,
+        "precipProbability": 0,
+        "windSpeed": 9.3,
+        "windDirection": 202
       }
     },
     {
@@ -4099,12 +4099,53 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 22.4,
-        "tempMin": 11,
-        "precipProbability": 2,
-        "windSpeed": 9.2,
-        "windDirection": 182
+        "tempMax": 22.3,
+        "tempMin": 9.9,
+        "precipProbability": 0,
+        "windSpeed": 9.3,
+        "windDirection": 202
       }
+    },
+    {
+      "id": "fb-1435852108453094",
+      "title": "Szezonzáró Sütögetős Sup túra Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-09-27",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "18:00",
+      "rawWhen": "2026. szeptember 27., vasárnap, 10:00–18:00 CEST",
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1435852108453094/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 23.2,
+        "tempMin": 9.9,
+        "precipProbability": 0,
+        "windSpeed": 8.5,
+        "windDirection": 170
+      }
+    },
+    {
+      "id": "fb-2102392753979232",
+      "title": "Sup túra Szlovákiában a KIs-Dunán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-10-03",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "19:00",
+      "rawWhen": "2026. október 3., szombat, 10:00–19:00 CEST",
+      "location": "Kolový mlyn Tomášikovo, 925 04 Tomášikovo, Slovensko",
+      "url": "https://www.facebook.com/events/2102392753979232/",
+      "source": "facebook",
+      "lat": 48.0888445,
+      "lon": 17.6670127
     },
     {
       "id": "fb-892111770603769",

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-22T09:53:45.423Z",
+  "scrapedAt": "2026-09-23T09:56:31.396Z",
   "events": [
     {
       "id": "fb-2130841200976128",
@@ -11,6 +11,30 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/2130841200976128/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1435852108453094",
+      "title": "Szezonzáró Sütögetős Sup túra Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 27., vasárnap, 10:00–18:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1435852108453094/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2102392753979232",
+      "title": "Sup túra Szlovákiában a KIs-Dunán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. október 3., szombat, 10:00–19:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Kolový mlyn Tomášikovo, 925 04 Tomášikovo, Slovensko",
+      "url": "https://www.facebook.com/events/2102392753979232/",
       "source": "facebook"
     },
     {
@@ -320,7 +344,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -332,7 +356,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -344,7 +368,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -380,7 +404,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
