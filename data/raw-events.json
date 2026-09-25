@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-09-24T09:55:24.998Z",
+  "scrapedAt": "2026-09-25T10:12:16.616Z",
   "events": [
-    {
-      "id": "fb-2130841200976128",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 24., csütörtök, 16:00–18:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/2130841200976128/",
-      "source": "facebook"
-    },
     {
       "id": "fb-1435852108453094",
       "title": "Szezonzáró Sütögetős Sup túra Dunaharasztin",
@@ -23,6 +11,18 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/1435852108453094/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2130841200976128",
+      "title": "Sup technikai oktatás Márton Karcsival",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. szeptember 30., szerda, 16:00–18:30 CEST",
+      "assumeUpcoming": true,
+      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/2130841200976128/",
       "source": "facebook"
     },
     {
@@ -167,6 +167,18 @@
       "assumeUpcoming": true,
       "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
       "url": "https://www.facebook.com/events/1694189381680577/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-28999112173013964",
+      "title": "Sup szafari Gemenc közepén",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. október 3., szombat, 10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "A Gemenci-erdő a Duna egyik legnagyobb természetes ártere. A jobb parton a gátakat messzebb ép?",
+      "url": "https://www.facebook.com/events/28999112173013964/",
       "source": "facebook"
     },
     {
@@ -650,6 +662,30 @@
       "source": "facebook"
     },
     {
+      "id": "fb-4509038596003307",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2026. december 5., szombat, 10:00–15:00 CET",
+      "assumeUpcoming": false,
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/4509038596003307/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1081044484530979",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2026. december 12., szombat, 10:00–15:00 CET",
+      "assumeUpcoming": false,
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/1081044484530979/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-941687418361233",
       "title": "Vízitúra vezetői tanfolyam",
       "organizerId": "eventus-vizitura",
@@ -659,6 +695,30 @@
       "assumeUpcoming": false,
       "location": "Árpád út 123, Budapest 1042, Magyarország",
       "url": "https://www.facebook.com/events/941687418361233/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1590871689413565",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. január 9., szombat, 10:00–15:00 CET",
+      "assumeUpcoming": false,
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/1590871689413565/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2315257429286268",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. január 10., vasárnap, 10:00–15:00 CET",
+      "assumeUpcoming": false,
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/2315257429286268/",
       "source": "facebook"
     },
     {
@@ -1279,7 +1339,7 @@
       "organizerId": "superyogi",
       "organizerName": "SuperYogi",
       "organizerUrl": "https://www.facebook.com/jules.toth",
-      "rawWhen": "2026. június 11., csütörtök, 17:00–20:00 CEST",
+      "rawWhen": "2026. június 11., 17:00–20:00 CEST",
       "assumeUpcoming": false,
       "location": "Gusztinál a legjobb a hekk!",
       "url": "https://www.facebook.com/events/2340085066527055/",
