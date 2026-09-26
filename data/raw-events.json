@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-25T10:12:16.616Z",
+  "scrapedAt": "2026-09-26T09:52:34.860Z",
   "events": [
     {
       "id": "fb-1435852108453094",
@@ -146,18 +146,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1623844992585984",
-      "title": "Nyári sup vibe Zátonyi-Duna legszebb részein!",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 26., szombat, 10:30 CEST",
-      "assumeUpcoming": true,
-      "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
-      "url": "https://www.facebook.com/events/1623844992585984/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1694189381680577",
       "title": "Good Morning Budapest sup túra",
       "organizerId": "sup-the-lifestyle",
@@ -182,6 +170,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1623844992585984",
+      "title": "Nyári sup vibe Zátonyi-Duna legszebb részein!",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. október 4., vasárnap, 10:30 CEST",
+      "assumeUpcoming": true,
+      "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
+      "url": "https://www.facebook.com/events/1623844992585984/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-892111770603769",
       "title": "Októberi sup trip Málta szigetén 8.0",
       "organizerId": "sup-the-lifestyle",
@@ -191,6 +191,18 @@
       "assumeUpcoming": true,
       "location": "Októberben még meleg a tenger, türkiz vízben fürd… Továbbiak",
       "url": "https://www.facebook.com/events/892111770603769/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1817675092719529",
+      "title": "Őszi sup túra az RSD legszebb csatornáján",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. október 11., vasárnap, 13:00 CEST",
+      "assumeUpcoming": true,
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/1817675092719529/",
       "source": "facebook"
     },
     {
@@ -356,7 +368,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/2704304143261145/",
       "source": "facebook"
@@ -368,7 +380,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1413957720559756/",
       "source": "facebook"
@@ -380,7 +392,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -1339,7 +1351,7 @@
       "organizerId": "superyogi",
       "organizerName": "SuperYogi",
       "organizerUrl": "https://www.facebook.com/jules.toth",
-      "rawWhen": "2026. június 11., 17:00–20:00 CEST",
+      "rawWhen": "2026. június 11., csütörtök, 17:00–20:00 CEST",
       "assumeUpcoming": false,
       "location": "Gusztinál a legjobb a hekk!",
       "url": "https://www.facebook.com/events/2340085066527055/",

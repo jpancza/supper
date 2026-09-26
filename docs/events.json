@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:12:19.367Z",
+  "lastUpdated": "2026-09-26T09:52:36.212Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -509,7 +509,7 @@
       "timeText": "17:00",
       "endDateISO": null,
       "endTimeText": "20:00",
-      "rawWhen": "2026. június 11., 17:00–20:00 CEST",
+      "rawWhen": "2026. június 11., csütörtök, 17:00–20:00 CEST",
       "location": "Gusztinál a legjobb a hekk!",
       "url": "https://www.facebook.com/events/2340085066527055/",
       "source": "facebook"
@@ -3997,27 +3997,12 @@
       "lat": 47.5711734,
       "lon": 19.064441,
       "weather": {
-        "tempMax": 23.5,
-        "tempMin": 12.5,
+        "tempMax": 23.4,
+        "tempMin": 11.5,
         "precipProbability": 0,
-        "windSpeed": 7.6,
-        "windDirection": 192
+        "windSpeed": 6.5,
+        "windDirection": 304
       }
-    },
-    {
-      "id": "fb-1623844992585984",
-      "title": "Nyári sup vibe Zátonyi-Duna legszebb részein!",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "dateISO": "2026-09-26",
-      "timeText": "10:30",
-      "endDateISO": null,
-      "endTimeText": null,
-      "rawWhen": "2026. szeptember 26., szombat, 10:30 CEST",
-      "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
-      "url": "https://www.facebook.com/events/1623844992585984/",
-      "source": "facebook"
     },
     {
       "id": "fb-1694189381680577",
@@ -4051,11 +4036,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.7,
-        "tempMin": 9.7,
+        "tempMax": 24.3,
+        "tempMin": 9.3,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 134
+        "windSpeed": 5,
+        "windDirection": 28
       }
     },
     {
@@ -4075,11 +4060,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.7,
-        "tempMin": 9.7,
+        "tempMax": 24.3,
+        "tempMin": 9.3,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 134
+        "windSpeed": 5,
+        "windDirection": 28
       }
     },
     {
@@ -4099,11 +4084,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 23.9,
-        "tempMin": 12.2,
+        "tempMax": 24.5,
+        "tempMin": 11.8,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 88
+        "windSpeed": 9.7,
+        "windDirection": 72
       }
     },
     {
@@ -4123,11 +4108,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 22,
-        "tempMin": 12.7,
-        "precipProbability": 2,
-        "windSpeed": 16.1,
-        "windDirection": 64
+        "tempMax": 23.6,
+        "tempMin": 12.1,
+        "precipProbability": 0,
+        "windSpeed": 9.8,
+        "windDirection": 72
       }
     },
     {
@@ -4165,6 +4150,21 @@
       "lon": 18.8787173
     },
     {
+      "id": "fb-1623844992585984",
+      "title": "Nyári sup vibe Zátonyi-Duna legszebb részein!",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-10-04",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. október 4., vasárnap, 10:30 CEST",
+      "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
+      "url": "https://www.facebook.com/events/1623844992585984/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-892111770603769",
       "title": "Októberi sup trip Málta szigetén 8.0",
       "organizerId": "sup-the-lifestyle",
@@ -4180,6 +4180,21 @@
       "source": "facebook",
       "lat": 35.9311442,
       "lon": 14.3951627
+    },
+    {
+      "id": "fb-1817675092719529",
+      "title": "Őszi sup túra az RSD legszebb csatornáján",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-10-11",
+      "timeText": "13:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. október 11., vasárnap, 13:00 CEST",
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/1817675092719529/",
+      "source": "facebook"
     },
     {
       "id": "fb-4509038596003307",
