@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-26T09:52:34.860Z",
+  "scrapedAt": "2026-09-27T10:34:41.538Z",
   "events": [
     {
       "id": "fb-1435852108453094",
@@ -143,18 +143,6 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1694189381680577",
-      "title": "Good Morning Budapest sup túra",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. szeptember 27., vasárnap, 7:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Duna, nap, fák, kavicsok, kacsák, kiváló vízminőség, természetközeliség, strandtörül… Továbbiak",
-      "url": "https://www.facebook.com/events/1694189381680577/",
       "source": "facebook"
     },
     {
@@ -362,30 +350,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2704304143261145",
-      "title": "Masterprint Tihany Cross Terepfutás és Nordic Walking Verseny",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "organizerUrl": "https://www.facebook.com/tihanysport",
-      "rawWhen": "2026. szeptember 26., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
-      "url": "https://www.facebook.com/events/2704304143261145/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1413957720559756",
-      "title": "Tihany Cross Teljesítménytúra",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "organizerUrl": "https://www.facebook.com/tihanysport",
-      "rawWhen": "2026. szeptember 27., vasárnap, 8:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
-      "url": "https://www.facebook.com/events/1413957720559756/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1299764965125449",
       "title": "Tihany Trail Terepfutó és Nordic Walking Verseny",
       "organizerId": "tihany-sport",
@@ -470,24 +434,12 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2112901926769239",
-      "title": "Finitó hullámcsendes SUP chill evezés Gödnél, kezdoknek is (tanítással)",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 27., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/2112901926769239/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1598004915147040",
       "title": "Finito naplementés SUP evezés Gödnel, kezdôknek is (tanítással)",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 27., vasárnap, 17:00–19:00 CEST",
+      "rawWhen": "2026. szeptember 27., vasárnap, 15:30–17:30 CEST",
       "assumeUpcoming": false,
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1598004915147040/",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T09:52:36.212Z",
+  "lastUpdated": "2026-09-27T10:34:42.855Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3995,14 +3995,7 @@
       "url": "https://www.facebook.com/events/1390981672865799/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441,
-      "weather": {
-        "tempMax": 23.4,
-        "tempMin": 11.5,
-        "precipProbability": 0,
-        "windSpeed": 6.5,
-        "windDirection": 304
-      }
+      "lon": 19.064441
     },
     {
       "id": "fb-1694189381680577",
@@ -4036,11 +4029,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.3,
-        "tempMin": 9.3,
+        "tempMax": 23.7,
+        "tempMin": 8.3,
         "precipProbability": 0,
-        "windSpeed": 5,
-        "windDirection": 28
+        "windSpeed": 5.4,
+        "windDirection": 48
       }
     },
     {
@@ -4050,21 +4043,21 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-09-27",
-      "timeText": "17:00",
+      "timeText": "15:30",
       "endDateISO": null,
-      "endTimeText": "19:00",
-      "rawWhen": "2026. szeptember 27., vasárnap, 17:00–19:00 CEST",
+      "endTimeText": "17:30",
+      "rawWhen": "2026. szeptember 27., vasárnap, 15:30–17:30 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1598004915147040/",
       "source": "facebook",
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.3,
-        "tempMin": 9.3,
+        "tempMax": 23.7,
+        "tempMin": 8.3,
         "precipProbability": 0,
-        "windSpeed": 5,
-        "windDirection": 28
+        "windSpeed": 5.4,
+        "windDirection": 48
       }
     },
     {
@@ -4084,11 +4077,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 11.8,
+        "tempMax": 23.8,
+        "tempMin": 10.7,
         "precipProbability": 0,
-        "windSpeed": 9.7,
-        "windDirection": 72
+        "windSpeed": 6.5,
+        "windDirection": 87
       }
     },
     {
@@ -4108,11 +4101,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 23.6,
-        "tempMin": 12.1,
+        "tempMax": 23.1,
+        "tempMin": 10.7,
         "precipProbability": 0,
-        "windSpeed": 9.8,
-        "windDirection": 72
+        "windSpeed": 9.6,
+        "windDirection": 69
       }
     },
     {
@@ -4130,7 +4123,14 @@
       "url": "https://www.facebook.com/events/2102392753979232/",
       "source": "facebook",
       "lat": 48.0888445,
-      "lon": 17.6670127
+      "lon": 17.6670127,
+      "weather": {
+        "tempMax": 22.9,
+        "tempMin": 2.1,
+        "precipProbability": 0,
+        "windSpeed": 12.5,
+        "windDirection": 111
+      }
     },
     {
       "id": "fb-28999112173013964",
@@ -4147,7 +4147,14 @@
       "url": "https://www.facebook.com/events/28999112173013964/",
       "source": "facebook",
       "lat": 46.2030029,
-      "lon": 18.8787173
+      "lon": 18.8787173,
+      "weather": {
+        "tempMax": 17.1,
+        "tempMin": 9.1,
+        "precipProbability": 2,
+        "windSpeed": 15,
+        "windDirection": 26
+      }
     },
     {
       "id": "fb-1623844992585984",
