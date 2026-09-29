@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-28T11:42:15.053Z",
+  "scrapedAt": "2026-09-29T11:20:51.992Z",
   "events": [
     {
       "id": "fb-2130841200976128",
@@ -266,6 +266,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1703167851379518",
+      "title": "Makarska Sup - A Riviéra mielőtt beindul a nyár 2027",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2027. máj. 21., 11:00 – 2027. máj. 24., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Makarska (Split-Dalmácia megye, Horvátország)",
+      "url": "https://www.facebook.com/events/1703167851379518/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1390981672865799",
       "title": "Sail'n SUP Sicily",
       "organizerId": "sup-budapest",
@@ -428,7 +440,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -491,6 +503,18 @@
       "assumeUpcoming": false,
       "location": "Irány Balatonszemes! Célunk a Windsurf/SUP sport népszerűsítése és biztonságos oktatása. Szakértő csapatunkkal létrehozt… Továbbiak",
       "url": "https://www.facebook.com/events/1413297043775425/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1067031166312019",
+      "title": "ÚJ TÚRA! Makádról a Tass-zsiliphez – Rózsasziget, Kiskunsági-főcsatorna és egy jó kis sütögeté",
+      "organizerId": "kiteline-se",
+      "organizerName": "Kiteline SE",
+      "organizerUrl": "https://www.facebook.com/kiteline.hu",
+      "rawWhen": "2026. október 3., szombat, 10:30–16:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Ezüstpart büfé, Makád 2322, Magyarország",
+      "url": "https://www.facebook.com/events/1067031166312019/",
       "source": "facebook"
     },
     {
