@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T11:20:53.043Z",
+  "lastUpdated": "2026-09-30T11:08:55.745Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4045,11 +4045,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 25.2,
-        "tempMin": 12.4,
+        "tempMax": 25.4,
+        "tempMin": 11.5,
         "precipProbability": 0,
-        "windSpeed": 11.9,
-        "windDirection": 83
+        "windSpeed": 11.5,
+        "windDirection": 77
       }
     },
     {
@@ -4069,11 +4069,11 @@
       "lat": 48.0888445,
       "lon": 17.6670127,
       "weather": {
-        "tempMax": 24.7,
-        "tempMin": 5.3,
+        "tempMax": 24.1,
+        "tempMin": 5.2,
         "precipProbability": 0,
-        "windSpeed": 10.8,
-        "windDirection": 129
+        "windSpeed": 8.4,
+        "windDirection": 132
       }
     },
     {
@@ -4093,11 +4093,35 @@
       "lat": 46.2030029,
       "lon": 18.8787173,
       "weather": {
-        "tempMax": 23.3,
-        "tempMin": 9,
+        "tempMax": 23,
+        "tempMin": 8.3,
         "precipProbability": 0,
-        "windSpeed": 7.3,
-        "windDirection": 295
+        "windSpeed": 5.7,
+        "windDirection": 106
+      }
+    },
+    {
+      "id": "fb-1096944682984619",
+      "title": "SUP túra a Szigetközben",
+      "organizerId": "riversup",
+      "organizerName": "RiverSUP",
+      "organizerUrl": "https://www.facebook.com/RiverSUP-100916654870918",
+      "dateISO": "2026-10-03",
+      "timeText": "09:00",
+      "endDateISO": null,
+      "endTimeText": "17:00",
+      "rawWhen": "2026. október 3., szombat, 9:00–17:00 CEST",
+      "location": "Aranyossziget utca 66, Mosonmagyaróvár 9200, Magyarország",
+      "url": "https://www.facebook.com/events/1096944682984619/",
+      "source": "facebook",
+      "lat": 47.8539531,
+      "lon": 17.2816798,
+      "weather": {
+        "tempMax": 24.5,
+        "tempMin": 5.1,
+        "precipProbability": 0,
+        "windSpeed": 13,
+        "windDirection": 163
       }
     },
     {
@@ -4114,6 +4138,30 @@
       "location": "KELLEMES IDŐTÖLTÉST KÍVÁN A DUNASZIGETI STRAND",
       "url": "https://www.facebook.com/events/1623844992585984/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-1105531455440788",
+      "title": "Melegidô, szélcsendes finito SUP chill evezés Gödnél, kezdôknek is!",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "dateISO": "2026-10-04",
+      "timeText": "15:30",
+      "endDateISO": null,
+      "endTimeText": "17:30",
+      "rawWhen": "2026. október 4., vasárnap, 15:30–17:30 CEST",
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1105531455440788/",
+      "source": "facebook",
+      "lat": 47.7072856,
+      "lon": 19.1304295,
+      "weather": {
+        "tempMax": 23,
+        "tempMin": 8.1,
+        "precipProbability": 0,
+        "windSpeed": 6.4,
+        "windDirection": 191
+      }
     },
     {
       "id": "fb-892111770603769",
