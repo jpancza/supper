@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T11:08:55.745Z",
+  "lastUpdated": "2026-10-01T11:36:24.073Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4069,11 +4069,11 @@
       "lat": 48.0888445,
       "lon": 17.6670127,
       "weather": {
-        "tempMax": 24.1,
-        "tempMin": 5.2,
+        "tempMax": 24.2,
+        "tempMin": 4.9,
         "precipProbability": 0,
-        "windSpeed": 8.4,
-        "windDirection": 132
+        "windSpeed": 11.8,
+        "windDirection": 128
       }
     },
     {
@@ -4093,11 +4093,11 @@
       "lat": 46.2030029,
       "lon": 18.8787173,
       "weather": {
-        "tempMax": 23,
-        "tempMin": 8.3,
+        "tempMax": 23.9,
+        "tempMin": 7.8,
         "precipProbability": 0,
-        "windSpeed": 5.7,
-        "windDirection": 106
+        "windSpeed": 12.8,
+        "windDirection": 113
       }
     },
     {
@@ -4117,11 +4117,11 @@
       "lat": 47.8539531,
       "lon": 17.2816798,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 5.1,
+        "tempMax": 24.6,
+        "tempMin": 6.3,
         "precipProbability": 0,
-        "windSpeed": 13,
-        "windDirection": 163
+        "windSpeed": 11.6,
+        "windDirection": 149
       }
     },
     {
@@ -4156,11 +4156,35 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 23,
-        "tempMin": 8.1,
+        "tempMax": 22.4,
+        "tempMin": 7,
         "precipProbability": 0,
-        "windSpeed": 6.4,
-        "windDirection": 191
+        "windSpeed": 6.7,
+        "windDirection": 187
+      }
+    },
+    {
+      "id": "fb-2229458327596274",
+      "title": "SUP-barangolás a Kis-Duna varázsvilágaiba",
+      "organizerId": "supway",
+      "organizerName": "Supway Hungary",
+      "organizerUrl": "https://www.facebook.com/supwayhun",
+      "dateISO": "2026-10-04",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "15:00",
+      "rawWhen": "2026. október 4., vasárnap, 11:00–15:00 CEST",
+      "location": "Dunaharaszti Csónakház",
+      "url": "https://www.facebook.com/events/2229458327596274/",
+      "source": "facebook",
+      "lat": 47.3541549,
+      "lon": 19.0912203,
+      "weather": {
+        "tempMax": 22.6,
+        "tempMin": 7.5,
+        "precipProbability": 0,
+        "windSpeed": 6.5,
+        "windDirection": 150
       }
     },
     {
@@ -4178,7 +4202,14 @@
       "url": "https://www.facebook.com/events/892111770603769/",
       "source": "facebook",
       "lat": 35.9311442,
-      "lon": 14.3951627
+      "lon": 14.3951627,
+      "weather": {
+        "tempMax": 24.5,
+        "tempMin": 20.6,
+        "precipProbability": 24,
+        "windSpeed": 10.4,
+        "windDirection": 100
+      }
     },
     {
       "id": "fb-1817675092719529",

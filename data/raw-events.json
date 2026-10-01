@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-09-30T11:08:55.220Z",
+  "scrapedAt": "2026-10-01T11:36:19.511Z",
   "events": [
-    {
-      "id": "fb-2130841200976128",
-      "title": "Sup technikai oktatás Márton Karcsival",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. szeptember 30., szerda, 16:00–18:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 5, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/2130841200976128/",
-      "source": "facebook"
-    },
     {
       "id": "fb-2102392753979232",
       "title": "Sup túra Szlovákiában a KIs-Dunán",
@@ -440,7 +428,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -1382,87 +1370,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1469022475008904",
-      "title": "Adriai SUP-túra 2.0 – Indián nyár a Winnetou-kanyonban",
+      "id": "fb-2229458327596274",
+      "title": "SUP-barangolás a Kis-Duna varázsvilágaiba",
       "organizerId": "supway",
       "organizerName": "Supway Hungary",
       "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "Szept. 4., 8:00 – szept. 7., 22:00 CEST",
+      "rawWhen": "2026. október 4., vasárnap, 11:00–15:00 CEST",
       "assumeUpcoming": false,
-      "location": "Ulica Murterskih Brašćin 16, HR-22243 Murter, Hrvatska",
-      "url": "https://www.facebook.com/events/1469022475008904/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1257516332979348",
-      "title": "SUP-időutazás a Monarchiába: Wachau-Bécs-Pozsony-Óvár",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "Aug. 21., 8:00 – aug. 23., 20:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Donaulände 2, 2410 Hainburg an der Donau, Österreich",
-      "url": "https://www.facebook.com/events/1257516332979348/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1043287668211706",
-      "title": "SUP-túra Tata mesés vízivilágában",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "2026. július 12., vasárnap, 13:00–17:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Fáklya utca, Tata 2890, Magyarország",
-      "url": "https://www.facebook.com/events/1043287668211706/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-999679669717428",
-      "title": "SUP-túra Zebegénytől Verőcéig - egy titkos szerelem nyomában",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "2026. július 5., vasárnap, 13:00–17:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Dunakanyar Lángos, Zebegény 2627, Magyarország",
-      "url": "https://www.facebook.com/events/999679669717428/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4331610607101718",
-      "title": "SUP-túra élményt és aranyat halmozva",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "2026. június 28., vasárnap, 11:00–15:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Dunasor 94, Szigethalom 2315, Magyarország",
-      "url": "https://www.facebook.com/events/4331610607101718/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-919122424541175",
-      "title": "SUP-túra élményt és aranyat halmozva",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "2026. június 14., vasárnap, 11:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Dunasor 94, Szigethalom 2315, Magyarország",
-      "url": "https://www.facebook.com/events/919122424541175/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4830397853853703",
-      "title": "SUP-barangolás Ráckevén és a történelemben",
-      "organizerId": "supway",
-      "organizerName": "Supway Hungary",
-      "organizerUrl": "https://www.facebook.com/supwayhun",
-      "rawWhen": "2026. június 7., vasárnap, 11:00–16:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Somlyó utca 136, Ráckeve 2300, Magyarország",
-      "url": "https://www.facebook.com/events/4830397853853703/",
+      "location": "Dunaharaszti Csónakház",
+      "url": "https://www.facebook.com/events/2229458327596274/",
       "source": "facebook"
     }
   ]
