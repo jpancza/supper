@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T11:36:24.073Z",
+  "lastUpdated": "2026-10-02T11:04:16.989Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4069,11 +4069,11 @@
       "lat": 48.0888445,
       "lon": 17.6670127,
       "weather": {
-        "tempMax": 24.2,
-        "tempMin": 4.9,
+        "tempMax": 24.3,
+        "tempMin": 3.8,
         "precipProbability": 0,
-        "windSpeed": 11.8,
-        "windDirection": 128
+        "windSpeed": 13.3,
+        "windDirection": 127
       }
     },
     {
@@ -4093,11 +4093,11 @@
       "lat": 46.2030029,
       "lon": 18.8787173,
       "weather": {
-        "tempMax": 23.9,
-        "tempMin": 7.8,
+        "tempMax": 24.1,
+        "tempMin": 7,
         "precipProbability": 0,
-        "windSpeed": 12.8,
-        "windDirection": 113
+        "windSpeed": 6.5,
+        "windDirection": 114
       }
     },
     {
@@ -4117,11 +4117,11 @@
       "lat": 47.8539531,
       "lon": 17.2816798,
       "weather": {
-        "tempMax": 24.6,
-        "tempMin": 6.3,
+        "tempMax": 24.4,
+        "tempMin": 6.4,
         "precipProbability": 0,
-        "windSpeed": 11.6,
-        "windDirection": 149
+        "windSpeed": 12.4,
+        "windDirection": 144
       }
     },
     {
@@ -4156,11 +4156,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 22.4,
-        "tempMin": 7,
+        "tempMax": 24.7,
+        "tempMin": 8.1,
         "precipProbability": 0,
-        "windSpeed": 6.7,
-        "windDirection": 187
+        "windSpeed": 8.6,
+        "windDirection": 170
       }
     },
     {
@@ -4180,11 +4180,35 @@
       "lat": 47.3541549,
       "lon": 19.0912203,
       "weather": {
-        "tempMax": 22.6,
-        "tempMin": 7.5,
+        "tempMax": 24.4,
+        "tempMin": 9.6,
         "precipProbability": 0,
-        "windSpeed": 6.5,
-        "windDirection": 150
+        "windSpeed": 7.9,
+        "windDirection": 113
+      }
+    },
+    {
+      "id": "fb-3184738638552958",
+      "title": "Nyárbúcsúztató SUP túra Dunaharasztin",
+      "organizerId": "sup-and-go",
+      "organizerName": "SUP and Go",
+      "organizerUrl": "https://www.facebook.com/supandgo.budapest",
+      "dateISO": "2026-10-04",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": "13:30",
+      "rawWhen": "2026. október 4., vasárnap, 10:30–13:30 CEST",
+      "location": "Találkozó 10.30-kor a Dunaharaszti, Szigeti műfüves foci pálya parkolójában, vízre szállás 11:00-kor a Dunaharaszti … Továbbiak",
+      "url": "https://www.facebook.com/events/3184738638552958/",
+      "source": "facebook",
+      "lat": 47.3541549,
+      "lon": 19.0912203,
+      "weather": {
+        "tempMax": 24.4,
+        "tempMin": 9.6,
+        "precipProbability": 0,
+        "windSpeed": 7.9,
+        "windDirection": 113
       }
     },
     {
@@ -4204,11 +4228,11 @@
       "lat": 35.9311442,
       "lon": 14.3951627,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 20.6,
-        "precipProbability": 24,
-        "windSpeed": 10.4,
-        "windDirection": 100
+        "tempMax": 27.5,
+        "tempMin": 23.3,
+        "precipProbability": 40,
+        "windSpeed": 18.4,
+        "windDirection": 218
       }
     },
     {
