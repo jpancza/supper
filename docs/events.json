@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T11:04:16.989Z",
+  "lastUpdated": "2026-10-03T10:24:47.635Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4069,11 +4069,11 @@
       "lat": 48.0888445,
       "lon": 17.6670127,
       "weather": {
-        "tempMax": 24.3,
-        "tempMin": 3.8,
+        "tempMax": 23.4,
+        "tempMin": 3.2,
         "precipProbability": 0,
-        "windSpeed": 13.3,
-        "windDirection": 127
+        "windSpeed": 12.8,
+        "windDirection": 140
       }
     },
     {
@@ -4093,11 +4093,11 @@
       "lat": 46.2030029,
       "lon": 18.8787173,
       "weather": {
-        "tempMax": 24.1,
-        "tempMin": 7,
+        "tempMax": 24,
+        "tempMin": 5.8,
         "precipProbability": 0,
-        "windSpeed": 6.5,
-        "windDirection": 114
+        "windSpeed": 5.4,
+        "windDirection": 104
       }
     },
     {
@@ -4117,11 +4117,11 @@
       "lat": 47.8539531,
       "lon": 17.2816798,
       "weather": {
-        "tempMax": 24.4,
-        "tempMin": 6.4,
+        "tempMax": 23.8,
+        "tempMin": 5,
         "precipProbability": 0,
-        "windSpeed": 12.4,
-        "windDirection": 144
+        "windSpeed": 11.9,
+        "windDirection": 150
       }
     },
     {
@@ -4146,21 +4146,21 @@
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
       "dateISO": "2026-10-04",
-      "timeText": "15:30",
+      "timeText": "15:25",
       "endDateISO": null,
       "endTimeText": "17:30",
-      "rawWhen": "2026. október 4., vasárnap, 15:30–17:30 CEST",
+      "rawWhen": "2026. október 4., vasárnap, 15:25–17:30 CEST",
       "location": "Josika u., Göd",
       "url": "https://www.facebook.com/events/1105531455440788/",
       "source": "facebook",
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.7,
-        "tempMin": 8.1,
+        "tempMax": 24.9,
+        "tempMin": 7.9,
         "precipProbability": 0,
-        "windSpeed": 8.6,
-        "windDirection": 170
+        "windSpeed": 11.5,
+        "windDirection": 156
       }
     },
     {
@@ -4180,11 +4180,11 @@
       "lat": 47.3541549,
       "lon": 19.0912203,
       "weather": {
-        "tempMax": 24.4,
-        "tempMin": 9.6,
+        "tempMax": 24.5,
+        "tempMin": 9.5,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 113
+        "windSpeed": 9,
+        "windDirection": 151
       }
     },
     {
@@ -4204,11 +4204,11 @@
       "lat": 47.3541549,
       "lon": 19.0912203,
       "weather": {
-        "tempMax": 24.4,
-        "tempMin": 9.6,
+        "tempMax": 24.5,
+        "tempMin": 9.5,
         "precipProbability": 0,
-        "windSpeed": 7.9,
-        "windDirection": 113
+        "windSpeed": 9,
+        "windDirection": 151
       }
     },
     {
@@ -4228,11 +4228,11 @@
       "lat": 35.9311442,
       "lon": 14.3951627,
       "weather": {
-        "tempMax": 27.5,
-        "tempMin": 23.3,
-        "precipProbability": 40,
-        "windSpeed": 18.4,
-        "windDirection": 218
+        "tempMax": 25.9,
+        "tempMin": 22.1,
+        "precipProbability": 30,
+        "windSpeed": 14.3,
+        "windDirection": 206
       }
     },
     {
@@ -4334,6 +4334,23 @@
       "source": "facebook",
       "lat": 43.2939756,
       "lon": 17.020242
+    },
+    {
+      "id": "fb-1125818186495255",
+      "title": "SUP Expedíció Norvégia",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "dateISO": "2027-06-23",
+      "timeText": "12:00",
+      "endDateISO": "2027-06-30",
+      "endTimeText": "15:00",
+      "rawWhen": "2027. jún. 23., 12:00 – 2027. jún. 30., 15:00 CEST",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1125818186495255/",
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     }
   ]
 }
