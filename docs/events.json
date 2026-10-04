@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T10:24:47.635Z",
+  "lastUpdated": "2026-10-04T11:07:35.282Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -3168,14 +3168,7 @@
       "url": "https://www.facebook.com/events/1050879434500742/",
       "source": "facebook",
       "lat": 46.3900215,
-      "lon": 18.958962,
-      "weather": {
-        "tempMax": 32.5,
-        "tempMin": 16.6,
-        "precipProbability": 0,
-        "windSpeed": 5.8,
-        "windDirection": 57
-      }
+      "lon": 18.958962
     },
     {
       "id": "fb-4916498805263707",
@@ -3240,14 +3233,7 @@
       "url": "https://www.facebook.com/events/2205522796698342/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184,
-      "weather": {
-        "tempMax": 29.8,
-        "tempMin": 19.4,
-        "precipProbability": 16,
-        "windSpeed": 16.6,
-        "windDirection": 308
-      }
+      "lon": 19.0830184
     },
     {
       "id": "fb-1424306506235359",
@@ -3516,14 +3502,7 @@
       "url": "https://www.facebook.com/events/2165738954353977/",
       "source": "facebook",
       "lat": 46.8671865,
-      "lon": 20.5376811,
-      "weather": {
-        "tempMax": 26.4,
-        "tempMin": 14.6,
-        "precipProbability": 0,
-        "windSpeed": 20.9,
-        "windDirection": 306
-      }
+      "lon": 20.5376811
     },
     {
       "id": "funrafting-munka-utani-sup-tura-rackevei-duna-2026-09-08",
@@ -3777,14 +3756,7 @@
       "url": "https://www.facebook.com/events/1426440089387316/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184,
-      "weather": {
-        "tempMax": 28.2,
-        "tempMin": 13.6,
-        "precipProbability": 0,
-        "windSpeed": 13,
-        "windDirection": 169
-      }
+      "lon": 19.0830184
     },
     {
       "id": "fb-1745975946509399",
@@ -4019,14 +3991,7 @@
       "url": "https://www.facebook.com/events/1435852108453094/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184,
-      "weather": {
-        "tempMax": 23.8,
-        "tempMin": 10.7,
-        "precipProbability": 0,
-        "windSpeed": 6.5,
-        "windDirection": 87
-      }
+      "lon": 19.0830184
     },
     {
       "id": "fb-2130841200976128",
@@ -4043,14 +4008,7 @@
       "url": "https://www.facebook.com/events/2130841200976128/",
       "source": "facebook",
       "lat": 47.3610808,
-      "lon": 19.0830184,
-      "weather": {
-        "tempMax": 25.4,
-        "tempMin": 11.5,
-        "precipProbability": 0,
-        "windSpeed": 11.5,
-        "windDirection": 77
-      }
+      "lon": 19.0830184
     },
     {
       "id": "fb-2102392753979232",
@@ -4067,14 +4025,7 @@
       "url": "https://www.facebook.com/events/2102392753979232/",
       "source": "facebook",
       "lat": 48.0888445,
-      "lon": 17.6670127,
-      "weather": {
-        "tempMax": 23.4,
-        "tempMin": 3.2,
-        "precipProbability": 0,
-        "windSpeed": 12.8,
-        "windDirection": 140
-      }
+      "lon": 17.6670127
     },
     {
       "id": "fb-28999112173013964",
@@ -4115,14 +4066,7 @@
       "url": "https://www.facebook.com/events/1096944682984619/",
       "source": "facebook",
       "lat": 47.8539531,
-      "lon": 17.2816798,
-      "weather": {
-        "tempMax": 23.8,
-        "tempMin": 5,
-        "precipProbability": 0,
-        "windSpeed": 11.9,
-        "windDirection": 150
-      }
+      "lon": 17.2816798
     },
     {
       "id": "fb-1623844992585984",
@@ -4156,11 +4100,11 @@
       "lat": 47.7072856,
       "lon": 19.1304295,
       "weather": {
-        "tempMax": 24.9,
-        "tempMin": 7.9,
+        "tempMax": 24.1,
+        "tempMin": 6.3,
         "precipProbability": 0,
-        "windSpeed": 11.5,
-        "windDirection": 156
+        "windSpeed": 10.1,
+        "windDirection": 166
       }
     },
     {
@@ -4180,11 +4124,11 @@
       "lat": 47.3541549,
       "lon": 19.0912203,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 9.5,
+        "tempMax": 23.7,
+        "tempMin": 8.2,
         "precipProbability": 0,
-        "windSpeed": 9,
-        "windDirection": 151
+        "windSpeed": 9.4,
+        "windDirection": 123
       }
     },
     {
@@ -4204,11 +4148,11 @@
       "lat": 47.3541549,
       "lon": 19.0912203,
       "weather": {
-        "tempMax": 24.5,
-        "tempMin": 9.5,
+        "tempMax": 23.7,
+        "tempMin": 8.2,
         "precipProbability": 0,
-        "windSpeed": 9,
-        "windDirection": 151
+        "windSpeed": 9.4,
+        "windDirection": 123
       }
     },
     {
@@ -4228,11 +4172,11 @@
       "lat": 35.9311442,
       "lon": 14.3951627,
       "weather": {
-        "tempMax": 25.9,
-        "tempMin": 22.1,
-        "precipProbability": 30,
-        "windSpeed": 14.3,
-        "windDirection": 206
+        "tempMax": 27.7,
+        "tempMin": 23,
+        "precipProbability": 13,
+        "windSpeed": 17,
+        "windDirection": 200
       }
     },
     {
@@ -4314,6 +4258,23 @@
       "rawWhen": "2027. január 10., vasárnap, 10:00–15:00 CET",
       "location": "Castrum, Hévíz 8380, Magyarország",
       "url": "https://www.facebook.com/events/2315257429286268/",
+      "source": "facebook",
+      "lat": 46.7834304,
+      "lon": 17.1950845
+    },
+    {
+      "id": "fb-1469111775037497",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "dateISO": "2027-01-23",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "15:00",
+      "rawWhen": "2027. január 23., szombat, 10:00–15:00 CET",
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/1469111775037497/",
       "source": "facebook",
       "lat": 46.7834304,
       "lon": 17.1950845
