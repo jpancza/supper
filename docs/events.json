@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T11:07:35.282Z",
+  "lastUpdated": "2026-10-05T12:18:13.471Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -197,11 +197,11 @@
       "endDateISO": null,
       "endTimeText": null,
       "rawWhen": "2024. július 15., hétfő, 11:00 CEST",
-      "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
+      "location": "Balaton - Csopak Strand",
       "url": "https://www.facebook.com/events/336116472893246/",
       "source": "facebook",
-      "lat": 46.9708985,
-      "lon": 17.9380754
+      "lat": 46.9796854,
+      "lon": 17.9231412
     },
     {
       "id": "fb-3919192395073035",
@@ -4098,14 +4098,7 @@
       "url": "https://www.facebook.com/events/1105531455440788/",
       "source": "facebook",
       "lat": 47.7072856,
-      "lon": 19.1304295,
-      "weather": {
-        "tempMax": 24.1,
-        "tempMin": 6.3,
-        "precipProbability": 0,
-        "windSpeed": 10.1,
-        "windDirection": 166
-      }
+      "lon": 19.1304295
     },
     {
       "id": "fb-2229458327596274",
@@ -4122,14 +4115,7 @@
       "url": "https://www.facebook.com/events/2229458327596274/",
       "source": "facebook",
       "lat": 47.3541549,
-      "lon": 19.0912203,
-      "weather": {
-        "tempMax": 23.7,
-        "tempMin": 8.2,
-        "precipProbability": 0,
-        "windSpeed": 9.4,
-        "windDirection": 123
-      }
+      "lon": 19.0912203
     },
     {
       "id": "fb-3184738638552958",
@@ -4146,14 +4132,7 @@
       "url": "https://www.facebook.com/events/3184738638552958/",
       "source": "facebook",
       "lat": 47.3541549,
-      "lon": 19.0912203,
-      "weather": {
-        "tempMax": 23.7,
-        "tempMin": 8.2,
-        "precipProbability": 0,
-        "windSpeed": 9.4,
-        "windDirection": 123
-      }
+      "lon": 19.0912203
     },
     {
       "id": "fb-892111770603769",
@@ -4172,11 +4151,11 @@
       "lat": 35.9311442,
       "lon": 14.3951627,
       "weather": {
-        "tempMax": 27.7,
-        "tempMin": 23,
-        "precipProbability": 13,
-        "windSpeed": 17,
-        "windDirection": 200
+        "tempMax": 27.5,
+        "tempMin": 22.2,
+        "precipProbability": 3,
+        "windSpeed": 18.3,
+        "windDirection": 189
       }
     },
     {
