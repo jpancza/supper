@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T12:18:13.471Z",
+  "lastUpdated": "2026-10-06T12:00:39.302Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -197,11 +197,11 @@
       "endDateISO": null,
       "endTimeText": null,
       "rawWhen": "2024. július 15., hétfő, 11:00 CEST",
-      "location": "Balaton - Csopak Strand",
+      "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
       "url": "https://www.facebook.com/events/336116472893246/",
       "source": "facebook",
-      "lat": 46.9796854,
-      "lon": 17.9231412
+      "lat": 46.9708985,
+      "lon": 17.9380754
     },
     {
       "id": "fb-3919192395073035",
@@ -4151,11 +4151,11 @@
       "lat": 35.9311442,
       "lon": 14.3951627,
       "weather": {
-        "tempMax": 27.5,
-        "tempMin": 22.2,
-        "precipProbability": 3,
-        "windSpeed": 18.3,
-        "windDirection": 189
+        "tempMax": 27.6,
+        "tempMin": 23.2,
+        "precipProbability": 5,
+        "windSpeed": 19.8,
+        "windDirection": 193
       }
     },
     {

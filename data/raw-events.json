@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-05T12:18:10.528Z",
+  "scrapedAt": "2026-10-06T12:00:38.835Z",
   "events": [
     {
       "id": "fb-2102392753979232",
@@ -489,8 +489,20 @@
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. október 10., szombat, 10:00 CEST",
       "assumeUpcoming": true,
-      "location": "Tihany Cross Terepfutás",
+      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1787734842278570/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1448100983953820",
+      "title": "Napfelkelte túra az Őrtorony kilátóhoz",
+      "organizerId": "tihany-sport",
+      "organizerName": "Tihany Sport és Szabadidő",
+      "organizerUrl": "https://www.facebook.com/tihanysport",
+      "rawWhen": "2026. október 17., szombat, 6:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Tihany , Tihany, Hungary, 8237",
+      "url": "https://www.facebook.com/events/1448100983953820/",
       "source": "facebook"
     },
     {
@@ -693,7 +705,7 @@
       "organizerUrl": "https://www.facebook.com/DUNA420",
       "rawWhen": "2024. július 15., hétfő, 11:00 CEST",
       "assumeUpcoming": false,
-      "location": "Balaton - Csopak Strand",
+      "location": "Csopaki strand, Ifjúsági sétány, Csopak 8229, Magyarország",
       "url": "https://www.facebook.com/events/336116472893246/",
       "source": "facebook"
     },
