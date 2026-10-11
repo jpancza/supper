@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T11:09:58.149Z",
+  "lastUpdated": "2026-10-11T11:26:41.271Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4157,14 +4157,31 @@
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "dateISO": "2026-10-18",
+      "dateISO": "2026-10-17",
       "timeText": "13:00",
       "endDateISO": null,
       "endTimeText": null,
-      "rawWhen": "2026. október 18., vasárnap, 13:00 CEST",
+      "rawWhen": "2026. október 17., szombat, 13:00 CEST",
       "location": "DMTK Vizisport szakosztály vizi-telepe",
       "url": "https://www.facebook.com/events/1817675092719529/",
       "source": "facebook"
+    },
+    {
+      "id": "fb-2344589539637898",
+      "title": "Őszi sup szafari",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-10-18",
+      "timeText": "10:45",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. október 18., vasárnap, 10:45 CEST",
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/2344589539637898/",
+      "source": "facebook",
+      "lat": 47.5514268,
+      "lon": 19.066566
     },
     {
       "id": "fb-4509038596003307",
