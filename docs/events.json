@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T13:02:57.656Z",
+  "lastUpdated": "2026-10-13T12:40:32.767Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4167,6 +4167,21 @@
       "source": "facebook"
     },
     {
+      "id": "fb-30017457054520763",
+      "title": "Kalandos Somlyó sziget Sup túra",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-10-17",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "17:30",
+      "rawWhen": "2026. október 17., szombat, 11:00–17:30 CEST",
+      "location": "Ugyanis most a Somlyó szigetet nézzük meg Pontosan a Dömsödi-Holt-Duna szakaszát, amíg tudu… Továbbiak",
+      "url": "https://www.facebook.com/events/30017457054520763/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-2344589539637898",
       "title": "Őszi sup szafari",
       "organizerId": "sup-the-lifestyle",
@@ -4183,11 +4198,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 18.4,
-        "tempMin": 4.9,
-        "precipProbability": 8,
-        "windSpeed": 6.7,
-        "windDirection": 344
+        "tempMax": 17,
+        "tempMin": 6.2,
+        "precipProbability": 10,
+        "windSpeed": 4.6,
+        "windDirection": 310
       }
     },
     {
