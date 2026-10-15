@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T10:07:44.637Z",
+  "lastUpdated": "2026-10-15T09:49:17.380Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4198,11 +4198,11 @@
       "lat": 47.5514268,
       "lon": 19.066566,
       "weather": {
-        "tempMax": 16.6,
-        "tempMin": 5.5,
-        "precipProbability": 2,
-        "windSpeed": 5.4,
-        "windDirection": 294
+        "tempMax": 17.9,
+        "tempMin": 6.1,
+        "precipProbability": 0,
+        "windSpeed": 6.5,
+        "windDirection": 336
       }
     },
     {
@@ -4340,6 +4340,23 @@
       "source": "facebook",
       "lat": 47.5711734,
       "lon": 19.064441
+    },
+    {
+      "id": "fb-1595565674934341",
+      "title": "Sup túra Winnetou nyomában",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2027-08-17",
+      "timeText": "06:00",
+      "endDateISO": "2027-08-23",
+      "endTimeText": "21:00",
+      "rawWhen": "2027. aug. 17., 6:00 – 2027. aug. 23., 21:00 CEST",
+      "location": "Put Gračaca 2, HR-23450 Obrovac, Hrvatska",
+      "url": "https://www.facebook.com/events/1595565674934341/",
+      "source": "facebook",
+      "lat": 44.1999702,
+      "lon": 15.6860003
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-14T10:07:44.176Z",
+  "scrapedAt": "2026-10-15T09:49:14.854Z",
   "events": [
     {
       "id": "fb-30017457054520763",
@@ -11,6 +11,18 @@
       "assumeUpcoming": true,
       "location": "Ugyanis most a Somlyó szigetet nézzük meg Pontosan a Dömsödi-Holt-Duna szakaszát, amíg tudu… Továbbiak",
       "url": "https://www.facebook.com/events/30017457054520763/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1595565674934341",
+      "title": "Sup túra Winnetou nyomában",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2027. aug. 17., 6:00 – 2027. aug. 23., 21:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Put Gračaca 2, HR-23450 Obrovac, Hrvatska",
+      "url": "https://www.facebook.com/events/1595565674934341/",
       "source": "facebook"
     },
     {
@@ -404,7 +416,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. október 17., szombat, 6:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Tihany , Tihany, Hungary, 8237",
       "url": "https://www.facebook.com/events/1448100983953820/",
       "source": "facebook"
@@ -416,7 +428,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -494,99 +506,15 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1105531455440788",
-      "title": "Melegidô, szélcsendes finito SUP chill evezés Gödnél, kezdôknek is!",
+      "id": "fb-1411416707816528",
+      "title": "Fermentálás 1x1 Szödligeten",
       "organizerId": "sunset-sup",
       "organizerName": "Sunset Sup",
       "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. október 4., vasárnap, 15:25–17:30 CEST",
+      "rawWhen": "2026. október 18., vasárnap, 15:30–17:30 CEST",
       "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1105531455440788/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1598004915147040",
-      "title": "Finito naplementés SUP evezés Gödnel, kezdôknek is (tanítással)",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 27., vasárnap, 15:30–17:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1598004915147040/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2112901926769239",
-      "title": "Finitó hullámcsendes SUP chill evezés Gödnél, kezdoknek is (tanítással)",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 27., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/2112901926769239/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1080765434438493",
-      "title": "Melegidős- naplementés SUP chill evezés Gödnél, kezdôknek is (tanítással)",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 20., vasárnap, 17:00–19:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1080765434438493/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1379004283882382",
-      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 20., vasárnap, 9:30–11:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1379004283882382/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1745975946509399",
-      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1745975946509399/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1113444154545790",
-      "title": "Szezonzáró, naplementès SUP élményevezés Gödnél kezdoknek is, tanìtással",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 13., vasárnap, 17:30–19:30 CEST",
-      "assumeUpcoming": false,
-      "location": "Josika u., Göd",
-      "url": "https://www.facebook.com/events/1113444154545790/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1094615939916253",
-      "title": "Szezonzáró SUP jóga Sándor Anikóval Gödnél, kezdőknek is",
-      "organizerId": "sunset-sup",
-      "organizerName": "Sunset Sup",
-      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
-      "rawWhen": "2026. szeptember 6., vasárnap, 17:00–18:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Miért jó?Első sorban azért, mert élvezni fogod. Javítja a koncentrációs és koordinációs k",
-      "url": "https://www.facebook.com/events/1094615939916253/",
+      "location": "Sződliget, ahol jó élni",
+      "url": "https://www.facebook.com/events/1411416707816528/",
       "source": "facebook"
     },
     {
