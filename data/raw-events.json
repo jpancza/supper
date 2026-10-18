@@ -1,18 +1,6 @@
 {
-  "scrapedAt": "2026-10-17T09:14:33.971Z",
+  "scrapedAt": "2026-10-18T09:32:07.047Z",
   "events": [
-    {
-      "id": "fb-30017457054520763",
-      "title": "Kalandos Somlyó sziget Sup túra",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. október 17., szombat, 11:00–17:30 CEST",
-      "assumeUpcoming": true,
-      "location": "Ugyanis most a Somlyó szigetet nézzük meg Pontosan a Dömsödi-Holt-Duna szakaszát, amíg tudu… Továbbiak",
-      "url": "https://www.facebook.com/events/30017457054520763/",
-      "source": "facebook"
-    },
     {
       "id": "fb-1595565674934341",
       "title": "Sup túra Winnetou nyomában (Betelt pillanatnyilag)",
@@ -215,18 +203,6 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1817675092719529",
-      "title": "Őszi sup túra az RSD legszebb csatornáján",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. október 17., szombat, 13:00 CEST",
-      "assumeUpcoming": true,
-      "location": "DMTK Vizisport szakosztály vizi-telepe",
-      "url": "https://www.facebook.com/events/1817675092719529/",
       "source": "facebook"
     },
     {
