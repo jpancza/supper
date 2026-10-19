@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T09:32:07.694Z",
+  "lastUpdated": "2026-10-19T10:44:26.375Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4303,6 +4303,23 @@
       "rawWhen": "2027. január 24., vasárnap, 10:00–15:00 CET",
       "location": "Castrum, Hévíz 8380, Magyarország",
       "url": "https://www.facebook.com/events/1085006077264437/",
+      "source": "facebook",
+      "lat": 46.7834304,
+      "lon": 17.1950845
+    },
+    {
+      "id": "fb-4350222638441732",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "dateISO": "2027-02-06",
+      "timeText": "10:00",
+      "endDateISO": null,
+      "endTimeText": "15:00",
+      "rawWhen": "2027. február 6., szombat, 10:00–15:00 CET",
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/4350222638441732/",
       "source": "facebook",
       "lat": 46.7834304,
       "lon": 17.1950845

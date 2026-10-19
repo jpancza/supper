@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-18T09:32:07.047Z",
+  "scrapedAt": "2026-10-19T10:44:26.195Z",
   "events": [
     {
       "id": "fb-1595565674934341",
@@ -203,18 +203,6 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2344589539637898",
-      "title": "Őszi sup szafari",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. október 18., vasárnap, 10:45 CEST",
-      "assumeUpcoming": true,
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
-      "url": "https://www.facebook.com/events/2344589539637898/",
       "source": "facebook"
     },
     {
@@ -494,6 +482,90 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1105531455440788",
+      "title": "Melegidô, szélcsendes finito SUP chill evezés Gödnél, kezdôknek is!",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. október 4., vasárnap, 15:25–17:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1105531455440788/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1598004915147040",
+      "title": "Finito naplementés SUP evezés Gödnel, kezdôknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 27., vasárnap, 15:30–17:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1598004915147040/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2112901926769239",
+      "title": "Finitó hullámcsendes SUP chill evezés Gödnél, kezdoknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 27., vasárnap, 9:30–11:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/2112901926769239/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1080765434438493",
+      "title": "Melegidős- naplementés SUP chill evezés Gödnél, kezdôknek is (tanítással)",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 20., vasárnap, 17:00–19:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1080765434438493/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1379004283882382",
+      "title": "Szezonzáró, hullámcsendes SUP élményevezés Gödnél, kezdoknek is, tanítással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 20., vasárnap, 9:30–11:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1379004283882382/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1745975946509399",
+      "title": "Kánikula búcsúztató SUP chill evezés Gödnél, kezdőknek is, tanítással+ előtte SUP fittness",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 19., szombat, 17:00–19:00 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1745975946509399/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1113444154545790",
+      "title": "Szezonzáró, naplementès SUP élményevezés Gödnél kezdoknek is, tanìtással",
+      "organizerId": "sunset-sup",
+      "organizerName": "Sunset Sup",
+      "organizerUrl": "https://www.facebook.com/Sunsetsup2018",
+      "rawWhen": "2026. szeptember 13., vasárnap, 17:30–19:30 CEST",
+      "assumeUpcoming": false,
+      "location": "Josika u., Göd",
+      "url": "https://www.facebook.com/events/1113444154545790/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-3919192395073035",
       "title": "Balaton180 SUP Oktatás - Révfülöp, Szigeti Strand",
       "organizerId": "suprise",
@@ -638,18 +710,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-28662694499989253",
-      "title": "Ötscher - Wachau gyalog és vízen - BETELT",
-      "organizerId": "eventus-vizitura",
-      "organizerName": "Eventus vízitúra",
-      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "Okt. 16., 15:00 – okt. 18., 17:00 CEST",
-      "assumeUpcoming": false,
-      "location": "Sonnberg II 46, 8734 Lobmingtal, Österreich",
-      "url": "https://www.facebook.com/events/28662694499989253/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-4509038596003307",
       "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
       "organizerId": "eventus-vizitura",
@@ -731,6 +791,18 @@
       "assumeUpcoming": false,
       "location": "Castrum, Hévíz 8380, Magyarország",
       "url": "https://www.facebook.com/events/1085006077264437/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-4350222638441732",
+      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. február 6., szombat, 10:00–15:00 CET",
+      "assumeUpcoming": false,
+      "location": "Castrum, Hévíz 8380, Magyarország",
+      "url": "https://www.facebook.com/events/4350222638441732/",
       "source": "facebook"
     },
     {
