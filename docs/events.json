@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T10:44:26.375Z",
+  "lastUpdated": "2026-10-20T10:01:24.731Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4206,6 +4206,30 @@
       }
     },
     {
+      "id": "fb-27738178982525124",
+      "title": "Sup Szafari az RSD eldugott részén",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-10-25",
+      "timeText": "12:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. október 25., vasárnap, 12:00 CET",
+      "location": "Ráckeve (Pest megye, Magyarország)",
+      "url": "https://www.facebook.com/events/27738178982525124/",
+      "source": "facebook",
+      "lat": 47.1609765,
+      "lon": 18.9436266,
+      "weather": {
+        "tempMax": 16.5,
+        "tempMin": 5.3,
+        "precipProbability": 23,
+        "windSpeed": 12.9,
+        "windDirection": 105
+      }
+    },
+    {
       "id": "fb-4509038596003307",
       "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
       "organizerId": "eventus-vizitura",
@@ -4359,6 +4383,23 @@
       "lon": 17.020242
     },
     {
+      "id": "fb-1100591659381704",
+      "title": "Boveci Sup túra vadvízzel 1 (5 éj)",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2027-06-12",
+      "timeText": "06:00",
+      "endDateISO": "2027-06-17",
+      "endTimeText": "22:00",
+      "rawWhen": "2027. jún. 12., 6:00 – 2027. jún. 17., 22:00 CEST",
+      "location": "Slovenia, Bovec",
+      "url": "https://www.facebook.com/events/1100591659381704/",
+      "source": "facebook",
+      "lat": 46.3563397,
+      "lon": 13.6144183
+    },
+    {
       "id": "fb-1125818186495255",
       "title": "SUP Expedíció Norvégia",
       "organizerId": "sup-budapest",
@@ -4374,6 +4415,23 @@
       "source": "facebook",
       "lat": 47.5711734,
       "lon": 19.064441
+    },
+    {
+      "id": "fb-1893790512033595",
+      "title": "Boveci Sup túra vadvízzel 2 (6 éj) betelt",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2027-07-09",
+      "timeText": "06:00",
+      "endDateISO": "2027-07-15",
+      "endTimeText": "22:00",
+      "rawWhen": "2027. júl. 9., 6:00 – 2027. júl. 15., 22:00 CEST",
+      "location": "Slovenia, Bovec",
+      "url": "https://www.facebook.com/events/1893790512033595/",
+      "source": "facebook",
+      "lat": 46.3563397,
+      "lon": 13.6144183
     },
     {
       "id": "fb-1595565674934341",

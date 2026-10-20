@@ -1,6 +1,30 @@
 {
-  "scrapedAt": "2026-10-19T10:44:26.195Z",
+  "scrapedAt": "2026-10-20T10:01:20.898Z",
   "events": [
+    {
+      "id": "fb-1100591659381704",
+      "title": "Boveci Sup túra vadvízzel 1 (5 éj)",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2027. jún. 12., 6:00 – 2027. jún. 17., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Slovenia, Bovec",
+      "url": "https://www.facebook.com/events/1100591659381704/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1893790512033595",
+      "title": "Boveci Sup túra vadvízzel 2 (6 éj) betelt",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2027. júl. 9., 6:00 – 2027. júl. 15., 22:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Slovenia, Bovec",
+      "url": "https://www.facebook.com/events/1893790512033595/",
+      "source": "facebook"
+    },
     {
       "id": "fb-1595565674934341",
       "title": "Sup túra Winnetou nyomában (Betelt pillanatnyilag)",
@@ -206,6 +230,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-27738178982525124",
+      "title": "Sup Szafari az RSD eldugott részén",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. október 25., vasárnap, 12:00 CET",
+      "assumeUpcoming": true,
+      "location": "Ráckeve (Pest megye, Magyarország)",
+      "url": "https://www.facebook.com/events/27738178982525124/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1104578995836629",
       "title": "Málta SUP & Kalandtúra – SUP the Lifestyle 9.0",
       "organizerId": "sup-the-lifestyle",
@@ -227,6 +263,18 @@
       "assumeUpcoming": true,
       "location": "Makarska (Split-Dalmácia megye, Horvátország)",
       "url": "https://www.facebook.com/events/1703167851379518/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1445887556955071",
+      "title": "Szezonzáró Halloween bogrács a Római-parton",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "rawWhen": "2026. október 31., szombat, 14:00 CET",
+      "assumeUpcoming": true,
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1445887556955071/",
       "source": "facebook"
     },
     {
@@ -392,7 +440,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -734,6 +782,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-947549818039097",
+      "title": "Eventus családi sítábor - oktatással",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. jan. 7., 19:00 – 2027. jan. 10., 17:00 CET",
+      "assumeUpcoming": false,
+      "location": "Gemeindealpe, 3224 Mitterbach am Erlaufsee, Österreich",
+      "url": "https://www.facebook.com/events/947549818039097/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-941687418361233",
       "title": "Vízitúra vezetői tanfolyam",
       "organizerId": "eventus-vizitura",
@@ -770,6 +830,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1575429077219838",
+      "title": "Eventus családi sítábor - oktatással",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. jan. 21., 19:00 – 2027. jan. 24., 17:00 CET",
+      "assumeUpcoming": false,
+      "location": "Gemeindealpe, 3224 Mitterbach am Erlaufsee, Österreich",
+      "url": "https://www.facebook.com/events/1575429077219838/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1469111775037497",
       "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
       "organizerId": "eventus-vizitura",
@@ -779,30 +851,6 @@
       "assumeUpcoming": false,
       "location": "Castrum, Hévíz 8380, Magyarország",
       "url": "https://www.facebook.com/events/1469111775037497/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1085006077264437",
-      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
-      "organizerId": "eventus-vizitura",
-      "organizerName": "Eventus vízitúra",
-      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "2027. január 24., vasárnap, 10:00–15:00 CET",
-      "assumeUpcoming": false,
-      "location": "Castrum, Hévíz 8380, Magyarország",
-      "url": "https://www.facebook.com/events/1085006077264437/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-4350222638441732",
-      "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
-      "organizerId": "eventus-vizitura",
-      "organizerName": "Eventus vízitúra",
-      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "2027. február 6., szombat, 10:00–15:00 CET",
-      "assumeUpcoming": false,
-      "location": "Castrum, Hévíz 8380, Magyarország",
-      "url": "https://www.facebook.com/events/4350222638441732/",
       "source": "facebook"
     },
     {
