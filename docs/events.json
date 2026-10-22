@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T10:04:22.180Z",
+  "lastUpdated": "2026-10-22T10:05:53.994Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4222,11 +4222,11 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 15.9,
-        "tempMin": 5.9,
-        "precipProbability": 39,
-        "windSpeed": 11,
-        "windDirection": 257
+        "tempMax": 13.9,
+        "tempMin": 5,
+        "precipProbability": 24,
+        "windSpeed": 13.1,
+        "windDirection": 260
       }
     },
     {
@@ -4367,7 +4367,7 @@
     },
     {
       "id": "fb-1703167851379518",
-      "title": "Makarska Sup - A Riviéra mielőtt beindul a nyár 2027",
+      "title": "Makarska Sup 2027- Adria + Zrmanja-Kanyon és vízés EXTRA 9.0",
       "organizerId": "sup-the-lifestyle",
       "organizerName": "SUP the Lifestyle",
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
