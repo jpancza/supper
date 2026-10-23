@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T10:05:53.994Z",
+  "lastUpdated": "2026-10-23T10:10:28.851Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4222,11 +4222,11 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 13.9,
-        "tempMin": 5,
-        "precipProbability": 24,
-        "windSpeed": 13.1,
-        "windDirection": 260
+        "tempMax": 13.3,
+        "tempMin": 4,
+        "precipProbability": 35,
+        "windSpeed": 13.7,
+        "windDirection": 233
       }
     },
     {
