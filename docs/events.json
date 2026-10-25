@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T09:28:31.225Z",
+  "lastUpdated": "2026-10-25T09:47:29.117Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4222,11 +4222,11 @@
       "lat": 47.1609765,
       "lon": 18.9436266,
       "weather": {
-        "tempMax": 12.6,
-        "tempMin": 7.5,
-        "precipProbability": 84,
-        "windSpeed": 16.9,
-        "windDirection": 215
+        "tempMax": 13.5,
+        "tempMin": 7.6,
+        "precipProbability": 91,
+        "windSpeed": 12.2,
+        "windDirection": 226
       }
     },
     {
@@ -4373,9 +4373,9 @@
       "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
       "dateISO": "2027-05-21",
       "timeText": "11:00",
-      "endDateISO": "2027-05-24",
-      "endTimeText": "22:00",
-      "rawWhen": "2027. máj. 21., 11:00 – 2027. máj. 24., 22:00 CEST",
+      "endDateISO": "2027-05-25",
+      "endTimeText": "10:00",
+      "rawWhen": "2027. máj. 21., 11:00 – 2027. máj. 25., 10:00 CEST",
       "location": "Makarska (Split-Dalmácia megye, Horvátország)",
       "url": "https://www.facebook.com/events/1703167851379518/",
       "source": "facebook",
