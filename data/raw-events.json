@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-25T09:47:28.634Z",
+  "scrapedAt": "2026-10-26T11:01:28.855Z",
   "events": [
     {
       "id": "fb-1100591659381704",
@@ -227,18 +227,6 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-27738178982525124",
-      "title": "Sup Szafari az RSD eldugott részén",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. október 25., vasárnap, 12:00 CET",
-      "assumeUpcoming": true,
-      "location": "Ráckeve (Pest megye, Magyarország)",
-      "url": "https://www.facebook.com/events/27738178982525124/",
       "source": "facebook"
     },
     {
