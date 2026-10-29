@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-28T11:18:20.988Z",
+  "scrapedAt": "2026-10-29T11:30:22.022Z",
   "events": [
     {
       "id": "fb-1100591659381704",
@@ -926,15 +926,15 @@
       "source": "funrafting"
     },
     {
-      "id": "funrafting-/kajak-oktatas-uszoda-2027-01-08",
-      "title": "Uszodai foglalkozás – Budapest, XXII. ker.",
+      "id": "funrafting-/tematikus-kajak-tanfolyam-uszoda-2027-01-08",
+      "title": "Uszodai tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.01.08 (p)",
       "location": "Budapest, XXII. ker.",
       "available": true,
-      "url": "https://funrafting.hu/kajak-oktatas-uszoda#2027.01.08",
+      "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.01.08",
       "source": "funrafting"
     },
     {
