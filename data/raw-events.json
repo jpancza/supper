@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-31T10:55:36.821Z",
+  "scrapedAt": "2026-11-01T11:52:33.661Z",
   "events": [
     {
       "id": "fb-1100591659381704",
@@ -251,18 +251,6 @@
       "assumeUpcoming": true,
       "location": "Makarska (Split-Dalmácia megye, Horvátország)",
       "url": "https://www.facebook.com/events/1703167851379518/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1445887556955071",
-      "title": "Szezonzáró Halloween bogrács a Római-parton",
-      "organizerId": "sup-budapest",
-      "organizerName": "SUP Budapest",
-      "organizerUrl": "https://www.facebook.com/supbudapest",
-      "rawWhen": "2026. október 31., szombat, 14:00 CET",
-      "assumeUpcoming": true,
-      "location": "Római part 29, Budapest 1031, Magyarország",
-      "url": "https://www.facebook.com/events/1445887556955071/",
       "source": "facebook"
     },
     {
