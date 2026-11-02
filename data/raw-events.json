@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-01T11:52:33.661Z",
+  "scrapedAt": "2026-11-02T13:25:04.808Z",
   "events": [
     {
       "id": "fb-1100591659381704",
@@ -921,7 +921,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.01.08 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.01.08",
       "source": "funrafting"
     },
@@ -945,7 +945,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.01.22 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.01.22",
       "source": "funrafting"
     },
@@ -969,7 +969,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.02.05 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.02.05",
       "source": "funrafting"
     },
@@ -993,7 +993,7 @@
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.02.19 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": true,
+      "available": false,
       "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.02.19",
       "source": "funrafting"
     },
