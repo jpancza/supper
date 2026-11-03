@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T13:25:04.987Z",
+  "lastUpdated": "2026-11-03T12:48:31.155Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4262,6 +4262,23 @@
       "source": "facebook",
       "lat": 46.7834304,
       "lon": 17.1950845
+    },
+    {
+      "id": "fb-2077455186222446",
+      "title": "Málta – Szilveszter másképp! SUP & Trekking",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-12-30",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. december 30., szerda, 11:00 CET",
+      "location": "Mál… Továbbiak",
+      "url": "https://www.facebook.com/events/2077455186222446/",
+      "source": "facebook",
+      "lat": 35.9311442,
+      "lon": 14.3951627
     },
     {
       "id": "fb-1590871689413565",

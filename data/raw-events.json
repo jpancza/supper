@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-02T13:25:04.808Z",
+  "scrapedAt": "2026-11-03T12:48:30.962Z",
   "events": [
     {
       "id": "fb-1100591659381704",
@@ -230,6 +230,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-2077455186222446",
+      "title": "Málta – Szilveszter másképp! SUP & Trekking",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. december 30., szerda, 11:00 CET",
+      "assumeUpcoming": true,
+      "location": "Mál… Továbbiak",
+      "url": "https://www.facebook.com/events/2077455186222446/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1104578995836629",
       "title": "Málta SUP & Kalandtúra – SUP the Lifestyle 9.0",
       "organizerId": "sup-the-lifestyle",
@@ -416,9 +428,21 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1066765649750984",
+      "title": "Masterprint Tihany Cross Terepfutó és Nordic Walking Verseny",
+      "organizerId": "tihany-sport",
+      "organizerName": "Tihany Sport és Szabadidő",
+      "organizerUrl": "https://www.facebook.com/tihanysport",
+      "rawWhen": "2027. szeptember 25., szombat, 8:00–16:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
+      "url": "https://www.facebook.com/events/1066765649750984/",
       "source": "facebook"
     },
     {
@@ -914,15 +938,27 @@
       "source": "funrafting"
     },
     {
-      "id": "funrafting-/tematikus-kajak-tanfolyam-uszoda-2027-01-08",
-      "title": "Uszodai tanfolyam – Budapest, XXII. ker.",
+      "id": "funrafting-/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda-2027-01-08",
+      "title": "Uszodai t.kajak tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.01.08 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": false,
-      "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.01.08",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda#2027.01.08",
+      "source": "funrafting"
+    },
+    {
+      "id": "funrafting-/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda-2027-01-08",
+      "title": "Uszodai v.kajak tanfolyam – Budapest, XXII. ker.",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.01.08 (p)",
+      "location": "Budapest, XXII. ker.",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda#2027.01.08",
       "source": "funrafting"
     },
     {
@@ -938,15 +974,27 @@
       "source": "funrafting"
     },
     {
-      "id": "funrafting-/tematikus-kajak-tanfolyam-uszoda-2027-01-22",
-      "title": "Uszodai tanfolyam – Budapest, XXII. ker.",
+      "id": "funrafting-/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda-2027-01-22",
+      "title": "Uszodai t.kajak tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.01.22 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": false,
-      "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.01.22",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda#2027.01.22",
+      "source": "funrafting"
+    },
+    {
+      "id": "funrafting-/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda-2027-01-22",
+      "title": "Uszodai v.kajak tanfolyam – Budapest, XXII. ker.",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.01.22 (p)",
+      "location": "Budapest, XXII. ker.",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda#2027.01.22",
       "source": "funrafting"
     },
     {
@@ -962,15 +1010,27 @@
       "source": "funrafting"
     },
     {
-      "id": "funrafting-/tematikus-kajak-tanfolyam-uszoda-2027-02-05",
-      "title": "Uszodai tanfolyam – Budapest, XXII. ker.",
+      "id": "funrafting-/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda-2027-02-05",
+      "title": "Uszodai t.kajak tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.02.05 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": false,
-      "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.02.05",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda#2027.02.05",
+      "source": "funrafting"
+    },
+    {
+      "id": "funrafting-/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda-2027-02-05",
+      "title": "Uszodai v.kajak tanfolyam – Budapest, XXII. ker.",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.02.05 (p)",
+      "location": "Budapest, XXII. ker.",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda#2027.02.05",
       "source": "funrafting"
     },
     {
@@ -986,15 +1046,27 @@
       "source": "funrafting"
     },
     {
-      "id": "funrafting-/tematikus-kajak-tanfolyam-uszoda-2027-02-19",
-      "title": "Uszodai tanfolyam – Budapest, XXII. ker.",
+      "id": "funrafting-/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda-2027-02-19",
+      "title": "Uszodai t.kajak tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
       "organizerName": "Funrafting (Tudatos Túrázó)",
       "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
       "rawWhen": "2027.02.19 (p)",
       "location": "Budapest, XXII. ker.",
-      "available": false,
-      "url": "https://funrafting.hu/tematikus-kajak-tanfolyam-uszoda#2027.02.19",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda#2027.02.19",
+      "source": "funrafting"
+    },
+    {
+      "id": "funrafting-/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda-2027-02-19",
+      "title": "Uszodai v.kajak tanfolyam – Budapest, XXII. ker.",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.02.19 (p)",
+      "location": "Budapest, XXII. ker.",
+      "available": true,
+      "url": "https://funrafting.hu/kajak-oktatas/vadvizi-kajak-tanfolyam-uszoda#2027.02.19",
       "source": "funrafting"
     },
     {
