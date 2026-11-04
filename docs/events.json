@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T12:48:31.155Z",
+  "lastUpdated": "2026-11-04T12:59:24.224Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4230,6 +4230,30 @@
       }
     },
     {
+      "id": "fb-1134119375827746",
+      "title": "Sup túra Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-11-07",
+      "timeText": "12:00",
+      "endDateISO": null,
+      "endTimeText": "14:30",
+      "rawWhen": "2026. november 7., szombat, 12:00–14:30 CET",
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/1134119375827746/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184,
+      "weather": {
+        "tempMax": 9.4,
+        "tempMin": -0.1,
+        "precipProbability": 0,
+        "windSpeed": 8.1,
+        "windDirection": 54
+      }
+    },
+    {
       "id": "fb-4509038596003307",
       "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
       "organizerId": "eventus-vizitura",
@@ -4262,6 +4286,23 @@
       "source": "facebook",
       "lat": 46.7834304,
       "lon": 17.1950845
+    },
+    {
+      "id": "fb-2544829089329023",
+      "title": "Ronda Pulcsis Mikulás Sup túra Dunaharasztin",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-12-12",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": "15:00",
+      "rawWhen": "2026. december 12., szombat, 11:00–15:00 CET",
+      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
+      "url": "https://www.facebook.com/events/2544829089329023/",
+      "source": "facebook",
+      "lat": 47.3610808,
+      "lon": 19.0830184
     },
     {
       "id": "fb-2077455186222446",
@@ -4401,7 +4442,7 @@
     },
     {
       "id": "fb-1100591659381704",
-      "title": "Boveci Sup túra vadvízzel 1 (5 éj)",
+      "title": "Boveci Sup túra vadvízzel 1 (5 éj) Betelt pillanatnyilag",
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
@@ -4435,7 +4476,7 @@
     },
     {
       "id": "fb-1893790512033595",
-      "title": "Boveci Sup túra vadvízzel 2 (6 éj) betelt",
+      "title": "Boveci Sup túra vadvízzel 2 (6 éj) Betelt pillanatnyilag",
       "organizerId": "suprafel",
       "organizerName": "SUPrafel",
       "organizerUrl": "https://www.facebook.com/suprafel",
