@@ -1,66 +1,6 @@
 {
-  "scrapedAt": "2026-11-04T12:59:23.182Z",
+  "scrapedAt": "2026-11-05T13:07:36.358Z",
   "events": [
-    {
-      "id": "fb-1134119375827746",
-      "title": "Sup túra Dunaharasztin",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. november 7., szombat, 12:00–14:30 CET",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/1134119375827746/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2544829089329023",
-      "title": "Ronda Pulcsis Mikulás Sup túra Dunaharasztin",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2026. december 12., szombat, 11:00–15:00 CET",
-      "assumeUpcoming": true,
-      "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
-      "url": "https://www.facebook.com/events/2544829089329023/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1100591659381704",
-      "title": "Boveci Sup túra vadvízzel 1 (5 éj) Betelt pillanatnyilag",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2027. jún. 12., 6:00 – 2027. jún. 17., 22:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Slovenia, Bovec",
-      "url": "https://www.facebook.com/events/1100591659381704/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1893790512033595",
-      "title": "Boveci Sup túra vadvízzel 2 (6 éj) Betelt pillanatnyilag",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2027. júl. 9., 6:00 – 2027. júl. 15., 22:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Slovenia, Bovec",
-      "url": "https://www.facebook.com/events/1893790512033595/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-1595565674934341",
-      "title": "Sup túra Winnetou nyomában (Betelt pillanatnyilag)",
-      "organizerId": "suprafel",
-      "organizerName": "SUPrafel",
-      "organizerUrl": "https://www.facebook.com/suprafel",
-      "rawWhen": "2027. aug. 17., 6:00 – 2027. aug. 23., 21:00 CEST",
-      "assumeUpcoming": true,
-      "location": "Put Gračaca 2, HR-23450 Obrovac, Hrvatska",
-      "url": "https://www.facebook.com/events/1595565674934341/",
-      "source": "facebook"
-    },
     {
       "id": "fb-3184738638552958",
       "title": "Nyárbúcsúztató SUP túra Dunaharasztin",
@@ -443,6 +383,18 @@
       "assumeUpcoming": false,
       "location": "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak",
       "url": "https://www.facebook.com/events/437744534809816/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2293082871531569",
+      "title": "Garda Közösségi Futás by TihanySport",
+      "organizerId": "tihany-sport",
+      "organizerName": "Tihany Sport és Szabadidő",
+      "organizerUrl": "https://www.facebook.com/tihanysport",
+      "rawWhen": "2026. november 7., szombat, 8:30 CET",
+      "assumeUpcoming": false,
+      "location": "Tihany , Tihany, Hungary, 8237",
+      "url": "https://www.facebook.com/events/2293082871531569/",
       "source": "facebook"
     },
     {
