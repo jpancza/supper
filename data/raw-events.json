@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-06T12:55:09.563Z",
+  "scrapedAt": "2026-11-07T11:43:35.653Z",
   "events": [
     {
       "id": "fb-1134119375827746",
@@ -290,6 +290,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-1833986270979651",
+      "title": "Bovec 2027-Sup, Rafting & kalandok a smaragzöld Socán!",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2027. júl. 19., 13:00 – 2027. júl. 22., 14:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Bovec (Szlovénia)",
+      "url": "https://www.facebook.com/events/1833986270979651/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1125818186495255",
       "title": "SUP Expedíció Norvégia",
       "organizerId": "sup-budapest",
@@ -443,18 +455,6 @@
       "assumeUpcoming": false,
       "location": "Egészen hihetetlen helyeken fogunk evezni, titkos kis csatornákban, nádasok, ma… Továbbiak",
       "url": "https://www.facebook.com/events/437744534809816/",
-      "source": "facebook"
-    },
-    {
-      "id": "fb-2293082871531569",
-      "title": "Garda Közösségi Futás by TihanySport",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "organizerUrl": "https://www.facebook.com/tihanysport",
-      "rawWhen": "2026. november 7., szombat, 8:30 CET",
-      "assumeUpcoming": false,
-      "location": "Tihany , Tihany, Hungary, 8237",
-      "url": "https://www.facebook.com/events/2293082871531569/",
       "source": "facebook"
     },
     {

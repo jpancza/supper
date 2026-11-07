@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T12:55:10.374Z",
+  "lastUpdated": "2026-11-07T11:43:38.224Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4246,11 +4246,11 @@
       "lat": 47.3610808,
       "lon": 19.0830184,
       "weather": {
-        "tempMax": 10.1,
-        "tempMin": 1.1,
+        "tempMax": 9.9,
+        "tempMin": 0.8,
         "precipProbability": 0,
-        "windSpeed": 11.9,
-        "windDirection": 33
+        "windSpeed": 11.5,
+        "windDirection": 39
       }
     },
     {
@@ -4487,6 +4487,23 @@
       "rawWhen": "2027. júl. 9., 6:00 – 2027. júl. 15., 22:00 CEST",
       "location": "Slovenia, Bovec",
       "url": "https://www.facebook.com/events/1893790512033595/",
+      "source": "facebook",
+      "lat": 46.3563397,
+      "lon": 13.6144183
+    },
+    {
+      "id": "fb-1833986270979651",
+      "title": "Bovec 2027-Sup, Rafting & kalandok a smaragzöld Socán!",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2027-07-19",
+      "timeText": "13:00",
+      "endDateISO": "2027-07-22",
+      "endTimeText": "14:00",
+      "rawWhen": "2027. júl. 19., 13:00 – 2027. júl. 22., 14:00 CEST",
+      "location": "Bovec (Szlovénia)",
+      "url": "https://www.facebook.com/events/1833986270979651/",
       "source": "facebook",
       "lat": 46.3563397,
       "lon": 13.6144183
