@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-10T13:30:17.498Z",
+  "scrapedAt": "2026-11-11T12:39:56.452Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -452,7 +452,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. november 22., vasárnap, 9:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "A Tihan… Továbbiak",
       "url": "https://www.facebook.com/events/2200845763978748/",
       "source": "facebook"
@@ -464,7 +464,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -476,7 +476,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. szeptember 25., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1066765649750984/",
       "source": "facebook"
