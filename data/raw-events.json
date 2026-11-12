@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-11T12:39:56.452Z",
+  "scrapedAt": "2026-11-12T13:44:15.764Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -239,6 +239,18 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2612093612630463",
+      "title": "Magic Ipoly - Spontan sup túra",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. november 15., vasárnap, 11:00 CET",
+      "assumeUpcoming": true,
+      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "url": "https://www.facebook.com/events/2612093612630463/",
       "source": "facebook"
     },
     {
