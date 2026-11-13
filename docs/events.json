@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T13:44:16.186Z",
+  "lastUpdated": "2026-11-13T13:03:01.243Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4264,17 +4264,17 @@
       "endDateISO": null,
       "endTimeText": null,
       "rawWhen": "2026. november 15., vasárnap, 11:00 CET",
-      "location": "Népsziget út 1, Budapest 1138, Magyarország",
+      "location": "Szob, 2628",
       "url": "https://www.facebook.com/events/2612093612630463/",
       "source": "facebook",
-      "lat": 47.5514268,
-      "lon": 19.066566,
+      "lat": 47.8182921,
+      "lon": 18.8711331,
       "weather": {
-        "tempMax": 7.9,
-        "tempMin": -1.1,
-        "precipProbability": 8,
-        "windSpeed": 14.3,
-        "windDirection": 128
+        "tempMax": 8,
+        "tempMin": 1.4,
+        "precipProbability": 3,
+        "windSpeed": 14,
+        "windDirection": 90
       }
     },
     {
