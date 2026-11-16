@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-15T12:42:46.961Z",
+  "scrapedAt": "2026-11-16T13:34:38.282Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -242,18 +242,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2612093612630463",
-      "title": "Magic Ipoly - Spontan sup túra",
-      "organizerId": "sup-the-lifestyle",
-      "organizerName": "SUP the Lifestyle",
-      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
-      "rawWhen": "2026. november 15., vasárnap, 11:00 CET",
-      "assumeUpcoming": true,
-      "location": "Szob, 2628",
-      "url": "https://www.facebook.com/events/2612093612630463/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-2077455186222446",
       "title": "Málta – Szilveszter másképp! SUP & Trekking",
       "organizerId": "sup-the-lifestyle",
@@ -464,7 +452,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. november 22., vasárnap, 9:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "A Tihan… Továbbiak",
       "url": "https://www.facebook.com/events/2200845763978748/",
       "source": "facebook"
@@ -476,7 +464,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -488,7 +476,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. szeptember 25., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1066765649750984/",
       "source": "facebook"
