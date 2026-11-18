@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T14:20:51.097Z",
+  "lastUpdated": "2026-11-18T13:57:26.790Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4276,6 +4276,23 @@
         "windSpeed": 15.8,
         "windDirection": 80
       }
+    },
+    {
+      "id": "fb-1679686796851581",
+      "title": "Karácsonyi SUP voucher akció",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "dateISO": "2026-11-20",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. november 20., péntek, 11:00 CET",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1679686796851581/",
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-4509038596003307",

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-17T14:20:50.941Z",
+  "scrapedAt": "2026-11-18T13:57:26.552Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -287,6 +287,18 @@
       "assumeUpcoming": true,
       "location": "Bovec (Szlovénia)",
       "url": "https://www.facebook.com/events/1833986270979651/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1679686796851581",
+      "title": "Karácsonyi SUP voucher akció",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "rawWhen": "2026. november 20., péntek, 11:00 CET",
+      "assumeUpcoming": true,
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1679686796851581/",
       "source": "facebook"
     },
     {
