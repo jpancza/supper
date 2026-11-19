@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-18T13:57:26.552Z",
+  "scrapedAt": "2026-11-19T14:20:22.975Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -11,6 +11,18 @@
       "assumeUpcoming": true,
       "location": "Evezős utca 20, Dunaharaszti 2330, Magyarország",
       "url": "https://www.facebook.com/events/2544829089329023/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-2306136436838098",
+      "title": "Szaunázós Szilveszteri sup túra a Lupán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "rawWhen": "2026. december 31., csütörtök, 10:30–16:00 CET",
+      "assumeUpcoming": true,
+      "location": "Tó utca 1, Budakalász 2011, Magyarország",
+      "url": "https://www.facebook.com/events/2306136436838098/",
       "source": "facebook"
     },
     {
@@ -830,18 +842,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-941687418361233",
-      "title": "Vízitúra vezetői tanfolyam",
-      "organizerId": "eventus-vizitura",
-      "organizerName": "Eventus vízitúra",
-      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "2027. január 9., szombat, 9:00–16:00 CET",
-      "assumeUpcoming": false,
-      "location": "Árpád út 123, Budapest 1042, Magyarország",
-      "url": "https://www.facebook.com/events/941687418361233/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1590871689413565",
       "title": "Hévíz-patak tündérrózsák - evezés 20 fokos meleg vízen",
       "organizerId": "eventus-vizitura",
@@ -875,6 +875,18 @@
       "assumeUpcoming": false,
       "location": "Gemeindealpe, 3224 Mitterbach am Erlaufsee, Österreich",
       "url": "https://www.facebook.com/events/1575429077219838/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-941687418361233",
+      "title": "Vízitúra vezetői tanfolyam",
+      "organizerId": "eventus-vizitura",
+      "organizerName": "Eventus vízitúra",
+      "organizerUrl": "https://www.facebook.com/kenuklub.hu",
+      "rawWhen": "2027. január 23., szombat, 9:00 CET",
+      "assumeUpcoming": false,
+      "location": "Árpád út 123, Budapest 1042, Magyarország",
+      "url": "https://www.facebook.com/events/941687418361233/",
       "source": "facebook"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T13:57:26.790Z",
+  "lastUpdated": "2026-11-19T14:20:24.928Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4292,7 +4292,14 @@
       "url": "https://www.facebook.com/events/1679686796851581/",
       "source": "facebook",
       "lat": 47.5711734,
-      "lon": 19.064441
+      "lon": 19.064441,
+      "weather": {
+        "tempMax": 13.3,
+        "tempMin": 6.7,
+        "precipProbability": 52,
+        "windSpeed": 22,
+        "windDirection": 233
+      }
     },
     {
       "id": "fb-4509038596003307",
@@ -4361,6 +4368,23 @@
       "source": "facebook",
       "lat": 35.9311442,
       "lon": 14.3951627
+    },
+    {
+      "id": "fb-2306136436838098",
+      "title": "Szaunázós Szilveszteri sup túra a Lupán",
+      "organizerId": "suprafel",
+      "organizerName": "SUPrafel",
+      "organizerUrl": "https://www.facebook.com/suprafel",
+      "dateISO": "2026-12-31",
+      "timeText": "10:30",
+      "endDateISO": null,
+      "endTimeText": "16:00",
+      "rawWhen": "2026. december 31., csütörtök, 10:30–16:00 CET",
+      "location": "Tó utca 1, Budakalász 2011, Magyarország",
+      "url": "https://www.facebook.com/events/2306136436838098/",
+      "source": "facebook",
+      "lat": 47.6266546,
+      "lon": 19.0766669
     },
     {
       "id": "fb-1590871689413565",
