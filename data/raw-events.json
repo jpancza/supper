@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-19T14:20:22.975Z",
+  "scrapedAt": "2026-11-20T14:02:44.202Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -302,18 +302,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-1679686796851581",
-      "title": "Karácsonyi SUP voucher akció",
-      "organizerId": "sup-budapest",
-      "organizerName": "SUP Budapest",
-      "organizerUrl": "https://www.facebook.com/supbudapest",
-      "rawWhen": "2026. november 20., péntek, 11:00 CET",
-      "assumeUpcoming": true,
-      "location": "Római part 29, Budapest 1031, Magyarország",
-      "url": "https://www.facebook.com/events/1679686796851581/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1125818186495255",
       "title": "SUP Expedíció Norvégia",
       "organizerId": "sup-budapest",
@@ -476,7 +464,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2026. november 22., vasárnap, 9:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "A Tihan… Továbbiak",
       "url": "https://www.facebook.com/events/2200845763978748/",
       "source": "facebook"
@@ -488,7 +476,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -500,7 +488,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. szeptember 25., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1066765649750984/",
       "source": "facebook"
