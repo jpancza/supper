@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T14:02:44.476Z",
+  "lastUpdated": "2026-11-21T13:25:23.912Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4317,6 +4317,21 @@
       "source": "facebook",
       "lat": 46.7834304,
       "lon": 17.1950845
+    },
+    {
+      "id": "fb-1683072240159934",
+      "title": "Mikulás sup túra újratöltve 2026 /Ingyenes /",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "dateISO": "2026-12-06",
+      "timeText": "11:00",
+      "endDateISO": null,
+      "endTimeText": null,
+      "rawWhen": "2026. december 6., vasárnap, 11:00 CET",
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/1683072240159934/",
+      "source": "facebook"
     },
     {
       "id": "fb-1081044484530979",

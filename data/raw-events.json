@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-20T14:02:44.202Z",
+  "scrapedAt": "2026-11-21T13:25:23.734Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -251,6 +251,18 @@
       "assumeUpcoming": false,
       "location": "Tópart sétány 15, Tata 2890, Magyarország",
       "url": "https://www.facebook.com/events/1605413080041738/",
+      "source": "facebook"
+    },
+    {
+      "id": "fb-1683072240159934",
+      "title": "Mikulás sup túra újratöltve 2026 /Ingyenes /",
+      "organizerId": "sup-the-lifestyle",
+      "organizerName": "SUP the Lifestyle",
+      "organizerUrl": "https://www.facebook.com/SUPtheLifestyle",
+      "rawWhen": "2026. december 6., vasárnap, 11:00 CET",
+      "assumeUpcoming": true,
+      "location": "DMTK Vizisport szakosztály vizi-telepe",
+      "url": "https://www.facebook.com/events/1683072240159934/",
       "source": "facebook"
     },
     {
@@ -859,7 +871,7 @@
       "organizerId": "eventus-vizitura",
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "2027. jan. 21., 19:00 – 2027. jan. 24., 17:00 CET",
+      "rawWhen": "2027. jan. 14., 19:00 – 2027. jan. 17., 17:00 CET",
       "assumeUpcoming": false,
       "location": "Gemeindealpe, 3224 Mitterbach am Erlaufsee, Österreich",
       "url": "https://www.facebook.com/events/1575429077219838/",
