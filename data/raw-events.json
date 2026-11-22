@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-21T13:25:23.734Z",
+  "scrapedAt": "2026-11-22T13:17:26.530Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -470,18 +470,6 @@
       "source": "facebook"
     },
     {
-      "id": "fb-2200845763978748",
-      "title": "SzépBalaton Közösségi Futás by TihanySport",
-      "organizerId": "tihany-sport",
-      "organizerName": "Tihany Sport és Szabadidő",
-      "organizerUrl": "https://www.facebook.com/tihanysport",
-      "rawWhen": "2026. november 22., vasárnap, 9:00 CET",
-      "assumeUpcoming": true,
-      "location": "A Tihan… Továbbiak",
-      "url": "https://www.facebook.com/events/2200845763978748/",
-      "source": "facebook"
-    },
-    {
       "id": "fb-1299764965125449",
       "title": "Tihany Trail Terepfutó és Nordic Walking Verseny",
       "organizerId": "tihany-sport",
@@ -536,7 +524,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"
