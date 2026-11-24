@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-23T15:55:43.507Z",
+  "scrapedAt": "2026-11-24T15:47:24.627Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -314,6 +314,18 @@
       "source": "facebook"
     },
     {
+      "id": "fb-29235311546124151",
+      "title": "SUP & Rafting weekend Croatia",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "rawWhen": "2027. jún. 11., 8:00 – 2027. jún. 13., 21:00 CEST",
+      "assumeUpcoming": true,
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/29235311546124151/",
+      "source": "facebook"
+    },
+    {
       "id": "fb-1125818186495255",
       "title": "SUP Expedíció Norvégia",
       "organizerId": "sup-budapest",
@@ -524,7 +536,7 @@
       "organizerName": "Balatonsup",
       "organizerUrl": "https://www.facebook.com/balatonsup",
       "rawWhen": "2027. jún. 3., 10:00 – 2027. jún. 6., 13:00 CEST",
-      "assumeUpcoming": true,
+      "assumeUpcoming": false,
       "location": "Alle Infos zu eurem Urlaub am und um den Faaker See",
       "url": "https://www.facebook.com/events/1370500938294676/",
       "source": "facebook"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T15:55:43.697Z",
+  "lastUpdated": "2026-11-24T15:47:24.743Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4519,6 +4519,23 @@
       "source": "facebook",
       "lat": 43.2939756,
       "lon": 17.020242
+    },
+    {
+      "id": "fb-29235311546124151",
+      "title": "SUP & Rafting weekend Croatia",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "dateISO": "2027-06-11",
+      "timeText": "08:00",
+      "endDateISO": "2027-06-13",
+      "endTimeText": "21:00",
+      "rawWhen": "2027. jún. 11., 8:00 – 2027. jún. 13., 21:00 CEST",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/29235311546124151/",
+      "source": "facebook",
+      "lat": 47.5711734,
+      "lon": 19.064441
     },
     {
       "id": "fb-1100591659381704",
