@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T15:30:57.730Z",
+  "lastUpdated": "2026-11-26T15:01:22.801Z",
   "events": [
     {
       "id": "fb-196206901787809",
@@ -4604,6 +4604,23 @@
       "source": "facebook",
       "lat": 46.3563397,
       "lon": 13.6144183
+    },
+    {
+      "id": "fb-1188335867187975",
+      "title": "Hallstatt SUP Adventure 2027",
+      "organizerId": "sup-budapest",
+      "organizerName": "SUP Budapest",
+      "organizerUrl": "https://www.facebook.com/supbudapest",
+      "dateISO": "2027-07-22",
+      "timeText": "08:00",
+      "endDateISO": "2027-07-25",
+      "endTimeText": "20:00",
+      "rawWhen": "2027. júl. 22., 8:00 – 2027. júl. 25., 20:00 CEST",
+      "location": "Római part 29, Budapest 1031, Magyarország",
+      "url": "https://www.facebook.com/events/1188335867187975/",
+      "source": "facebook",
+      "lat": 47.5347939,
+      "lon": 13.5988875
     },
     {
       "id": "fb-1595565674934341",
