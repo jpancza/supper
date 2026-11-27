@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-26T15:01:22.652Z",
+  "scrapedAt": "2026-11-27T14:57:41.016Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -1106,6 +1106,18 @@
       "source": "funrafting"
     },
     {
+      "id": "funrafting-kenutura-heviz-patak-2027-02-14",
+      "title": "Kenutúra – Hévíz",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.02.14 (v)",
+      "location": "Hévíz",
+      "available": true,
+      "url": "https://funrafting.hu/tudatosturazo/kenutura-heviz-patak#2027.02.14",
+      "source": "funrafting"
+    },
+    {
       "id": "funrafting-/kajak-oktatas/tengeri-kajak-tanfolyam-uszoda-2027-02-19",
       "title": "Uszodai t.kajak tanfolyam – Budapest, XXII. ker.",
       "organizerId": "funrafting",
@@ -1163,6 +1175,18 @@
       "location": "Budapest, XXII. ker.",
       "available": true,
       "url": "https://funrafting.hu/kajak-oktatas-uszoda#2027.03.12",
+      "source": "funrafting"
+    },
+    {
+      "id": "funrafting-kenutura-heviz-patak-2027-03-13",
+      "title": "Kenutúra – Hévíz",
+      "organizerId": "funrafting",
+      "organizerName": "Funrafting (Tudatos Túrázó)",
+      "organizerUrl": "https://funrafting.hu/tudatosturazo/sup-tura-magyarorszag",
+      "rawWhen": "2027.03.13 (szo)",
+      "location": "Hévíz",
+      "available": true,
+      "url": "https://funrafting.hu/tudatosturazo/kenutura-heviz-patak#2027.03.13",
       "source": "funrafting"
     },
     {
