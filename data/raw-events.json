@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-27T14:57:41.016Z",
+  "scrapedAt": "2026-11-28T14:07:37.882Z",
   "events": [
     {
       "id": "fb-2544829089329023",
@@ -500,7 +500,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. január 9., szombat, 8:00 CET",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Major utca 58, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1299764965125449/",
       "source": "facebook"
@@ -512,7 +512,7 @@
       "organizerName": "Tihany Sport és Szabadidő",
       "organizerUrl": "https://www.facebook.com/tihanysport",
       "rawWhen": "2027. szeptember 25., szombat, 8:00–16:00 CEST",
-      "assumeUpcoming": false,
+      "assumeUpcoming": true,
       "location": "Kotyogós Kávéterasz, Major utca, Tihany 8237, Magyarország",
       "url": "https://www.facebook.com/events/1066765649750984/",
       "source": "facebook"
@@ -883,7 +883,7 @@
       "organizerId": "eventus-vizitura",
       "organizerName": "Eventus vízitúra",
       "organizerUrl": "https://www.facebook.com/kenuklub.hu",
-      "rawWhen": "2027. jan. 14., 19:00 – 2027. jan. 17., 17:00 CET",
+      "rawWhen": "2027. jan. 21., 19:00 – 2027. jan. 24., 17:00 CET",
       "assumeUpcoming": false,
       "location": "Gemeindealpe, 3224 Mitterbach am Erlaufsee, Österreich",
       "url": "https://www.facebook.com/events/1575429077219838/",
